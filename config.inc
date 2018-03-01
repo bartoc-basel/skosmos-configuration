@@ -30,7 +30,7 @@ define("TEMPLATE_CACHE", "/tmp/skosmos-template-cache");
 define("DEFAULT_SPARQL_DIALECT", "JenaText");
 
 // default email address to send the feedback
-define("FEEDBACK_ADDRESS", "andreas.ledl@unibas.ch");
+define("FEEDBACK_ADDRESS", "bartoc.skosmos@gmail.com");
 
 // email address to set as the envelope sender for feedback messages
 define("FEEDBACK_ENVELOPE_SENDER", "");
