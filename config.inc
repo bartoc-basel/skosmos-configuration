@@ -42,7 +42,7 @@ define ("LOG_CAUGHT_EXCEPTIONS", TRUE);
 define ("LOG_BROWSER_CONSOLE", FALSE);
 
 // set to a logfile path to enable logging into log file
-define ("LOG_FILE_NAME", "/opt/skos/skosmos/logs/skosmos-log.txt");
+define ("LOG_FILE_NAME", "/data/skosmos/logs/skosmos.log");
 
 # customize the service name
 define("SERVICE_NAME", "Bartoc Skosmos");
