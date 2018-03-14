@@ -1268,12 +1268,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "LC Children's Subject Headings"@en ;
         skosmos:shortName "LCCSH" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://id.loc.gov/authorities/subjects" ;
+        void:uriSpace "http://id.loc.gov/authorities/childrensSubjects/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.loc.gov/authorities/subjects> .
+        skosmos:sparqlGraph <http://id.loc.gov/authorities/childrensSubjects/> .
 		
 :LCDGT a skosmos:Vocabulary, void:Dataset ;
         dc:title "LC Demographic Group Terms"@en ;
