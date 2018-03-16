@@ -2428,12 +2428,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "UK Archival Thesaurus"@en ;
         skosmos:shortName "UKAT" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://www.ukat.org.uk/thesaurus/micro/245" ;
+        void:uriSpace "http://www.ukat.org.uk/thesaurus/concept/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.ukat.org.uk/thesaurus/micro/245> .
+        skosmos:sparqlGraph <http://www.ukat.org.uk/thesaurus/concept/> .
 		
 :WBGTopTax a skosmos:Vocabulary, void:Dataset ;
         dc:title "WBG Topical Taxonomy"@en ;
