@@ -1474,12 +1474,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "TSR ontology"@en, "TSR-ontologia"@fi, "TSR-ontologi"@sv ;
         skosmos:shortName "TSR" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/tsr/deprecatedconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/tsr/deprecatedconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/> .
 		
 :YSO a skosmos:Vocabulary, void:Dataset ;
         dc:title "YSO - General Finnish ontology"@en, "YSO - Yleinen suomalainen ontologia"@fi, "ALLFO - Allmän finländsk ontologi"@sv ;
@@ -2472,12 +2472,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "FIBO"@en ;
         skosmos:shortName "FIBO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "https://spec.edmcouncil.org/fibo/core/vocabulary#FIBO-CS" ;
+        void:uriSpace "https://spec.edmcouncil.org/fibo/IND/vocabulary#" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://spec.edmcouncil.org/fibo/core/vocabulary#FIBO-CS> .
+        skosmos:sparqlGraph <https://spec.edmcouncil.org/fibo/IND/vocabulary#> .
 		
 :ODRL a skosmos:Vocabulary, void:Dataset ;
         dc:title "ODRL – The Open Digital Rights Language"@en ;
