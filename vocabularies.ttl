@@ -1691,6 +1691,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/besluittypes> .
 		
@@ -1714,6 +1715,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/> .
 		
@@ -1725,6 +1727,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/waardetypes> .
 		
@@ -1942,6 +1945,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/mining-processing-activity> .
@@ -2356,7 +2360,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "HADOC" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/0404efce-2024-4694-bf80-eba4fc2b336c" ;
-        skosmos:language "fr-FR" ;
+        skosmos:language "fr-FR", "en" ;
         skosmos:defaultLanguage "fr-FR" ;
         skosmos:showTopConcepts true ;
 	void:dataDump <http://data.culture.fr/thesaurus/data/ark:/67717/0404efce-2024-4694-bf80-eba4fc2b336c> ;
@@ -2380,8 +2384,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "LEMAC" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://lemac.sgcb.mcu.es/Autoridades/LEMAC201216612/" ;
-        skosmos:language "en", "ca" ;
-        skosmos:defaultLanguage "en" ;
+        skosmos:language ca" ;
+        skosmos:defaultLanguage "ca" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://lemac.sgcb.mcu.es/Autoridades/LEMAC201216612/> .
@@ -2606,6 +2610,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B03/current/LRM/> .
 
@@ -2617,6 +2622,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/> .
 
@@ -2628,6 +2634,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/> .
 
@@ -2639,6 +2646,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/cld/freq/> .
 
@@ -2650,6 +2658,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archecategory/> .
 
