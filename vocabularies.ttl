@@ -2384,7 +2384,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "LEMAC" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://lemac.sgcb.mcu.es/Autoridades/LEMAC201216612/" ;
-        skosmos:language ca" ;
+        skosmos:language "ca" ;
         skosmos:defaultLanguage "ca" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
