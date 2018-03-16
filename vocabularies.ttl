@@ -150,12 +150,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
 				dc:title "AODN Geographic Extents Vocabulary"@en ;
 				skosmos:shortName "GeographicExtents" ;
 				dc:subject :cat_9 ;
-			  void:uriSpace "http://vocab.aodn.org.au/def/geographicextents/" ;
+			  void:uriSpace "http://vocab.aodn.org.au/def/geographicextents/entity/" ;
 			  skosmos:language "en" ;
 				skosmos:defaultLanguage "en" ;
 				skosmos:showTopConcepts true ;
 				void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-				skosmos:sparqlGraph <http://vocab.aodn.org.au/def/geographicextents/> .
+				skosmos:sparqlGraph <http://vocab.aodn.org.au/def/geographicextents/entity/> .
 				
 :UBODDC a skosmos:Vocabulary, void:Dataset ;
         dc:title "The UBO relative index to DDC"@en ;
