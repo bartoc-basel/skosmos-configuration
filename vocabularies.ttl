@@ -2536,17 +2536,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://ntnu.no/ub/data/tekord#> .
 
-:jurivoc a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Jurivoc"@en ;
-        skosmos:shortName "Jurivoc" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://legivoc.org/ch/" ;
-        skosmos:language "en", "fr", "pt", "hr", "ga", "da", "nl", "cs", "hu", "lt", "lv", "bg", "pl", "sv", "it", "mt", "fi", "es", "de", "ro", "sl", "et" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://legivoc.org/ch/> .
-
 :gtaa a skosmos:Vocabulary, void:Dataset ;
         dc:title "Gemeenschappelijke Thesaurus Audiovisuele Archieven"@nl ;
         skosmos:shortName "GTAA" ;
