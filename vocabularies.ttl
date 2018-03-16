@@ -580,12 +580,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "NPG Article Types Ontology"@en ;
         skosmos:shortName "ATO" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://scigraph.springernature.com/things/article-types/" ;
+        void:uriSpace "http://ns.nature.com/article-types/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://scigraph.springernature.com/things/article-types/> .
+        skosmos:sparqlGraph <http://ns.nature.com/article-types/> .
 		
 :BASPOSys a skosmos:Vocabulary, void:Dataset ;
         dc:title "Sportmediathek Magglingen Systematik"@de, "Médiathèque du sport Plan de classement"@fr ;
