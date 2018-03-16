@@ -547,12 +547,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "EAGLE Vocabulary - Dating Criteria"@en ;
         skosmos:shortName "DatingCrit" ;
         dc:subject :cat_4 ;
-        void:uriSpace "https://www.eagle-network.eu/voc/dates/" ;
+        void:uriSpace "https://www.eagle-network.eu/voc/dates/lod/" ;
         skosmos:language "en", "es", "el", "de", "it", "he", "la" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://www.eagle-network.eu/voc/dates/> .
+        skosmos:sparqlGraph <https://www.eagle-network.eu/voc/dates/lod/> .
 		
 :ExecTech a skosmos:Vocabulary, void:Dataset ;
         dc:title "EAGLE Vocabulary - Execution Technique"@en ;
