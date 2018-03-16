@@ -2032,12 +2032,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "WordNet-Affect Taxonomy"@en ;
         skosmos:shortName "WordNet" ;
         dc:subject :cat_1 ;
-        void:uriSpace "http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#wn-affect" ;
+        void:uriSpace "http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#wn-affect> .
+        skosmos:sparqlGraph <http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#> .
 		
 :ThesBAB a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus of Basler Afrika Bibliographien"@en, "Thesaurus der Basler Afrika Bibliographien" ;
