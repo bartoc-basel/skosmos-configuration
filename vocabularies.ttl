@@ -139,12 +139,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
 				dc:title "AODN Discovery Parameter Vocabulary"@en ;
 				skosmos:shortName "DiscoveryParameter" ;
 				dc:subject :cat_5 ;
-				void:uriSpace "http://vocab.aodn.org.au/def/discovery_parameter/" ;
+				void:uriSpace "http://vocab.aodn.org.au/def/discovery_parameter/entity/" ;
 				skosmos:language "en" ;
 				skosmos:defaultLanguage "en" ;
 				skosmos:showTopConcepts true ;
 				void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-				skosmos:sparqlGraph <http://vocab.aodn.org.au/def/discovery_parameter/> .
+				skosmos:sparqlGraph <http://vocab.aodn.org.au/def/discovery_parameter/entity/> .
 
 :GeographicExtents a skosmos:Vocabulary, void:Dataset ;
 				dc:title "AODN Geographic Extents Vocabulary"@en ;
