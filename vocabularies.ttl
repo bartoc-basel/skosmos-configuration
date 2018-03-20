@@ -663,6 +663,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://culturaitalia.it/pico/thesaurus/4.1#> .
+
+: a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Currencies Name Authority List"@en ;
+        skosmos:shortName "CNNAL" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/currency/" ;
+        skosmos:language "en", "bg", "hr", "cs", "da", "nl", "et", "fi", "fr", "de", "el", "hu", "pl", "pt", "ro", "sk", "sl", "es", "sv", "ga", "it", "lv", "lt", "mt"  ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/currency/> .
 		
 :instrument a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Instrument Vocabulary"@en ;
