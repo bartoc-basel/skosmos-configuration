@@ -621,6 +621,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocab.e.gov.br/2011/03/vcge> .
 
 : a skosmos:Vocabulary, void:Dataset ;
+        dc:title "ITIL – Information Technology Infrastructure Library"@en ;
+        skosmos:shortName "ITIL" ;
+        dc:subject :cat_general ;
+        void:uriSpace "http://vocabulary.semantic-web.at/itil/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocabulary.semantic-web.at/itil/> .
+
+: a skosmos:Vocabulary, void:Dataset ;
         dc:title "PICO Thesaurus"@en ;
         skosmos:shortName "PICO" ;
         dc:subject :cat_0 ;
