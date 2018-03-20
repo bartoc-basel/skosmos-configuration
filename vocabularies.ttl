@@ -634,7 +634,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :defc a skosmos:Vocabulary, void:Dataset ;
         dc:title "DEFC Thesaurus"@en ;
         skosmos:shortName "DEFC" ;
-        dc:subject :cat_general ;
+        dc:subject :cat_7 ;
         void:uriSpace "https://vocabs.acdh.oeaw.ac.at/defcthesaurus/grave/" ;
         skosmos:language "en", "de", "la" ;
         skosmos:defaultLanguage "en" ;
