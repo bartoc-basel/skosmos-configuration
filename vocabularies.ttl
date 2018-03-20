@@ -623,7 +623,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 : a skosmos:Vocabulary, void:Dataset ;
         dc:title "ITIL – Information Technology Infrastructure Library"@en ;
         skosmos:shortName "ITIL" ;
-        dc:subject :cat_general ;
+        dc:subject :cat_0 ;
         void:uriSpace "http://vocabulary.semantic-web.at/itil/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
