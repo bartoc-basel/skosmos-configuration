@@ -642,6 +642,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/grave/> .
 
+:iaml-mop a skosmos:Vocabulary, void:Dataset ;
+        dc:title "IAML Medium of Performance Vocabulary"@en ;
+        skosmos:shortName "IAML-MOP" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://data.doremus.org/vocabulary/iaml/mop/" ;
+        skosmos:language "en", "de", "fr", "it", "pt", "es", "la" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://data.doremus.org/vocabulary/iaml/mop/> .
+
 : a skosmos:Vocabulary, void:Dataset ;
         dc:title "PICO Thesaurus"@en ;
         skosmos:shortName "PICO" ;
