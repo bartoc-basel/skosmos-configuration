@@ -509,17 +509,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.usgs.gov/science/USGSThesaurus> .
-		
-:TIWV a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Thesaurus für die Fachgebiete Informatik, Wirtschaft und Verkehr"@en ;
-        skosmos:shortName "TIWV" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://thesaurus.bib.th-wildau.de/scheme" ;
-        skosmos:language "en", "de" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://thesaurus.bib.th-wildau.de/scheme> .
+
 		
 :SolarSystem a skosmos:Vocabulary, void:Dataset ;
         dc:title "Solar System SKOS Ontology Model"@en ;
