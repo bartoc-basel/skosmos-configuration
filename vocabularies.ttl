@@ -613,12 +613,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Vocabulário Controlado do Governo Eletrônico"@pt ;
         skosmos:shortName "VCGE" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocab.e.gov.br/2011/03/vcge#" ;
+        void:uriSpace "http://vocab.e.gov.br/2011/03/vcge" ;
         skosmos:language "pt" ;
         skosmos:defaultLanguage "pt" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.e.gov.br/2011/03/vcge#> .
+        skosmos:sparqlGraph <http://vocab.e.gov.br/2011/03/vcge> .
 		
 :instrument a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Instrument Vocabulary"@en ;
