@@ -664,6 +664,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://bartoc.poolparty.biz/CCS/> .
 
+:anaeethes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "AnaEE Thesaurus"@en ;
+        skosmos:shortName "ANAEETHES" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://opendata.inra.fr/anaeeThes/" ;
+        skosmos:language "en", "fr" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://opendata.inra.fr/anaeeThes/> .
+
 :plos a skosmos:Vocabulary, void:Dataset ;
         dc:title "PLOS Thesaurus"@en ;
         skosmos:shortName "PLOS" ;
