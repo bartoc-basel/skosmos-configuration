@@ -619,6 +619,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.e.gov.br/2011/03/vcge> .
+
+: a skosmos:Vocabulary, void:Dataset ;
+        dc:title "PICO Thesaurus"@en ;
+        skosmos:shortName "" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://culturaitalia.it/pico/thesaurus/4.1#" ;
+        skosmos:language "en", "it" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://culturaitalia.it/pico/thesaurus/4.1#> .
 		
 :instrument a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Instrument Vocabulary"@en ;
