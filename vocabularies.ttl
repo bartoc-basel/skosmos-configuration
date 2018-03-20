@@ -1480,13 +1480,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "VALO - The Finnish Ontology of Photography"@en, "VALO - Valokuvausalan ontologia"@fi, "VALO - Fotografiska ontologin"@sv ;
         skosmos:shortName "VALO" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://www.yso.fi/onto/valo/aggregateconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/valo/" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/valo/aggregateconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/valo/> .
 	
 		
 :MUSO a skosmos:Vocabulary, void:Dataset ;
