@@ -323,12 +323,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Kassu - Finnish Names of Plants"@fi ;
         skosmos:shortName "Kassu" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://www.yso.fi/onto/kassu/conceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/kassu/" ;
         skosmos:language "fi" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/kassu/conceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/kassu/> .
 		
 :CSH a skosmos:Vocabulary, void:Dataset ;
         dc:title "Canadian Subject Headings"@en ;
