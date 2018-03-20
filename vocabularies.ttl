@@ -1610,7 +1610,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:subject :cat_0 ;
         void:uriSpace "http://www.yso.fi/onto/tao/deprecatedconceptscheme" ;
         skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
+        skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
