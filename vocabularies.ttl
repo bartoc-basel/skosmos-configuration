@@ -2506,8 +2506,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "VocDomAct" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/f14e8183-5885-46d6-8fc9-17ebd8f3c27e" ;
-        skosmos:language "fr" ;
-        skosmos:defaultLanguage "fr" ;
+        skosmos:language "fr-fr" ;
+        skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/f14e8183-5885-46d6-8fc9-17ebd8f3c27e> .
