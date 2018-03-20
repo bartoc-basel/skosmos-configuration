@@ -2393,8 +2393,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "ActArchLoc" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T2" ;
-        skosmos:language "fr" ;
-        skosmos:defaultLanguage "fr" ;
+        skosmos:language "fr-fr" ;
+        skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T2> .
