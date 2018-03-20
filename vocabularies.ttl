@@ -622,7 +622,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 : a skosmos:Vocabulary, void:Dataset ;
         dc:title "PICO Thesaurus"@en ;
-        skosmos:shortName "" ;
+        skosmos:shortName "PICO" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://culturaitalia.it/pico/thesaurus/4.1#" ;
         skosmos:language "en", "it" ;
