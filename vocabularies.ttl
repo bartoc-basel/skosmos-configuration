@@ -664,6 +664,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://bartoc.poolparty.biz/CCS/> .
 
+:rbms a skosmos:Vocabulary, void:Dataset ;
+        dc:title "RBMS Controlled Vocabularies"@en ;
+        skosmos:shortName "RBMS" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://rbmsvocabs/EXAMPLE/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://rbmsvocabs/EXAMPLE/> .
+
 : a skosmos:Vocabulary, void:Dataset ;
         dc:title "PICO Thesaurus"@en ;
         skosmos:shortName "PICO" ;
