@@ -2495,8 +2495,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "ActEntArch" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/51232822-adac-4a33-aa14-29e2c701a5ee" ;
-        skosmos:language "fr" ;
-        skosmos:defaultLanguage "fr" ;
+        skosmos:language "fr-fr" ;
+        skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/51232822-adac-4a33-aa14-29e2c701a5ee> .
