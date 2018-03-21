@@ -800,17 +800,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.aodn.org.au/def/sampling_parameter/1> .
-		
-:unitsmeasure a skosmos:Vocabulary, void:Dataset ;
-        dc:title "AODN Units of Measure Vocabulary"@en ;
-        skosmos:shortName "UnitsMeasure" ;
-        dc:subject :cat_general ;
-        void:uriSpace "http://vocab.aodn.org.au/def/unitsofmeasure/1" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/unitsofmeasure/1> .
+
 		
 :xbtline a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN XBT line vocabulary"@en ;
@@ -2650,7 +2640,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :aquo-lex a skosmos:Vocabulary, void:Dataset ;
         dc:title "Aquo-lex"@nl ;
         skosmos:shortName "Aquo-lex" ;
-        dc:subject :cat_general ;
+        dc:subject :cat_5 ;
         void:uriSpace "http://ihw.gridline.nl/items/" ;
         skosmos:language "nl" ;
         skosmos:defaultLanguage "nl" ;
