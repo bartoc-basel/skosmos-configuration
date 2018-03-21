@@ -2214,7 +2214,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "BASPOSchl" ;
         dc:subject :cat_7 ;
         void:uriSpace "https://bartoc.poolparty.biz/SchlagwortindexSportmediathekMagglingen/0" ;
-        skosmos:language "de" ;
+        skosmos:language "de", "fr" ;
         skosmos:defaultLanguage "de" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
