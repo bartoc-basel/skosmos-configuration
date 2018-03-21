@@ -766,6 +766,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.aodn.org.au/def/platform_classes/1> .
+
+:unitsmeasure a skosmos:Vocabulary, void:Dataset ;
+        dc:title "AODN Units of Measure Vocabulary"@en ;
+        skosmos:shortName "UnitsMeasure" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/P06/current/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P06/current/> .
 		
 :platform a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Platform Vocabulary"@en ;
