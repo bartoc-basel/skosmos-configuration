@@ -885,7 +885,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :framework a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian Curriculum Framework"@en ;
         skosmos:shortName "Framework" ;
-        dc:subject :cat_general ;
+        dc:subject :cat_3 ;
         void:uriSpace "http://vocabulary.curriculum.edu.au/framework/1724a465-0396-49ad-9a2b-d0ff00720372" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
