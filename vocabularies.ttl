@@ -2122,7 +2122,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "WordNet-Affect Taxonomy"@en ;
         skosmos:shortName "WordNet" ;
         dc:subject :cat_1 ;
-        void:uriSpace "http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#" ;
+        void:uriSpace "http://www.gsi.dit.upm.es/ontologies/wnaffect/ns" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts false ;
