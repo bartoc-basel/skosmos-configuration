@@ -2127,7 +2127,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#> .
+        skosmos:sparqlGraph <http://www.gsi.dit.upm.es/ontologies/wnaffect/ns> .
 		
 :ThesBAB a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus of Basler Afrika Bibliographien"@en, "Thesaurus der Basler Afrika Bibliographien" ;
