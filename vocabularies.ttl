@@ -1462,7 +1462,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:uriSpace "http://vocabulary.wolterskluwer.de/arbeitsrecht/10001" ;
         skosmos:language "de" ;
         skosmos:defaultLanguage "de" ;
-        skosmos:showTopConcepts true ;
+        skosmos:showTopConcepts false ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabulary.wolterskluwer.de/arbeitsrecht/10001> .
 		
