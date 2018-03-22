@@ -2125,7 +2125,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:uriSpace "http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
+        skosmos:showTopConcepts false ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.gsi.dit.upm.es/ontologies/wnaffect/ns> .
 		
