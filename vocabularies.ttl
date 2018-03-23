@@ -90,6 +90,18 @@
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabulary.semantic-web.at/semweb> .
 
+:cecct a skosmos:Vocabulary, void:Dataset ;
+        dc:title "reegle Clean Energy and Climate Change Thesaurus"@en ;
+        skosmos:shortName "CECCT" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://www.reegle.info/downloads/latest" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.reegle.info/downloads/latest> .
+
+
 
 mdrtype:THESAURUS a skos:Concept ;
 	skos:prefLabel "Тезаурус"@bg, "Tezaurus"@cs, "Tesaurus"@da, "Thesaurus"@de, "Θησαυρός"@el, "Thesaurus"@en, "Tesaurus"@et, "Tesaurus"@fi, "Thésaurus"@fr, "Pojmovnik"@hr, "Tezaurusz"@hu, "Tesauro"@it, "Tēzaurs"@lv, "Tezauras"@lt, "Teżawru"@mt, "Thesaurus"@nl, "Tesaurus"@no, "Tezaurus"@pl, "Tesauro"@pt, "Tezaur"@ro, "Synonymický slovník"@sk, "Tezaver"@sl, "Tesauro"@es, "Tesaurus"@sv .
