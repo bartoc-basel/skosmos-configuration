@@ -1503,24 +1503,24 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "PTO - Finnish Geospatial Domain Ontology"@en, "PTO - Paikkatieto-ontologia"@fi, "PTO - Ontologi för geografisk information"@sv ;
         skosmos:shortName "PTO" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://paikkatiedot.fi/def/1001000/" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/pto" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://paikkatiedot.fi/def/1001000/> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/pto> .
 		
 :LEM a skosmos:Vocabulary, void:Dataset ;
         dc:title "Lista de Encabezamientos de materia para las Bibliotecas Públicas"@en  ;
         skosmos:shortName "LEM" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://id.sgcb.mcu.es/Autoridades/formSubdivision" ;
+        void:uriSpace "http://id.sgcb.mcu.es/Autoridades/LEM201008346/" ;
         skosmos:language "es" ;
         skosmos:defaultLanguage "es" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.sgcb.mcu.es/Autoridades/formSubdivision> .
+        skosmos:sparqlGraph <http://id.sgcb.mcu.es/Autoridades/LEM201008346/> .
 		
 :VALO a skosmos:Vocabulary, void:Dataset ;
         dc:title "VALO - The Finnish Ontology of Photography"@en, "VALO - Valokuvausalan ontologia"@fi, "VALO - Fotografiska ontologin"@sv ;
@@ -1539,48 +1539,48 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "MUSO - Musiikin ontologia"@fi, "MUSO - Ontologi för musik"@sv ;
         skosmos:shortName "MUSO" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://www.yso.fi/onto/muso/deprecatedconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/muso" ;
         skosmos:language "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass isothes:ThesaurusArray ; 
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/muso/deprecatedconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/muso> .
 		
 :MERO a skosmos:Vocabulary, void:Dataset ;
         dc:title "MERO - Merenkulkualan ontologia"@fi ;
         skosmos:shortName "MERO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/mero/" ;
+        void:uriSpace "http://www.yso.fi/onto/mero" ;
         skosmos:language "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/mero/> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/mero> .
 		
 :JUPO a skosmos:Vocabulary, void:Dataset ;
         dc:title "JUPO - Finnish Ontology for Public Administration Services"@en, "JUPO - Julkisen hallinnon palveluontologia"@fi, "JUPO - Ontologi för den offentliga sektorns tjänster"@sv ;
         skosmos:shortName "JUPO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/jupo/deprecatedconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/jupo/" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/jupo/deprecatedconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/jupo/> .
 		
 :TERO a skosmos:Vocabulary, void:Dataset ;
         dc:title "TERO - Terveyden ja hyvinvoinnin ontologia"@fi, "TERO - Finnish Ontology of Health and Welfare"@en, "TERO - Ontologi för hälsa och välfärd"@sv ;
         skosmos:shortName "TERO" ;
         dc:subject :cat_6 ;
-        void:uriSpace "http://www.yso.fi/onto/tero/aggregateconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/tero" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/tero/aggregateconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/tero> .
 		
 :TSR a skosmos:Vocabulary, void:Dataset ;
         dc:title "TSR ontology"@en, "TSR-ontologia"@fi, "TSR-ontologi"@sv ;
