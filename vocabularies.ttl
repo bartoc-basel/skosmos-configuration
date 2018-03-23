@@ -2889,6 +2889,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocab.getty.edu/ontology> .
 
 
+:skos a skosmos:Vocabulary, void:Dataset ;
+        dc:title "SKOS Simple Knowledge Organisation System"@en ;
+        skosmos:shortName "SKOS" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://www.w3.org/2004/02/skos/core#" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.w3.org/2004/02/skos/core> .
+
 
 
 
