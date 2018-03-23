@@ -65,8 +65,13 @@
 	skos:topConceptOf :categories ;
 	skos:inScheme :categories ;
 	skos:prefLabel "History & geography"@en .
-	
-	
+
+
+mdrtype:THESAURUS a skos:Concept ;
+	skos:prefLabel "Тезаурус"@bg, "Tezaurus"@cs, "Tesaurus"@da, "Thesaurus"@de, "Θησαυρός"@el, "Thesaurus"@en, "Tesaurus"@et, "Tesaurus"@fi, "Thésaurus"@fr, "Pojmovnik"@hr, "Tezaurusz"@hu, "Tesauro"@it, "Tēzaurs"@lv, "Tezauras"@lt, "Teżawru"@mt, "Thesaurus"@nl, "Tesaurus"@no, "Tezaurus"@pl, "Tesauro"@pt, "Tezaur"@ro, "Synonymický slovník"@sk, "Tezaver"@sl, "Tesauro"@es, "Tesaurus"@sv .
+
+mdrtype:ONTOLOGY a skos:Concept ;
+    skos:prefLabel "Онтология"@bg, "Ontologie"@cs, "Ontologi"@da, "Ontologie"@de, "Οντολογία"@el, "Ontology"@en, "Ontoloogia"@et, "Ontologia"@fi, "Ontologie"@fr, "Ontologija"@hr, "Ontológia"@hu, "Ontologia"@it, "Ontoloģija"@lv, "Ontologija"@lt, "Ontoloġija"@mt, "Ontologie"@nl, "Ontologi"@no, "Struktura pojęciowa"@pl, "Ontologia"@pt, "Ontologie"@ro, "Ontológia"@sk, "Ontologija"@sl, "Ontología"@es, "Ontologi"@sv .
 
 :bbth a skosmos:Vocabulary, void:Dataset ;
         dc:title "Backbone Thesaurus"@en ;
@@ -102,14 +107,6 @@
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.reegle.info/downloads/latest> .
-
-
-
-mdrtype:THESAURUS a skos:Concept ;
-	skos:prefLabel "Тезаурус"@bg, "Tezaurus"@cs, "Tesaurus"@da, "Thesaurus"@de, "Θησαυρός"@el, "Thesaurus"@en, "Tesaurus"@et, "Tesaurus"@fi, "Thésaurus"@fr, "Pojmovnik"@hr, "Tezaurusz"@hu, "Tesauro"@it, "Tēzaurs"@lv, "Tezauras"@lt, "Teżawru"@mt, "Thesaurus"@nl, "Tesaurus"@no, "Tezaurus"@pl, "Tesauro"@pt, "Tezaur"@ro, "Synonymický slovník"@sk, "Tezaver"@sl, "Tesauro"@es, "Tesaurus"@sv .
-
-mdrtype:ONTOLOGY a skos:Concept ;
-    skos:prefLabel "Онтология"@bg, "Ontologie"@cs, "Ontologi"@da, "Ontologie"@de, "Οντολογία"@el, "Ontology"@en, "Ontoloogia"@et, "Ontologia"@fi, "Ontologie"@fr, "Ontologija"@hr, "Ontológia"@hu, "Ontologia"@it, "Ontoloģija"@lv, "Ontologija"@lt, "Ontoloġija"@mt, "Ontologie"@nl, "Ontologi"@no, "Struktura pojęciowa"@pl, "Ontologia"@pt, "Ontologie"@ro, "Ontológia"@sk, "Ontologija"@sl, "Ontología"@es, "Ontologi"@sv .
 
 
 :dateType a skosmos:Vocabulary, void:Dataset ;
@@ -158,19 +155,19 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://eurovoc.europa.eu/100200> .
+	skosmos:sparqlGraph <http://eurovoc.europa.eu/> .
 
 :AFO a skosmos:Vocabulary, void:Dataset ;
         dc:title "AFO - Natural resource and environment ontology"@en ;
         skosmos:shortName "AFO" ;
         dc:subject :cat_6 ;
-        void:uriSpace "http://www.yso.fi/onto/afo/deprecatedconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/afo" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
         skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/afo/deprecatedconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/afo> .
 
 :DiscoveryParameter a skosmos:Vocabulary, void:Dataset ;
 				dc:title "AODN Discovery Parameter Vocabulary"@en ;
@@ -209,116 +206,116 @@ mdrtype:ONTOLOGY a skos:Concept ;
 			dc:title "Universal Decimal Classification"@en ;
 			skosmos:shortName "UDC" ;
 			dc:subject :cat_0 ;
-			void:uriSpace "http://udcdata.info/udc-schema" ;
+			void:uriSpace "http://udcdata.info/" ;
 			skosmos:language "af", "en", "be", "bg", "bn", "ca", "cs", "da", "de", "el", "eo", "es", "et", "eu", "fi", "fr", "gl", "hi", "hr", "hu", "hy", "it", "ja", "ka", "kn", "lt", "lv", "ml", "nl", "pa", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "ta", "tr", "uk", "zh" ;
 			skosmos:defaultLanguage "en" ;
 			skosmos:showTopConcepts true ;
 			void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-			skosmos:sparqlGraph <http://udcdata.info/udc-schema> .
+			skosmos:sparqlGraph <http://udcdata.info/> .
 			
 :AAT a skosmos:Vocabulary, void:Dataset ;
         dc:title "The Art & Architecture Thesaurus"@en ;
         skosmos:shortName "AAT" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://bartoc-skosmos.unibas.ch/AAT" ;
+        void:uriSpace "http://vocab.getty.edu/aat/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://bartoc-skosmos.unibas.ch/AAT> .
+        skosmos:sparqlGraph <http://vocab.getty.edu/aat/> .
 		
 :UNESCO a skosmos:Vocabulary, void:Dataset ;
         dc:title "UNESCO Thesaurus"@en ;
         skosmos:shortName "UNESCO" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://vocabularies.unesco.org/thesaurus" ;
+        void:uriSpace "http://vocabularies.unesco.org/thesaurus/" ;
         skosmos:language "en", "fr", "ru", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabularies.unesco.org/thesaurus> .
+        skosmos:sparqlGraph <http://vocabularies.unesco.org/thesaurus/> .
 		
 :ScOT a skosmos:Vocabulary, void:Dataset ;
         dc:title "Schools Online Thesaurus"@en ;
         skosmos:shortName "ScOT" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/scot/6f1bbd29-fccf-4b0a-91d5-9089f768e88c" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/scot/" ;
         skosmos:language "en", "ar", "de", "el", "es", "fr", "it", "ja", "zh", "ko", "tr", "vi", "hi-in", "id", "mi" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/scot/6f1bbd29-fccf-4b0a-91d5-9089f768e88c> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/scot/> .
 		
 :Erfgoedtypes a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus Onroerend Erfgoed Erfgoedtypes"@en ;
         skosmos:shortName "Erfgoedtypes" ;
         dc:subject :cat_9 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/erfgoedtypes" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/erfgoedtypes/" ;
         skosmos:language "en", "nl" ;
         skosmos:defaultLanguage "nl" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/erfgoedtypes> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/erfgoedtypes/> .
 		
 :STW a skosmos:Vocabulary, void:Dataset ;
         dc:title "STW Thesaurus for Economics"@en, "Standard-Thesaurus Wirtschaft"@de ;
         skosmos:shortName "STW" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://zbw.eu/stw" ;
+        void:uriSpace "http://zbw.eu/stw/descriptor/" ;
         skosmos:language "en", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://zbw.eu/stw> .
+        skosmos:sparqlGraph <http://zbw.eu/stw/descriptor/> .
 
 :MonumentTypeThesaurusScotland a skosmos:Vocabulary, void:Dataset ;
         dc:title "Monument Type Thesaurus (Scotland)"@en ;
         skosmos:shortName "MonumentTypeScotland" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/1" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/1/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/1> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/1/concepts/> .
 		
 :MonumentThesaurusWales a skosmos:Vocabulary, void:Dataset ;
         dc:title "Monument Thesaurus (Wales)"@en ;
         skosmos:shortName "MonumentWales" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/10" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/10/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/10> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/10/concepts/> .
 
 		
 :LIITO a skosmos:Vocabulary, void:Dataset ;
         dc:title "LIITO - Liiketoimintaontologia"@en ;
         skosmos:shortName "LIITO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/liito/deprecatedconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/liito" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/liito/deprecatedconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/liito> .
 		
 :KULO a skosmos:Vocabulary, void:Dataset ;
         dc:title "KULO - Kulttuurien tutkimuksen ontologia"@en ;
         skosmos:shortName "KULO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/kulo/" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/kulo" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/kulo/> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/kulo> .
 		
 :KITO a skosmos:Vocabulary, void:Dataset ;
         dc:title "KITO - Kirjallisuudentutkimuksen ontologia"@en ;
