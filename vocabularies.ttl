@@ -746,59 +746,59 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "AODN Instrument Vocabulary"@en ;
         skosmos:shortName "Instrument" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.aodn.org.au/def/instrument/1" ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/L22/current/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/instrument/1> .
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L22/current/> .
 		
 :orgacat a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Organisation Category Vocabulary"@en ;
         skosmos:shortName "OrgaCat" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.aodn.org.au/def/organisation_classes/1" ;
+        void:uriSpace "http://vocab.aodn.org.au/def/organisation_classes/category/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/organisation_classes/1> .
+        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/organisation_classes/category/> .
 		
 :organisation a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Organisation Vocabulary"@en ;
         skosmos:shortName "Organisation" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.aodn.org.au/def/organisation/1" ;
+        void:uriSpace "http://vocab.aodn.org.au/def/organisation/entity/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/organisation/1> .
+        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/organisation/entity/> .
 		
 :paramcat a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Parameter Category Vocabulary"@en ;
         skosmos:shortName "ParamCat" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.aodn.org.au/def/parameter_classes/1" ;
+        void:uriSpace "http://vocab.aodn.org.au/def/parameter_classes/category/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/parameter_classes/1> .
+        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/parameter_classes/category/> .
 		
 :platcat a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Platform Category Vocabulary"@en ;
         skosmos:shortName "PlatCat" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.aodn.org.au/def/platform_classes/1" ;
+        void:uriSpace "http://vocab.aodn.org.au/def/platform_classes/category/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/platform_classes/1> .
+        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/platform_classes/category/> .
 
 :unitsmeasure a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Units of Measure Vocabulary"@en ;
@@ -815,59 +815,59 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "AODN Platform Vocabulary"@en ;
         skosmos:shortName "Platform" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.aodn.org.au/def/platform/1" ;
+        void:uriSpace "http://vocab.aodn.org.au/def/platform/entity/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/platform/1> .
+        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/platform/entity/> .
 		
 :samplparam a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN Sampling Parameter Vocabulary"@en ;
         skosmos:shortName "SamplParam" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.aodn.org.au/def/sampling_parameter/1" ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/P01/current/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/sampling_parameter/1> .
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P01/current/> .
 
 		
 :xbtline a skosmos:Vocabulary, void:Dataset ;
         dc:title "AODN XBT line vocabulary"@en ;
         skosmos:shortName "XBT line" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.aodn.org.au/def/xbtline/1" ;
+        void:uriSpace "http://vocab.aodn.org.au/def/xbtline/entity/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/xbtline/1> .
+        skosmos:sparqlGraph <http://vocab.aodn.org.au/def/xbtline/entity/> .
 		
 :aots a skosmos:Vocabulary, void:Dataset ;
         dc:title "Archaeological Objects Thesaurus (Scotland)"@en ;
         skosmos:shortName "AOT (S)" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/2" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/2/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/2> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/2/concepts/> .
 		
 :aap a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian Access Profile"@en ;
         skosmos:shortName "AAP" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/access/69ea9cfe-f17c-4603-82fd-a145888e3ed3" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/access/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/access/69ea9cfe-f17c-4603-82fd-a145888e3ed3> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/access/> .
 		
 :ANZSRC-for a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian and New Zealand Standard Research Classification: Fields of Research"@en ;
@@ -884,60 +884,60 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Australian Cross-curriculum Priority"@en ;
         skosmos:shortName "crossCurriculum" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/crossCurriculum/db7d230c-1582-4c95-a0e1-3472c98d48cc" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/crossCurriculum/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/crossCurriculum/db7d230c-1582-4c95-a0e1-3472c98d48cc> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/crossCurriculum/> .
 		
 :curriculumElement a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian Curriculum Element"@en ;
         skosmos:shortName "curriculumElement" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/curriculumElement/e962eb15-8c63-421e-b27f-34c5585e8521" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/curriculumElement/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	void:dataDump <http://vocabulary.curriculum.edu.au/curriculumElement/export/curriculumElement.rdf> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/curriculumElement/e962eb15-8c63-421e-b27f-34c5585e8521> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/curriculumElement/> .
 		
 :framework a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian Curriculum Framework"@en ;
         skosmos:shortName "Framework" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/framework/1724a465-0396-49ad-9a2b-d0ff00720372" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/framework/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/framework/1724a465-0396-49ad-9a2b-d0ff00720372> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/framework/> .
 		
 :GeneralCapability a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian General Capability"@en ;
         skosmos:shortName "GeneralCapability" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/generalCapability/2f5fd48f-18d4-47ec-8bed-25e952ac1343" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/generalCapability/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/generalCapability/2f5fd48f-18d4-47ec-8bed-25e952ac1343> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/generalCapability/> .
 		
 :AGIFT a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian Governments' Interactive Functions Thesaurus"@en ;
         skosmos:shortName "AGIFT" ;
         dc:subject :cat_0 ;
-        void:uriSpace "https://data.naa.gov.au/def/agift/AGIFT" ;
+        void:uriSpace "https://data.naa.gov.au/def/agift/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://data.naa.gov.au/def/agift/AGIFT> .
+        skosmos:sparqlGraph <https://data.naa.gov.au/def/agift/> .
 		
 :ANZSRC-SEO a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian and New Zealand Standard Research Classification: Socio-Economic Objective"@en ;
@@ -954,48 +954,48 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Australian Professional Standards for Teachers"@en ;
         skosmos:shortName "Teacher Standards" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/teacherstandards/5f21c01a-2b26-4eb9-ba70-20985d627989" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/teacherstandards/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/teacherstandards/5f21c01a-2b26-4eb9-ba70-20985d627989> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/teacherstandards/> .
 		
 :SchoolLevel a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian School Level"@en ;
         skosmos:shortName "School Level" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/schoolLevel/f1d21883-0c5f-49e3-86d7-307f4eed251f" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/schoolLevel/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/schoolLevel/f1d21883-0c5f-49e3-86d7-307f4eed251f> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/schoolLevel/> .
 		
 :CaLAThe a skosmos:Vocabulary, void:Dataset ;
         dc:title "CaLAThe"@en ;
         skosmos:shortName "CaLAThe" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.cadastralvocabulary.org/CaLAThe" ;
+        void:uriSpace "http://www.cadastralvocabulary.org/CaLAThe/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.cadastralvocabulary.org/CaLAThe> .
+        skosmos:sparqlGraph <http://www.cadastralvocabulary.org/CaLAThe/> .
 		
 :WasteStorage a skosmos:Vocabulary, void:Dataset ;
         dc:title "CGI Waste Storage Vocabulary"@en ;
         skosmos:shortName "WasteStorage" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/waste-storage" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/waste-storage/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/waste-storage> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/waste-storage/> .
 		
 :COICOP a skosmos:Vocabulary, void:Dataset ;
         dc:title "Classification of Individual Consumption According to Purpose"@en ;
@@ -1045,34 +1045,34 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Components (EH)"@en ;
         skosmos:shortName "Components" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/eh_com" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/eh_com/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_com> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_com/concepts/> .
 		
 :CBNAL a skosmos:Vocabulary, void:Dataset ;
         dc:title "Corporate bodies Name Authority List"@en ;
         skosmos:shortName "CBNAL" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://publications.europa.eu/resource/authority/corporate-body" ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/corporate-body/" ;
         skosmos:language "en", "bg", "cs", "da", "de", "el", "et", "fi", "fr", "ga", "hr", "hu", "is", "it", "lv", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "es", "sv", "tr" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/corporate-body> .
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/corporate-body/> .
 		
 :CNNAL a skosmos:Vocabulary, void:Dataset ;
         dc:title "Countries Name Authority List"@en ;
         skosmos:shortName "CNNAL" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://publications.europa.eu/resource/authority/country" ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/country/" ;
         skosmos:language "en", "be", "bs", "bg", "ca", "cs", "da", "de", "el", "et", "eu", "fo", "fi", "fr", "ga", "gl", "hr", "hu", "is", "it", "lv", "lt", "mk", "mt", "nl", "no", "pl", "pt", "rm", "ro", "ru", "sk", "sl", "es", "sq", "sr", "sv", "tr", "uk" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/country> .
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/country/> .
 		
 :CreaConRole a skosmos:Vocabulary, void:Dataset ;
         dc:title "creatorRole and contributorRole Vocabulary"@en ;
@@ -1089,102 +1089,102 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "EAGLE Vocabulary - Object Type"@en ;
         skosmos:shortName "Object Type" ;
         dc:subject :cat_4 ;
-        void:uriSpace "https://www.eagle-network.eu/voc/objtyp/" ;
+        void:uriSpace "https://archwort.dainst.org/thesaurus/de/vocab/" ;
         skosmos:language "en", "de", "la", "fr", "es", "hu", "el", "ru", "ar", "it", "tr", "he" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://www.eagle-network.eu/voc/objtyp/> .
+        skosmos:sparqlGraph <https://archwort.dainst.org/thesaurus/de/vocab/> .
 		
 :StatePres a skosmos:Vocabulary, void:Dataset ;
         dc:title "EAGLE Vocabulary - State of Preservation"@en ;
         skosmos:shortName "StatePres" ;
         dc:subject :cat_4 ;
-        void:uriSpace "https://www.eagle-network.eu/voc/statepreserv/" ;
+        void:uriSpace "https://www.eagle-network.eu/voc/statepreserv/lod/" ;
         skosmos:language "en", "la", "de", "es", "it" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://www.eagle-network.eu/voc/statepreserv/> .
+        skosmos:sparqlGraph <https://www.eagle-network.eu/voc/statepreserv/lod/> .
 		
 :TypeIns a skosmos:Vocabulary, void:Dataset ;
         dc:title "EAGLE Vocabulary - Type of Inscription"@en ;
         skosmos:shortName "TypeIns" ;
         dc:subject :cat_4 ;
-        void:uriSpace "https://www.eagle-network.eu/voc/typeins/" ;
+        void:uriSpace "https://www.eagle-network.eu/voc/typeins/lod/" ;
         skosmos:language "en", "fr", "es", "it", "la", "de", "hu", "el", "ar", "he" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://www.eagle-network.eu/voc/typeins/> .
+        skosmos:sparqlGraph <https://www.eagle-network.eu/voc/typeins/lod/> .
 		
 :EvidenceEH a skosmos:Vocabulary, void:Dataset ;
         dc:title "Evidence (EH)"@en ;
         skosmos:shortName "EvidenceEH" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/eh_evd" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/eh_evd/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_evd> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_evd/concepts/> .
 		
 :FISHSciences a skosmos:Vocabulary, void:Dataset ;
         dc:title "FISH Archaeological Sciences Thesaurus"@en ;
         skosmos:shortName "FISHSciences" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/560" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/560/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/560> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/560/concepts/> .
 		
 :FISHBuilding a skosmos:Vocabulary, void:Dataset ;
         dc:title "FISH Building Materials Thesaurus"@en ;
         skosmos:shortName "FISHBuilding" ;
         dc:subject :cat_6 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/eh_tbm" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/eh_tbm/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_tbm> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_tbm/concepts/> .
 		
 :FISHEvent a skosmos:Vocabulary, void:Dataset ;
         dc:title "FISH Event Types Thesaurus"@en ;
         skosmos:shortName "FISHEvent" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/agl_et" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/agl_et/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/agl_et> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/agl_et/concepts/> .
 		
 :FISHMaritime a skosmos:Vocabulary, void:Dataset ;
         dc:title "FISH Maritime Craft Types Thesaurus"@en ;
         skosmos:shortName "FISHMaritime" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/eh_tmc" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/eh_tmc/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_tmc> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_tmc/concepts/> .
 		
 :PeriodEH a skosmos:Vocabulary, void:Dataset ;
         dc:title "Historic England Periods Authority File"@en ;
         skosmos:shortName "PeriodEH" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/eh_period" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/eh_period/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_period> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_period/concepts/> .
 		
 :ILThes a skosmos:Vocabulary, void:Dataset ;
         dc:title "Information Literacy Thesaurus"@en ;
