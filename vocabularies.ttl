@@ -2840,6 +2840,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/adms/representationtechnique/> .
 
+:gvp a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Getty Vocabulary Program Ontology"@en ;
+        skosmos:shortName "GVPO" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://vocab.getty.edu/ontology#" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.getty.edu/ontology> .
+
 
 
 
