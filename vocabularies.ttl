@@ -1473,7 +1473,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:uriSpace "http://vocabulary.wolterskluwer.de/arbeitsrecht/10001" ;
         skosmos:language "de" ;
         skosmos:defaultLanguage "de" ;
-        skosmos:showTopConcepts true ;
+        skosmos:showTopConcepts false ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabulary.wolterskluwer.de/arbeitsrecht/10001> .
 		
@@ -2136,9 +2136,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:uriSpace "http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
+        skosmos:showTopConcepts false ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#> .
+        skosmos:sparqlGraph <http://www.gsi.dit.upm.es/ontologies/wnaffect/ns> .
 		
 :ThesBAB a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus of Basler Afrika Bibliographien"@en, "Thesaurus der Basler Afrika Bibliographien" ;
@@ -2850,6 +2850,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/adms/representationtechnique/> .
+
+:gvp a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Getty Vocabulary Program Ontology"@en ;
+        skosmos:shortName "GVPO" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://vocab.getty.edu/ontology#" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.getty.edu/ontology> .
 
 
 
