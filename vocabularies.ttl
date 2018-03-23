@@ -498,17 +498,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://bartoc.poolparty.biz/SystematikBaslerBibliographie/> .
 		
-:InformationPublique a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Thésaurus Information Publique"@en ;
-        skosmos:shortName "InformationPublique" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://data.vie-publique.fr/thesaurus/InformationPublique/" ;
-        skosmos:language "fr" ;
-        skosmos:defaultLanguage "fr" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.vie-publique.fr/thesaurus/InformationPublique/> .
-		
 :YSA a skosmos:Vocabulary, void:Dataset ;
         dc:title "YSA - Yleinen suomalainen asiasanasto"@fi ;
         skosmos:shortName "YSA" ;
@@ -1213,35 +1202,35 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Dateringen"@nl-be ;
         skosmos:shortName "Dateringen" ;
         dc:subject :cat_9 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/dateringen" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/datering/" ;
         skosmos:language "nl-BE" ;
         skosmos:defaultLanguage "nl-BE" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/dateringen> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/datering/> .
 
 :RIFCS a skosmos:Vocabulary, void:Dataset ;
         dc:title "Registry Interchange Format - Collections and Services (Vocabularies)"@en ;
         skosmos:shortName "RIFCSVocabulary" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://purl.org/au-research/vocabulary/RIFCS/RIFCSVocabulary" ;
+        void:uriSpace "http://purl.org/au-research/vocabulary/RIFCS/RIFCSServiceRelationType/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/au-research/vocabulary/RIFCS/RIFCSVocabulary> .
+        skosmos:sparqlGraph <http://purl.org/au-research/vocabulary/RIFCS/RIFCSServiceRelationType/> .
 
 :MCTScot a skosmos:Vocabulary, void:Dataset ;
         dc:title "Maritime Craft Thesaurus (Scotland)"@en ;
         skosmos:shortName "MCTScot" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/3" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/3/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/3> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/3/concepts/> .
 		
 :ILOTax a skosmos:Vocabulary, void:Dataset ;
         dc:title "International Labour Organization Taxonomy"@en ;
@@ -1258,34 +1247,34 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Roles Name Authority List"@en ;
         skosmos:shortName "RNAL" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://publications.europa.eu/resource/authority/role" ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/role/" ;
         skosmos:language "en", "bg","cs" ,"da" ,"de" ,"el" ,"et" ,"fi" ,"fr" ,"ga" ,"hr" ,"hu" ,"it" ,"lv" ,"lt" ,"mt" ,"nl" ,"pl" ,"pt" ,"ro" ,"sk" ,"sl" ,"es" ,"sv" ,"de" ,"sl" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/role> .
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/role/> .
 		
 :SimpleLith a skosmos:Vocabulary, void:Dataset ;
         dc:title "Simple Lithology"@en ;
         skosmos:shortName "SimpleLith" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/simplelithology" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/lithology/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/simplelithology> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/lithology/> .
 		
 :Jupalu a skosmos:Vocabulary, void:Dataset ;
         dc:title "Julkisten palvelujen luokitus"@fi, "Classification of public services"@en ;
         skosmos:shortName "Jupalu" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://urn.fi/URN:NBN:fi:au:ptvl:" ;
+        void:uriSpace "http://www.yso.fi/onto/jupo/" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://urn.fi/URN:NBN:fi:au:ptvl:> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/jupo/> .
 		
 :JO a skosmos:Vocabulary, void:Dataset ;
         dc:title "NPG Journals Ontology"@en ;
@@ -1302,34 +1291,34 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Soorten"@nl-be ;
         skosmos:shortName "Soorten" ;
         dc:subject :cat_5 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/soorten" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/soorten/" ;
         skosmos:language "la", "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/soorten> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/soorten/> .
 		
 :THWildau a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus der Technischen Hochschule Wildau"@de, "Thesaurus of the Technical University of Applied Sciences Wildau"@en ;
         skosmos:shortName "TH Wildau" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://thesaurus.bib.th-wildau.de/scheme" ;
+        void:uriSpace "http://thesaurus.bib.th-wildau.de/" ;
         skosmos:language "en", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://thesaurus.bib.th-wildau.de/scheme> .
+        skosmos:sparqlGraph <http://thesaurus.bib.th-wildau.de/> .
 		
 :LoB a skosmos:Vocabulary, void:Dataset ;
         dc:title "Language of Bindings Thesaurus"@en ;
         skosmos:shortName "LoB" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://w3id.org/lob/" ;
+        void:uriSpace "http://w3id.org/lob/concept/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://w3id.org/lob/> .
+        skosmos:sparqlGraph <http://w3id.org/lob/concept/> .
 		
 :Lapponica a skosmos:Vocabulary, void:Dataset ;
         dc:title "Lapponica"@en, "Lapponica"@fi, "Lapponica"@se, "Lapponica"@sv  ;
@@ -1357,12 +1346,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "North American Industry Classification System"@en ;
         skosmos:shortName "NAICS" ;
         dc:subject :cat_3 ;
-        void:uriSpace "https://bartoc.poolparty.biz/NAICS/2197" ;
+        void:uriSpace "https://bartoc.poolparty.biz/NAICS/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.poolparty.biz/NAICS/2197> .
+        skosmos:sparqlGraph <https://bartoc.poolparty.biz/NAICS/> .
 		
 :HRT a skosmos:Vocabulary, void:Dataset ;
         dc:title "Menneskerettighetstermer"@nb, "Human Rights Terms"@en ;
@@ -1402,25 +1391,25 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "LC Demographic Group Terms"@en ;
         skosmos:shortName "LCDGT" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://id.loc.gov/authorities/demographicTerms" ;
+        void:uriSpace "http://id.loc.gov/authorities/demographicTerms/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	void:dataDump <http://id.loc.gov/static/data/authoritiesdemographicTerms.ttl.skos.zip> ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.loc.gov/authorities/demographicTerms> .
+        skosmos:sparqlGraph <http://id.loc.gov/authorities/demographicTerms/> .
 		
 :InformationPublique a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus Information Publique"@fr ;
         skosmos:shortName "InformationPublique" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.vie-publique.fr/thesaurus/InformationPublique/2821" ;
+        void:uriSpace "http://data.vie-publique.fr/thesaurus/InformationPublique/" ;
         skosmos:language "fr" ;
         skosmos:defaultLanguage "fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.vie-publique.fr/thesaurus/InformationPublique/2821> .
+        skosmos:sparqlGraph <http://data.vie-publique.fr/thesaurus/InformationPublique/> .
 		
 :NST a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nature Subjects Taxonomy"@en ;
@@ -1437,12 +1426,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "U.S. Agency for International Development Thesaurus"@en ;
         skosmos:shortName "USAID" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.semantic-web.at/USAID-thesaurus/1dfac243-0da2-4e70-9145-799f3c67d4fb" ;
+        void:uriSpace "http://vocabulary.semantic-web.at/USAID-thesaurus/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.semantic-web.at/USAID-thesaurus/1dfac243-0da2-4e70-9145-799f3c67d4fb> .
+        skosmos:sparqlGraph <http://vocabulary.semantic-web.at/USAID-thesaurus/> .
 		
 :Lskjema a skosmos:Vocabulary, void:Dataset ;
         dc:title "L-skjema"@nb ;
@@ -1459,45 +1448,45 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Places Name Authority List"@en ;
         skosmos:shortName "PNAL" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://publications.europa.eu/resource/authority/place" ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/place/" ;
         skosmos:language "en","bg" ,"cs" ,"da" ,"de" ,"el" ,"et" ,"fi" ,"fr" ,"ga" ,"hr" ,"hu" ,"it" ,"lv" ,"lt" ,"mt" ,"nl" ,"pl" ,"pt" ,"ro" ,"sk" ,"sl" ,"es" ,"sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/place> .
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/place/> .
 		
 :LCGFT a skosmos:Vocabulary, void:Dataset ;
         dc:title "LC Genre/Form Terms"@en ;
         skosmos:shortName "LCGFT" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://id.loc.gov/authorities/genreForms" ;
+        void:uriSpace "http://id.loc.gov/authorities/genreForms/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.loc.gov/authorities/genreForms> .
+        skosmos:sparqlGraph <http://id.loc.gov/authorities/genreForms/> .
 		
 :desigobjmob a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus de la désignation des objets mobiliers"@fr-fr ;
         skosmos:shortName "desigobjmob" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T69" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/desigobjmob" ;
         skosmos:language "fr-fr", "en-US", "it" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T69> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/desigobjmob> .
 		
 :Arbeitsrecht a skosmos:Vocabulary, void:Dataset ;
         dc:title "Arbeitsrechtthesaurus"@de ;
         skosmos:shortName "Arbeitsrecht" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.wolterskluwer.de/arbeitsrecht/10001" ;
+        void:uriSpace "http://vocabulary.wolterskluwer.de/arbeitsrecht/" ;
         skosmos:language "de" ;
         skosmos:defaultLanguage "de" ;
         skosmos:showTopConcepts false ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.wolterskluwer.de/arbeitsrecht/10001> .
+        skosmos:sparqlGraph <http://vocabulary.wolterskluwer.de/arbeitsrecht/> .
 		
 :WorldBank a skosmos:Vocabulary, void:Dataset ;
         dc:title "World Bank Thesaurus"@en ;
