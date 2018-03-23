@@ -79,6 +79,18 @@
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/download/backbone_thesaurus> .
 
+:sosemwebth a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Social Semantic Web Thesaurus"@en ;
+        skosmos:shortName "SoSemWebTh" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://vocabulary.semantic-web.at/semweb/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocabulary.semantic-web.at/semweb> .
+
+
 mdrtype:THESAURUS a skos:Concept ;
 	skos:prefLabel "Тезаурус"@bg, "Tezaurus"@cs, "Tesaurus"@da, "Thesaurus"@de, "Θησαυρός"@el, "Thesaurus"@en, "Tesaurus"@et, "Tesaurus"@fi, "Thésaurus"@fr, "Pojmovnik"@hr, "Tezaurusz"@hu, "Tesauro"@it, "Tēzaurs"@lv, "Tezauras"@lt, "Teżawru"@mt, "Thesaurus"@nl, "Tesaurus"@no, "Tezaurus"@pl, "Tesauro"@pt, "Tezaur"@ro, "Synonymický slovník"@sk, "Tezaver"@sl, "Tesauro"@es, "Tesaurus"@sv .
 
