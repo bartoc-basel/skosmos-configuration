@@ -2166,24 +2166,24 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Stratigraphic Rank"@en ;
         skosmos:shortName "StratiRank" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/stratigraphicrank" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/stratigraphicrank/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/stratigraphicrank> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/stratigraphicrank/> .
 		
 :ILC a skosmos:Vocabulary, void:Dataset ;
         dc:title "Integrative Levels Classification"@en ;
         skosmos:shortName "ILC" ;
         dc:subject :cat_0 ;
-        void:uriSpace "https://bartoc.org/ILC/1" ;
+        void:uriSpace "https://bartoc.org/ILC/1/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.org/ILC/1> .
+        skosmos:sparqlGraph <https://bartoc.org/ILC/1/> .
 		
 :LCSH a skosmos:Vocabulary, void:Dataset ;
         dc:title "LC Subject Headings"@en ;
@@ -2235,12 +2235,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Sportmediathek Magglingen Schlagwortindex"@de, "Médiathèque du sport Index des mots-matière"@fr ;
         skosmos:shortName "BASPOSchl" ;
         dc:subject :cat_7 ;
-        void:uriSpace "https://bartoc.poolparty.biz/SchlagwortindexSportmediathekMagglingen/0" ;
+        void:uriSpace "https://bartoc.poolparty.biz/SchlagwortindexSportmediathekMagglingen/" ;
         skosmos:language "de", "fr" ;
         skosmos:defaultLanguage "de" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.poolparty.biz/SchlagwortindexSportmediathekMagglingen/0> .
+        skosmos:sparqlGraph <https://bartoc.poolparty.biz/SchlagwortindexSportmediathekMagglingen/> .
 		
 :nomisma a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nomisma"@en ;
@@ -2257,12 +2257,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Iconclass"@en ;
         skosmos:shortName "Iconclass" ;
         dc:subject :cat_7 ;
-        void:uriSpace "" ;
+        void:uriSpace "http://iconclass.org/" ;
         skosmos:language "en", "fr", "de", "it", "fi" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <> .
+        skosmos:sparqlGraph <http://iconclass.org/> .
 		
 :ulan a skosmos:Vocabulary, void:Dataset ;
         dc:title "The Union List of Artist Names"@en ;
@@ -2301,37 +2301,37 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "NEII Licencing"@en ;
         skosmos:shortName "NEIILicencing" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing" ;
+        void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-licencing/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing> .
+        skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-licencing/> .
 		
 :NEIISiteStatus a skosmos:Vocabulary, void:Dataset ;
         dc:title "NEII Site Status"@en ;
         skosmos:shortName "NEIISiteStatus" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-site-status/NEII-Site-Status" ;
+        void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-site-status/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-site-status/NEII-Site-Status> .
+        skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-site-status/> .
 		
 :NuSoTh a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nuovo Soggettario Thesaurus"@it ;
         skosmos:shortName "NuSoTh" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://purl.org/bncf/tid/ThesCF7" ;
+        void:uriSpace "http://purl.org/bncf/tid/" ;
         skosmos:language "it" ;
         skosmos:defaultLanguage "it" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/bncf/tid/ThesCF7> .
+        skosmos:sparqlGraph <http://purl.org/bncf/tid/> .
 		
 :publisherRole a skosmos:Vocabulary, void:Dataset ;
         dc:title "publisherRole Vocabulary"@en ;
@@ -2383,34 +2383,34 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Vocabulaire pour les techniques photographiques"@fr ;
         skosmos:shortName "VocTechPhot" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/2012b973-ddb2-4540-a775-9157c3c1d7fd" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/voctechphot" ;
         skosmos:language "fr" ;
         skosmos:defaultLanguage "fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/2012b973-ddb2-4540-a775-9157c3c1d7fd> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/voctechphot> .
 		
 :TypDocArchLoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Liste d'autorité Typologie documentaire pour l'indexation des archives locales"@fr ;
         skosmos:shortName "TypDocArchLoc" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T3" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/typdocarchloc" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T3> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/typdocarchloc> .
 		
 :ActArchLoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Liste d'autorité Actions pour l'indexation des archives locales"@fr ;
         skosmos:shortName "ActArchLoc" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T2" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/actarchloc" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T2> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/actarchloc> .
 		
 :ThesArchires a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus Archirès"@fr-fr ;
