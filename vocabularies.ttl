@@ -1739,49 +1739,49 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Teacher career stage"@en ;
         skosmos:shortName "TeachCareer" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/teachercareerstage/280f584b-f069-40c7-8bd4-895bc5df4ea1" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/teachercareerstage/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/teachercareerstage/280f584b-f069-40c7-8bd4-895bc5df4ea1> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/teachercareerstage/> .
 		
 :LangModes a skosmos:Vocabulary, void:Dataset ;
         dc:title "Language Modes"@en ;
         skosmos:shortName "LangModes" ;
         dc:subject :cat_4 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/languageModes/54abdccc-8404-4acf-bdb0-025509b592b2" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/languageModes/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/languageModes/54abdccc-8404-4acf-bdb0-025509b592b2> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/languageModes/> .
 		
 :SkillLevel a skosmos:Vocabulary, void:Dataset ;
         dc:title "Skill Level"@en ;
         skosmos:shortName "SkillLevel" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/skillLevel/1cd1ca41-6b6f-405d-9797-530709ed6138" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/skillLevel/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/skillLevel/1cd1ca41-6b6f-405d-9797-530709ed6138> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/skillLevel/> .
 		
 :PBCoreAssetType a skosmos:Vocabulary, void:Dataset ;
         dc:title "PBCoreAssetType Vocabulary"@en ;
         skosmos:shortName "PBCoreAssetType" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://pbcore.org/pbcore-controlled-vocabularies/pbcoreassettype-vocabulary/" ;
+        void:uriSpace "http://metadataregistry.org/uri/RegStatus/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://pbcore.org/pbcore-controlled-vocabularies/pbcoreassettype-vocabulary/> .
+        skosmos:sparqlGraph <http://metadataregistry.org/uri/RegStatus/> .
 		
 :InstPhysAudio a skosmos:Vocabulary, void:Dataset ;
         dc:title "instantiationPhysical: Audio Vocabulary"@en ;
@@ -1799,25 +1799,25 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Besluit Types"@nl-be ;
         skosmos:shortName "Besluit Types" ;
         dc:subject :cat_3 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/besluittypes" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/besluittypes/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/besluittypes> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/besluittypes/> .
 		
 :InstGen a skosmos:Vocabulary, void:Dataset ;
         dc:title "instantiationGenerations Vocabulary"@en ;
         skosmos:shortName "InstGen" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://pbcore.org/pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/" ;
+        void:uriSpace "http://metadataregistry.org/uri/RegStatus/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://pbcore.org/pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/> .
+        skosmos:sparqlGraph <http://metadataregistry.org/uri/RegStatus/> .
 		
 :InstPhysVideo a skosmos:Vocabulary, void:Dataset ;
         dc:title "instantiationPhysical: Video Vocabulary"@en ;
@@ -1835,316 +1835,316 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Waarde Types"@nl-be ;
         skosmos:shortName "WaardeTypes" ;
         dc:subject :cat_9 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/waardetypes" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/waardetypes/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/waardetypes> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/waardetypes/> .
 		
 :PeriodWales a skosmos:Vocabulary, void:Dataset ;
         dc:title "Period (Wales)"@en ;
         skosmos:shortName "PeriodWales" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/11" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/11/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/11> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/11/concepts/> .
 		
 :RawMaterial a skosmos:Vocabulary, void:Dataset ;
         dc:title "Raw Material Role"@en ;
         skosmos:shortName "RawMaterial" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/raw-material-role" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/raw-material-role/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/raw-material-role> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/raw-material-role/> .
 		
 :ReserveAssessment a skosmos:Vocabulary, void:Dataset ;
         dc:title "Reserve Assessment Category"@en ;
         skosmos:shortName "ReserveAssessment" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/reserve-assessment-category" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/reserve-assessment-category> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/reserve-assessment-category/> .
 		
 :ResourceAssessment a skosmos:Vocabulary, void:Dataset ;
         dc:title "Resource Assessment Category"@en ;
         skosmos:shortName "ResourceAssessment" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/resource-assessment-category" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/resource-assessment-category/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/resource-assessment-category> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/resource-assessment-category/> .
 		
 :OrientationDetermination a skosmos:Vocabulary, void:Dataset ;
         dc:title "Orientation Determination Method"@en ;
         skosmos:shortName "OrientationDetermination" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/determinationmethodorientation" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/determinationmethodorientation> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/> .
 		
 :Value a skosmos:Vocabulary, void:Dataset ;
         dc:title "Value Qualifier"@en ;
         skosmos:shortName "Value" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/valuequalifier" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/valuequalifier/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/valuequalifier> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/valuequalifier/> .
 		
 :Proportion a skosmos:Vocabulary, void:Dataset ;
         dc:title "Proportion Term"@en ;
         skosmos:shortName "Proportion" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/proportionterm" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/proportionterm/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ; 
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/proportionterm> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/proportionterm/> .
 		
 :Particle a skosmos:Vocabulary, void:Dataset ;
         dc:title "Particle Shape"@en ;
         skosmos:shortName "Particle" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/particleshape" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/particleshape/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/particleshape> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/particleshape/> .
 		
 :VocRel a skosmos:Vocabulary, void:Dataset ;
         dc:title "Vocabulary Relation"@en ;
         skosmos:shortName "VocRel" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/vocabularyrelation" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/vocabularyrelation/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/vocabularyrelation> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/vocabularyrelation/> .
 		
 :TecReq a skosmos:Vocabulary, void:Dataset ;
         dc:title "Technical Requirement"@en ;
         skosmos:shortName "TecReq" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/technicalRequirement/a01cb600-cd89-4b4f-9dfa-73432df882cc" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/technicalRequirement/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/technicalRequirement/a01cb600-cd89-4b4f-9dfa-73432df882cc> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/technicalRequirement/> .
 
 :UNFC a skosmos:Vocabulary, void:Dataset ;
         dc:title "UNFC Code"@en ;
         skosmos:shortName "UNFC" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/unfc" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/unfc/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/unfc> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/unfc/> .
 		
 :ParticleAspect a skosmos:Vocabulary, void:Dataset ;
         dc:title "Particle Aspect Ratio"@en ;
         skosmos:shortName "ParticleAspect" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/particleaspectratio" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/particleaspectratio/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/particleaspectratio> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/particleaspectratio/> .
 		
 :NomenclatureGeoBret a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nomenclature thématique GéoBretagne"@fr ;
         skosmos:shortName "NomenclatureGeoBret" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://www.geobretagne.fr/thesaurus" ;
+        void:uriSpace "http://www.geobretagne.fr/thesaurus/espace_public/espaces_verts/" ;
         skosmos:language "fr" ;
         skosmos:defaultLanguage "fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.geobretagne.fr/thesaurus> .
+        skosmos:sparqlGraph <http://www.geobretagne.fr/thesaurus/espace_public/espaces_verts/> .
 		
 :ErfgMaterialen a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus Onroerend Erfgoed Materialen"@nl-be ;
         skosmos:shortName "ErfgMaterialen" ;
         dc:subject :cat_6 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/materialen" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/materialen/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/materialen> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/materialen/> .
 		
 :Observation a skosmos:Vocabulary, void:Dataset ;
         dc:title "Observation Method (Mapped Feature)"@en ;
         skosmos:shortName "Observation" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/mappedfeatureobservationmethod" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/mappedfeatureobservationmethod> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/> .
 		
 :Tenement a skosmos:Vocabulary, void:Dataset ;
         dc:title "Tenement Status"@en ;
         skosmos:shortName "Tenement" ;
         dc:subject :cat_6 ;
-        void:uriSpace "" ;
+        void:uriSpace "http://resource.geoscience.gov.au/classifier/ggic/tenement-status/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenement-status> .
+        skosmos:sparqlGraph <http://resource.geoscience.gov.au/classifier/ggic/tenement-status/> .
 		
 :SBB a skosmos:Vocabulary, void:Dataset ;
         dc:title "Systematik Basler Bibliographie"@de ;
         skosmos:shortName "SBB" ;
         dc:subject :cat_0 ;
-        void:uriSpace "https://bartoc.poolparty.biz/SystematikBaslerBibliographie/0" ;
+        void:uriSpace "https://bartoc.poolparty.biz/SystematikBaslerBibliographie/" ;
         skosmos:language "de" ;
         skosmos:defaultLanguage "de" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.poolparty.biz/SystematikBaslerBibliographie/0> .
+        skosmos:sparqlGraph <https://bartoc.poolparty.biz/SystematikBaslerBibliographie/> .
 		
 :ProcessingActivity a skosmos:Vocabulary, void:Dataset ;
         dc:title "Processing Activity"@en ;
         skosmos:shortName "ProcessingActivity" ;
         dc:subject :cat_6 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/mining-processing-activity" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/mining-processing-activity/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/mining-processing-activity> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mining-processing-activity/> .
 		
 :KTKT a skosmos:Vocabulary, void:Dataset ;
         dc:title "Korkeakoulujen tutkimustiedonkeruussa käytettävä tieteenalaluokitus"@fi ;
         skosmos:shortName "Korkea" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/okm-tieteenala/conceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/okm-tieteenala/" ;
         skosmos:language "en", "sv", "fi" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/okm-tieteenala/conceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/okm-tieteenala/> .
 		
 :VocsforVoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Vocabularies for Vocabulary Schema"@en ;
         skosmos:shortName "VocsforVoc" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://ands.poolparty.biz/ANDSVocabsforVocabSchema/23" ;
+        void:uriSpace "http://ands.poolparty.biz/ANDSVocabsforVocabSchema/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://ands.poolparty.biz/ANDSVocabsforVocabSchema/23> .
+        skosmos:sparqlGraph <http://ands.poolparty.biz/ANDSVocabsforVocabSchema/> .
 		
 :ParticleType a skosmos:Vocabulary, void:Dataset ;
         dc:title "Particle Type"@en ;
         skosmos:shortName "ParticleType" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/particletype" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/particletype/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/particletype> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/particletype/> .
 		
 :StijCult a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus Onroerend Erfgoed Stijlen en Culturen"@nl-be ;
         skosmos:shortName "StijCult" ;
         dc:subject :cat_9 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/stijlen_en_culturen" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/stijlen_en_culturen/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/stijlen_en_culturen> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/stijlen_en_culturen/> .
 		
 :TenementType a skosmos:Vocabulary, void:Dataset ;
         dc:title "Tenement Type"@en ;
         skosmos:shortName "TenementType" ;
         dc:subject :cat_6 ;
-        void:uriSpace "http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenementtype" ;
+        void:uriSpace "http://resource.geoscience.gov.au/classifier/ggic/tenementtype/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenementtype> .
+        skosmos:sparqlGraph <http://resource.geoscience.gov.au/classifier/ggic/tenementtype/> .
 		
 :Gebeurtenistypes a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus Onroerend Erfgoed Gebeurtenistypes"@nl-be ;
         skosmos:shortName "Gebeurtenistypes" ;
         dc:subject :cat_9 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/gebeurtenistypes" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/gebeurtenistypes/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/gebeurtenistypes> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/gebeurtenistypes/> .
 		
 :UoM a skosmos:Vocabulary, void:Dataset ;
         dc:title "Geoscience Australia's Units of Measure"@en ;
         skosmos:shortName "UoM" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/uom" ;
+        void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/uom/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/uom> .
+        skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/uom/> .
 		
 :WordNet a skosmos:Vocabulary, void:Dataset ;
         dc:title "WordNet-Affect Taxonomy"@en ;
         skosmos:shortName "WordNet" ;
         dc:subject :cat_1 ;
-        void:uriSpace "http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#" ;
+        void:uriSpace "http://www.gsi.dit.upm.es/ontologies/wnaffect/ns" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts false ;
