@@ -2416,69 +2416,69 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thésaurus Archirès"@fr-fr ;
         skosmos:shortName "ThesArchires" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T990" ;
+        void:uriSpace "http://data.culture.fr/entrepot/ARCHIRES" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T990> .
+        skosmos:sparqlGraph <http://data.culture.fr/entrepot/ARCHIRES> .
 		
 :ContArchLoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Liste d'autorité Contexte historique pour l'indexation des archives locales"@fr-fr ;
         skosmos:shortName "ContArchLoc" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T4" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/contarchloc" ;
         skosmos:language "fr-fr", "en", "es" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T4> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/contarchloc> .
 		
 :ThesOeuvArch a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus de la désignation des œuvres architecturales et des espaces aménagés"@fr-FR ;
         skosmos:shortName "ThesOeuvArch" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T96" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/thesoeuvarch" ;
         skosmos:language "fr-FR", "it", "en-GB", "en-US" ;
         skosmos:defaultLanguage "fr-FR" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T96> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/thesoeuvarch> .
 		
 :ThesMat a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus-matières pour l'indexation des archives locales"@fr-fr ;
         skosmos:shortName "ThesMat" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/Matiere" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/thesmat" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/Matiere> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/thesmat> .
 		
 :TechPhot a skosmos:Vocabulary, void:Dataset ;
         dc:title "Techniques photographiques"@fr ;
         skosmos:shortName "TechPhot" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T61" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/techphot" ;
         skosmos:language "fr" ;
         skosmos:defaultLanguage "fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T61> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/techphot> .
 		
 :HADOC a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nomenclatures HADOC"@fr-FR ;
         skosmos:shortName "HADOC" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/0404efce-2024-4694-bf80-eba4fc2b336c" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/hadoc" ;
         skosmos:language "fr-FR", "en" ;
         skosmos:defaultLanguage "fr-FR" ;
         skosmos:showTopConcepts true ;
 	void:dataDump <http://data.culture.fr/thesaurus/data/ark:/67717/0404efce-2024-4694-bf80-eba4fc2b336c> ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/0404efce-2024-4694-bf80-eba4fc2b336c> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/hadoc> .
 
 :esco a skosmos:Vocabulary, void:Dataset ;
         dc:title "Multilingual Classification of European Skills, Competences, Qualifications and Occupations"@en ;
@@ -2507,34 +2507,34 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Vocabulaire des activités des entités productrices d'archives"@fr ;
         skosmos:shortName "ActEntArch" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/51232822-adac-4a33-aa14-29e2c701a5ee" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/actentarch" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/51232822-adac-4a33-aa14-29e2c701a5ee> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/actentarch> .
 		
 :VocDomAct a skosmos:Vocabulary, void:Dataset ;
         dc:title "Vocabulaire des domaines d'action ou objets des entités productrices d'archives"@fr ;
         skosmos:shortName "VocDomAct" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/f14e8183-5885-46d6-8fc9-17ebd8f3c27e" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/vocdomact" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/f14e8183-5885-46d6-8fc9-17ebd8f3c27e> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/vocdomact> .
 		
 :AGROVOC a skosmos:Vocabulary, void:Dataset ;
         dc:title "AGROVOC Multilingual agricultural thesaurus"@en ;
 		skosmos:shortName "AGROVOC" ;
 		dc:subject :cat_6 ;
-		void:uriSpace "http://aims.fao.org/aos/agrovoc/void.ttl" ;
+		void:uriSpace "http://aims.fao.org/aos/agrovoc/" ;
 		skosmos:language "pt", "en", "ar", "cs", "de", "es", "fa", "fr", "hi", "hu", "it", "ja", "ka", "km", "ko", "lo", "ms", "my", "pl", "ro", "ru", "sk", "sv", "te", "th", "tr", "uk", "vi", "zh" ;
 		skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://aims.fao.org/aos/agrovoc/void.ttl> .
+        skosmos:sparqlGraph <http://aims.fao.org/aos/agrovoc/> .
 		
 :UKAT a skosmos:Vocabulary, void:Dataset ;
         dc:title "UK Archival Thesaurus"@en ;
@@ -2551,45 +2551,45 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "WBG Topical Taxonomy"@en ;
         skosmos:shortName "WBGTopTax" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.worldbank.org/taxonomy/1737" ;
+        void:uriSpace "http://vocabulary.worldbank.org/taxonomy/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.worldbank.org/taxonomy/1737> .
+        skosmos:sparqlGraph <http://vocabulary.worldbank.org/taxonomy/> .
 		
 :WBGBusTax a skosmos:Vocabulary, void:Dataset ;
         dc:title "WBG Business Taxonomy"@en ;
         skosmos:shortName "WBGBusTax" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.worldbank.org/BusinessTaxonomy/0" ;
+        void:uriSpace "http://vocabulary.worldbank.org/BusinessTaxonomy/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.worldbank.org/BusinessTaxonomy/0> .
+        skosmos:sparqlGraph <http://vocabulary.worldbank.org/BusinessTaxonomy/> .
 		
 :WBGDocType a skosmos:Vocabulary, void:Dataset ;
         dc:title "WBG Document Types"@en ;
         skosmos:shortName "WBGDocType" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.worldbank.org/DocumentType/517" ;
+        void:uriSpace "http://vocabulary.worldbank.org/DocumentType/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.worldbank.org/DocumentType/517> .
+        skosmos:sparqlGraph <http://vocabulary.worldbank.org/DocumentType/> .
 		
 :FIBO a skosmos:Vocabulary, void:Dataset ;
         dc:title "FIBO"@en ;
         skosmos:shortName "FIBO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "https://spec.edmcouncil.org/fibo/IND/vocabulary#" ;
+        void:uriSpace "https://spec.edmcouncil.org/fibo/IND/vocabulary" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://spec.edmcouncil.org/fibo/IND/vocabulary#> .
+        skosmos:sparqlGraph <https://spec.edmcouncil.org/fibo/IND/vocabulary> .
 		
 :ODRL a skosmos:Vocabulary, void:Dataset ;
         dc:title "ODRL – The Open Digital Rights Language"@en ;
@@ -2607,13 +2607,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "GEMET - General Multilingual Environmental Thesaurus"@en ;
         skosmos:shortName "GEMET" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://www.eionet.europa.eu/gemet/gemetThesaurus" ;
+        void:uriSpace "http://www.eionet.europa.eu/gemet/concept/" ;
         skosmos:language "en", "ar", "hy", "az", "eu", "bg", "ca", "zh", "hr", "cs", "da", "nl", "et", "fi", "fr", "ka", "de", "el", "hu", "is", "ga", "it", "lv", "lt", "mt", "no", "pl", "pt", "ro", "ru", "sk", "sl", "es", "sv", "tr", "uk" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.eionet.europa.eu/gemet/gemetThesaurus> .
+        skosmos:sparqlGraph <http://www.eionet.europa.eu/gemet/concept/> .
 
 :lemag a skosmos:Vocabulary, void:Dataset ;
         dc:title "Lista de Encabezamientos de Materia en Galego"@es ;
@@ -2641,12 +2641,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "TEKORD"@nb ;
         skosmos:shortName "TEKORD" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://ntnu.no/ub/data/tekord#" ;
+        void:uriSpace "http://ntnu.no/ub/data/tekord" ;
         skosmos:language "nb" ;
         skosmos:defaultLanguage "nb" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://ntnu.no/ub/data/tekord#> .
+        skosmos:sparqlGraph <http://ntnu.no/ub/data/tekord> .
 
 :gtaa a skosmos:Vocabulary, void:Dataset ;
         dc:title "Gemeenschappelijke Thesaurus Audiovisuele Archieven"@nl ;
@@ -2719,25 +2719,25 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "ARCHE life cycle status"@en ;
         skosmos:shortName "ARCHELCS" ;
         dc:subject :cat_0 ;
-        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/" ;
+        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema" ;
         skosmos:language "en", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/> .
+        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> .
 
 :archear a skosmos:Vocabulary, void:Dataset ;
         dc:title "ARCHE access restrictions"@en ;
         skosmos:shortName "ARCHEAR" ;
         dc:subject :cat_0 ;
-        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/" ;
+        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema" ;
         skosmos:language "en", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/> .
+        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> .
 
 :dccdfv a skosmos:Vocabulary, void:Dataset ;
         dc:title "Dublin Core Collection Description Frequency Vocabulary"@en ;
@@ -2778,45 +2778,45 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "FAST (Faceted Application of Subject Terminology) FormGenre Facet"@en ;
         skosmos:shortName "FAST-FORMGENRE" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
+        void:uriSpace "http://anonftp.oclc.org/pub/researchdata/fast/FASTFormGenre" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.loc.gov/authorities/subjects/> .
+        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTFormGenre> .
 
-:fast-event-skos a skosmos:Vocabulary, void:Dataset ;
+:fast-event a skosmos:Vocabulary, void:Dataset ;
         dc:title "FAST (Faceted Application of Subject Terminology) Event Facet"@en ;
-        skosmos:shortName "FAST-EVENT-SKOS" ;
+        skosmos:shortName "FAST-EVENT" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://d-nb.info/gnd/" ;
+        void:uriSpace "http://anonftp.oclc.org/pub/researchdata/fast/FASTEvent" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://d-nb.info/gnd/> .
+        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTEvent> .
 
 :fast-title a skosmos:Vocabulary, void:Dataset ;
         dc:title "FAST (Faceted Application of Subject Terminology) Title Facet"@en ;
         skosmos:shortName "FAST-TITLE" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://lod.nal.usda.gov/nalt/" ;
+        void:uriSpace "http://anonftp.oclc.org/pub/researchdata/fast/FASTTitle" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://lod.nal.usda.gov/nalt/> .
+        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTitle> .
 
 :fast-topical a skosmos:Vocabulary, void:Dataset ;
         dc:title "FAST (Faceted Application of Subject Terminology) Topical Facet"@en ;
         skosmos:shortName "FAST-TOPICAL" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.bnf.fr/ark:/12148/" ;
+        void:uriSpace "http://anonftp.oclc.org/pub/researchdata/fast/FASTTopical" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.bnf.fr/ark:/12148/> .
+        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTopical> .
 
 :psh a skosmos:Vocabulary, void:Dataset ;
         dc:title "Polythematic Structured Subject Heading System"@en, "Polytematický strukturovaný heslář (PSH)"@cs ;
@@ -2833,12 +2833,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Multilingual Dictionary of Cataloguing Terms and Concepts"@en ;
         skosmos:shortName "MulDiCat" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://iflastandards.info/ns/muldicat#" ;
+        void:uriSpace "http://iflastandards.info/ns/muldicat" ;
         skosmos:language "en", "cs", "de", "es", "fr", "hr", "it", "ja", "ko", "lv", "pt", "ru", "sk", "sl", "sq", "sv", "th", "vi", "zh" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://iflastandards.info/ns/muldicat#> .
+        skosmos:sparqlGraph <http://iflastandards.info/ns/muldicat> .
 
 :dha a skosmos:Vocabulary, void:Dataset ;
         dc:title "DHA Taxonomy"@en ;
