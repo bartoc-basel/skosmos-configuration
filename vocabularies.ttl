@@ -2889,7 +2889,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :ivoat a skosmos:Vocabulary, void:Dataset ;
 	dc:title "International Virtual Observatory Alliance Thesaurus"@en ;
 	skosmos:shortName "IVOAT" ;
-	dc:subject :cat_general ;
+	dc:subject :cat_7 ;
 	void:uriSpace "http://www.ivoa.net/rdf/Vocabularies/IVOAT" ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
