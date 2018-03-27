@@ -2461,14 +2461,14 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Nomenclatures HADOC"@fr-FR ;
         skosmos:shortName "HADOC" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/0404efce-2024-4694-bf80-eba4fc2b336c" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/hadoc" ;
         skosmos:language "fr-FR", "en" ;
         skosmos:defaultLanguage "fr-FR" ;
         skosmos:showTopConcepts true ;
 	void:dataDump <http://data.culture.fr/thesaurus/data/ark:/67717/0404efce-2024-4694-bf80-eba4fc2b336c> ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/0404efce-2024-4694-bf80-eba4fc2b336c> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/hadoc> .
 
 :esco a skosmos:Vocabulary, void:Dataset ;
         dc:title "Multilingual Classification of European Skills, Competences, Qualifications and Occupations"@en ;
