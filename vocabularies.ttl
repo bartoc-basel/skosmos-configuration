@@ -2563,12 +2563,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "WBG Document Types"@en ;
         skosmos:shortName "WBGDocType" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.worldbank.org/DocumentType/517" ;
+        void:uriSpace "http://vocabulary.worldbank.org/DocumentType/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.worldbank.org/DocumentType/517> .
+        skosmos:sparqlGraph <http://vocabulary.worldbank.org/DocumentType/> .
 		
 :FIBO a skosmos:Vocabulary, void:Dataset ;
         dc:title "FIBO"@en ;
