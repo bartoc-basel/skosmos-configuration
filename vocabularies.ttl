@@ -1609,13 +1609,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "KAUNO - ontology for fiction"@en, "KAUNO - fiktiivisen aineiston ontologia"@fi, "KAUNO - ontologi för fiktivt material"@sv ;
         skosmos:shortName "KAUNO" ;
         dc:subject :cat_8 ;
-        void:uriSpace "http://www.yso.fi/onto/kauno/aggregateconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/kauno" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/kauno/aggregateconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/kauno> .
 		
 :MAOTAO a skosmos:Vocabulary, void:Dataset ;
         dc:title "MAO/TAO - Ontology for Museum Domain and Applied Arts"@en, "MAO/TAO - Museoalan ja taideteollisuusalan ontologia"@fi, "MAO/TAO - Ontologi för museibranschen och Konstindustriella ontologin"@sv ;
