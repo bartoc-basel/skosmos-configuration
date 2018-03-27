@@ -2088,13 +2088,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Particle Type"@en ;
         skosmos:shortName "ParticleType" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/particletype" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/particletype/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/particletype> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/particletype/> .
 		
 :StijCult a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus Onroerend Erfgoed Stijlen en Culturen"@nl-be ;
