@@ -1551,13 +1551,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "MERO - Merenkulkualan ontologia"@fi ;
         skosmos:shortName "MERO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/mero/" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/mero" ;
         skosmos:language "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/mero/> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/mero> .
 		
 :JUPO a skosmos:Vocabulary, void:Dataset ;
         dc:title "JUPO - Finnish Ontology for Public Administration Services"@en, "JUPO - Julkisen hallinnon palveluontologia"@fi, "JUPO - Ontologi för den offentliga sektorns tjänster"@sv ;
