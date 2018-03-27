@@ -1859,13 +1859,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Raw Material Role"@en ;
         skosmos:shortName "RawMaterial" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/raw-material-role" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/raw-material-role/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/raw-material-role> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/raw-material-role/> .
 		
 :ReserveAssessment a skosmos:Vocabulary, void:Dataset ;
         dc:title "Reserve Assessment Category"@en ;
