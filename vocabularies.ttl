@@ -1574,13 +1574,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "TERO - Terveyden ja hyvinvoinnin ontologia"@fi, "TERO - Finnish Ontology of Health and Welfare"@en, "TERO - Ontologi för hälsa och välfärd"@sv ;
         skosmos:shortName "TERO" ;
         dc:subject :cat_6 ;
-        void:uriSpace "http://www.yso.fi/onto/tero/aggregateconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/tero" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/tero/aggregateconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/tero> .
 		
 :TSR a skosmos:Vocabulary, void:Dataset ;
         dc:title "TSR ontology"@en, "TSR-ontologia"@fi, "TSR-ontologi"@sv ;
