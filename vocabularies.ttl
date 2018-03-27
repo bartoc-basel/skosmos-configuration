@@ -1847,13 +1847,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Period (Wales)"@en ;
         skosmos:shortName "PeriodWales" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://purl.org/heritagedata/schemes/11" ;
+        void:uriSpace "http://purl.org/heritagedata/schemes/11/concepts/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/11> .
+        skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/11/concepts/> .
 		
 :RawMaterial a skosmos:Vocabulary, void:Dataset ;
         dc:title "Raw Material Role"@en ;
