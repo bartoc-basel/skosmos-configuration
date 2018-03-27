@@ -2878,7 +2878,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :skos a skosmos:Vocabulary, void:Dataset ;
         dc:title "SKOS Simple Knowledge Organisation System"@en ;
         skosmos:shortName "SKOS" ;
-        dc:subject :cat_7 ;
+        dc:subject :cat_0 ;
         void:uriSpace "http://www.w3.org/2004/02/skos/core#" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
