@@ -1633,13 +1633,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "JUHO - Julkishallinnon ontologia"@fi, "JUHO - Finnish Ontology for Public Administration"@en, "JUHO - Ontologi för offentlig förvaltning"@sv ;
         skosmos:shortName "JUHO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/juho/aggregateconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/juho" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/juho/aggregateconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/juho> .
 
 :Decoration a skosmos:Vocabulary, void:Dataset ;
         dc:title "EAGLE Vocabulary - Decoration"@en ;
