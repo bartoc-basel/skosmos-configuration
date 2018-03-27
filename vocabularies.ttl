@@ -1995,12 +1995,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Nomenclature thématique GéoBretagne"@fr ;
         skosmos:shortName "NomenclatureGeoBret" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://www.geobretagne.fr/thesaurus" ;
+        void:uriSpace "http://www.geobretagne.fr/thesaurus/espace_public/espaces_verts/" ;
         skosmos:language "fr" ;
         skosmos:defaultLanguage "fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.geobretagne.fr/thesaurus> .
+        skosmos:sparqlGraph <http://www.geobretagne.fr/thesaurus/espace_public/espaces_verts/> .
 		
 :ErfgMaterialen a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus Onroerend Erfgoed Materialen"@nl-be ;
