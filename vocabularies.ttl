@@ -1895,14 +1895,14 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Orientation Determination Method"@en ;
         skosmos:shortName "OrientationDetermination" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/determinationmethodorientation" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/determinationmethodorientation> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/determinationmethodorientation/> .
 		
 :Value a skosmos:Vocabulary, void:Dataset ;
         dc:title "Value Qualifier"@en ;
