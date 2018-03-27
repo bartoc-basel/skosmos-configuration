@@ -2417,12 +2417,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Liste d'autorité Contexte historique pour l'indexation des archives locales"@fr-fr ;
         skosmos:shortName "ContArchLoc" ;
         dc:subject :cat_9 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T4" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/contarchloc" ;
         skosmos:language "fr-fr", "en", "es" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T4> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/contarchloc> .
 		
 :ThesOeuvArch a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus de la désignation des œuvres architecturales et des espaces aménagés"@fr-FR ;
