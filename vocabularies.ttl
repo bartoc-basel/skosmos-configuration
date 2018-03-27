@@ -1763,13 +1763,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Skill Level"@en ;
         skosmos:shortName "SkillLevel" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/skillLevel/1cd1ca41-6b6f-405d-9797-530709ed6138" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/skillLevel/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/skillLevel/1cd1ca41-6b6f-405d-9797-530709ed6138> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/skillLevel/> .
 		
 :PBCoreAssetType a skosmos:Vocabulary, void:Dataset ;
         dc:title "PBCoreAssetType Vocabulary"@en ;
