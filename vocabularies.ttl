@@ -2291,13 +2291,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "NEII Licencing"@en ;
         skosmos:shortName "NEIILicencing" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing" ;
+        void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-licencing/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing> .
+        skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-licencing/> .
 		
 :NEIISiteStatus a skosmos:Vocabulary, void:Dataset ;
         dc:title "NEII Site Status"@en ;
