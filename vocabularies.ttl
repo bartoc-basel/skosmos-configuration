@@ -1908,13 +1908,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Value Qualifier"@en ;
         skosmos:shortName "Value" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://resource.geosciml.org/classifier/cgi/valuequalifier/" ;
+        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/valuequalifier" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/valuequalifier/> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/valuequalifier> .
 		
 :Proportion a skosmos:Vocabulary, void:Dataset ;
         dc:title "Proportion Term"@en ;
@@ -2497,12 +2497,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Vocabulaire des activités des entités productrices d'archives"@fr ;
         skosmos:shortName "ActEntArch" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/actentarch" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/51232822-adac-4a33-aa14-29e2c701a5ee" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/actentarch> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/51232822-adac-4a33-aa14-29e2c701a5ee> .
 		
 :VocDomAct a skosmos:Vocabulary, void:Dataset ;
         dc:title "Vocabulaire des domaines d'action ou objets des entités productrices d'archives"@fr ;
@@ -2772,6 +2772,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+	skosmos:mainConceptScheme <http://id.worldcat.org/fast/ontology/1.0/#facet-FormGenre> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTFormGenre> .
 
@@ -2795,6 +2796,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+	skosmos:mainConceptScheme <http://id.worldcat.org/fast/ontology/1.0/#facet-Title> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTitle> .
 
@@ -2806,6 +2808,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+	skosmos:mainConceptScheme <http://id.worldcat.org/fast/ontology/1.0/#facet-Topical> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTopical> .
 
