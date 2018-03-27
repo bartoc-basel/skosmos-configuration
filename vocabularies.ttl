@@ -2133,12 +2133,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Geoscience Australia's Units of Measure"@en ;
         skosmos:shortName "UoM" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/uom" ;
+        void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/uom/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/uom> .
+        skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/uom/> .
 		
 :WordNet a skosmos:Vocabulary, void:Dataset ;
         dc:title "WordNet-Affect Taxonomy"@en ;
