@@ -2247,12 +2247,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Iconclass"@en ;
         skosmos:shortName "Iconclass" ;
         dc:subject :cat_7 ;
-        void:uriSpace "" ;
+        void:uriSpace "http://iconclass.org/" ;
         skosmos:language "en", "fr", "de", "it", "fi" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <> .
+        skosmos:sparqlGraph <http://iconclass.org/> .
 		
 :ulan a skosmos:Vocabulary, void:Dataset ;
         dc:title "The Union List of Artist Names"@en ;
