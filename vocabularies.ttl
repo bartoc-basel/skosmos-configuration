@@ -1621,13 +1621,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "MAO/TAO - Ontology for Museum Domain and Applied Arts"@en, "MAO/TAO - Museoalan ja taideteollisuusalan ontologia"@fi, "MAO/TAO - Ontologi för museibranschen och Konstindustriella ontologin"@sv ;
         skosmos:shortName "MAO/TAO" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://www.yso.fi/onto/tao/deprecatedconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/maotao" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/tao/deprecatedconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/maotao> .
 		
 :JUHO a skosmos:Vocabulary, void:Dataset ;
         dc:title "JUHO - Julkishallinnon ontologia"@fi, "JUHO - Finnish Ontology for Public Administration"@en, "JUHO - Ontologi för offentlig förvaltning"@sv ;
