@@ -2793,6 +2793,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+	skosmos:mainConceptScheme <http://id.worldcat.org/fast/ontology/1.0/#facet-Event> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTEvent> .
 
