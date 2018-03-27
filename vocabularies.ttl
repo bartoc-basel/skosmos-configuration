@@ -2030,13 +2030,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Tenement Status"@en ;
         skosmos:shortName "Tenement" ;
         dc:subject :cat_6 ;
-        void:uriSpace "" ;
+        void:uriSpace "http://resource.geoscience.gov.au/classifier/ggic/tenement-status/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenement-status> .
+        skosmos:sparqlGraph <http://resource.geoscience.gov.au/classifier/ggic/tenement-status/> .
 		
 :SBB a skosmos:Vocabulary, void:Dataset ;
         dc:title "Systematik Basler Bibliographie"@de ;
