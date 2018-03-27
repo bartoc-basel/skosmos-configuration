@@ -2373,12 +2373,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Vocabulaire pour les techniques photographiques"@fr ;
         skosmos:shortName "VocTechPhot" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/2012b973-ddb2-4540-a775-9157c3c1d7fd" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/voctechphot" ;
         skosmos:language "fr" ;
         skosmos:defaultLanguage "fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/2012b973-ddb2-4540-a775-9157c3c1d7fd> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/voctechphot> .
 		
 :TypDocArchLoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Liste d'autorité Typologie documentaire pour l'indexation des archives locales"@fr ;
