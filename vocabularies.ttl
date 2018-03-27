@@ -2574,12 +2574,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "FIBO"@en ;
         skosmos:shortName "FIBO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "https://spec.edmcouncil.org/fibo/IND/vocabulary#" ;
+        void:uriSpace "https://spec.edmcouncil.org/fibo/IND/vocabulary" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://spec.edmcouncil.org/fibo/IND/vocabulary#> .
+        skosmos:sparqlGraph <https://spec.edmcouncil.org/fibo/IND/vocabulary> .
 		
 :ODRL a skosmos:Vocabulary, void:Dataset ;
         dc:title "ODRL – The Open Digital Rights Language"@en ;
