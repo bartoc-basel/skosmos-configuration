@@ -488,7 +488,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://data.ub.uio.no/realfagstermer/> .
 		
 :BaslerBibliographie a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Systematik Basler Bibliographie"@en ;
+        dc:title "Systematik Basler Bibliographie"@de ;
         skosmos:shortName "BaslerBib" ;
         dc:subject :cat_0 ;
         void:uriSpace "https://bartoc.poolparty.biz/SystematikBaslerBibliographie/" ;
