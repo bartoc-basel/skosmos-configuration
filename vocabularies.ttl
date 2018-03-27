@@ -2878,7 +2878,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :skos a skosmos:Vocabulary, void:Dataset ;
         dc:title "SKOS Simple Knowledge Organisation System"@en ;
         skosmos:shortName "SKOS" ;
-        dc:subject :cat_7 ;
+        dc:subject :cat_0 ;
         void:uriSpace "http://www.w3.org/2004/02/skos/core#" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
@@ -2886,6 +2886,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.w3.org/2004/02/skos/core> .
 
+:ivoat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "International Virtual Observatory Alliance Thesaurus"@en ;
+        skosmos:shortName "IVOAT" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://www.ivoa.net/rdf/Vocabularies/IVOAT" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ivoa.net/rdf/Vocabularies/IVOAT> .
 
 
 
