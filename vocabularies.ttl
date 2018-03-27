@@ -2428,12 +2428,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thésaurus de la désignation des œuvres architecturales et des espaces aménagés"@fr-FR ;
         skosmos:shortName "ThesOeuvArch" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T96" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/thesoeuvarch" ;
         skosmos:language "fr-FR", "it", "en-GB", "en-US" ;
         skosmos:defaultLanguage "fr-FR" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T96> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/thesoeuvarch> .
 		
 :ThesMat a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus-matières pour l'indexation des archives locales"@fr-fr ;
