@@ -1597,13 +1597,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "YSO - General Finnish ontology"@en, "YSO - Yleinen suomalainen ontologia"@fi, "ALLFO - Allmän finländsk ontologi"@sv ;
         skosmos:shortName "YSO" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/deprecatedconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/deprecatedconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/> .
 		
 :KAUNO a skosmos:Vocabulary, void:Dataset ;
         dc:title "KAUNO - ontology for fiction"@en, "KAUNO - fiktiivisen aineiston ontologia"@fi, "KAUNO - ontologi för fiktivt material"@sv ;
