@@ -2077,12 +2077,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Vocabularies for Vocabulary Schema"@en ;
         skosmos:shortName "VocsforVoc" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://ands.poolparty.biz/ANDSVocabsforVocabSchema/23" ;
+        void:uriSpace "http://ands.poolparty.biz/ANDSVocabsforVocabSchema/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://ands.poolparty.biz/ANDSVocabsforVocabSchema/23> .
+        skosmos:sparqlGraph <http://ands.poolparty.biz/ANDSVocabsforVocabSchema/> .
 		
 :ParticleType a skosmos:Vocabulary, void:Dataset ;
         dc:title "Particle Type"@en ;
