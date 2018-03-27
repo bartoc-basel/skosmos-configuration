@@ -2303,13 +2303,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "NEII Site Status"@en ;
         skosmos:shortName "NEIISiteStatus" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-site-status/NEII-Site-Status" ;
+        void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-site-status/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-site-status/NEII-Site-Status> .
+        skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-site-status/> .
 		
 :NuSoTh a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nuovo Soggettario Thesaurus"@it ;
