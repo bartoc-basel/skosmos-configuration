@@ -1933,14 +1933,14 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Particle Shape"@en ;
         skosmos:shortName "Particle" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/particleshape" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/particleshape/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/particleshape> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/particleshape/> .
 		
 :VocRel a skosmos:Vocabulary, void:Dataset ;
         dc:title "Vocabulary Relation"@en ;
