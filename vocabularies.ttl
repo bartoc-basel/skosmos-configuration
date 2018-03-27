@@ -1269,12 +1269,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Julkisten palvelujen luokitus"@fi, "Classification of public services"@en ;
         skosmos:shortName "Jupalu" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/jupo/" ;
+        void:uriSpace "http://www.yso.fi/onto/jupalu" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/jupo/> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/jupalu> .
 		
 :JO a skosmos:Vocabulary, void:Dataset ;
         dc:title "NPG Journals Ontology"@en ;
