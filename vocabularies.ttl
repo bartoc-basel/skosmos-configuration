@@ -2725,7 +2725,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/> .
+        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> .
 
 :archear a skosmos:Vocabulary, void:Dataset ;
         dc:title "ARCHE access restrictions"@en ;
@@ -2737,7 +2737,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/> .
+        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> .
 
 :dccdfv a skosmos:Vocabulary, void:Dataset ;
         dc:title "Dublin Core Collection Description Frequency Vocabulary"@en ;
