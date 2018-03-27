@@ -2519,12 +2519,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "AGROVOC Multilingual agricultural thesaurus"@en ;
 		skosmos:shortName "AGROVOC" ;
 		dc:subject :cat_6 ;
-		void:uriSpace "http://aims.fao.org/aos/agrovoc/void.ttl" ;
+		void:uriSpace "http://aims.fao.org/aos/agrovoc/" ;
 		skosmos:language "pt", "en", "ar", "cs", "de", "es", "fa", "fr", "hi", "hu", "it", "ja", "ka", "km", "ko", "lo", "ms", "my", "pl", "ro", "ru", "sk", "sv", "te", "th", "tr", "uk", "vi", "zh" ;
 		skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://aims.fao.org/aos/agrovoc/void.ttl> .
+        skosmos:sparqlGraph <http://aims.fao.org/aos/agrovoc/> .
 		
 :UKAT a skosmos:Vocabulary, void:Dataset ;
         dc:title "UK Archival Thesaurus"@en ;
