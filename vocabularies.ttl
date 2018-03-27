@@ -2053,14 +2053,14 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Processing Activity"@en ;
         skosmos:shortName "ProcessingActivity" ;
         dc:subject :cat_6 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/mining-processing-activity" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/mining-processing-activity/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/mining-processing-activity> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mining-processing-activity/> .
 		
 :KTKT a skosmos:Vocabulary, void:Dataset ;
         dc:title "Korkeakoulujen tutkimustiedonkeruussa käytettävä tieteenalaluokitus"@fi ;
