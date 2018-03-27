@@ -2017,14 +2017,14 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Observation Method (Mapped Feature)"@en ;
         skosmos:shortName "Observation" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/mappedfeatureobservationmethod" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/mappedfeatureobservationmethod> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mappedfeatureobservationmethod/> .
 		
 :Tenement a skosmos:Vocabulary, void:Dataset ;
         dc:title "Tenement Status"@en ;
