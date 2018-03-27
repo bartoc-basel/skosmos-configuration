@@ -2006,12 +2006,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Materialen"@nl-be ;
         skosmos:shortName "ErfgMaterialen" ;
         dc:subject :cat_6 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/materialen" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/materialen/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/materialen> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/materialen/> .
 		
 :Observation a skosmos:Vocabulary, void:Dataset ;
         dc:title "Observation Method (Mapped Feature)"@en ;
