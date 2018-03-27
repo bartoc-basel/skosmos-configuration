@@ -2611,7 +2611,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:subject :cat_3 ;
         void:uriSpace "http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300248/" ;
         skosmos:language gl" ;
-        skosmos:defaultLanguage "en" ;
+        skosmos:defaultLanguage "gl" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300248/> .
@@ -2622,7 +2622,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:subject :cat_3 ;
         void:uriSpace "http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015087836/" ;
         skosmos:language "eu", "es" ;
-        skosmos:defaultLanguage "en" ;
+        skosmos:defaultLanguage "eu" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015087836/> .
