@@ -1799,13 +1799,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Besluit Types"@nl-be ;
         skosmos:shortName "Besluit Types" ;
         dc:subject :cat_3 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/besluittypes" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/besluittypes/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/besluittypes> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/besluittypes/> .
 		
 :InstGen a skosmos:Vocabulary, void:Dataset ;
         dc:title "instantiationGenerations Vocabulary"@en ;
