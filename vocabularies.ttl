@@ -2166,13 +2166,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Stratigraphic Rank"@en ;
         skosmos:shortName "StratiRank" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/stratigraphicrank" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/stratigraphicrank/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/stratigraphicrank> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/stratigraphicrank/> .
 		
 :ILC a skosmos:Vocabulary, void:Dataset ;
         dc:title "Integrative Levels Classification"@en ;
