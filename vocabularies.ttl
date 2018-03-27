@@ -2111,12 +2111,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Tenement Type"@en ;
         skosmos:shortName "TenementType" ;
         dc:subject :cat_6 ;
-        void:uriSpace "http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenementtype" ;
+        void:uriSpace "http://resource.geoscience.gov.au/classifier/ggic/tenementtype/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenementtype> .
+        skosmos:sparqlGraph <http://resource.geoscience.gov.au/classifier/ggic/tenementtype/> .
 		
 :Gebeurtenistypes a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus Onroerend Erfgoed Gebeurtenistypes"@nl-be ;
