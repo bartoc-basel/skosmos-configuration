@@ -2178,12 +2178,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Integrative Levels Classification"@en ;
         skosmos:shortName "ILC" ;
         dc:subject :cat_0 ;
-        void:uriSpace "https://bartoc.org/ILC/1" ;
+        void:uriSpace "https://bartoc.org/ILC/1/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.org/ILC/1> .
+        skosmos:sparqlGraph <https://bartoc.org/ILC/1/> .
 		
 :LCSH a skosmos:Vocabulary, void:Dataset ;
         dc:title "LC Subject Headings"@en ;
