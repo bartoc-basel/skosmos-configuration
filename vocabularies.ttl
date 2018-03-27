@@ -2508,12 +2508,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Vocabulaire des domaines d'action ou objets des entités productrices d'archives"@fr ;
         skosmos:shortName "VocDomAct" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/f14e8183-5885-46d6-8fc9-17ebd8f3c27e" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/vocdomact" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/f14e8183-5885-46d6-8fc9-17ebd8f3c27e> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/vocdomact> .
 		
 :AGROVOC a skosmos:Vocabulary, void:Dataset ;
         dc:title "AGROVOC Multilingual agricultural thesaurus"@en ;
