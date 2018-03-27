@@ -2610,7 +2610,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "LEMAG" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://lemag.sgcb.mcu.es/Autoridades/LEMAG201300248/" ;
-        skosmos:language gl" ;
+        skosmos:language "gl" ;
         skosmos:defaultLanguage "gl" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
