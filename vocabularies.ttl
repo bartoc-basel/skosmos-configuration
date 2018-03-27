@@ -2450,12 +2450,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Techniques photographiques"@fr ;
         skosmos:shortName "TechPhot" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T61" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/techphot" ;
         skosmos:language "fr" ;
         skosmos:defaultLanguage "fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T61> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/techphot> .
 		
 :HADOC a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nomenclatures HADOC"@fr-FR ;
