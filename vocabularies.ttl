@@ -2384,12 +2384,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Liste d'autorité Typologie documentaire pour l'indexation des archives locales"@fr ;
         skosmos:shortName "TypDocArchLoc" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark:/67717/T3" ;
+        void:uriSpace "http://data.culture.fr/thesaurus/resource/ark/typdocarchloc" ;
         skosmos:language "fr-fr" ;
         skosmos:defaultLanguage "fr-fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark:/67717/T3> .
+        skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/typdocarchloc> .
 		
 :ActArchLoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Liste d'autorité Actions pour l'indexation des archives locales"@fr ;
