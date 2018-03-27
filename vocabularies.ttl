@@ -1512,15 +1512,15 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://paikkatiedot.fi/def/1001000/> .
 		
 :LEM a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Lista de Encabezamientos de materia para las Bibliotecas Públicas"@en  ;
+        dc:title "Lista de Encabezamientos de materia para las Bibliotecas Públicas"@es  ;
         skosmos:shortName "LEM" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://id.sgcb.mcu.es/Autoridades/formSubdivision" ;
+        void:uriSpace "http://id.sgcb.mcu.es/Autoridades/LEM201008346/" ;
         skosmos:language "es" ;
         skosmos:defaultLanguage "es" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.sgcb.mcu.es/Autoridades/formSubdivision> .
+        skosmos:sparqlGraph <http://id.sgcb.mcu.es/Autoridades/LEM201008346/> .
 		
 :VALO a skosmos:Vocabulary, void:Dataset ;
         dc:title "VALO - The Finnish Ontology of Photography"@en, "VALO - Valokuvausalan ontologia"@fi, "VALO - Fotografiska ontologin"@sv ;
