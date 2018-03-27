@@ -2783,40 +2783,40 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.loc.gov/authorities/subjects/> .
+        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTFormGenre> .
 
 :fast-event-skos a skosmos:Vocabulary, void:Dataset ;
         dc:title "FAST (Faceted Application of Subject Terminology) Event Facet"@en ;
         skosmos:shortName "FAST-EVENT-SKOS" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://d-nb.info/gnd/" ;
+        void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://d-nb.info/gnd/> .
+        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTEvent> .
 
 :fast-title a skosmos:Vocabulary, void:Dataset ;
         dc:title "FAST (Faceted Application of Subject Terminology) Title Facet"@en ;
         skosmos:shortName "FAST-TITLE" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://lod.nal.usda.gov/nalt/" ;
+        void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://lod.nal.usda.gov/nalt/> .
+        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTitle> .
 
 :fast-topical a skosmos:Vocabulary, void:Dataset ;
         dc:title "FAST (Faceted Application of Subject Terminology) Topical Facet"@en ;
         skosmos:shortName "FAST-TOPICAL" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://data.bnf.fr/ark:/12148/" ;
+        void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.bnf.fr/ark:/12148/> .
+        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTopical> .
 
 :psh a skosmos:Vocabulary, void:Dataset ;
         dc:title "Polythematic Structured Subject Heading System"@en, "Polytematický strukturovaný heslář (PSH)"@cs ;
