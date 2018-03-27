@@ -1835,13 +1835,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Waarde Types"@nl-be ;
         skosmos:shortName "WaardeTypes" ;
         dc:subject :cat_9 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/waardetypes" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/waardetypes/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/waardetypes> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/waardetypes/> .
 		
 :PeriodWales a skosmos:Vocabulary, void:Dataset ;
         dc:title "Period (Wales)"@en ;
