@@ -2541,12 +2541,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "WBG Topical Taxonomy"@en ;
         skosmos:shortName "WBGTopTax" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.worldbank.org/taxonomy/1737" ;
+        void:uriSpace "http://vocabulary.worldbank.org/taxonomy/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.worldbank.org/taxonomy/1737> .
+        skosmos:sparqlGraph <http://vocabulary.worldbank.org/taxonomy/> .
 		
 :WBGBusTax a skosmos:Vocabulary, void:Dataset ;
         dc:title "WBG Business Taxonomy"@en ;
