@@ -2066,12 +2066,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Korkeakoulujen tutkimustiedonkeruussa käytettävä tieteenalaluokitus"@fi ;
         skosmos:shortName "Korkea" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/okm-tieteenala/conceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/okm-tieteenala/" ;
         skosmos:language "en", "sv", "fi" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/okm-tieteenala/conceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/okm-tieteenala/> .
 		
 :VocsforVoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Vocabularies for Vocabulary Schema"@en ;
