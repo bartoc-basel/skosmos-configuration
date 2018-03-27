@@ -1883,13 +1883,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Resource Assessment Category"@en ;
         skosmos:shortName "ResourceAssessment" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/resource-assessment-category" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/resource-assessment-category/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/resource-assessment-category> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/resource-assessment-category/> .
 		
 :OrientationDetermination a skosmos:Vocabulary, void:Dataset ;
         dc:title "Orientation Determination Method"@en ;
