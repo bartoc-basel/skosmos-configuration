@@ -2315,13 +2315,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Nuovo Soggettario Thesaurus"@it ;
         skosmos:shortName "NuSoTh" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://purl.org/bncf/tid/ThesCF7" ;
+        void:uriSpace "http://purl.org/bncf/tid/" ;
         skosmos:language "it" ;
         skosmos:defaultLanguage "it" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/bncf/tid/ThesCF7> .
+        skosmos:sparqlGraph <http://purl.org/bncf/tid/> .
 		
 :publisherRole a skosmos:Vocabulary, void:Dataset ;
         dc:title "publisherRole Vocabulary"@en ;
