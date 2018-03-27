@@ -1920,14 +1920,14 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Proportion Term"@en ;
         skosmos:shortName "Proportion" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/proportionterm" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/proportionterm/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
 	skosmos:groupClass skos:Collection ; 
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/proportionterm> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/proportionterm/> .
 		
 :Particle a skosmos:Vocabulary, void:Dataset ;
         dc:title "Particle Shape"@en ;
