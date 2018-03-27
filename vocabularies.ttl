@@ -1539,13 +1539,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "MUSO - Musiikin ontologia"@fi, "MUSO - Ontologi för musik"@sv ;
         skosmos:shortName "MUSO" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://www.yso.fi/onto/muso/deprecatedconceptscheme" ;
+        void:uriSpace "http://www.yso.fi/onto/yso/muso" ;
         skosmos:language "fi", "sv" ;
         skosmos:defaultLanguage "fi" ;
         skosmos:showTopConcepts true ;
 	skosmos:groupClass isothes:ThesaurusArray ; 
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/muso/deprecatedconceptscheme> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/muso> .
 		
 :MERO a skosmos:Vocabulary, void:Dataset ;
         dc:title "MERO - Merenkulkualan ontologia"@fi ;
