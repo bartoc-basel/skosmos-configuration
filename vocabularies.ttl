@@ -2552,12 +2552,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "WBG Business Taxonomy"@en ;
         skosmos:shortName "WBGBusTax" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://vocabulary.worldbank.org/BusinessTaxonomy/0" ;
+        void:uriSpace "http://vocabulary.worldbank.org/BusinessTaxonomy/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.worldbank.org/BusinessTaxonomy/0> .
+        skosmos:sparqlGraph <http://vocabulary.worldbank.org/BusinessTaxonomy/> .
 		
 :WBGDocType a skosmos:Vocabulary, void:Dataset ;
         dc:title "WBG Document Types"@en ;
