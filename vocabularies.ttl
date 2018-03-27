@@ -1751,13 +1751,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Language Modes"@en ;
         skosmos:shortName "LangModes" ;
         dc:subject :cat_4 ;
-        void:uriSpace "http://vocabulary.curriculum.edu.au/languageModes/54abdccc-8404-4acf-bdb0-025509b592b2" ;
+        void:uriSpace "http://vocabulary.curriculum.edu.au/languageModes/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/languageModes/54abdccc-8404-4acf-bdb0-025509b592b2> .
+        skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/languageModes/> .
 		
 :SkillLevel a skosmos:Vocabulary, void:Dataset ;
         dc:title "Skill Level"@en ;
