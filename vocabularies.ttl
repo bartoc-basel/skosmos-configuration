@@ -2122,12 +2122,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Gebeurtenistypes"@nl-be ;
         skosmos:shortName "Gebeurtenistypes" ;
         dc:subject :cat_9 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/gebeurtenistypes" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/gebeurtenistypes/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/gebeurtenistypes> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/gebeurtenistypes/> .
 		
 :UoM a skosmos:Vocabulary, void:Dataset ;
         dc:title "Geoscience Australia's Units of Measure"@en ;
