@@ -2829,7 +2829,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://iflastandards.info/ns/muldicat#> .
+        skosmos:sparqlGraph <http://iflastandards.info/ns/muldicat> .
 
 :dha a skosmos:Vocabulary, void:Dataset ;
         dc:title "DHA Taxonomy"@en ;
