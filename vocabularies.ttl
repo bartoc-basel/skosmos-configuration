@@ -2100,12 +2100,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Thesaurus Onroerend Erfgoed Stijlen en Culturen"@nl-be ;
         skosmos:shortName "StijCult" ;
         dc:subject :cat_9 ;
-        void:uriSpace "https://id.erfgoed.net/thesauri/stijlen_en_culturen" ;
+        void:uriSpace "https://id.erfgoed.net/thesauri/stijlen_en_culturen/" ;
         skosmos:language "nl-be" ;
         skosmos:defaultLanguage "nl-be" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/stijlen_en_culturen> .
+        skosmos:sparqlGraph <https://id.erfgoed.net/thesauri/stijlen_en_culturen/> .
 		
 :TenementType a skosmos:Vocabulary, void:Dataset ;
         dc:title "Tenement Type"@en ;
