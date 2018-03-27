@@ -2631,12 +2631,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "TEKORD"@nb ;
         skosmos:shortName "TEKORD" ;
         dc:subject :cat_5 ;
-        void:uriSpace "http://ntnu.no/ub/data/tekord#" ;
+        void:uriSpace "http://ntnu.no/ub/data/tekord" ;
         skosmos:language "nb" ;
         skosmos:defaultLanguage "nb" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://ntnu.no/ub/data/tekord#> .
+        skosmos:sparqlGraph <http://ntnu.no/ub/data/tekord> .
 
 :gtaa a skosmos:Vocabulary, void:Dataset ;
         dc:title "Gemeenschappelijke Thesaurus Audiovisuele Archieven"@nl ;
