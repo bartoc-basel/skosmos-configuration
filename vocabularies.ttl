@@ -1908,13 +1908,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Value Qualifier"@en ;
         skosmos:shortName "Value" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://resource.geosciml.org/classifierscheme/cgi/2016.01/valuequalifier" ;
+        void:uriSpace "http://resource.geosciml.org/classifier/cgi/valuequalifier/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifierscheme/cgi/2016.01/valuequalifier> .
+        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/valuequalifier/> .
 		
 :Proportion a skosmos:Vocabulary, void:Dataset ;
         dc:title "Proportion Term"@en ;
