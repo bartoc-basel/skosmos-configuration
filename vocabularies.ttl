@@ -2812,6 +2812,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTopical> .
 
+:fast-personal a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""FAST (Faceted Application of Subject Terminology) Personal Names Facet""@en ;
+	skosmos:shortName ""FAST-PERSONAL"" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTPersonal> .
+
+
 :psh a skosmos:Vocabulary, void:Dataset ;
         dc:title "Polythematic Structured Subject Heading System"@en, "Polytematický strukturovaný heslář (PSH)"@cs ;
         skosmos:shortName "PSH" ;
