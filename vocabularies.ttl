@@ -2771,7 +2771,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
+        skosmos:showTopConcepts false ;
 	skosmos:mainConceptScheme <http://id.worldcat.org/fast/ontology/1.0/#facet-FormGenre> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTFormGenre> .
@@ -2783,7 +2783,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
+        skosmos:showTopConcepts false ;
 	skosmos:mainConceptScheme <http://id.worldcat.org/fast/ontology/1.0/#facet-Event> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTEvent> .
@@ -2795,7 +2795,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
+        skosmos:showTopConcepts false ;
 	skosmos:mainConceptScheme <http://id.worldcat.org/fast/ontology/1.0/#facet-Title> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTitle> .
@@ -2807,7 +2807,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
+        skosmos:showTopConcepts false ;
 	skosmos:mainConceptScheme <http://id.worldcat.org/fast/ontology/1.0/#facet-Topical> ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTopical> .
