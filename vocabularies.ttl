@@ -2848,7 +2848,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTChronological> .
 
 
-":fast-geo a skosmos:Vocabulary, void:Dataset ;
+:fast-geo a skosmos:Vocabulary, void:Dataset ;
 	dc:title "FAST (Faceted Application of Subject Terminology) Geographic Facet"@en ;
 	skosmos:shortName "FAST-GEO" ;
 	dc:subject :cat_9 ;
@@ -2858,7 +2858,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTGeographic> .
-"
 
 
 :psh a skosmos:Vocabulary, void:Dataset ;
