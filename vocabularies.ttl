@@ -2975,6 +2975,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S23/current/S23C014/> .
 
 
+:bodc-smspsn a skosmos:Vocabulary, void:Dataset ;
+        dc:title "BODC Semantic Model Sphere Phase Subgroup Names"@en ;
+        skosmos:shortName "BODC-SMSPSN" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/S24/current/S24C011/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S24/current/S24C011/> .
+
 
 
 
