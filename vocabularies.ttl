@@ -3047,6 +3047,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://onto.nerc.ac.uk/CAST/> .
 
 
+:minerals a skosmos:Vocabulary, void:Dataset ;
+        dc:title "GBA Minerals"@en ;
+        skosmos:shortName "Minerals" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://resource.geolba.ac.at/mineral/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://resource.geolba.ac.at/mineral/> .
 
 
 
