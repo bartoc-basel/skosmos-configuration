@@ -2986,6 +2986,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S24/current/S24C011/> .
 
+:bodc-psmben a skosmos:Vocabulary, void:Dataset ;
+        dc:title "BODC Parameter Semantic Model Biological Entity Names"@en ;
+        skosmos:shortName "BODC-PSMBEN" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/S25/current/BE000504/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S25/current/BE000504/> .
 
 
 
