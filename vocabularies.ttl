@@ -3023,7 +3023,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://onto.nerc.ac.uk/encore/> .
 
 
-
+:cehmv a skosmos:Vocabulary, void:Dataset ;
+        dc:title "CEH metadata vocabulary"@en ;
+        skosmos:shortName "CEHMV" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://onto.nerc.ac.uk/CEHMD/scienceArea/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://onto.nerc.ac.uk/CEHMD/scienceArea/> .
 
 
 
