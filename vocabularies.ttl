@@ -2998,7 +2998,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S25/current/BE000504/> .
 
 
-
+:envthes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "EnvThes"@en ;
+        skosmos:shortName "EnvThes" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocabs.lter-europe.net/EnvThes/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocabs.lter-europe.net/EnvThes/> .
 
 
 
