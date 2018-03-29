@@ -3035,6 +3035,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://onto.nerc.ac.uk/CEHMD/scienceArea/> .
 
 
+:cast a skosmos:Vocabulary, void:Dataset ;
+        dc:title "CEH Analytical Services Thesaurus"@en ;
+        skosmos:shortName "CAST" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://onto.nerc.ac.uk/CAST/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://onto.nerc.ac.uk/CAST/> .
+
 
 
 
