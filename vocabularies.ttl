@@ -2887,16 +2887,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://www.w3.org/2004/02/skos/core> .
 
 
-:bodc-psmbesct a skosmos:Vocabulary, void:Dataset ;
-        dc:title "BODC Parameter Semantic Model Biological Entity Subcomponent Terms"@en ;
-        skosmos:shortName "BODC-PSMBESCT" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://vocab.nerc.ac.uk/collection/S12/current/S1239/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S12/current/S1239/> .
 
 
 
