@@ -2949,6 +2949,47 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S21/current/S21S006/> .
 
 
+:bodc-psmssn a skosmos:Vocabulary, void:Dataset ;
+        dc:title "BODC Parameter Semantic Model Sphere Subgroup Names"@en ;
+        skosmos:shortName "BODC-PSMSSN" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/S22/current/S22C0264/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S22/current/S22C0264/> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
