@@ -3059,6 +3059,41 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://resource.geolba.ac.at/mineral/> .
 
 
+:geotimesc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "GBA Geologic Time Scale"@en ;
+        skosmos:shortName "GeoTimeSc" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://resource.geolba.ac.at/GeologicTimeScale/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://resource.geolba.ac.at/GeologicTimeScale/> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
