@@ -3003,7 +3003,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "EnvThes" ;
         dc:subject :cat_5 ;
         void:uriSpace "http://vocabs.lter-europe.net/EnvThes/" ;
-        skosmos:language "en", "de", "hu", "it", "fr", "sl", "el" ;
+        skosmos:language "en", "de", "hu", "it", "fr", "sl", "el", "ja", "zh", "fi", "no", "sv", "es", "pt", "pl" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
