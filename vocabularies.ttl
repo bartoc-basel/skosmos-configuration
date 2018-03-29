@@ -3095,7 +3095,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://resource.geolba.ac.at/GeologicUnit/> .
 
 
-
+:lithology a skosmos:Vocabulary, void:Dataset ;
+        dc:title "GBA Lithology"@en ;
+        skosmos:shortName "Lithology" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://resource.geolba.ac.at/lithology/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://resource.geolba.ac.at/lithology/> .
 
 
 
