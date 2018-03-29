@@ -2962,6 +2962,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S22/current/S22C0264/> .
 
 
+:bodc-smspn a skosmos:Vocabulary, void:Dataset ;
+        dc:title "BODC Semantic Model Sphere Phase Names"@en ;
+        skosmos:shortName "BODC-SMSPN" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/S23/current/S23C014/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S23/current/S23C014/> .
 
 
 
