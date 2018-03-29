@@ -3083,6 +3083,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://resource.geolba.ac.at/structure/> .
 
 
+:geounits a skosmos:Vocabulary, void:Dataset ;
+        dc:title "GBA Geologic Units"@en ;
+        skosmos:shortName "GeoUnits" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://resource.geolba.ac.at/GeologicUnit/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://resource.geolba.ac.at/GeologicUnit/> .
+
 
 
 
