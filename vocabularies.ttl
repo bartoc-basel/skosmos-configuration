@@ -3124,7 +3124,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "MoPr" ;
         dc:subject :cat_5 ;
         void:uriSpace "http://vocabs.ceh.ac.uk/lookup/" ;
-        skosmos:language "en", "hu", "de", "fr", "el", "sl", "it", "fi", "pl", "sv", "no", "ja", "zh" ;
+        skosmos:language "en", "hu", "de", "fr", "el", "sl", "it", "fi", "pl", "sv", "no", "ja", "zh", "es", "pt" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
