@@ -2957,6 +2957,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S22/current/S22C0264/> .
 
