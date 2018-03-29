@@ -3107,7 +3107,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://resource.geolba.ac.at/lithology/> .
 
 
-
+:ef a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Environmental Monitoring Facilities"@en ;
+        skosmos:shortName "EF" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://onto.nerc.ac.uk/EF/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://onto.nerc.ac.uk/EF/> .
 
 
 
