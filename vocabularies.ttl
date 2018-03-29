@@ -3071,7 +3071,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://resource.geolba.ac.at/GeologicTimeScale/> .
 
 
-
+:geostr a skosmos:Vocabulary, void:Dataset ;
+        dc:title "GBA Geologic Structures"@en ;
+        skosmos:shortName "GeoStr" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://resource.geolba.ac.at/structure/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://resource.geolba.ac.at/structure/> .
 
 
 
