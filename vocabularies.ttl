@@ -3010,6 +3010,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocabs.lter-europe.net/EnvThes/> .
 
 
+:encore a skosmos:Vocabulary, void:Dataset ;
+        dc:title "ENCORE"@en ;
+        skosmos:shortName "ENCORE" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://onto.nerc.ac.uk/encore/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://onto.nerc.ac.uk/encore/> .
 
 
 
