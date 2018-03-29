@@ -2923,3 +2923,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S14/current/S1490/> .
 
 
+:bodc-psmbect a skosmos:Vocabulary, void:Dataset ;
+        dc:title "BODC Parameter Semantic Model Biological Entity Colour Terms"@en ;
+        skosmos:shortName "BODC-PSMBECT" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/S15/current/S1511/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S15/current/S1511/> .
