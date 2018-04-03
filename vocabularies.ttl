@@ -5980,7 +5980,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/WAI-WEBCONTENT> .
 
 :weaving a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Glossary of "Weaving the Web""@en ;
+	dc:title "Glossary of Weaving the Web"@en ;
 	skosmos:shortName "weaving" ;
 	dc:subject :cat_0 ;
 	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/weaving" ;
