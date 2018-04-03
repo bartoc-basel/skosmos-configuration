@@ -6101,6 +6101,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/MathML2> .
 
+:hep a skosmos:Vocabulary, void:Dataset ;
+        dc:title "HEP Ontology"@en ;
+        skosmos:shortName "HEP" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://cern.ch/thesauri/HEPontology.rdf" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://cern.ch/thesauri/HEPontology.rdf> .
+
 
 
 
