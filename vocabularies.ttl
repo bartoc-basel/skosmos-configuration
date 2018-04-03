@@ -3203,6 +3203,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S27/current/CS003362/> .
 
 
+:sgcps a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Seaglider Guidance and Control Phase Settings"@en ;
+        skosmos:shortName "SGCPS" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/S28/current/S28001/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S28/current/S28001/> .
 
 
 
