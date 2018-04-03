@@ -2810,7 +2810,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 :fast-personal a skosmos:Vocabulary, void:Dataset ;
         dc:title "FAST (Faceted Application of Subject Terminology) Personal Names Facet"@en ;
-        skosmos:shortName "FAST-TITLE" ;
+        skosmos:shortName "FAST-PERSONAL" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
         skosmos:language "en" ;
