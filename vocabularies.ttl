@@ -4591,7 +4591,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I01/current/0.1.19/> .
 
-:grib4.201 a skosmos:Vocabulary, void:Dataset ;
+:grib4_201 a skosmos:Vocabulary, void:Dataset ;
 	dc:title "GRIB Table 4.201 (Precipitation type)"@en ;
 	skosmos:shortName "GRIB4.201" ;
 	dc:subject :cat_5 ;
