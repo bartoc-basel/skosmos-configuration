@@ -2808,19 +2808,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTitle> .
 
 
-
-:fast-corporate a skosmos:Vocabulary, void:Dataset ;
-	dc:title "FAST (Faceted Application of Subject Terminology) Corporate Names Facet"@en ;
-	skosmos:shortName "FAST-CORPORATE" ;
-	dc:subject :cat_0 ;
-	void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
-	skosmos:language "en" ;
-	skosmos:defaultLanguage "en" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTCorporate> .
-
-
 :fast-chrono a skosmos:Vocabulary, void:Dataset ;
 	dc:title "FAST (Faceted Application of Subject Terminology) Chronological Facet"@en ;
 	skosmos:shortName "FAST-CHRONO" ;
