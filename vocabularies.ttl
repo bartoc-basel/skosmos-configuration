@@ -3179,7 +3179,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocabs.ceh.ac.uk/lookup/> .
 
 
-
+:bodc-psmm a skosmos:Vocabulary, void:Dataset ;
+        dc:title "BODC Parameter Semantic Model Matrices"@en ;
+        skosmos:shortName "BODC-PSMM" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/S26/current/MAT00661/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S26/current/MAT00661/> .
 
 
 
