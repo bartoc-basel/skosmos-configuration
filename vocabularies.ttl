@@ -3249,7 +3249,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/V12/current/L30/> .
 
-:sdn-cdi/csr-iso a skosmos:Vocabulary, void:Dataset ;
+:sdn-cdi_csr-iso a skosmos:Vocabulary, void:Dataset ;
 	dc:title "SeaDataNet CDI/CSR ISO Code List Collections"@en ;
 	skosmos:shortName "SDN-CDI/CSR-ISO" ;
 	dc:subject :cat_5 ;
