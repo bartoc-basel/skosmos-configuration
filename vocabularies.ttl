@@ -6148,7 +6148,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://dati.san.beniculturali.it/SAN/> .
 
 
-
+:brinkmangtt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Brinkman trefwoordenthesaurus / Gemeenschappelijke Trefwoordenthesaurus (GTT)"@nl ;
+	skosmos:shortName "BrinkmanGTT" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://data.bibliotheken.nl/id/thes/" ;
+	skosmos:language "nl" ;
+	skosmos:defaultLanguage "nl" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.bibliotheken.nl/id/thes/> .
 
 
 
