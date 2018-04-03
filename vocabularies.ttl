@@ -5670,7 +5670,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C17/current/90GF/> .
 
 
-
+:imp a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Integrated Modelling Platform"@en ;
+        skosmos:shortName "IMP" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocabs.ceh.ac.uk/imp/ci/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocabs.ceh.ac.uk/imp/ci/> .
 
 
 
