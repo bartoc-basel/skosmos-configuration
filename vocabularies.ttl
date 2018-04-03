@@ -4272,7 +4272,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M20/current/JNCCMNCR00000728/> .
 
-:ukmarhab15.03 a skosmos:Vocabulary, void:Dataset ;
+:ukmarhab15_03 a skosmos:Vocabulary, void:Dataset ;
 	dc:title "Marine Habitat Classification for Britain and Ireland Version 15.03"@en ;
 	skosmos:shortName "UKMarHab15.03" ;
 	dc:subject :cat_5 ;
