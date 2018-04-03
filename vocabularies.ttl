@@ -6136,6 +6136,19 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://legivoc.org/ch/> .
 
 
+:tsan a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Tesauro Sistema Archivistico Nazionale"@it ;
+        skosmos:shortName "TSAN" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://dati.san.beniculturali.it/SAN/" ;
+        skosmos:language "it" ;
+        skosmos:defaultLanguage "it" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://dati.san.beniculturali.it/SAN/> .
+
+
+
 
 
 
