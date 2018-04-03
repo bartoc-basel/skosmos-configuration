@@ -3238,7 +3238,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S30/current/S30002/> .
 
- :sdn-voc a skosmos:Vocabulary, void:Dataset ;
+:sdn-voc a skosmos:Vocabulary, void:Dataset ;
 	dc:title "SeaDataNet Vocabularies"@en ;
 	skosmos:shortName "SDN-Voc" ;
 	dc:subject :cat_5 ;
