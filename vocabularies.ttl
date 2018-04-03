@@ -3238,6 +3238,2438 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S30/current/S30002/> .
 
+ :sdn-voc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Vocabularies"@en ;
+	skosmos:shortName "SDN-Voc" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/V12/current/L30/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/V12/current/L30/> .
+
+:sdn-cdi/csr-iso a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet CDI/CSR ISO Code List Collections"@en ;
+	skosmos:shortName "SDN-CDI/CSR-ISO" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/V22/current/C32/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/V22/current/C32/> .
+
+:sdn-gmx-iso a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet GMX and imported ISO Code List Collections"@en ;
+	skosmos:shortName "SDN-GMX-ISO" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/V23/current/G05/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/V23/current/G05/> .
+
+:sdn-swe-type a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Sensor Web Enablement and SensorML Type Vocabulary"@en ;
+	skosmos:shortName "SDN-SWE-Type" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/W01/current/022/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W01/current/022/> .
+
+:sdn-swe-sub a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Sensor Web Enablement and SensorML Sub-type Vocabulary"@en ;
+	skosmos:shortName "SDN-SWE-Sub" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/W02/current/003/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W02/current/003/> .
+
+:sensorml-het a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SensorML History Event Types"@en ;
+	skosmos:shortName "SensorML-HET" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/W03/current/W030002/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W03/current/W030002/> .
+
+:sensorml-cst a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SensorML Capability Section Terms"@en ;
+	skosmos:shortName "SensorML-CST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/W04/current/CAPB0002/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0002/> .
+
+:sensorml-chst a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SensorML Characteristic Section Terms"@en ;
+	skosmos:shortName "SensorML-ChST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/W05/current/CHAR0007/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0007/> .
+
+:sensorml-clst a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SensorML Classification Section Terms"@en ;
+	skosmos:shortName "SensorML-ClST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/> .
+
+:sensorml-ist a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SensorML Identification Section Terms"@en ;
+	skosmos:shortName "SensorML-IST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/W07/current/IDEN0012/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0012/> .
+
+:sensorml-cost a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SensorML Contact Section Terms"@en ;
+	skosmos:shortName "SensorML-CoST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/W08/current/CONT0006/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W08/current/CONT0006/> .
+
+:bodc-puv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Usage Vocabulary"@en ;
+	skosmos:shortName "BODC-PUV" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P01/current/ZBVV1314/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P01/current/ZBVV1314/> .
+
+:sdn-pdv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Parameter Discovery Vocabulary"@en ;
+	skosmos:shortName "SDN-PDV" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P02/current/TBGZ/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P02/current/TBGZ/> .
+
+:sdn-apg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Agreed Parameter Groups"@en ;
+	skosmos:shortName "SDN-APG" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P03/current/C017/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P03/current/C017/> .
+
+:gcmdskv5 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Science Keywords V5"@en ;
+	skosmos:shortName "GCMDSKv5" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P04/current/G419/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P04/current/G419/> .
+
+:isotopiccat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "International Standards Organisation ISO19115 Topic Categories"@en ;
+	skosmos:shortName "ISOTopicCat" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P05/current/016/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P05/current/016/> .
+
+:bodc-dsu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Data Storage Units"@en ;
+	skosmos:shortName "BODC-DSU" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P06/current/UFPD/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P06/current/UFPD/> .
+
+:sdn-pd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Parameter Disciplines"@en ;
+	skosmos:shortName "SDN-PD" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P08/current/DS10/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P08/current/DS10/> .
+
+:medatlas-puv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDATLAS Parameter Usage Vocabulary"@en ;
+	skosmos:shortName "MEDATLAS-PUV" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P09/current/PTC2/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P09/current/PTC2/> .
+
+:gcmd-ik a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Instrument Keywords"@en ;
+	skosmos:shortName "GCMD-IK" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P10/current/GI000909/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P10/current/GI000909/> .
+
+:gcmd-skc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Science Keyword Categories"@en ;
+	skosmos:shortName "GCMD-SKC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P11/current/GCAT0001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P11/current/GCAT0001/> .
+
+:gcmd-sktopics a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Science Keyword Topics"@en ;
+	skosmos:shortName "GCMD-SKTopics" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P12/current/GTOP0008/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P12/current/GTOP0008/> .
+
+:gcmd-skterms a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Science Keyword Terms"@en ;
+	skosmos:shortName "GCMD-SKTerms" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P13/current/GTER0110/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P13/current/GTER0110/> .
+
+:gcmd-skv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Science Keyword Variables"@en ;
+	skosmos:shortName "GCMD-SKV" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P14/current/GVAR0940/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P14/current/GVAR0940/> .
+
+:cfcellmeth a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Climate and Forecast Cell Methods"@en ;
+	skosmos:shortName "CFCellMeth" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P15/current/CFCM0001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P15/current/CFCM0001/> .
+
+:pogo-ships a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Partnership for Observation of the Global Ocean Ships of Interest"@en ;
+	skosmos:shortName "POGO-Ships" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P17/current/32EV/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P17/current/32EV/> .
+
+:gcmd-cu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Chronostratigraphic Units"@en ;
+	skosmos:shortName "GCMD-CU" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P18/current/GCRON020/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P18/current/GCRON020/> .
+
+:gcmd-plat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Platforms"@en ;
+	skosmos:shortName "GCMD-Plat" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P19/current/PLSR0304/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P19/current/PLSR0304/> .
+
+:gcmd-urlct a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory URL Content Types"@en ;
+	skosmos:shortName "GCMD-URLCT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P20/current/GCMDU025/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P20/current/GCMDU025/> .
+
+:marisaurus a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Marisaurus Thesaurus"@en ;
+	skosmos:shortName "Marisaurus" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P21/current/MS6472/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P21/current/MS6472/> .
+
+:medin-pdk a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Parameter Discipline Keywords"@en ;
+	skosmos:shortName "MEDIN-PDK" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P23/current/MD011/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P23/current/MD011/> .
+
+:umd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Units of Measure Dimensions"@en ;
+	skosmos:shortName "UMD" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P24/current/NMASS/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P24/current/NMASS/> .
+
+:netmar-ap a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NETMAR Aggregation Parameters"@en ;
+	skosmos:shortName "NETMAR-AP" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P25/current/CHLA/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P25/current/CHLA/> .
+
+:iso19119 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ISO19119 Geographic Services Taxonomy"@en ;
+	skosmos:shortName "ISO19119" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P26/current/203/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P26/current/203/> .
+
+:ossl a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Oil Spill Spillet Location"@en ;
+	skosmos:shortName "OSSL" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P27/current/0.05/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P27/current/0.05/> .
+
+:cpscos a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Cedre Pollution Site Cleanup Operational Stati"@en ;
+	skosmos:shortName "CPSCOS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P28/current/OPEN/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P28/current/OPEN/> .
+
+:cfat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Climate and Forecast Area Types"@en ;
+	skosmos:shortName "CFAT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P29/current/cftreess/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P29/current/cftreess/> .
+
+:cfsrn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Climate and Forecast Standardized Region Names"@en ;
+	skosmos:shortName "CFSRN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P30/current/global/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P30/current/global/> .
+
+:emod-capn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EMODnet Chemistry Aggregated Parameter Names"@en ;
+	skosmos:shortName "EMOD-CAPN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P35/current/EPC00143/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P35/current/EPC00143/> .
+
+:emod-ccg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EMODnet Chemistry Chemical Groups"@en ;
+	skosmos:shortName "EMOD-CCG" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P36/current/NUTLOAD/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P36/current/NUTLOAD/> .
+
+:cfcalendar a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Climate and Forecast Calendars"@en ;
+	skosmos:shortName "CFCalendar" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P37/current/all_leap/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P37/current/all_leap/> .
+
+:cfvcc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Climate and Forecast Vertical Co-ordinate Coverages"@en ;
+	skosmos:shortName "CFVCC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P38/current/surface/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P38/current/surface/> .
+
+:gcmd-skv6 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory Science Keywords V6"@en ;
+	skosmos:shortName "GCMD-SKv6" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/P64/current/G599/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P64/current/G599/> .
+
+:obis-sima a skosmos:Vocabulary, void:Dataset ;
+	dc:title "OBIS Sampling Instruments and Methods Attributes"@en ;
+	skosmos:shortName "OBIS-SIMA" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/> .
+
+:bodc-psmcn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Component Names"@en ;
+	skosmos:shortName "BODC-PSMCN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S01/current/S015/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S01/current/S015/> .
+
+:bodc-psmrww a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Relationships between What Theme and Where Theme"@en ;
+	skosmos:shortName "BODC-PSMRWW" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S02/current/S051/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S02/current/S051/> .
+
+:bodc-psmsped a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Sample Preparation Entity Descriptions"@en ;
+	skosmos:shortName "BODC-PSMSPED" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S03/current/S03134/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S03/current/S03134/> .
+
+:bodc-psmamed a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Analytical Method Entity Descriptions"@en ;
+	skosmos:shortName "BODC-PSMAMED" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S04/current/S04323/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S04/current/S04323/> .
+
+:bodc-psmdped a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Data Processing Entity Descriptions"@en ;
+	skosmos:shortName "BODC-PSMDPED" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S05/current/S050034/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S05/current/S050034/> .
+
+:bodc-psmpen a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Parameter Entity Names"@en ;
+	skosmos:shortName "BODC-PSMPEN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S06/current/S0600144/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S06/current/S0600144/> .
+
+:bodc-psmps a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Parameter Statistic"@en ;
+	skosmos:shortName "BODC-PSMPS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S07/current/S0700018/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S07/current/S0700018/> .
+
+:bodc-psmpesn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Parameter Entity Subgroup Names"@en ;
+	skosmos:shortName "BODC-PSMPESN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S08/current/S0800003/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S08/current/S0800003/> .
+
+:bodc-psmbest a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Biological Entity Size Terms"@en ;
+	skosmos:shortName "BODC-PSMBEST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S09/current/S0932/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S09/current/S0932/> .
+
+:bodc-psmbegt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Biological Entity Gender Terms"@en ;
+	skosmos:shortName "BODC-PSMBEGT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S10/current/S108/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S10/current/S108/> .
+
+:bodc-psmbedst a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Parameter Semantic Model Biological Entity Development Stage Terms"@en ;
+	skosmos:shortName "BODC-PSMBEDST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/S11/current/S118/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S11/current/S118/> .
+
+:seavox-pc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaVoX Platform Categories"@en ;
+	skosmos:shortName "SeaVox-PC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L06/current/71/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L06/current/71/> .
+
+:sdn-dam a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Data Access Mechanisms"@en ;
+	skosmos:shortName "SDN-DAM" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH04/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH04/> .
+
+:sdn-arp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Data Access Restriction Policies"@en ;
+	skosmos:shortName "SDN-ARP" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L08/current/LS/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L08/current/LS/> .
+
+:sdn-gcrf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Geographic Co-ordinate Reference Frames"@en ;
+	skosmos:shortName "SDN-GCRF" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L10/current/4616/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L10/current/4616/> .
+
+:sdn-dmrp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Depth Measurement Reference Planes"@en ;
+	skosmos:shortName "SDN-DMRP" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L11/current/D08/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L11/current/D08/> .
+
+:sdn-pqcp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Parameter Quality Control Procedures"@en ;
+	skosmos:shortName "SDN-PQCP" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L12/current/N/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L12/current/N/> .
+
+:seavox-vcc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaVoX Vertical Co-ordinate Coverages"@en ;
+	skosmos:shortName "SeaVox-VCC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L13/current/BP/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L13/current/BP/> .
+
+:sdn-aos a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Activity Operational Stati"@en ;
+	skosmos:shortName "SDN-AOS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L14/current/ON/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L14/current/ON/> .
+
+:sdn-qmsa a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Quality Management System Accreditations"@en ;
+	skosmos:shortName "SDN-QMSA" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L15/current/JGOFSL1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L15/current/JGOFSL1/> .
+
+:sdn-csrqu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Cruise Summary Report Quantification Units"@en ;
+	skosmos:shortName "SDN-CSRQU" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L18/current/CSRU012/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L18/current/CSRU012/> .
+
+:sdn-kt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Keyword Types"@en ;
+	skosmos:shortName "SDN-KT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L19/current/SDNKG15/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG15/> .
+
+:sdn-mqf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Measurand Qualifier Flags"@en ;
+	skosmos:shortName "SDN-MQF" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L20/current/A/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L20/current/A/> .
+
+:sdn-dct a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Device Category Types"@en ;
+	skosmos:shortName "SDN-DCT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L21/current/ICAT07/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L21/current/ICAT07/> .
+
+:seavox-dc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaVoX Device Catalogue"@en ;
+	skosmos:shortName "SeaVox-DC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L22/current/TOOL1082/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L22/current/TOOL1082/> .
+
+:sdn-me a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Metadata Entities"@en ;
+	skosmos:shortName "SDN-ME" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L23/current/EDIOSOP/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L23/current/EDIOSOP/> .
+
+:sdn-dtf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Data Transport Formats"@en ;
+	skosmos:shortName "SDN-DTF" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L24/current/BAG/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L24/current/BAG/> .
+
+:edidos-psiu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EDIOS Permitted Sampling Interval Units"@en ;
+	skosmos:shortName "EDIDOS-PSIU" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L26/current/UMSC/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L26/current/UMSC/> .
+
+:seavox-dqcfc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaVoX Data Quality Control Flagging Conventions"@en ;
+	skosmos:shortName "SeaVox-DQCFC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L27/current/PANGAEA_QC/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L27/current/PANGAEA_QC/> .
+
+:medatlas-dc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDATLAS Data Centres"@en ;
+	skosmos:shortName "MEDATLAS-DC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L30/current/BG/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L30/current/BG/> .
+
+:geo-seas-doqf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Data Object Quality Flags"@en ;
+	skosmos:shortName "Geo-Seas-DOQF" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L31/current/2/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L31/current/2/> .
+
+:wmoc3voc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "WMO C3 Vocabulary of XBT Data Types"@en ;
+	skosmos:shortName "WMOC3Voc" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L33/current/860/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L33/current/860/> .
+
+:iode-plqf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "IODE Primary Level Quality Flags"@en ;
+	skosmos:shortName "IODE-PLQF" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L34/current/1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L34/current/1/> .
+
+:senseocean-ddm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SenseOcean Device Developers and Manufacturers"@en ;
+	skosmos:shortName "SenseOcean-DDM" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L35/current/MAN0025/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L35/current/MAN0025/> .
+
+:medin-dfc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Data Format Categories"@en ;
+	skosmos:shortName "MEDIN-DFC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M01/current/DEL/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M01/current/DEL/> .
+
+:tce-reda a skosmos:Vocabulary, void:Dataset ;
+	dc:title "The Crown Estate Renewable Energy Development Areas"@en ;
+	skosmos:shortName "TCE-REDA" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M03/current/M0311/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M03/current/M0311/> .
+
+:tce-redp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "The Crown Estate Renewable Energy Development Phases"@en ;
+	skosmos:shortName "TCE-REDP" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M04/current/M0406/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M04/current/M0406/> .
+
+:medin-sgoc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Socio-economic Governance Objective Categories"@en ;
+	skosmos:shortName "MEDIN-SGOC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M05/current/OBJFOSR/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M05/current/OBJFOSR/> .
+
+:medin-mac a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Monitoring Activity Categories"@en ;
+	skosmos:shortName "MEDIN-MAC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M06/current/MONRGHB/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M06/current/MONRGHB/> .
+
+:medin-evmt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Ecosystem Valuation Method Types"@en ;
+	skosmos:shortName "MEDIN-EVMT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M09/current/5/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M09/current/5/> .
+
+:medin-evm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Ecosystem Valuation Methods"@en ;
+	skosmos:shortName "MEDIN-EVM" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M10/current/8/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M10/current/8/> .
+
+:medin-est a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Ecosystem Service Types"@en ;
+	skosmos:shortName "MEDIN-EST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M11/current/1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M11/current/1/> .
+
+:jncc-chame a skosmos:Vocabulary, void:Dataset ;
+	dc:title "JNCC Categories of Human Activity in the Marine Environment"@en ;
+	skosmos:shortName "JNCC-CHAME" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M12/current/9/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M12/current/9/> .
+
+:jncc-slhume a skosmos:Vocabulary, void:Dataset ;
+	dc:title "JNCC Standard List of Human Activities in the Marine Environment"@en ;
+	skosmos:shortName "JNCC-SLHUME" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M13/current/011/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M13/current/011/> .
+
+:ospar-ldpme a skosmos:Vocabulary, void:Dataset ;
+	dc:title "OSPAR List of Defined Pressures on the Marine Environment"@en ;
+	skosmos:shortName "OSPAR-LDPME" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M14/current/L2/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M14/current/L2/> .
+
+:ospar-ltdpme a skosmos:Vocabulary, void:Dataset ;
+	dc:title "OSPAR List of Themes of Defined Pressures on the Marine Environment"@en ;
+	skosmos:shortName "OSPAR-LTDPME" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M15/current/D/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M15/current/D/> .
+
+:tgis a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Type of Geotechnical Investigation carried out at a Site"@en ;
+	skosmos:shortName "TGIS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M16/current/INVEST_CPTBORE/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_CPTBORE/> .
+
+:tsgi a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Type of Sample collected during a Geotechnical Investigation"@en ;
+	skosmos:shortName "TSGI" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PISTCOR/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PISTCOR/> .
+
+:tcpsgsi a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Type of Container used to hold a Physical Sample collected during a Geotechnical Site Investigation"@en ;
+	skosmos:shortName "TCPSGSI" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M18/current/CONT_LINER/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M18/current/CONT_LINER/> .
+
+:ukmarhab04.05 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Marine Habitat Classification for Britain and Ireland Version 04.05"@en ;
+	skosmos:shortName "UKMarHab04.05" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M20/current/JNCCMNCR00000728/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M20/current/JNCCMNCR00000728/> .
+
+:ukmarhab15.03 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Marine Habitat Classification for Britain and Ireland Version 15.03"@en ;
+	skosmos:shortName "UKMarHab15.03" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/M21/current/JNCCMNCR00002253/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M21/current/JNCCMNCR00002253/> .
+
+:medin-mra a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Metadata Record Availability"@en ;
+	skosmos:shortName "MEDIN-MRA" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/> .
+
+:nerc-dgrf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NERC DataGrid Recognised Formats"@en ;
+	skosmos:shortName "NERC-DGRF" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/N02/current/3/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N02/current/3/> .
+
+:csmlsft a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Climate Science Modelling Language Supported Feature Types"@en ;
+	skosmos:shortName "CSMLSFT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/N03/current/PointSF/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N03/current/PointSF/> .
+
+:nerc-dgort a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NERC DataGrid On-line Reference Types"@en ;
+	skosmos:shortName "NERC-DGORT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/N04/current/7/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N04/current/7/> .
+
+:nerc-ddsimds a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NERC Data Discovery Service Input Metadata Document Standards"@en ;
+	skosmos:shortName "NERC-DDSIMDS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/N05/current/MSTD0001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0001/> .
+
+:md_sc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MX_ScopeCode"@en ;
+	skosmos:shortName "MD_SC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G29/current/013/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G29/current/013/> .
+
+:i18n-elt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "I18n System English (UK) Language Terms"@en ;
+	skosmos:shortName "I18n-ELT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GBX/current/GN000065/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GBX/current/GN000065/> .
+
+:md_srtc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_SpatialRepresentationTypeCode"@en ;
+	skosmos:shortName "MD_SRTC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G26/current/001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G26/current/001/> .
+
+:gebco30gds a skosmos:Vocabulary, void:Dataset ;
+	dc:title "GEBCO 30-second Grid Data Sources"@en ;
+	skosmos:shortName "GEBCO30GDS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GGS/current/SID1100/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GGS/current/SID1100/> .
+
+:geo-seas-fi a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Features of Interest"@en ;
+	skosmos:shortName "Geo-Seas-FI" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GS1/current/EarthVol/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GS1/current/EarthVol/> .
+
+:geo-seas-op a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Observed Properties"@en ;
+	skosmos:shortName "Geo-Seas-OP" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GS2/current/Reflcvty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GS2/current/Reflcvty/> .
+
+:geo-seas-afslc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Adjusted Folk Sediment Lithology Classes"@en ;
+	skosmos:shortName "Geo-Seas-AFSLC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GS3/current/(m)S/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GS3/current/(m)S/> .
+
+:geo-seas-gsc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Geological Sample Colours"@en ;
+	skosmos:shortName "Geo-Seas-GSC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GS4/current/mdora/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GS4/current/mdora/> .
+
+:geo-seas-sgsd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Sediment Grain-size Skewness Descriptors"@en ;
+	skosmos:shortName "Geo-Seas-SGSD" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GS5/current/nearsymm/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GS5/current/nearsymm/> .
+
+:geo-seas-gkd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas sediment Grain-size Kurtosos Descriptors"@en ;
+	skosmos:shortName "Geo-Seas-GKD" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GS6/current/mesokur/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GS6/current/mesokur/> .
+
+:geo-seas-sm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Seismic Methods"@en ;
+	skosmos:shortName "Geo-Seas-SM" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GS8/current/SRFL/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GS8/current/SRFL/> .
+
+:geo-seas-ssd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Seismic Survey Dimensionality"@en ;
+	skosmos:shortName "Geo-Seas-SSD" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GS9/current/SR4D/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GS9/current/SR4D/> .
+
+:geo-seas-sdpt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Seismic Data Product Types"@en ;
+	skosmos:shortName "Geo-Seas-SDPT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GSA/current/FLDS/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GSA/current/FLDS/> .
+
+:geo-seas-srt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geo-Seas Seismic Receiver Types"@en ;
+	skosmos:shortName "Geo-Seas-SRT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GSB/current/901/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GSB/current/901/> .
+
+:mgd77-bsvcc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MGD77 Bathymetry Sound Velocity Correction Codes"@en ;
+	skosmos:shortName "MGD77-BSVCC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GSC/current/08/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GSC/current/08/> .
+
+:bodc-i18n-tu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC I18n Term Usage"@en ;
+	skosmos:shortName "BODC-I18n-TU" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/GXM/current/GBX4/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/GXM/current/GBX4/> .
+
+:emod-mlt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EMODnet Micro-litter Types"@en ;
+	skosmos:shortName "EMOD-MLT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/H01/current/H0100005/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/H01/current/H0100005/> .
+
+:emod-mls a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EMODnet Micro-litter Shapes"@en ;
+	skosmos:shortName "EMOD-MLS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/H02/current/H0200009/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/H02/current/H0200009/> .
+
+:emod-mlsc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EMODnet Micro-litter Size Classes"@en ;
+	skosmos:shortName "EMOD-MLSC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/H03/current/H0300001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/H03/current/H0300001/> .
+
+:emod-mlcc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EMODnet Micro-litter Colour Classes"@en ;
+	skosmos:shortName "EMOD-MLCC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/H04/current/H0400005/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/H04/current/H0400005/> .
+
+:emod-mlpt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EMODnet Micro-litter Polymer Type"@en ;
+	skosmos:shortName "EMOD-MLPT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/H05/current/H0500007/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/H05/current/H0500007/> .
+
+:emod-hac a skosmos:Vocabulary, void:Dataset ;
+	dc:title "EMODnet Human Activity Categories"@en ;
+	skosmos:shortName "EMOD-HAC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/HA2/current/HA20035/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/HA2/current/HA20035/> .
+
+:grib4.2sub a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Subset of GRIB Table 4.2 - Parameter number by product discipline and parameter category"@en ;
+	skosmos:shortName "GRIB4.2Sub" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I01/current/0.1.19/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I01/current/0.1.19/> .
+
+:grib4.201 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "GRIB Table 4.201 (Precipitation type)"@en ;
+	skosmos:shortName "GRIB4.201" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I02/current/1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I02/current/1/> .
+
+:wcav a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Wisconsin Coastal Atlas Vocabulary"@en ;
+	skosmos:shortName "WCAV" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Top/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Top/> .
+
+:inspire-st a skosmos:Vocabulary, void:Dataset ;
+	dc:title "INSPIRE Service Types"@en ;
+	skosmos:shortName "INSPIRE-ST" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I10/current/2/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I10/current/2/> .
+
+:inspire-mrct a skosmos:Vocabulary, void:Dataset ;
+	dc:title "INSPIRE Management and Reporting Control Type"@en ;
+	skosmos:shortName "INSPIRE-MRCT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I11/current/restriction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I11/current/restriction/> .
+
+:inspire-mrdt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "INSPIRE Management and Reporting Day Type"@en ;
+	skosmos:shortName "INSPIRE-MRDT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I12/current/weekdays/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I12/current/weekdays/> .
+
+:inspire-mreda a skosmos:Vocabulary, void:Dataset ;
+	dc:title "INSPIRE Management and Reporting Environmental Domain Area"@en ;
+	skosmos:shortName "INSPIRE-MREDA" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I13/current/soil/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I13/current/soil/> .
+
+:inspire-mrcat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "INSPIRE Management and Reporting Controlled Activity Type"@en ;
+	skosmos:shortName "INSPIRE-MRCAT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I14/current/plantAndAnimalHealth/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I14/current/plantAndAnimalHealth/> .
+
+:inspire-mrzt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "INSPIRE Management and Reporting Zone Type"@en ;
+	skosmos:shortName "INSPIRE-MRZT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/I15/current/plantHealthProtectionZone/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I15/current/plantHealthProtectionZone/> .
+
+:sdn-gft a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Geospatial Feature Types"@en ;
+	skosmos:shortName "SDN-GFT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L02/current/006/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L02/current/006/> .
+
+:sdn-mpc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Measurement Periodicity Categories"@en ;
+	skosmos:shortName "SDN-MPC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L03/current/5/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L03/current/5/> .
+
+:matrix a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Matrix Categories"@en ;
+	skosmos:shortName "Matrix" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L04/current/L04004/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L04/current/L04004/> .
+
+:sdn-dc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Device Categories"@en ;
+	skosmos:shortName "SDN-DC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/L05/current/130/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L05/current/130/> .
+
+:apc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Activity Purpose Categories"@en ;
+	skosmos:shortName "APC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C34/current/MRAT0001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C34/current/MRAT0001/> .
+
+:eunis-habitats a skosmos:Vocabulary, void:Dataset ;
+	dc:title "European Nature Information System Level 3 Habitats"@en ;
+	skosmos:shortName "EUNIS-Habitats" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C35/current/A2_4/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C35/current/A2_4/> .
+
+:mald a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Monitoring Activity Legislative Drivers"@en ;
+	skosmos:shortName "MALD" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C36/current/LEGL0016/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C36/current/LEGL0016/> .
+
+:tms a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ten-degree Marsden Squares"@en ;
+	skosmos:shortName "TMS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C37/current/405/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C37/current/405/> .
+
+:sdnpg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Ports Gazetteer"@en ;
+	skosmos:shortName "SDNPG" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C38/current/BSH1624/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C38/current/BSH1624/> .
+
+:wmoss a skosmos:Vocabulary, void:Dataset ;
+	dc:title "World Meteorological Organisation Sea States"@en ;
+	skosmos:shortName "WMOSS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C39/current/5/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C39/current/5/> .
+
+:polrep a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Bonn Agreement Pollution Report Accuracy"@en ;
+	skosmos:shortName "POLREP" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C40/current/PEAC03/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C40/current/PEAC03/> .
+
+:polreps a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Marine Pollution Sources"@en ;
+	skosmos:shortName "POLREPS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C41/current/PEST06/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C41/current/PEST06/> .
+
+:bodcoq a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Oilspill Quantity"@en ;
+	skosmos:shortName "BODCOQ" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C43/current/UNK/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C43/current/UNK/> .
+
+:msfdd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Marine Strategy Framework Directive Descriptors"@en ;
+	skosmos:shortName "MSFDD" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C45/current/D5/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C45/current/D5/> .
+
+:msfdc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Marine Strategy Framework Directive Criteria"@en ;
+	skosmos:shortName "MSFDC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C46/current/C7_2/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C46/current/C7_2/> .
+
+:msfdi a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Marine Strategy Framework Directive Indicators"@en ;
+	skosmos:shortName "MSFDI" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C47/current/IN7_1_1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C47/current/IN7_1_1/> .
+
+:medin-dg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MEDIN Data Guidelines"@en ;
+	skosmos:shortName "MEDIN-DG" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C48/current/MDG015/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C48/current/MDG015/> .
+
+:bodcor a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Organisation Roles within Activities and Projects"@en ;
+	skosmos:shortName "BODCOR" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C59/current/CONMEM/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C59/current/CONMEM/> .
+
+:nercdgvtr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NERC DataGrid Vocabulary Term Relationships"@en ;
+	skosmos:shortName "NERCDGVTR" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C60/current/HUN/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C60/current/HUN/> .
+
+:bodcptn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Post Town Names"@en ;
+	skosmos:shortName "BODCPTN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C61/current/UKPT0425/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C61/current/UKPT0425/> .
+
+:bodcarn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Administrative Region Names"@en ;
+	skosmos:shortName "BODCARN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C62/current/USTA024/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C62/current/USTA024/> .
+
+:ukcp2sr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "United Kingdom Charting Progress 2 Sea Regions"@en ;
+	skosmos:shortName "UKCP2SR" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C64/current/1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C64/current/1/> .
+
+:bodcspcn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Series Parameter Collection Names"@en ;
+	skosmos:shortName "BODCSPCN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C67/current/CH4X/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C67/current/CH4X/> .
+
+:bodcoc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Organisation Categories"@en ;
+	skosmos:shortName "BODCOC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C71/current/2/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C71/current/2/> .
+
+:bodccfc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Core Failure Codes"@en ;
+	skosmos:shortName "BODCCFC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C72/current/F/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C72/current/F/> .
+
+:bodcoh a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Organisation Histories"@en ;
+	skosmos:shortName "BODCOH" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C75/current/IFL/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C75/current/IFL/> .
+
+:sdncsrdc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Cruise Summary Report Data Categories"@en ;
+	skosmos:shortName "SDNCSRDC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C77/current/B37/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C77/current/B37/> .
+
+:sdncsar a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Contact and Security Access Roles"@en ;
+	skosmos:shortName "SDNCSAR" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C86/current/SDNR03/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C86/current/SDNR03/> .
+
+:bodcpr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Project Roles"@en ;
+	skosmos:shortName "BODCPR" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C87/current/PD/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C87/current/PD/> .
+
+:bodcaarr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Asset Access Right Roles"@en ;
+	skosmos:shortName "BODCAARR" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C88/current/BODCSR141/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C88/current/BODCSR141/> .
+
+:bodcdr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Dataset Roles"@en ;
+	skosmos:shortName "BODCDR" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C89/current/CO/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C89/current/CO/> .
+
+:bodcdmso a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Data Model Spatial Objects"@en ;
+	skosmos:shortName "BODCDMSO" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C96/current/CRUISE/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C96/current/CRUISE/> .
+
+:nerc-vsv1mi a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NERC Vocabulary Server Version 1 Mappings Index"@en ;
+	skosmos:shortName "NERC-VSV1MI" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C97/current/P021P021/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C97/current/P021P021/> .
+
+:vslsc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Vocabulary Server List Subject Categories"@en ;
+	skosmos:shortName "VSLSC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C98/current/CL07/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C98/current/CL07/> .
+
+:edmed-dcat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "DCAT Themes for Linked Data Representation of the SeaDataNet EDMED Catalogue"@en ;
+	skosmos:shortName "EDMED-DCAT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/D01/current/D0100003/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/D01/current/D0100003/> .
+
+:eseas-atgs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ESEAS Active Tide Gauge Sites"@en ;
+	skosmos:shortName "ESEAS-ATGS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/E01/current/ESS088/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/E01/current/ESS088/> .
+
+:pl-eos-sdp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Processing Levels for Earth Observing System Standard Data Products"@en ;
+	skosmos:shortName "PL-EOS-SDP" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/E02/current/0/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/E02/current/0/> .
+
+:sdcfcscn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataCloud Flow Cytometry Standardised Cluster Names"@en ;
+	skosmos:shortName "SDCFCSCN" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/F02/current/F0200008/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/F02/current/F0200008/> .
+
+:ci_datetypecode a skosmos:Vocabulary, void:Dataset ;
+	dc:title "CI_DateTypeCode"@en ;
+	skosmos:shortName "CI_DateTypeCode" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G01/current/001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G01/current/001/> .
+
+:ci_ofc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "CI_OnlineFunctionCode"@en ;
+	skosmos:shortName "CI_OFC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G02/current/009/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G02/current/009/> .
+
+:ci_pfc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "CI_PresentationFormCode"@en ;
+	skosmos:shortName "CI_PFC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G03/current/001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G03/current/001/> .
+
+:ci_rolecode a skosmos:Vocabulary, void:Dataset ;
+	dc:title "CI_RoleCode"@en ;
+	skosmos:shortName "CI_RoleCode" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G04/current/003/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G04/current/003/> .
+
+:dq_emtc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "DQ_EvaluationMethodTypeCode"@en ;
+	skosmos:shortName "DQ_EMTC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G05/current/002/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G05/current/002/> .
+
+:ds_atc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "DS_AssociationTypeCode"@en ;
+	skosmos:shortName "DS_ATC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G06/current/003/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G06/current/003/> .
+
+:ds_itc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "DS_InitiativeTypeCode"@en ;
+	skosmos:shortName "DS_ITC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G07/current/003/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G07/current/003/> .
+
+:md_cgc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_CellGeometryCode"@en ;
+	skosmos:shortName "MD_CGC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G08/current/001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G08/current/001/> .
+
+:md_csc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_CharacterSetCode"@en ;
+	skosmos:shortName "MD_CSC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G09/current/010/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G09/current/010/> .
+
+:md_cc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_ClassificationCode"@en ;
+	skosmos:shortName "MD_CC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G10/current/002/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G10/current/002/> .
+
+:md_cctc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_CoverageContentTypeCode"@en ;
+	skosmos:shortName "MD_CCTC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G11/current/003/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G11/current/003/> .
+
+:md_dtc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_DatatypeCode"@en ;
+	skosmos:shortName "MD_DTC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G12/current/015/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G12/current/015/> .
+
+:md_dntc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_DimensionNameTypeCode"@en ;
+	skosmos:shortName "MD_DNTC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G13/current/007/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G13/current/007/> .
+
+:md_gotc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_GeometricObjectTypeCode"@en ;
+	skosmos:shortName "MD_GOTC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G14/current/004/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G14/current/004/> .
+
+:md_icc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_ImagingConditionCode"@en ;
+	skosmos:shortName "MD_ICC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G15/current/007/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G15/current/007/> .
+
+:md_mfc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_MaintenanceFrequencyCode"@en ;
+	skosmos:shortName "MD_MFC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G17/current/006/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G17/current/006/> .
+
+:md_mefc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_MediumFormatCode"@en ;
+	skosmos:shortName "MD_MeFC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G18/current/003/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G18/current/003/> .
+
+:md_oc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_ObligationCode"@en ;
+	skosmos:shortName "MD_OC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G20/current/002/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G20/current/002/> .
+
+:md_poc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_PixelOrientationCode"@en ;
+	skosmos:shortName "MD_POC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G21/current/001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G21/current/001/> .
+
+:md_pc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_ProgressCode"@en ;
+	skosmos:shortName "MD_PC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G22/current/004/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G22/current/004/> .
+
+:md_rc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_RestrictionCode"@en ;
+	skosmos:shortName "MD_RC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G23/current/108/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G23/current/108/> .
+
+:md_sc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MD_ScopeCode"@en ;
+	skosmos:shortName "MD_SC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/G25/current/009/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G25/current/009/> .
+
+:iocc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Intergovernmental Oceanographic Commission Countries"@en ;
+	skosmos:shortName "IOCC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C18/current/AL/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C18/current/AL/> .
+
+:sfwbg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaVoX Salt and Fresh Water Body Gazetteer"@en ;
+	skosmos:shortName "SFWBG" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C19/current/1_13/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C19/current/1_13/> .
+
+:avcga a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Active Vocabulary Content Governance Authorities"@en ;
+	skosmos:shortName "AVCGA" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C30/current/MSG/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C30/current/MSG/> .
+
+:wmovosc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "World Meteorological Organisation Voluntary Observing Ship Category"@en ;
+	skosmos:shortName "WMOVOSC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C31/current/F/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C31/current/F/> .
+
+:isoc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "International Standards Organisation Countries"@en ;
+	skosmos:shortName "ISOC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C32/current/HT/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C32/current/HT/> .
+
+:nerc-dgdptc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NERC DataGrid Data Production Tool Category"@en ;
+	skosmos:shortName "NERC-DGDPTC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C33/current/NG08/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C33/current/NG08/> .
+
+:nasat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NASA Thesaurus"@en ;
+	skosmos:shortName "NASAT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://bartoc.org//NASA_Thesaurus" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://bartoc.org//NASA_Thesaurus> .
+
+:ican-cegt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "International Coastal Atlas Network Coastal Erosion Global Thesaurus"@en ;
+	skosmos:shortName "ICAN-CEGT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> .
+
+:oca-cetmt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Oregon Coastal Atlas Coastal Erosion Thesaurus markup terms"@en ;
+	skosmos:shortName "OCA-CETMT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/A02/current/Eelgrass/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/A02/current/Eelgrass/> .
+
+:oca-cedt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Oregon Coastal Atlas Coastal Erosion Thesaurus discovery terms"@en ;
+	skosmos:shortName "OCA-CEDT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/A03/current/Gas/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/A03/current/Gas/> .
+
+:mida-cet a skosmos:Vocabulary, void:Dataset ;
+	dc:title "MIDA Coastal Erosion Thesaurus"@en ;
+	skosmos:shortName "MIDA-CET" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/A04/current/SeaLevelPosition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/A04/current/SeaLevelPosition/> .
+
+:atlantos-evs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "AtlantOS Essential Variables"@en ;
+	skosmos:shortName "AtlantOS-EVs" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/A05/current/EV_TTRACE/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/A05/current/EV_TTRACE/> .
+
+:crm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Measurement Numeric Attribute Types"@en ;
+	skosmos:shortName "CRM" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B02/current/M000059/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B02/current/M000059/> .
+
+:pt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC People Titles"@en ;
+	skosmos:shortName "PT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B04/current/CDR/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B04/current/CDR/> .
+
+:gr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Governance Roles"@en ;
+	skosmos:shortName "GR" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B05/current/VIC/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B05/current/VIC/> .
+
+:dmic a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Data and Metadata Integrity Checks"@en ;
+	skosmos:shortName "DMIC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B06/current/sBenFixedSites/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B06/current/sBenFixedSites/> .
+
+:sngdv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sampling Net Gear Deployment Vocabulary"@en ;
+	skosmos:shortName "SNGDV" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B07/current/NDT014/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B07/current/NDT014/> .
+
+:cspdon a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Celtic Seas Partnership Data Owner Nations Bordering MSFD Celtic Seas Marine Region"@en ;
+	skosmos:shortName "CSPDON" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B09/current/10/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B09/current/10/> .
+
+:soppeo a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Standard Operating Procedures and Protocols for Environmental Observations"@en ;
+	skosmos:shortName "SOPPEO" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B11/current/B11A0014/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B11/current/B11A0014/> .
+
+:mnat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Measurement Numeric Attribute Types"@en ;
+	skosmos:shortName "MNAT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B12/current/B1200001/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B12/current/B1200001/> .
+
+:cspss a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Celtic Seas Partnership Stakeholder Sectors"@en ;
+	skosmos:shortName "CSPSS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B20/current/B20016/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B20/current/B20016/> .
+
+:csps a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Celtic Seas Partnership Scale"@en ;
+	skosmos:shortName "CSPS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B21/current/B21007/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B21/current/B21007/> .
+
+:cspgm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Celtic Seas Partnership Governance Mechanisms"@en ;
+	skosmos:shortName "CSPGM" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B22/current/B22002/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B22/current/B22002/> .
+
+:nmf-ss-rvuv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NMF-SS Research Vessel Underway Variable NetCDF Vocabulary"@en ;
+	skosmos:shortName "NMF-SS-RVUV" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B39/current/stir/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B39/current/stir/> .
+
+:bodco a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Organisations"@en ;
+	skosmos:shortName "BODCO" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B75/current/ORG00435/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B75/current/ORG00435/> .
+
+:bodcpm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Platform Models"@en ;
+	skosmos:shortName "BODCPM" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/B76/current/B7600010/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B76/current/B7600010/> .
+
+:sdds a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Seafloor Depth Data Sources"@en ;
+	skosmos:shortName "SDDS" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C00/current/GEBCO00/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C00/current/GEBCO00/> .
+
+:sft a skosmos:Vocabulary, void:Dataset ;
+	dc:title "BODC Series Feature Types"@en ;
+	skosmos:shortName "SFT" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C10/current/DPROF/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C10/current/DPROF/> .
+
+:sdnsa a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SeaDataNet Sea Areas"@en ;
+	skosmos:shortName "SDNSA" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C16/current/48a/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C16/current/48a/> .
+
+:icespc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ICES Platform Codes"@en ;
+	skosmos:shortName "ICESPC" ;
+	dc:subject :cat_5 ;
+	void:uriSpace "http://vocab.nerc.ac.uk/collection/C17/current/90GF/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C17/current/90GF/> .
+
+
 
 
 
