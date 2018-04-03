@@ -4580,7 +4580,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/HA2/current/HA20035/> .
 
-:grib4.2sub a skosmos:Vocabulary, void:Dataset ;
+:grib4_2sub a skosmos:Vocabulary, void:Dataset ;
 	dc:title "Subset of GRIB Table 4.2 - Parameter number by product discipline and parameter category"@en ;
 	skosmos:shortName "GRIB4.2Sub" ;
 	dc:subject :cat_5 ;
