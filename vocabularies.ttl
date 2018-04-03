@@ -6112,6 +6112,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://cern.ch/thesauri/HEPontology.rdf> .
 
+:md_tlc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "MD_TopologyLevelCode"@en ;
+        skosmos:shortName "MD_TLC" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/G28/current/006/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G28/current/006/> .
 
 
 
