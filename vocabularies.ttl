@@ -5693,6 +5693,434 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocabs.ceh.ac.uk/iot/> .
 
 
+:atag a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Authoring Tool Accessibility Guidelines 1.0"@en ;
+	skosmos:shortName "ATAG" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/ATAG10" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/ATAG10> .
+
+:ccpp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Composite Capability/Preference Profiles (CC/PP): Structure and Vocabularies 1.0"@en ;
+	skosmos:shortName "CCPP" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/CCPP-struct-vocab" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/CCPP-struct-vocab> .
+
+:css2 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Glossary of Cascading Style Sheets, level 2 CSS2 Specification"@en ;
+	skosmos:shortName "CSS2" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/CSS2" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/CSS2> .
+
+:dom-level-2-events a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Glossary of  Document Object Model (DOM) Level 2 Events"@en ;
+	skosmos:shortName "DOM-Level-2-Events" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/DOM-Level-2-Events" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/DOM-Level-2-Events> .
+
+:dom-level-2-html a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Glossary of Document Object Model (DOM) Level 2 HTML Specification"@en ;
+	skosmos:shortName "DOM-Level-2-HTML" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/DOM-Level-2-HTML" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/DOM-Level-2-HTML> .
+
+:dom-level-2-traversal-range a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Document Object Model (DOM) Level 2 Traversal and Range Specification"@en ;
+	skosmos:shortName "DOM-Level-2-Traversal-Range" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/DOM-Level-2-Traversal-Range" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/DOM-Level-2-Traversal-Range> .
+
+:p3p a skosmos:Vocabulary, void:Dataset ;
+	dc:title "P3P"@en ;
+	skosmos:shortName "P3P" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/P3P" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/P3P> .
+
+:png a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Portable Network Graphics (PNG) Specification (Second Edition)"@en ;
+	skosmos:shortName "PNG" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/PNG" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/PNG> .
+
+:process a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Process"@en ;
+	skosmos:shortName "Process" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/> .
+
+:xml-names a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Namespaces in XML"@en ;
+	skosmos:shortName "xml-names" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/REC-xml-names" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/REC-xml-names> .
+
+:xml a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XML"@en ;
+	skosmos:shortName "XML" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/REC-xml" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/REC-xml> .
+
+:wca-terms a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Web Characterization Terminology & Definitions Sheet"@en ;
+	skosmos:shortName "WCA-terms" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/WCA-terms" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/WCA-terms> .
+
+:charreq a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Charreq"@en ;
+	skosmos:shortName "charreq" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/charreq" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/charreq> .
+
+:hypertext-terms a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hypertext Terms"@en ;
+	skosmos:shortName "hypertext-terms" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/hypertext-terms" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/hypertext-terms> .
+
+:owl-guide a skosmos:Vocabulary, void:Dataset ;
+	dc:title "OWL Web Ontology Language Guide"@en ;
+	skosmos:shortName "owl-guide" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/owl-guide" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/owl-guide> .
+
+:qa-glossary a skosmos:Vocabulary, void:Dataset ;
+	dc:title "W3C QA - Quality Assurance glossary"@en ;
+	skosmos:shortName "qa-glossary" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/qa-glossary" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/qa-glossary> .
+
+:qa-framework a skosmos:Vocabulary, void:Dataset ;
+	dc:title "QA Framework: Specification Guidelines"@en ;
+	skosmos:shortName "qa-framework" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/qaframe-spec" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/qaframe-spec> .
+
+:rdf-mt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "RDF Semantics"@en ;
+	skosmos:shortName "rdf-mt" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/rdf-mt" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/rdf-mt> .
+
+:rdf-syntax a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Resource Description Framework (RDF) Model and Syntax Specification"@en ;
+	skosmos:shortName "rdf-syntax" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/rdf-syntax" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/rdf-syntax> .
+
+:rfc2616-sec1 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hypertext Transfer Protocol -- HTTP/1.1"@en ;
+	skosmos:shortName "rfc2616-sec1" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/> .
+
+:ruby a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ruby Annotation"@en ;
+	skosmos:shortName "ruby" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/ruby" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/ruby> .
+
+:soap12-part1 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "SOAP Version 1.2 Part 1: Messaging Framework"@en ;
+	skosmos:shortName "soap12-part1" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/soap12-part1" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/soap12-part1> .
+
+:uuag10 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "User Agent Accessibility Guidelines 1.0"@en ;
+	skosmos:shortName "uuag10" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/UAAG10" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/UAAG10> .
+
+:voicexml20 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Voice Extensible Markup Language (VoiceXML) Version 2.0"@en ;
+	skosmos:shortName "voicexml20" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/voicexml20" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/voicexml20> .
+
+:w3c-jargon a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Glossary of W3C Jargon"@en ;
+	skosmos:shortName "w3c-jargon" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/w3c-jargon" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/w3c-jargon> .
+
+:wcag10 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Web Content Accessibility Guidelines 1.0"@en ;
+	skosmos:shortName "wcag10" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/WAI-WEBCONTENT" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/WAI-WEBCONTENT> .
+
+:weaving a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Glossary of "Weaving the Web""@en ;
+	skosmos:shortName "weaving" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/weaving" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/weaving> .
+
+:ws-gloss a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Web Services Glossary"@en ;
+	skosmos:shortName "ws-gloss" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/ws-gloss" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/ws-gloss> .
+
+:xforms a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XForms 1.0"@en ;
+	skosmos:shortName "xforms" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xforms" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xforms> .
+
+:xhtml-modularization a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XHTML-Modularization"@en ;
+	skosmos:shortName "xhtml-modularization" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xhtml-modularization" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xhtml-modularization> .
+
+:xhtml1 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XHTML 1.0: The Extensible HyperText Markup Language (Second Edition)"@en ;
+	skosmos:shortName "xhtml1" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xhtml1" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xhtml1> .
+
+:xlink a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XML Linking Language (XLink)"@en ;
+	skosmos:shortName "xlink" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xlink" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xlink> .
+
+:xml-names11 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Namespaces in XML 1.1"@en ;
+	skosmos:shortName "xml-names11" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xml-names11" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xml-names11> .
+
+:xml11 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XML 1.1"@en ;
+	skosmos:shortName "xml11" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xml11" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xml11> .
+
+:xmlschema-2 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XML Schema Part 2: Datatypes"@en ;
+	skosmos:shortName "xmlschema-2" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xmlschema-2" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xmlschema-2> .
+
+:xpath a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XML Path Language (XPath)"@en ;
+	skosmos:shortName "xpath" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xpath" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xpath> .
+
+:xpath20 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XML Path Language (XPath) 2.0"@en ;
+	skosmos:shortName "xpath20" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xpath20" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xpath20> .
+
+:xslt20 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XSL Transformations (XSLT) 2.0"@en ;
+	skosmos:shortName "xslt20" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xslt20" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xslt20> .
+
+:xslt20 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "XSL Transformations (XSLT) 2.0"@en ;
+	skosmos:shortName "xslt20" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://www.w3.org/2003/03/glossary-project/data/glossaries/xslt20" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.w3.org/2003/03/glossary-project/data/glossaries/xslt20> .
 
 
 
