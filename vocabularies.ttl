@@ -2808,17 +2808,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTTitle> .
 
 
-:fast-personal a skosmos:Vocabulary, void:Dataset ;
-        dc:title "FAST (Faceted Application of Subject Terminology) Personal Names Facet"@en ;
-        skosmos:shortName "FAST-PERSONAL" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://id.loc.gov/authorities/subjects/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://anonftp.oclc.org/pub/researchdata/fast/FASTPersonal> .
-
 :fast-topical a skosmos:Vocabulary, void:Dataset ;
         dc:title "FAST (Faceted Application of Subject Terminology) Topical Facet"@en ;
         skosmos:shortName "FAST-TOPICAL" ;
