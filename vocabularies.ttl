@@ -4261,7 +4261,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M18/current/CONT_LINER/> .
 
-:ukmarhab04.05 a skosmos:Vocabulary, void:Dataset ;
+:ukmarhab04_05 a skosmos:Vocabulary, void:Dataset ;
 	dc:title "Marine Habitat Classification for Britain and Ireland Version 04.05"@en ;
 	skosmos:shortName "UKMarHab04.05" ;
 	dc:subject :cat_5 ;
