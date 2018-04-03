@@ -3226,6 +3226,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S29/current/PE000347/> .
 
+:bodc-psmrbe a skosmos:Vocabulary, void:Dataset ;
+        dc:title "BODC Parameter Semantic Model Relationships between Biological Entities"@en ;
+        skosmos:shortName "BODC-PSMRBE" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://vocab.nerc.ac.uk/collection/S30/current/S30002/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/S30/current/S30002/> .
+
 
 
 
