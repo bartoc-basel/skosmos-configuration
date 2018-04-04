@@ -6160,7 +6160,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.bibliotheken.nl/id/thes/> .
 
 
-
+:kbcode a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Thesaurus KBcode"@nl ;
+        skosmos:shortName "KBcode" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://data.bibliotheken.nl/id/thes/" ;
+        skosmos:language "nl" ;
+        skosmos:defaultLanguage "nl" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://data.bibliotheken.nl/id/thes/kbcode> .
 
 
 
