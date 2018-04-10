@@ -7001,7 +7001,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 
 :pré-prot a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Vocabulaire Préhistoireprotohistoire"@fr ;
+	dc:title "Vocabulaire Préhistoire et protohistoire"@fr ;
 	skosmos:shortName "Pré-Prot" ;
 	dc:subject :cat_9 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
