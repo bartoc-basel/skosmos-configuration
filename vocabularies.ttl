@@ -6173,7 +6173,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 
 :aea a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Art et Archéologie"@fr ;
+	dc:title "Vocabulaire Art et Archéologie"@fr ;
 	skosmos:shortName "AeA" ;
 	dc:subject :cat_7 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
@@ -6184,7 +6184,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/ArtArcheologie> .
 
 :hesdr a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Histoire et sciences des religions"@fr ;
+	dc:title "Vocabulaire Histoire et sciences des religions"@fr ;
 	skosmos:shortName "HeSdR" ;
 	dc:subject :cat_2 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
@@ -6195,7 +6195,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/HistSciencesReligions> .
 
 :philosophie a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Philosophie"@fr ;
+	dc:title "Vocabulaire de Philosophie"@fr ;
 	skosmos:shortName "Philosophie" ;
 	dc:subject :cat_1 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
@@ -6206,7 +6206,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Philosophie> .
 
 :scisoc a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Sciences sociales"@fr ;
+	dc:title "Vocabulaire de Sociologie"@fr ;
 	skosmos:shortName "SciSoc" ;
 	dc:subject :cat_3 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
@@ -6217,7 +6217,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/SciencesSociales> .
 
 :transchal a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Transferts de chaleur"@fr ;
+	dc:title "Thermodynamique classique / Transferts de chaleur"@fr ;
 	skosmos:shortName "TransChal" ;
 	dc:subject :cat_5 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
@@ -6228,7 +6228,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/TransfertsChaleur> .
 
 :biodiv a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Biodiversité"@fr ;
+	dc:title "Thésaurus Biodiversité"@fr ;
 	skosmos:shortName "Biodiv" ;
 	dc:subject :cat_5 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
