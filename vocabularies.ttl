@@ -7000,6 +7000,28 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/end-use-potential/> .
 
 
+:pré-prot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Vocabulaire Préhistoireprotohistoire"@fr ;
+	skosmos:shortName "Pré-Prot" ;
+	dc:subject :cat_9 ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en", "fr", "es" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Pre-protohistoire> .
+
+:elec-opt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Vocabulaire d'électronique et d'opto-électronique"@fr ;
+	skosmos:shortName "Elec-Opt" ;
+	dc:subject :cat_6 ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en", "fr", "es" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Electronique> .
+
 
 
 
