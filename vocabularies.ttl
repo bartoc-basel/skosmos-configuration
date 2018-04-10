@@ -6250,11 +6250,11 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Memoire> .
 
 :transsang a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Transfusion sanguine"@en ;
+	dc:title "Thésaurus de la transfusion sanguine"@fr ;
 	skosmos:shortName "TransSang" ;
 	dc:subject :cat_general ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
-	skosmos:language "en" ;
+	skosmos:language "en", "fr" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
