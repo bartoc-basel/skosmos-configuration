@@ -7023,7 +7023,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Electronique> .
 
 
-
+:eduuse a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Educational Use"@en ;
+        skosmos:shortName "EduUse" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://purl.org/dcx/lrmi-vocabs/educationalUse/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://purl.org/dcx/lrmi-vocabs/educationalUse/> .
 
 
 
