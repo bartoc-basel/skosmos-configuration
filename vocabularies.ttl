@@ -6172,6 +6172,830 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://data.bibliotheken.nl/id/thes/kbcode> .
 
 
+:aea a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Art et Archéologie"@en ;
+	skosmos:shortName "AeA" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/ArtArcheologie> .
+
+:hesdr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Histoire et sciences des religions"@en ;
+	skosmos:shortName "HeSdR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/HistSciencesReligions> .
+
+:philosophie a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Philosophie"@en ;
+	skosmos:shortName "Philosophie" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Philosophie> .
+
+:scisoc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sciences sociales"@en ;
+	skosmos:shortName "SciSoc" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/SciencesSociales> .
+
+:transchal a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Transferts de chaleur"@en ;
+	skosmos:shortName "TransChal" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/TransfertsChaleur> .
+
+:biodiv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Biodiversité"@en ;
+	skosmos:shortName "Biodiv" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Biodiversite> .
+
+:mémoire a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mémoire"@en ;
+	skosmos:shortName "Mémoire" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Memoire> .
+
+:transsang a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Transfusion sanguine"@en ;
+	skosmos:shortName "TransSang" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Transfusion> .
+
+:motype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mineral Occurrence Type"@en ;
+	skosmos:shortName "MOType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/> .
+
+:mrrcm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mineral Resource Reporting Classification Method"@en ;
+	skosmos:shortName "MRRCM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/classification-method-used/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/classification-method-used/> .
+
+:minestatus a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mine Status"@en ;
+	skosmos:shortName "MineStatus" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/mine-status/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mine-status/> .
+
+:miningact a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mining Activity"@en ;
+	skosmos:shortName "MiningAct" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/mining-activity/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mining-activity/> .
+
+:ngis a skosmos:Vocabulary, void:Dataset ;
+	dc:title "National Groundwater Information System"@en ;
+	skosmos:shortName "NGIS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/> .
+
+:nvis_growth_form a skosmos:Vocabulary, void:Dataset ;
+	dc:title "National Vegetation Information System growth form"@en ;
+	skosmos:shortName "NVIS_growth_form" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NVIS/national-vegetation-information-system-growth-form/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NVIS/national-vegetation-information-system-growth-form/> .
+
+:neii_data_av a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NEII Data Availability"@en ;
+	skosmos:shortName "NEII_Data_Av" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-data-availability/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/> .
+
+:neii_data_prov a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NEII Data Provider"@en ;
+	skosmos:shortName "NEII_Data_Prov" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-data-provider/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-data-provider/> .
+
+:neii_env_theme a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NEII Environmental Theme"@en ;
+	skosmos:shortName "NEII_Env_Theme" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-environmental-theme/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-environmental-theme/> .
+
+:neii_networkid a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NEII Network ID"@en ;
+	skosmos:shortName "NEII_NetworkID" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-network-id/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-network-id/> .
+
+:neii_obs_meth a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NEII Observation Method"@en ;
+	skosmos:shortName "NEII_Obs_Meth" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-observation-method/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/> .
+
+:neii_obs_prop a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NEII Observed Property"@en ;
+	skosmos:shortName "NEII_Obs_Prop" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-observed-property/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/> .
+
+:neii_sampl_reg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NEII Sampling Regime"@en ;
+	skosmos:shortName "NEII_Sampl_Reg" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/> .
+
+:neii_srs_name a skosmos:Vocabulary, void:Dataset ;
+	dc:title "NEII SRS Name"@en ;
+	skosmos:shortName "NEII_SRS_Name" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/> .
+
+:netcdf_surftemp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "netCDF-LD example - Surface temperature"@en ;
+	skosmos:shortName "netCDF_SurfTemp" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://skos.um.es/unesco6/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://skos.um.es/unesco6/> .
+
+:onlinefunc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "OnLine Function"@en ;
+	skosmos:shortName "OnLineFunc" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/onlinefunction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/onlinefunction/> .
+
+:ppc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Planar Polarity Code"@en ;
+	skosmos:shortName "PPC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/planarpolaritycode/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/planarpolaritycode/> .
+
+:prottype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Protocol Type"@en ;
+	skosmos:shortName "ProtType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/protocoltype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/> .
+
+:samptype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sample Type"@en ;
+	skosmos:shortName "SampType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/sampletype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/sampletype/> .
+
+:sampmeth a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sampling Method"@en ;
+	skosmos:shortName "SampMeth" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/samplingmethod/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/samplingmethod/> .
+
+:sanbhcs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Seamap Australia National Benthic Habitat Classification Scheme"@en ;
+	skosmos:shortName "SANBHCS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://seamapaustralia.org.au/def/benthichabitatclassification/class/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://seamapaustralia.org.au/def/benthichabitatclassification/class/> .
+
+:servtype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Service Type"@en ;
+	skosmos:shortName "ServType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/servicetype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/servicetype/> .
+
+:envi a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Environmental Impact"@en ;
+	skosmos:shortName "EnvI" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/environmental-impact/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/environmental-impact/> .
+
+:evente a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Environment"@en ;
+	skosmos:shortName "EventE" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/eventenvironment/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/eventenvironment/> .
+
+:eventpro a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Process"@en ;
+	skosmos:shortName "EventPro" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/eventprocess/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/eventprocess/> .
+
+:explat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Exploration Activity Type"@en ;
+	skosmos:shortName "ExplAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/exploration-activity-type/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/exploration-activity-type/> .
+
+:explr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Exploration Result"@en ;
+	skosmos:shortName "ExplR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/exploration-result/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/exploration-result/> .
+
+:fmsense a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fault Movement Sense"@en ;
+	skosmos:shortName "FMSense" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/faultmovementsense/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/faultmovementsense/> .
+
+:fmtype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fault Movement Type"@en ;
+	skosmos:shortName "FMType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/faultmovementtype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/faultmovementtype/> .
+
+:ftype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fault Type"@en ;
+	skosmos:shortName "FType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/type/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/type/> .
+
+:fit a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Feature of Interest Type"@en ;
+	skosmos:shortName "FIT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/featureofinteresttype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/featureofinteresttype/> .
+
+:foltype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Foliation Type"@en ;
+	skosmos:shortName "FolType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/foliationtype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/foliationtype/> .
+
+:gadc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "GA Data Classification"@en ;
+	skosmos:shortName "GADC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/gadata/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/gadata/> .
+
+:gencat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Genetic Category"@en ;
+	skosmos:shortName "GenCat" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/geneticcategory/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/geneticcategory/> .
+
+:geoum a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geologic Unit Morphology"@en ;
+	skosmos:shortName "GeoUM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/> .
+
+:geoupr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geologic Unit Part Role"@en ;
+	skosmos:shortName "GeoUPR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/> .
+
+:geout a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geologic Unit Type"@en ;
+	skosmos:shortName "GeoUT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/geologicunittype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/geologicunittype/> .
+
+:geology a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geology"@en ;
+	skosmos:shortName "Geology" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/geology/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/geology/> .
+
+:gcmd-sci a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Global Change Master Directory - Science Keywords"@en ;
+	skosmos:shortName "GCMD-Sci" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://gcmdservices.gsfc.nasa.gov/kms/concept/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://gcmdservices.gsfc.nasa.gov/kms/concept/> .
+
+:gde_atlas a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Groundwater Dependent Ecosystems Atlas"@en ;
+	skosmos:shortName "GDE_Atlas" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/GW/groundwater-dependent-ecosystems-atlas/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/GW/groundwater-dependent-ecosystems-atlas/> .
+
+:isgn_codes a skosmos:Vocabulary, void:Dataset ;
+	dc:title "IGSN Codelist"@en ;
+	skosmos:shortName "ISGN_Codes" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://vocabulary.odm2.org/medium/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://vocabulary.odm2.org/medium/> .
+
+:icc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "International Chronostratigraphic Chart"@en ;
+	skosmos:shortName "ICC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/ics/ischart/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/ics/ischart/> .
+
+:lintype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Lineation Type"@en ;
+	skosmos:shortName "LinType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/lineationtype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/lineationtype/> .
+
+:mattype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Material Type"@en ;
+	skosmos:shortName "MatType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/materialtype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/materialtype/> .
+
+:metafac a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Metamorphic Facies"@en ;
+	skosmos:shortName "MetaFac" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/metamorphicfacies/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/> .
+
+:metagr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Metamorphic Grade"@en ;
+	skosmos:shortName "MetaGr" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/metamorphicgrade/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/metamorphicgrade/> .
+
+:alttype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Alteration Type"@en ;
+	skosmos:shortName "AltType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/alterationtype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/alterationtype/> .
+
+:analysis a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Analysis"@en ;
+	skosmos:shortName "Analysis" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/analysis/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/analysis/> .
+
+:asstype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Association Type"@en ;
+	skosmos:shortName "AssType" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://pid.geoscience.gov.au/def/voc/ga/associationtype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/associationtype/> .
+
+:insight a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Australian Groundwater Insight"@en ;
+	skosmos:shortName "Insight" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/> .
+
+:awra a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Australian Landscape Water Balance"@en ;
+	skosmos:shortName "AWRA" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/> .
+
+:alum a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Australian Land Use and Management Classification"@en ;
+	skosmos:shortName "ALUM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/ACLUMP/australian-land-use-and-management-classification/> .
+
+:bdrm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Borehole Drilling Method"@en ;
+	skosmos:shortName "BDrM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/boreholedrillingmethod/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/boreholedrillingmethod/> .
+
+:commcode a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Commodity Code"@en ;
+	skosmos:shortName "CommCode" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/commodity-code/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/commodity-code/> .
+
+:compcat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Composition Category"@en ;
+	skosmos:shortName "CompCat" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/compositioncategory/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/compositioncategory/> .
+
+:compmcp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Compound Material Constituent Part"@en ;
+	skosmos:shortName "CompMCP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/> .
+
+:consdeg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Consolidation Degree"@en ;
+	skosmos:shortName "ConsDeg" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/consolidationdegree/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/consolidationdegree/> .
+
+:contyp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Contact Type"@en ;
+	skosmos:shortName "ConTyp" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/contacttype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/contacttype/> .
+
+:cvrtg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Controlled Vocabulary for Resource Type Genres"@en ;
+	skosmos:shortName "CVRTG" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://purl.org/coar/resource_type/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://purl.org/coar/resource_type/> .
+
+:ccsdm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Convention Code for Strike and Dip Measurements"@en ;
+	skosmos:shortName "CCSDM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/conventioncode/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/conventioncode/> .
+
+:defsty a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Deformation Style"@en ;
+	skosmos:shortName "DefSty" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/deformationstyle/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/deformationstyle/> .
+
+:descp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Description Purpose"@en ;
+	skosmos:shortName "DescP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/descriptionpurpose/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/descriptionpurpose/> .
+
+:ere a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Earth Resource Expression"@en ;
+	skosmos:shortName "ERE" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/earth-resource-expression/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/earth-resource-expression/> .
+
+:erf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Earth Resource Form"@en ;
+	skosmos:shortName "ERF" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/earth-resource-form/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/earth-resource-form/> .
+
+:ermr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Earth Resource Material Role"@en ;
+	skosmos:shortName "ERMR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/earth-resource-material-role/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/earth-resource-material-role/> .
+
+:ers a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Earth Resource Shape"@en ;
+	skosmos:shortName "ERS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/earth-resource-shape/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/earth-resource-shape/> .
+
+:eup a skosmos:Vocabulary, void:Dataset ;
+	dc:title "End Use Potential"@en ;
+	skosmos:shortName "EUP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://resource.geosciml.org/classifier/cgi/end-use-potential/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/end-use-potential/> .
 
 
 
