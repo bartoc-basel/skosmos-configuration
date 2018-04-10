@@ -6252,7 +6252,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :transsang a skosmos:Vocabulary, void:Dataset ;
 	dc:title "Thésaurus de la transfusion sanguine"@fr ;
 	skosmos:shortName "TransSang" ;
-	dc:subject :cat_general ;
+	dc:subject :cat_6 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
 	skosmos:language "en", "fr" ;
 	skosmos:defaultLanguage "en" ;
