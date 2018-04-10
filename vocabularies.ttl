@@ -7045,6 +7045,42 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/dcx/lrmi-vocabs/alignmentType/> .
 
+:eduaudrole a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Educational Audience Role"@en ;
+        skosmos:shortName "EduAudRole" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
