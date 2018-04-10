@@ -6173,7 +6173,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 
 :aea a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Art et Archéologie"@en ;
+	dc:title "Art et Archéologie"@fr ;
 	skosmos:shortName "AeA" ;
 	dc:subject :cat_7 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
@@ -6184,7 +6184,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/ArtArcheologie> .
 
 :hesdr a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Histoire et sciences des religions"@en ;
+	dc:title "Histoire et sciences des religions"@fr ;
 	skosmos:shortName "HeSdR" ;
 	dc:subject :cat_2 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
@@ -6195,11 +6195,11 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/HistSciencesReligions> .
 
 :philosophie a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Philosophie"@en ;
+	dc:title "Philosophie"@fr ;
 	skosmos:shortName "Philosophie" ;
-	dc:subject :cat_general ;
+	dc:subject :cat_1 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
-	skosmos:language "en" ;
+	skosmos:language "en", "de", "fr" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
