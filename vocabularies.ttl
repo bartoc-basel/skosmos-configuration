@@ -6239,11 +6239,11 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Biodiversite> .
 
 :mémoire a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Mémoire"@en ;
+	dc:title "Thésaurus Psychologie cognitive de la mémoire humaine"@fr ;
 	skosmos:shortName "Mémoire" ;
-	dc:subject :cat_general ;
+	dc:subject :cat_1 ;
 	void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
-	skosmos:language "en" ;
+	skosmos:language "en", "fr" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
