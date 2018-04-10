@@ -7034,7 +7034,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/dcx/lrmi-vocabs/educationalUse/> .
 
-
+:aligntype a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Alignment Type"@en ;
+        skosmos:shortName "AlignType" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://purl.org/dcx/lrmi-vocabs/alignmentType/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://purl.org/dcx/lrmi-vocabs/alignmentType/> .
 
 
 
