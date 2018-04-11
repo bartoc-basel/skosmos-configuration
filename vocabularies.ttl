@@ -1360,7 +1360,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "HRT" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://data.ub.uio.no/mrtermer/" ;
-        skosmos:language "en", "nb" ;
+        skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
