@@ -101,7 +101,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "CECCT" ;
         dc:subject :cat_5 ;
         void:uriSpace "http://www.reegle.info/downloads/latest" ;
-        skosmos:language "en", "de" ;
+        skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
@@ -551,9 +551,10 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "NomenclatureSciTech" ;
         dc:subject :cat_5 ;
         void:uriSpace "http://skos.um.es/unesco6/" ;
-        skosmos:language "en", "fr", "es" ;
+        skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://skos.um.es/unesco6/> .
 		
@@ -2899,6 +2900,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.w3.org/2004/02/skos/core> .
 
@@ -3225,6 +3227,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/V22/current/C32/> .
 
@@ -3236,6 +3239,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/V23/current/G05/> .
 
@@ -3247,6 +3251,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W01/current/022/> .
 
@@ -3258,6 +3263,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W02/current/003/> .
 
@@ -3269,6 +3275,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W03/current/W030002/> .
 
@@ -3280,6 +3287,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W04/current/CAPB0002/> .
 
@@ -3291,6 +3299,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W05/current/CHAR0007/> .
 
@@ -3302,6 +3311,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W06/current/CLSS0001/> .
 
@@ -3313,6 +3323,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W07/current/IDEN0012/> .
 
@@ -3324,6 +3335,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/W08/current/CONT0006/> .
 
@@ -3379,6 +3391,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P05/current/016/> .
 
@@ -3401,6 +3414,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P08/current/DS10/> .
 
@@ -3549,6 +3563,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P23/current/MD011/> .
 
@@ -3560,6 +3575,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P24/current/NMASS/> .
 
@@ -3571,6 +3587,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P25/current/CHLA/> .
 
@@ -3593,6 +3610,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/P27/current/0.05/> .
 
@@ -3696,6 +3714,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/Q01/current/Q0100014/> .
 
@@ -3843,6 +3862,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L07/current/CDIMTH04/> .
 
@@ -3854,6 +3874,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L08/current/LS/> .
 
@@ -3876,6 +3897,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L11/current/D08/> .
 
@@ -3887,6 +3909,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L12/current/N/> .
 
@@ -3898,6 +3921,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L13/current/BP/> .
 
@@ -3909,6 +3933,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L14/current/ON/> .
 
@@ -3920,6 +3945,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L15/current/JGOFSL1/> .
 
@@ -3931,6 +3957,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L18/current/CSRU012/> .
 
@@ -3942,6 +3969,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG15/> .
 
@@ -3953,6 +3981,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L20/current/A/> .
 
@@ -3964,6 +3993,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L21/current/ICAT07/> .
 
@@ -3986,6 +4016,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L23/current/EDIOSOP/> .
 
@@ -3997,6 +4028,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L24/current/BAG/> .
 
@@ -4020,6 +4052,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L27/current/PANGAEA_QC/> .
 
@@ -4065,6 +4098,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L34/current/1/> .
 
@@ -4076,6 +4110,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L35/current/MAN0025/> .
 
@@ -4087,6 +4122,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M01/current/DEL/> .
 
@@ -4098,6 +4134,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M03/current/M0311/> .
 
@@ -4109,6 +4146,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M04/current/M0406/> .
 
@@ -4120,6 +4158,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M05/current/OBJFOSR/> .
 
@@ -4131,6 +4170,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M06/current/MONRGHB/> .
 
@@ -4142,6 +4182,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M09/current/5/> .
 
@@ -4153,6 +4194,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M10/current/8/> .
 
@@ -4164,6 +4206,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M11/current/1/> .
 
@@ -4175,6 +4218,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M12/current/9/> .
 
@@ -4186,6 +4230,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M13/current/011/> .
 
@@ -4197,6 +4242,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M14/current/L2/> .
 
@@ -4208,6 +4254,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M15/current/D/> .
 
@@ -4219,6 +4266,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M16/current/INVEST_CPTBORE/> .
 
@@ -4230,6 +4278,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M17/current/SAMP_PISTCOR/> .
 
@@ -4241,6 +4290,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/M18/current/CONT_LINER/> .
 
@@ -4274,6 +4324,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N01/current/NDGO0001/> .
 
@@ -4285,6 +4336,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N02/current/3/> .
 
@@ -4308,6 +4360,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N04/current/7/> .
 
@@ -4319,6 +4372,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/N05/current/MSTD0001/> .
 
@@ -4330,6 +4384,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G29/current/013/> .
 
@@ -4352,6 +4407,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G26/current/001/> .
 
@@ -4587,6 +4643,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I01/current/0.1.19/> .
 
@@ -4598,6 +4655,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I02/current/1/> .
 
@@ -4609,6 +4667,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I03/current/Bluff_Top/> .
 
@@ -4620,6 +4679,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I10/current/2/> .
 
@@ -4631,6 +4691,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I11/current/restriction/> .
 
@@ -4642,6 +4703,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I12/current/weekdays/> .
 
@@ -4653,6 +4715,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I13/current/soil/> .
 
@@ -4664,6 +4727,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I14/current/plantAndAnimalHealth/> .
 
@@ -4675,6 +4739,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I15/current/plantHealthProtectionZone/> .
 
@@ -4686,6 +4751,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L02/current/006/> .
 
@@ -4697,6 +4763,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L03/current/5/> .
 
@@ -4708,6 +4775,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/L04/current/L04004/> .
 
@@ -4786,6 +4854,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C39/current/5/> .
 
@@ -4833,6 +4902,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C45/current/D5/> .
 
@@ -4844,6 +4914,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C46/current/C7_2/> .
 
@@ -4866,6 +4937,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C48/current/MDG015/> .
 
@@ -4889,6 +4961,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C60/current/HUN/> .
 
@@ -4922,6 +4995,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C64/current/1/> .
 
@@ -4991,6 +5065,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C86/current/SDNR03/> .
 
@@ -5060,6 +5135,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C98/current/CL07/> .
 
@@ -5094,6 +5170,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/E02/current/0/> .
 
@@ -5105,6 +5182,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/F02/current/F0200008/> .
 
@@ -5200,6 +5278,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G08/current/001/> .
 
@@ -5211,6 +5290,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G09/current/010/> .
 
@@ -5222,6 +5302,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G10/current/002/> .
 
@@ -5233,6 +5314,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G11/current/003/> .
 
@@ -5244,6 +5326,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G12/current/015/> .
 
@@ -5255,6 +5338,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G13/current/007/> .
 
@@ -5266,6 +5350,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G14/current/004/> .
 
@@ -5277,6 +5362,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G15/current/007/> .
 
@@ -5288,6 +5374,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G17/current/006/> .
 
@@ -5299,6 +5386,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G18/current/003/> .
 
@@ -5310,6 +5398,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G20/current/002/> .
 
@@ -5321,6 +5410,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G21/current/001/> .
 
@@ -5332,6 +5422,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G22/current/004/> .
 
@@ -5343,6 +5434,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/G23/current/108/> .
 
@@ -5399,6 +5491,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C31/current/F/> .
 
@@ -5421,6 +5514,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C33/current/NG08/> .
 
@@ -5443,6 +5537,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/A01/current/Mitigation_Strategies_and_Preparedness/> .
 
@@ -5546,6 +5641,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B07/current/NDT014/> .
 
@@ -5628,6 +5724,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B39/current/stir/> .
 
@@ -6360,6 +6457,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/> .
 
@@ -6371,6 +6469,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/classification-method-used/> .
 
@@ -6382,6 +6481,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mine-status/> .
 
@@ -6393,6 +6493,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mining-activity/> .
 
@@ -6404,6 +6505,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/> .
 
@@ -6415,6 +6517,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NVIS/national-vegetation-information-system-growth-form/> .
 
@@ -6426,6 +6529,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/> .
 
@@ -6437,6 +6541,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-data-provider/> .
 
@@ -6448,6 +6553,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-environmental-theme/> .
 
@@ -6459,6 +6565,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-network-id/> .
 
@@ -6470,6 +6577,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/> .
 
@@ -6492,6 +6600,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/> .
 
@@ -6503,6 +6612,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/> .
 
@@ -6514,6 +6624,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://skos.um.es/unesco6/> .
 
@@ -6525,6 +6636,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/onlinefunction/> .
 
@@ -6536,6 +6648,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/planarpolaritycode/> .
 
@@ -6591,6 +6704,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://pid.geoscience.gov.au/def/voc/ga/servicetype/> .
 
@@ -6833,6 +6947,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/lineationtype/> .
 
@@ -6855,6 +6970,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/metamorphicfacies/> .
 
@@ -6866,6 +6982,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/metamorphicgrade/> .
 
