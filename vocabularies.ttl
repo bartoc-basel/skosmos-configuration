@@ -1814,13 +1814,13 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "instantiationGenerations Vocabulary"@en ;
         skosmos:shortName "InstGen" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://metadataregistry.org/uri/RegStatus/" ;
+        void:uriSpace "http://metadataregistry.org/uri/RegStatus/gen" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://metadataregistry.org/uri/RegStatus/> .
+        skosmos:sparqlGraph <http://metadataregistry.org/uri/RegStatus/gen> .
 		
 :InstPhysVideo a skosmos:Vocabulary, void:Dataset ;
         dc:title "instantiationPhysical: Video Vocabulary"@en ;
