@@ -1566,12 +1566,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "JUPO - Finnish Ontology for Public Administration Services"@en, "JUPO - Julkisen hallinnon palveluontologia"@fi, "JUPO - Ontologi för den offentliga sektorns tjänster"@sv ;
         skosmos:shortName "JUPO" ;
         dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/jupo/" ;
+        void:uriSpace "http://www.yso.fi/onto/jupo" ;
         skosmos:language "en", "fi", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/jupo/> .
+        skosmos:sparqlGraph <http://www.yso.fi/onto/jupo> .
 		
 :TERO a skosmos:Vocabulary, void:Dataset ;
         dc:title "TERO - Terveyden ja hyvinvoinnin ontologia"@fi, "TERO - Finnish Ontology of Health and Welfare"@en, "TERO - Ontologi för hälsa och välfärd"@sv ;
