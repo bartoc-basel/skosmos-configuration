@@ -7293,6 +7293,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://purl.org/dcx/lrmi-vocabs/educationalAudienceRole/> .
 
 
+:coarrtv a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Resource Type Vocabulary"@en ;
+        skosmos:shortName "COARRTV" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://purl.org/coar/resource_type/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://purl.org/coar/resource_type/> .
 
 
 
