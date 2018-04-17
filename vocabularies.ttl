@@ -2187,17 +2187,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://bartoc.org/ILC/1/> .
-		
-:LCSH a skosmos:Vocabulary, void:Dataset ;
-        dc:title "LC Subject Headings"@en ;
-        skosmos:shortName "LCSH" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://id.loc.gov/authorities/subjects" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.loc.gov/authorities/subjects> .
+
 		
 :PSO a skosmos:Vocabulary, void:Dataset ;
         dc:title "NPG Publish States Ontology"@en ;
