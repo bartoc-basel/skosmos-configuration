@@ -7362,6 +7362,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://onomy.org/published/84> .
 
+:varmedia a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Variable Media v14"@en ;
+        skosmos:shortName "VarMedia" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://onomy.org/published/75/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://onomy.org/published/75> .
+
 
 
 
