@@ -7308,7 +7308,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :filmlang a skosmos:Vocabulary, void:Dataset ;
         dc:title "Film Language Glossary v31"@en ;
         skosmos:shortName "FilmLang" ;
-        dc:subject :cat_general ;
+        dc:subject :cat_7 ;
         void:uriSpace "http://onomy.org/published/74/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
