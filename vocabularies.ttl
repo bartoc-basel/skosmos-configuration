@@ -7350,6 +7350,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://onomy.org/published/81> .
 
+:socpo a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Social Power (SOCPO) scheme v1"@en ;
+        skosmos:shortName "SOCPO" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "https://onomy.org/published/84/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://onomy.org/published/84> .
 
 
 
