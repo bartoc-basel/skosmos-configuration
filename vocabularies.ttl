@@ -7294,6 +7294,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/coar/resource_type/> .
 
+:atl a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Abel Thematic List v2"@en ;
+        skosmos:shortName "ATL" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://onomy.org/published/73/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://onomy.org/published/73> .
 
 
 
