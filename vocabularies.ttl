@@ -7116,16 +7116,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/contacttype/> .
 
-:cvrtg a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Controlled Vocabulary for Resource Type Genres"@en ;
-	skosmos:shortName "CVRTG" ;
-	dc:subject :cat_5 ;
-	void:uriSpace "http://purl.org/coar/resource_type/" ;
-	skosmos:language "en" ;
-	skosmos:defaultLanguage "en" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://purl.org/coar/resource_type/> .
 
 :ccsdm a skosmos:Vocabulary, void:Dataset ;
 	dc:title "Convention Code for Strike and Dip Measurements"@en ;
