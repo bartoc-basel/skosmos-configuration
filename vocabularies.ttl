@@ -7363,6 +7363,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://onomy.org/published/75> .
 
+:periodo a skosmos:Vocabulary, void:Dataset ;
+        dc:title "PeriodO"@en ;
+        skosmos:shortName "PeriodO" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://n2t.net/ark:/99152/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://n2t.net/ark:/99152/> .
+
 
 
 
