@@ -7288,7 +7288,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "COARRTV" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://purl.org/coar/resource_type/" ;
-        skosmos:language "en" ;
+        skosmos:language "en", "fr", "ru", "pt", "es", "nl", "zh", "it", "tr", "ca", "ja", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
