@@ -7331,7 +7331,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :musichuman a skosmos:Vocabulary, void:Dataset ;
         dc:title "Music Humanities v4"@en ;
         skosmos:shortName "MusicHuman" ;
-        dc:subject :cat_general ;
+        dc:subject :cat_7 ;
         void:uriSpace "http://onomy.org/published/78/" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
