@@ -7339,6 +7339,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://onomy.org/published/78> .
 
+:nicem a skosmos:Vocabulary, void:Dataset ;
+        dc:title "NICEM v2"@en ;
+        skosmos:shortName "NICEM" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://onomy.org/published/81/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://onomy.org/published/81> .
+
+
 
 
 
