@@ -7328,6 +7328,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://onomy.org/published/83> .
 
+:musichuman a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Music Humanities v4"@en ;
+        skosmos:shortName "MusicHuman" ;
+        dc:subject :cat_general ;
+        void:uriSpace "http://onomy.org/published/78/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://onomy.org/published/78> .
+
+
 
 
 
