@@ -7375,6 +7375,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://n2t.net/ark:/99152/> .
 
 
+:demovoc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "DemoVoc"@en ;
+        skosmos:shortName "DemoVoc" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://thesaurus.web.ined.fr/demovoc/" ;
+        skosmos:language "en", "fr" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://thesaurus.web.ined.fr/demovoc/> .
+
+
 
 
 
