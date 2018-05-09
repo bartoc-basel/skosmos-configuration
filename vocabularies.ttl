@@ -7376,7 +7376,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 
 :demovoc a skosmos:Vocabulary, void:Dataset ;
-        dc:title "DemoVoc"@en ;
+        dc:title "DemoVoc Thesaurus"@en, "Thésaurus DemoVoc"@fr ;
         skosmos:shortName "DemoVoc" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://thesaurus.web.ined.fr/demovoc/" ;
