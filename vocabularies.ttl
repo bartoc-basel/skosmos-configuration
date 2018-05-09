@@ -7387,12 +7387,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://thesaurus.web.ined.fr/demovoc/> .
 
 :wo2 a skosmos:Vocabulary, void:Dataset ;
-        dc:title "WO2 Thesaurus"@en ;
+        dc:title "WO2 Thesaurus"@nl ;
         skosmos:shortName "WO2" ;
         dc:subject :cat_9 ;
         void:uriSpace "https://data.niod.nl/WO2_Thesaurus/corporaties/" ;
         skosmos:language "en", "nl", "de" ;
-        skosmos:defaultLanguage "en" ;
+        skosmos:defaultLanguage "nl" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://data.niod.nl/WO2_Thesaurus/> .
