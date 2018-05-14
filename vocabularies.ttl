@@ -7397,6 +7397,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://data.niod.nl/WO2_Thesaurus/> .
 
+:ruthes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Тезаурус РуТез"@ru, "RuThes-lite"@en ;
+        skosmos:shortName "RuThes" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://labinform.ru/pub/ruthes/c/" ;
+        skosmos:language "ru" ;
+        skosmos:defaultLanguage "ru" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://labinform.ru/pub/ruthes/> .
+
 
 
 
