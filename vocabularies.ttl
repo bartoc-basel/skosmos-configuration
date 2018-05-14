@@ -7446,7 +7446,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "ThesEau" ;
         dc:subject :cat_5 ;
         void:uriSpace "http://thesaurus.oieau.fr/thesaurus/resource/ark:/99160/" ;
-        skosmos:language "fr-FR" ;
+        skosmos:language "fr-FR", "en-US" ;
         skosmos:defaultLanguage "fr-FR" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
