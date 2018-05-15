@@ -7761,7 +7761,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/grammatical-alternation/> .
 
-
+:gcnal a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Grammatical Consciousness Name Authority List"@en ;
+        skosmos:shortName "GCNAL" ;
+        dc:subject :cat_4 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/grammatical-consciousness/" ;
+        skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/grammatical-consciousness/> .
 
 
 
