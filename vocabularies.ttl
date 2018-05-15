@@ -7892,9 +7892,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/procjur-type/> .
 
 
-:lnal a skosmos:Vocabulary, void:Dataset ;
+:licnal a skosmos:Vocabulary, void:Dataset ;
         dc:title "Licence Name Authority List"@en ;
-        skosmos:shortName "LNAL" ;
+        skosmos:shortName "LicNAL" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/licence/" ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
