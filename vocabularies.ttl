@@ -1056,7 +1056,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/corporate-body/> .
 		
 :CNNAL a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Countries Name Authority List"@en ;
+        dc:title "Country Name Authority List"@en ;
         skosmos:shortName "CNNAL" ;
         dc:subject :cat_9 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/country/" ;
