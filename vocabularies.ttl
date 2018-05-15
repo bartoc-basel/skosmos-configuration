@@ -7704,7 +7704,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/eu-programme/> .
 
-
+:enal a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Event Name Authority List"@en ;
+        skosmos:shortName "ENAL" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/event/" ;
+        skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/event/> .
 
 
 
