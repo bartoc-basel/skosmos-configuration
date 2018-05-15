@@ -7895,7 +7895,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :lnal a skosmos:Vocabulary, void:Dataset ;
         dc:title "Licence Name Authority List"@en ;
         skosmos:shortName "LNAL" ;
-        dc:subject :cat_0 ;
+        dc:subject :cat_3 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/licence/" ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
