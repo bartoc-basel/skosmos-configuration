@@ -7842,7 +7842,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
-        void:sparqlEndpoint <http://localhost
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/label-type/> .
 
