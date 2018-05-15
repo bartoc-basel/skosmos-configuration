@@ -724,7 +724,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://culturaitalia.it/pico/thesaurus/> .
 
 :CNNAL a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Currencies Name Authority List"@en ;
+        dc:title "Currency Name Authority List"@en ;
         skosmos:shortName "CNNAL" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/currency/" ;
