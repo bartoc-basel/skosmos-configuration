@@ -7692,3 +7692,43 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/eu-budget-status/> .
+
+ :eupnal a skosmos:Vocabulary, void:Dataset ;
+        dc:title "EU Programme Name Authority List"@en ;
+        skosmos:shortName "EUPNAL" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/eu-programme/" ;
+        skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/eu-programme/> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
