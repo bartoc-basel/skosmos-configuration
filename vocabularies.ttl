@@ -1448,7 +1448,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://data.ub.uio.no/lskjema/> .
 
 :PNAL a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Places Name Authority List"@en ;
+        dc:title "Place Name Authority List"@en ;
         skosmos:shortName "PNAL" ;
         dc:subject :cat_9 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/place/" ;
