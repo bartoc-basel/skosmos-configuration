@@ -7964,9 +7964,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/number/> .
 
 
-:ntnal a skosmos:Vocabulary, void:Dataset ;
+:numtnal a skosmos:Vocabulary, void:Dataset ;
         dc:title "Number Type Name Authority List"@en ;
-        skosmos:shortName "NTNAL" ;
+        skosmos:shortName "NumTNAL" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/number-type/" ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
