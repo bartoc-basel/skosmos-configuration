@@ -1247,7 +1247,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://www.ilo.org/dyn/taxonomy/> .
 		
 :RNAL a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Roles Name Authority List"@en ;
+        dc:title "Role Name Authority List"@en ;
         skosmos:shortName "RNAL" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/role/" ;
