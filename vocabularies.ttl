@@ -7850,7 +7850,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "LNAL" ;
         dc:subject :cat_4 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/language/" ;
-        skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
+        skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es", "sh", "hsb", "is", "mk", "no", "ru", "sr", "tr", "uk", "aaa", "aab", "aac", "aad", "aae", "aaf", "aag", "aah", "aai", "aak", "aal", "aam", "aan", "aao", "aap", "aaq", "aa", "aas", "aat", "aau", "aaw", "aax", "aaz", "aba", "abb", "abc", "abd", "abe", "abf", "abg" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
