@@ -1045,7 +1045,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_com/concepts/> .
 		
 :CBNAL a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Corporate bodies Name Authority List"@en ;
+        dc:title "Corporate Body Name Authority List"@en ;
         skosmos:shortName "CBNAL" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/corporate-body/" ;
