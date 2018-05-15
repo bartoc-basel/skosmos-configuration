@@ -7890,3 +7890,46 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/procjur-type/> .
+
+
+:lnal a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Licence Name Authority List"@en ;
+        skosmos:shortName "LNAL" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/licence/" ;
+        skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/licence/> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
