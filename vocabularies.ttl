@@ -8026,7 +8026,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/position-type/> .
 
-
+:gndsc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "GND Subject Categories"@en, "GND Sachgruppen"@de ;
+        skosmos:shortName "GNDSC" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://d-nb.info/standards/vocab/gnd/gnd-sc" ;
+        skosmos:language "de" ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://d-nb.info/standards/vocab/gnd/gnd-sc> .
 
 
 
