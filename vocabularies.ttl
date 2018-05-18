@@ -7439,7 +7439,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:defaultLanguage "ru" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://russianword.net/synsets/> .
+        skosmos:sparqlGraph <http://depot.nlpub.ru/rtlod/yarn.ttl> .
 
 :theseau a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus Eau"@fr ;
