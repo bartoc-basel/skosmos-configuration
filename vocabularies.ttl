@@ -7400,7 +7400,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :ruthes a skosmos:Vocabulary, void:Dataset ;
         dc:title "Тезаурус РуТез"@ru, "RuThes-lite"@en ;
         skosmos:shortName "RuThes" ;
-        dc:subject :cat_0 ;
+        dc:subject :cat_4 ;
         void:uriSpace "http://labinform.ru/pub/ruthes/c/" ;
         skosmos:language "ru" ;
         skosmos:defaultLanguage "ru" ;
