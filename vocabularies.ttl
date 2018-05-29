@@ -8187,6 +8187,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://onto.tib.eu/destf/cs/> .
 
+:bibhisp a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Bibliographie der Hispanistik in der Bundesrepublik Deutschland, Österreich und der deutschsprachigen Schweiz (1978 - 2001)"@de ;
+        skosmos:shortName "BibHisp" ;
+        dc:subject :cat_8 ;
+        void:uriSpace "http://data/skosmos/tmp/temporary/BibHisp" ;
+        skosmos:language "de" ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://data/skosmos/tmp/temporary/BibHisp> .
+
 
 
 
