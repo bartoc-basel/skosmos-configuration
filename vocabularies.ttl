@@ -214,17 +214,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 			skosmos:showTopConcepts true ;
 			void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 			skosmos:sparqlGraph <http://udcdata.info/> .
-			
-:AAT a skosmos:Vocabulary, void:Dataset ;
-        dc:title "The Art & Architecture Thesaurus"@en ;
-        skosmos:shortName "AAT" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "http://vocab.getty.edu/aat/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.getty.edu/aat/> .
+
 		
 :UNESCO a skosmos:Vocabulary, void:Dataset ;
         dc:title "UNESCO Thesaurus"@en ;
@@ -612,17 +602,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://bartoc.poolparty.biz/SystematikSportmediathekMagglingen/> .
-		
-:ULAN a skosmos:Vocabulary, void:Dataset ;
-        dc:title "The Union List of Artist Names"@en ;
-        skosmos:shortName "ULAN" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "http://vocab.getty.edu/ulan/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.getty.edu/ulan/> .
+
 		
 :VCGE a skosmos:Vocabulary, void:Dataset ;
         dc:title "Vocabulário Controlado do Governo Eletrônico"@pt ;
@@ -2257,28 +2237,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://iconclass.org/> .
-		
-:ulan a skosmos:Vocabulary, void:Dataset ;
-        dc:title "The Union List of Artist Names"@en ;
-        skosmos:shortName "ULAN" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "http://vocab.getty.edu/ulan/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.getty.edu/ulan/> .
-		
-:tgn a skosmos:Vocabulary, void:Dataset ;
-        dc:title "The Getty Thesaurus of Geographic Names"@en ;
-        skosmos:shortName "TGN" ;
-        dc:subject :cat_9 ;
-        void:uriSpace "http://vocab.getty.edu/tgn/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocab.getty.edu/tgn/> .
+
+
 		
 :NPGSO a skosmos:Vocabulary, void:Dataset ;
         dc:title "NPG Subjects Ontology"@en ;
