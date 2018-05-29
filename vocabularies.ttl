@@ -8167,14 +8167,15 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 :admscv a skosmos:Vocabulary, void:Dataset ;
         dc:title "ADMS Controlled Vocabularies"@en ;
-        skosmos:shortName "ADMSAT" ;
+        skosmos:shortName "ADMSCV" ;
         dc:subject :cat_0 ;
-        void:uriSpace "http://purl.org/adms/assettype" ;
+        void:uriSpace "http://purl.org/adms/controlledvocabularies" ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/adms/assettype/> .
+        skosmos:sparqlGraph <http://purl.org/adms/controlledvocabularies/> .
+
 
 
 
