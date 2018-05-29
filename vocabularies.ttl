@@ -8198,6 +8198,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://data/skosmos/tmp/temporary/BibHisp> .
 
+:jita a skosmos:Vocabulary, void:Dataset ;
+        dc:title "JITA Classification System of Library and Information Science"@en ;
+        skosmos:shortName "JITA" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://aims.fao.org/aos/jita/" ;
+        skosmos:language "en", "ar", "pt", "sv", "de", "pl", "cs", "fr", "it", "ru", "ro", "ca", "es", "el", "tr", "nl" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://aims.fao.org/aos/jita/> .
+
 
 
 
