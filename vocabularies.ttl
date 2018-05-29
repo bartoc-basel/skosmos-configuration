@@ -7419,17 +7419,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://unl.ru/> .
 
-:yarn a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Yet Another RussNet"@en ;
-        skosmos:shortName "YARN" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://russianword.net/synsets/" ;
-        skosmos:language "ru" ;
-        skosmos:defaultLanguage "ru" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://depot.nlpub.ru/rtlod/yarn.ttl> .
-
 :theseau a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thésaurus Eau"@fr ;
         skosmos:shortName "ThesEau" ;
