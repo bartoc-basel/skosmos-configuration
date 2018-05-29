@@ -8026,9 +8026,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/product-form/> .
 
-:ptnal a skosmos:Vocabulary, void:Dataset ;
+:putnal a skosmos:Vocabulary, void:Dataset ;
         dc:title "Publication Theme Name Authority List"@en ;
-        skosmos:shortName "PTNAL" ;
+        skosmos:shortName "PUTNAL" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/pub-theme/" ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
@@ -8179,6 +8179,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/writing-system/> .
+
+
 
 :gndsc a skosmos:Vocabulary, void:Dataset ;
         dc:title "GND Subject Categories"@en, "GND Sachgruppen"@de ;
