@@ -8081,6 +8081,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/script/> .
 
+:sitenal a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Site Name Authority List"@en ;
+        skosmos:shortName "SiteNAL" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/site/" ;
+        skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/site/> .
+
 :gndsc a skosmos:Vocabulary, void:Dataset ;
         dc:title "GND Subject Categories"@en, "GND Sachgruppen"@de ;
         skosmos:shortName "GNDSC" ;
