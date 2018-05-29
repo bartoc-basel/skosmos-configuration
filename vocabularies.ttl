@@ -8165,7 +8165,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://d-nb.info/standards/vocab/gnd/gnd-sc> .
 
 
-
+:admsat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "ADMS Asset Type"@en ;
+        skosmos:shortName "ADMSAT" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://purl.org/adms/assettype" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://purl.org/adms/assettype/> .
 
 
 
