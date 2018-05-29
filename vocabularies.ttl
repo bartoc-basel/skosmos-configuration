@@ -8012,6 +8012,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/procedure-nature/> .
 
@@ -8023,6 +8024,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/product-form/> .
 
@@ -8056,6 +8058,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/role-nature/> .
 
@@ -8078,6 +8081,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/script/> .
 
@@ -8100,6 +8104,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/subdivision/> .
 
@@ -8111,6 +8116,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/subdivision-position/> .
 
@@ -8122,6 +8128,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/target-audience/> .
 
@@ -8133,6 +8140,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/timeperiod/> .
 
@@ -8155,6 +8163,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/treaty-classification/> .
 
@@ -8166,6 +8175,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/use-context/> .
 
@@ -8177,6 +8187,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/writing-system/> .
 
