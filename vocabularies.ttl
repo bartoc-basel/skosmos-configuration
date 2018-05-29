@@ -8015,6 +8015,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/procedure-nature/> .
 
+
+
 :gndsc a skosmos:Vocabulary, void:Dataset ;
         dc:title "GND Subject Categories"@en, "GND Sachgruppen"@de ;
         skosmos:shortName "GNDSC" ;
@@ -8026,16 +8028,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://d-nb.info/standards/vocab/gnd/gnd-sc> .
 
-:unldc a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Universal Dictionary of Concepts"@en ;
-        skosmos:shortName "UNLDC" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://unl.ru/" ;
-        skosmos:language "ru" ;
-        skosmos:defaultLanguage "ru" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://unl.ru/> .
+
 
 
 
