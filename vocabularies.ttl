@@ -8352,7 +8352,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Aquaculture> .
 
- :avhendel a skosmos:Vocabulary, void:Dataset ;
+:avhendel a skosmos:Vocabulary, void:Dataset ;
         dc:title "Avhendelsesmåte (A.1.11)"@no ;
         skosmos:shortName "Avhendel" ;
         dc:subject :cat_0 ;
@@ -8364,7 +8364,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Avhendel> .
 
-   :behandling a skosmos:Vocabulary, void:Dataset ;
+:behandling a skosmos:Vocabulary, void:Dataset ;
         dc:title "Behandling (A.1.19)"@no ;
         skosmos:shortName "Behandling" ;
         dc:subject :cat_0 ;
@@ -8374,3 +8374,15 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Behandling> .
+
+:bunnmat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Bunnmateriale (A.2.15.B)"@no ;
+        skosmos:shortName "Bunnmat" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Bunnmat" ;
+        skosmos:language "en", " no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Bunnmat> .
