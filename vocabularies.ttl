@@ -8306,7 +8306,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :altbeteg a skosmos:Vocabulary, void:Dataset ;
         dc:title "Alternativ betegnelse (særnemning) (A.2.6.K/KI)"@no ;
         skosmos:shortName "Altbeteg" ;
-        dc:subject :cat_0 ;
+        dc:subject :cat_4 ;
         void:uriSpace "http://kulturnav.org/Altbeteg" ;
         skosmos:language "no", "sv", "en" ;
         skosmos:defaultLanguage "no" ;
