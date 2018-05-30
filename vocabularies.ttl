@@ -8294,7 +8294,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :aktdes a skosmos:Vocabulary, void:Dataset ;
         dc:title "Aktørroller, design"@no, "Aktörsroller, design"@sv ;
         skosmos:shortName "Aktdes" ;
-        dc:subject :cat_general ;
+        dc:subject :cat_7 ;
         void:uriSpace "http://kulturnav.org/Aktdes" ;
         skosmos:language "no", "sv" ;
         skosmos:defaultLanguage "no" ;
