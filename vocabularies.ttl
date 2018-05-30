@@ -8209,6 +8209,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://aims.fao.org/aos/jita/> .
 
+:eft a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Europeana Fashion Thesaurus"@en ;
+        skosmos:shortName "EFT" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://thesaurus.europeanafashion.eu/thesaurus/" ;
+        skosmos:language "en", "sr", "de", "es", "de", "it", "sv", "he", "nl", "fr", "el", "pt" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://thesaurus.europeanafashion.eu/thesaurus/> .
+
+
 
 
 
