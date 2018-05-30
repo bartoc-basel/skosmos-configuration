@@ -8291,5 +8291,15 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Aksrelhen> .
 
-
+:aktdes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Aktørroller, design"@no, "Aktörsroller, design"@sv ;
+        skosmos:shortName "Aktdes" ;
+        dc:subject :cat_general ;
+        void:uriSpace "http://kulturnav.org/Aktdes" ;
+        skosmos:language "no", "sv" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Aktdes> .
 
