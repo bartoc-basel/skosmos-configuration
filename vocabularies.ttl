@@ -8380,7 +8380,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "Bunnmat" ;
         dc:subject :cat_7 ;
         void:uriSpace "http://kulturnav.org/Bunnmat" ;
-        skosmos:language "en", " no" ;
+        skosmos:language "en", "no" ;
         skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
