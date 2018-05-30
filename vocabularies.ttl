@@ -8351,3 +8351,15 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Aquaculture> .
+
+ :avhendel a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Avhendelsesmåte (A.1.11)"@no ;
+        skosmos:shortName "Avhendel" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Avhendel" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Avhendel> .
