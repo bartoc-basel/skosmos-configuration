@@ -8386,3 +8386,14 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Bunnmat> .
+
+:collmansys a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Collection management system, content lists"@en, "Systemlister"@no, "Systemlistor"@sv ;
+        skosmos:shortName "Collmansys" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Collmansys" ;
+        skosmos:language "no", "sv" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Collmansys> .
