@@ -8231,7 +8231,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/textech> .
 
-
+:actroles a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Actor roles"@en, "Aktörsroller"@sv ;
+        skosmos:shortName "ActRoles" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/ActRoles" ;
+        skosmos:language "sv" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/ActRoles> .
 
 
 
