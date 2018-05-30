@@ -8314,3 +8314,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Altbeteg> .
+
+
+:altnumtype a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Alternativt nummer: Type (A.1.1)"@no ;
+        skosmos:shortName "AltnumType" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/AltnumType" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/AltnumType> .
