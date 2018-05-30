@@ -8220,6 +8220,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://thesaurus.europeanafashion.eu/thesaurus/> .
 
+:textech a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Textile technical terminology"@en ;
+        skosmos:shortName "TexTech" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/textech" ;
+        skosmos:language "en", "da", "fr", "is", "fi", "sv", "de", "no" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/textech> .
+
 
 
 
