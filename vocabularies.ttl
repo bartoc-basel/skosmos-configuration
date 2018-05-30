@@ -8317,7 +8317,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 
 :altnumtype a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Alternativt nummer: Type (A.1.1)"@no ;
+        dc:title "Alternativt nummer: Type (A.1.1)"@no, "Typ av alternativt nummer"@sv ;
         skosmos:shortName "AltnumType" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://kulturnav.org/AltnumType" ;
@@ -8327,3 +8327,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/AltnumType> .
+
+
+:analysemet a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Analysemetoder"@no ;
+        skosmos:shortName "Analysemet" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Analysemet" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Analysemet> .
