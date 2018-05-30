@@ -8254,6 +8254,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/AksM> .
 
+:acttype a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Activity types"@en, "Aktivitetstyper"@sv ;
+        skosmos:shortName "ActType" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/ActType" ;
+        skosmos:language "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/ActType> .
+
 
 
 
