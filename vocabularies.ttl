@@ -8275,8 +8275,21 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "no", "sv" ;
         skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/AksM> .
+
+:aksrelhen a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Aksesjonsrelatert hendelse (A.1.5)"@no ;
+        skosmos:shortName "Aksrelhen" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Aksrelhen" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Aksrelhen> .
 
 
 
