@@ -8340,3 +8340,14 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Analysemet> .
+
+:aquaculture a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Aquaculture"@en, "" ;
+        skosmos:shortName "Aquaculture" ;
+        dc:subject :cat_6 ;
+        void:uriSpace "http://kulturnav.org/Aquaculture" ;
+        skosmos:language "en", "no", "sv", "da", "la" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Aquaculture> .
