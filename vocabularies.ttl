@@ -8436,7 +8436,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :dateringantype a skosmos:Vocabulary, void:Dataset ;
         dc:title "Datering av navn: Type (A.1.27)"@no ;
         skosmos:shortName "DateringanType" ;
-        dc:subject :cat_0 ;
+        dc:subject :cat_9 ;
         void:uriSpace "http://kulturnav.org/DateringanType" ;
         skosmos:language "no" ;
         skosmos:defaultLanguage "no" ;
@@ -8448,7 +8448,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :dateringaostat a skosmos:Vocabulary, void:Dataset ;
         dc:title "Datering av objekt: Status (A.1.7)"@no ;
         skosmos:shortName "DateringaoStat" ;
-        dc:subject :cat_0 ;
+        dc:subject :cat_9 ;
         void:uriSpace "http://kulturnav.org/DateringaoStat" ;
         skosmos:language "no" ;
         skosmos:defaultLanguage "no" ;
@@ -8460,7 +8460,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :dateringaotypeb a skosmos:Vocabulary, void:Dataset ;
         dc:title "Datering av objekt: Type (A.2.8.B)"@no ;
         skosmos:shortName "DateringaoTypeB" ;
-        dc:subject :cat_0 ;
+        dc:subject :cat_9 ;
         void:uriSpace "http://kulturnav.org/DateringaoTypeB" ;
         skosmos:language "no" ;
         skosmos:defaultLanguage "no" ;
@@ -8472,7 +8472,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :dateringaotypef a skosmos:Vocabulary, void:Dataset ;
         dc:title "Datering av objekt: Type (A.2.8.F)"@no ;
         skosmos:shortName "DateringaoTypeF" ;
-        dc:subject :cat_0 ;
+        dc:subject :cat_9 ;
         void:uriSpace "http://kulturnav.org/DateringaoTypeF" ;
         skosmos:language "no" ;
         skosmos:defaultLanguage "no" ;
@@ -8481,6 +8481,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/DateringaoTypeF> .
 
+:dateringstat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Datering: Status (A.1.6)"@no ;
+        skosmos:shortName "DateringStat" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://kulturnav.org/DateringStat" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/DateringStat> .
 
 
 
