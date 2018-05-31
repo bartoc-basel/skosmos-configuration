@@ -8564,6 +8564,45 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Fiskeredskap> .
 
 
+:forekon a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Forebyggende konservering (A.1.20)"@no ;
+        skosmos:shortName "Forekon" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Forekon" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Forekon> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
