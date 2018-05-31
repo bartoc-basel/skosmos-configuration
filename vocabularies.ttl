@@ -8501,6 +8501,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "sv", "no" ;
         skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Designtyper> .
 
@@ -8514,6 +8515,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Emnefoto> .
+
+:emnemusikk a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Emneord knyttet til musikk"@no ;
+        skosmos:shortName "Emnemusikk" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Emnemusikk" ;
+        skosmos:language "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Emnemusikk> .
 
 
 
