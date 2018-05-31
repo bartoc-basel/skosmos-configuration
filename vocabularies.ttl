@@ -8404,8 +8404,20 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:subject :cat_0 ;
         void:uriSpace "http://kulturnav.org/ConCat" ;
         skosmos:language "en", "no", "sv" ;
-        skosmos:defaultLanguage "en" ;
+        skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/ConCat> .
+
+:datasrcty a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Dataset source types"@en, "Type av kilde for dataset"@no, "Typ av källa för dataset"@sv ;
+        skosmos:shortName "Datasrcty" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Datasrcty" ;
+        skosmos:language "en", "no", "sv" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Datasrcty> .
 
