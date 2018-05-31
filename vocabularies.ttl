@@ -8576,7 +8576,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Forekon> .
 
-
+:formtil a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Formål tilstandsvurdering"@no ;
+        skosmos:shortName "Formtil" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://kulturnav.org/Formtil" ;
+        skosmos:language "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Formtil> .
 
 
 
