@@ -8397,3 +8397,15 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Collmansys> .
+
+:concat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Concept categories"@en, "Termkategorier"@sv ;
+        skosmos:shortName "ConCat" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/ConCat" ;
+        skosmos:language "en", "no", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/ConCat> .
+
