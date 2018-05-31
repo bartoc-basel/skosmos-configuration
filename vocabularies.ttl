@@ -8588,6 +8588,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Formtil> .
 
+:gender a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Gender"@en, "Kjønn"@no, "Kön"@sv ;
+        skosmos:shortName "Gender" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/Gender" ;
+        skosmos:language "en", "et", "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Gender> .
+
 
 
 
