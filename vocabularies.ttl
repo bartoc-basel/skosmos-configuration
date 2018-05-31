@@ -8457,6 +8457,44 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/DateringaoStat> .
 
+:dateringaotypeb a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Datering av objekt: Type (A.2.8.B)"@no ;
+        skosmos:shortName "DateringaoTypeB" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/DateringaoTypeB" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/DateringaoTypeB> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
