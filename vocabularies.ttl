@@ -8612,7 +8612,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Grouptypes> .
 
-
+:gruppkrit a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Grupperingskriterium (A.1.3)"@no ;
+        skosmos:shortName "Gruppkrit" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Gruppkrit" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Gruppkrit> .
 
 
 
