@@ -8504,7 +8504,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Designtyper> .
 
-
+:emnefoto a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Emneord for foto"@no, "Motivämnesord"@sv ;
+        skosmos:shortName "Emnefoto" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Emnefoto" ;
+        skosmos:language "sv", "no", "nn", "en" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Emnefoto> .
 
 
 
