@@ -8528,7 +8528,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Emnemusikk> .
 
-
+:eventtypes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Event types"@en, "Hendelsestyper"@no, "Händelsetyp"@sv ;
+        skosmos:shortName "Eventtypes" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Eventtypes" ;
+        skosmos:language "en", "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Eventtypes> .
 
 
 
