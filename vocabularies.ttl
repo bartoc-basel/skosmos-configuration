@@ -8421,3 +8421,40 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Datasrcty> .
 
+:datatopo a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Dataset topology"@en, "Innholdsstuktur"@no, "Innehållsstruktur för dataset"@sv ;
+        skosmos:shortName "Datatopo" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Datatopo" ;
+        skosmos:language "no", "sv" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Datatopo> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
