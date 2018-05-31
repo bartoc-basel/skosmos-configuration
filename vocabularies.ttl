@@ -8429,6 +8429,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "no", "sv" ;
         skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Datatopo> .
 
@@ -8440,10 +8441,21 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "no" ;
         skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/DateringanType> .
 
-
+:dateringaostat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Datering av objekt: Status (A.1.7)"@no ;
+        skosmos:shortName "DateringaoStat" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/DateringaoStat" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/DateringaoStat> .
 
 
 
