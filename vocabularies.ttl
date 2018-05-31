@@ -8624,6 +8624,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Gruppkrit> .
 
+:gruppkrittill a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Grupperingskriterium: Tilleggskriterium (A.2.2.F)"@no ;
+        skosmos:shortName "GruppkritTill" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/GruppkritTill" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/GruppkritTill> .
 
 
 
