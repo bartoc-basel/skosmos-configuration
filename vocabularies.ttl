@@ -8696,6 +8696,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/InviaNokut> .
 
 
+:iso639-1 a skosmos:Vocabulary, void:Dataset ;
+        dc:title "ISO 639-1: Codes for the Representation of Names of Languages. Alpha-2 Code for the Names of Languages (ISO 639-1)"@en, "Språk (ISO 639-1)"@no, "Språk (ISO 639-1)"@sv ;
+        skosmos:shortName "ISO639-1" ;
+        dc:subject :cat_4 ;
+        void:uriSpace "http://kulturnav.org/ISO639-1" ;
+        skosmos:language "de", "no", "nn", "fr", "sv", "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/ISO639-1> .
+
+
 
 
 
