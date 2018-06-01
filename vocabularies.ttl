@@ -8648,7 +8648,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/GrupptypeB> .
 
-
+:grupptypef a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Grupperingstype (A.2.1.F)"@no ;
+        skosmos:shortName "GrupptypeF" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/GrupptypeF" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/GrupptypeF> .
 
 
 
