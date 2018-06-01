@@ -8672,6 +8672,57 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Imagetypes> .
 
+:innhold a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Innhold (A.2.9.F)"@no ;
+        skosmos:shortName "Innhold" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Innhold" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Innhold> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
