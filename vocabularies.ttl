@@ -8701,7 +8701,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "ISO639-1" ;
         dc:subject :cat_4 ;
         void:uriSpace "http://kulturnav.org/ISO639-1" ;
-        skosmos:language "de", "no", "nn", "fr", "sv", "en" ;
+        skosmos:language "de", "no", "fr", "sv", "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
