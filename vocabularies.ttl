@@ -8684,6 +8684,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Innhold> .
 
+:invianokut a skosmos:Vocabulary, void:Dataset ;
+        dc:title "INVIA NOKUTs Yrkesliste"@no, "INVIA NOKUTs yrkeslista"@sv ;
+        skosmos:shortName "InviaNokut" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/InviaNokut" ;
+        skosmos:language "en", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/InviaNokut> .
+
 
 
 
