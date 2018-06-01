@@ -8660,6 +8660,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/GrupptypeF> .
 
+:imagetypes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Image types"@en, "Bildtyper"@sv ;
+        skosmos:shortName "Imagetypes" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Imagetypes" ;
+        skosmos:language "en", "no", "et", "sv" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Imagetypes> .
+
 
 
 
