@@ -8636,6 +8636,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/GruppkritTill> .
 
+:grupptypeb a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Grupperingstype (A.2.1.B)"@no ;
+        skosmos:shortName "GrupptypeB" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/GrupptypeB" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/GrupptypeB> .
+
 
 
 
