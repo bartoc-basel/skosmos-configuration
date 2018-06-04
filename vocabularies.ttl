@@ -9120,7 +9120,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "VIS" ;
         dc:subject :cat_9 ;
         void:uriSpace "http://gams.uni-graz.at/skos/scheme/o:vis/" ;
-        skosmos:language "de", "fr" ;
+        skosmos:language "de", "fr", "en", "es" ;
         skosmos:defaultLanguage "fr" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
