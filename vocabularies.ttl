@@ -8766,6 +8766,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Konsektil> .
 
+:kulturnavcs a skosmos:Vocabulary, void:Dataset ;
+        dc:title "KulturNav Class Structure"@en, "KulturNavs informationskategorier (klasser)"@sv ;
+        skosmos:shortName "KulturNavCS" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/KulturNavCS" ;
+        skosmos:language "en", "no", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/KulturNavCS> .
+
 
 
 
