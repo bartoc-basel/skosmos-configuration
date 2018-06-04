@@ -9251,7 +9251,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/SOSI> .
 
 
-
+:spatrefsys a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Spatial reference systems"@en, "Koordinatsystem"@no, "Koordinatsystem"@sv ;
+        skosmos:shortName "Spatrefsys" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://kulturnav.org/Spatrefsys" ;
+        skosmos:language "sv" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Spatrefsys> .
 
 
 
