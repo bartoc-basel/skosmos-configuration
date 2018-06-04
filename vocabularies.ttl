@@ -8954,7 +8954,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:subject :cat_3 ;
         void:uriSpace "http://kulturnav.org/NavalVAR" ;
         skosmos:language "en", "sv", "no", "nn" ;
-        skosmos:defaultLanguage "sv" ;
+        skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/NavalVAR> .
@@ -8973,7 +8973,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/NavalVID> .
 
 
-
+:navalvmu a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Naval vessel measurement units"@en, "Fartygsmåttenheter"@sv ;
+        skosmos:shortName "NavalVMU" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/NavalVMU" ;
+        skosmos:language "en", "no", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/NavalVMU> .
 
 
 
