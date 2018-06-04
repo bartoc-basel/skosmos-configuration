@@ -9357,7 +9357,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :teknik a skosmos:Vocabulary, void:Dataset ;
         dc:title "Teknik"@sv ;
         skosmos:shortName "Teknik" ;
-        dc:subject :cat_6 ;
+        dc:subject :cat_7 ;
         void:uriSpace "http://kulturnav.org/Teknik" ;
         skosmos:language "sv" ;
         skosmos:defaultLanguage "sv" ;
