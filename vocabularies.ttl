@@ -8803,6 +8803,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/KunstUnder> .
 
 
+:liferoles a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Life roles"@en, "Livsrolle"@no, "Livsroll"@sv, "Elämä rooli"@fi ;
+        skosmos:shortName "Liferoles" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/Liferoles" ;
+        skosmos:language "en", "no", "fi", "et", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Liferoles> .
 
 
 
