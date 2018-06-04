@@ -9354,6 +9354,55 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/StructureTypes> .
 
 
+:teknik a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Teknik"@sv ;
+        skosmos:shortName "Teknik" ;
+        dc:subject :cat_6 ;
+        void:uriSpace "http://kulturnav.org/Teknik" ;
+        skosmos:language "sv" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Teknik> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
