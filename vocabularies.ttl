@@ -9329,6 +9329,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/StilF> .
 
 
+:stilk a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Stil (A.2.7.K/KI)"@no ;
+        skosmos:shortName "StilK" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/StilK" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/StilK> .
 
 
 
