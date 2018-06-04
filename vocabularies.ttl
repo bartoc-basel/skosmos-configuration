@@ -8851,6 +8851,26 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Materialebase> .
 
+:materialetype a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Materiale: Type (A.2.16.K/KI)"@no ;
+        skosmos:shortName "MaterialeType" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/MaterialeType" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/MaterialeType> .
+
+
+
+
+
+
+
+
+
+
 
 
 
