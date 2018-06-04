@@ -9264,7 +9264,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Spatrefsys> .
 
 
-
+:status a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Status"@no, "Status"@sv ;
+        skosmos:shortName "Status" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Status" ;
+        skosmos:language "en", "sv", "no", "et" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Status> .
 
 
 
