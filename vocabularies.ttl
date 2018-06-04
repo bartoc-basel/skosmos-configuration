@@ -9551,7 +9551,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Typbygg> .
 
-
+:utout a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Utøked Outline"@no ;
+        skosmos:shortName "UtOut" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/UtOut" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/UtOut> .
 
 
 
