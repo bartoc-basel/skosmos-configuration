@@ -8742,7 +8742,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Kildedok> .
 
-
+:klausul a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Klausul (A.1.26)"@no ;
+        skosmos:shortName "Klausul" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Klausul" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Klausul> .
 
 
 
