@@ -9165,7 +9165,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Photogenprac> .
 
 
-
+:phototech a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Photographic techniques"@en, "Teknikk/medium, Type: Fotografisk teknikk (A.2.12.F)"@no, "Teknik/medium, typ: Fotografisk teknik (A.2.12.F)"@sv ;
+        skosmos:shortName "Phototech" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Phototech" ;
+        skosmos:language "en", "sv", "no" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Phototech> .
 
 
 
