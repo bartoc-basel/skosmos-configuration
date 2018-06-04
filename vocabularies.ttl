@@ -9082,7 +9082,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Objecttype> .
 
 
-
+:orgatypes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Organization types"@en ;
+        skosmos:shortName "OrgaTypes" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/OrgaTypes" ;
+        skosmos:language "en", "no", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/OrgaTypes> .
 
 
 
