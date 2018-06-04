@@ -9094,7 +9094,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/OrgaTypes> .
 
 :outlinecm a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Outline of Cultural Materials"@en ;
+        dc:title "Outline of Cultural Materials [no, sv]"@en ;
         skosmos:shortName "OutlineCM" ;
         dc:subject :cat_7 ;
         void:uriSpace "http://kulturnav.org/OutlineCM" ;
