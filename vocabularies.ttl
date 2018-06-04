@@ -9478,6 +9478,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/TilstgrTil> .
 
+:tilstkodtil a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Tilstandskoder tilstandsvurdering"@no ;
+        skosmos:shortName "TilstkodTil" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/TilstkodTil" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TilstkodTil> .
 
 
 
