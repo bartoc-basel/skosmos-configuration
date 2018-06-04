@@ -9502,7 +9502,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Tilstvur> .
 
-
+:titnavnstat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Tittel/navn: Status (A.1.24)"@no ;
+        skosmos:shortName "TitnavnStat" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/TitnavnStat" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TitnavnStat> .
 
 
 
