@@ -8814,6 +8814,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Liferoles> .
 
+:listtypes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "List types"@en, "Mappetyp"@no, "Mapptyp"@sv ;
+        skosmos:shortName "Listtypes" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Listtypes" ;
+        skosmos:language "en", "et", "sv", "no" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Listtypes> .
+
 
 
 
