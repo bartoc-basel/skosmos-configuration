@@ -9290,6 +9290,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/StedStat> .
 
 
+:stedsobj a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Stedsrolle relatert til objekt (A.1.14)"@no, "Anknytningskoder, plats"@sv ;
+        skosmos:shortName "Stedsobj" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Stedsobj" ;
+        skosmos:language "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Stedsobj> .
 
 
 
