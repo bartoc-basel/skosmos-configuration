@@ -8859,6 +8859,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "no" ;
         skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/MaterialeType> .
 
