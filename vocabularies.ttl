@@ -9350,6 +9350,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "no", "sv" ;
         skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
+         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/StructureTypes> .
 
@@ -9366,7 +9367,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Teknik> .
 
 
-
+:teknikktype a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Teknikk: Type (A.2.13.K/KI)"@no ;
+        skosmos:shortName "TeknikkType" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/TeknikkType" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+         skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TeknikkType> .
 
 
 
