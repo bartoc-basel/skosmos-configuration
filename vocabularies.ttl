@@ -9375,11 +9375,21 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "no" ;
         skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
-         skosmos:fullAlphabeticalIndex true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/TeknikkType> .
 
-
+:tekmedbehand a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Teknikk/medium, Type: Behandling (A.2.12.1.F)"@no ;
+        skosmos:shortName "TekmedBehand" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/TekmedBehand" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TekmedBehand> .
 
 
 
