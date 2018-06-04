@@ -8779,6 +8779,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/KulturNavCS> .
 
 
+:kunsthoved a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Kunstverkinndeling: Hovedkategori (A.2.3.B)"@no ;
+        skosmos:shortName "KunstHoved" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/KunstHoved" ;
+        skosmos:language "en", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/KunstHoved> .
 
 
 
