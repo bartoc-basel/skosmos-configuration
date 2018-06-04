@@ -8839,7 +8839,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Material> .
 
 
-:materiale(base) a skosmos:Vocabulary, void:Dataset ;
+:materialebase a skosmos:Vocabulary, void:Dataset ;
         dc:title "Materiale (base) (A.2.15.F)"@no ;
         skosmos:shortName "Materiale(base)" ;
         dc:subject :cat_7 ;
