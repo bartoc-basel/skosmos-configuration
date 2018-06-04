@@ -9226,7 +9226,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/RouteTypes> .
 
 
-
+:skader a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Skader"@no ;
+        skosmos:shortName "Skader" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Skader" ;
+        skosmos:language "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Skader> .
 
 
 
