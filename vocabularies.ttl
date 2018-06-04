@@ -9189,6 +9189,74 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Poststed> .
 
 
+:referanse a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Referansetype (A.1.25)"@no ;
+        skosmos:shortName "Referanse" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Referanse" ;
+        skosmos:language "no", "sv" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Referanse> .
+
+:reltype a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Relasjonstype (mellom registrert enhet og relatert objekt) (A.2.19.B)"@en ;
+        skosmos:shortName "Reltype" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Reltype" ;
+        skosmos:language "en", "no" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Reltype> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
