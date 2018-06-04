@@ -8948,6 +8948,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/NamedWTypes> .
 
+:navalvar a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Naval vessel actor roles"@en, "Skipsaktørsroller"@no, "Aktörsroller, fartyg"@sv ;
+        skosmos:shortName "NavalVAR" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/NavalVAR" ;
+        skosmos:language "en", "sv", "no", "nn" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/NavalVAR> .
 
 
 
