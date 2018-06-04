@@ -8827,7 +8827,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Listtypes> .
 
 
-
+:material a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Material"@sv ;
+        skosmos:shortName "Material" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Material" ;
+        skosmos:language "sv" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Material> .
 
 
 
