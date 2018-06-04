@@ -8937,6 +8937,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/MotivtypeF> .
 
 
+:namedwtypes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Named watercraft types"@en, "Navngitte fartøystyper"@no, "Namngivna fartygstyper"@sv ;
+        skosmos:shortName "NamedWTypes" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/NamedWTypes" ;
+        skosmos:language "sv" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/NamedWTypes> .
 
 
 
