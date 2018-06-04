@@ -9127,6 +9127,31 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://gams.uni-graz.at/skos/scheme/o:vis/> .
 
 
+:overtiltil a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Overordnet tiltaksklasse tilstandsvurdering"@no ;
+        skosmos:shortName "OverTilTil" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/OverTilTil" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/OverTilTil> .
+
+:peritypes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Period types"@en, "Periodtyp"@no, "Periodtyp"@sv ;
+        skosmos:shortName "PeriTypes" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://kulturnav.org/PeriTypes" ;
+        skosmos:language "en", "no", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/PeriTypes> .
+
+
 
 
 
