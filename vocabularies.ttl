@@ -9391,6 +9391,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/TekmedBehand> .
 
+:tekmedopp a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Teknikk/medium, Type: Opptaksspesifikasjoner (A.2.12.2.F)"@no ;
+        skosmos:shortName "TekmedOpp" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/TekmedOpp" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TekmedOpp> .
 
 
 
