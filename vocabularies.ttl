@@ -8875,7 +8875,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Matbeh> .
 
 
-
+:modhistkomm a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Moderne og historiske kommuner (C)"@no ;
+        skosmos:shortName "Modhistkomm" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://kulturnav.org/Modhistkomm" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Modhistkomm> .
 
 
 
