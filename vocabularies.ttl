@@ -8998,7 +8998,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/NavalVMU> .
 
 
-
+:navnjur a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Navn (juridisk person): Type (A.1.28)"@no ;
+        skosmos:shortName "Navnjur" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/Navnjur" ;
+        skosmos:language "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Navnjur> .
 
 
 
