@@ -9562,7 +9562,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/UtOut> .
 
-
+:visform a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Visningsform og visningsformat"@no, "Visningsform och visningsformat"@sv ;
+        skosmos:shortName "Visform" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Visform" ;
+        skosmos:language "en", "no", "sv" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Visform> .
 
 
 
