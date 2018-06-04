@@ -9429,7 +9429,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/TekmedAttF> .
 
-
+:tekmedbilled a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Teknikk/medium: Billedkunst (A.2.12.B)"@no ;
+        skosmos:shortName "TekmedBilled" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/TekmedBilled" ;
+        skosmos:language "en", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TekmedBilled> .
 
 
 
