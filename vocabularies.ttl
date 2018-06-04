@@ -9539,6 +9539,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Typeskade> .
 
+:typbygg a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Typer för byggnader och byggnadsmiljöer"@sv ;
+        skosmos:shortName "Typbygg" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Typbygg" ;
+        skosmos:language "sv" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Typbygg> .
 
 
 
