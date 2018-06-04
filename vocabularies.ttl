@@ -9177,7 +9177,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Phototech> .
 
 
-
+:poststed a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Poststedstyper"@no, "Poststedstyper"@sv ;
+        skosmos:shortName "Poststed" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Poststed" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Poststed> .
 
 
 
