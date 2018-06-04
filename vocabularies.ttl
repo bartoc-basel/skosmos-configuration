@@ -8754,6 +8754,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Klausul> .
 
+:konsektil a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Konsekvensgrad tilstandsvurdering"@no ;
+        skosmos:shortName "Konsektil" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/Konsektil" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Konsektil> .
+
 
 
 
