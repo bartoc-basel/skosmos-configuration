@@ -9023,6 +9023,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/NavnStat> .
 
 
+:navnerrolle a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Navnerolle (A.1.9)"@no ;
+        skosmos:shortName "Navnerrolle" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Navnerrolle" ;
+        skosmos:language "no", "sv" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Navnerrolle> .
 
 
 
