@@ -9453,6 +9453,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/TekmedTek> .
 
 
+:telephonent a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Telephone number types"@en, "Telefonnummertyper"@no, "Telefonnummertyper"@sv ;
+        skosmos:shortName "TelephoneNT" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/TelephoneNT" ;
+        skosmos:language "en", "sv", "no" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TelephoneNT> .
 
 
 
