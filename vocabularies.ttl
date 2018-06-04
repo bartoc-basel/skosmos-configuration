@@ -8960,7 +8960,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/NavalVAR> .
 
 
-
+:navalvid a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Naval vessel identifiers"@en, "Fartygsidentifierare"@sv ;
+        skosmos:shortName "NavalVID" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/NavalVID" ;
+        skosmos:language "en", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/NavalVID> .
 
 
 
