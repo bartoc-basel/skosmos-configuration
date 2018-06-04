@@ -9058,6 +9058,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Nomnyaterm> .
 
+:nomsak a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Nomina - sakord"@sv ;
+        skosmos:shortName "Nomsak" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://kulturnav.org/Nomsak" ;
+        skosmos:language "da", "fi", "no", "is", "sv", "en" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Nomsak> .
 
 
 
