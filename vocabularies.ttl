@@ -9574,6 +9574,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Visform> .
 
+:watercrtypes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Watercraft types"@en, "Fartøystyper"@no, "Fartygstyper"@sv ;
+        skosmos:shortName "WatercrTypes" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/WatercrTypes" ;
+        skosmos:language "en", "no", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/WatercrTypes> .
 
 
 
