@@ -9152,7 +9152,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/PeriTypes> .
 
 
-
+:photogenprac a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Photographic genres/practice"@en, "Fotografiska genres/typer/verksamhetsområden"@sv, "Fotožanrid/fotopraktikad"@et ;
+        skosmos:shortName "Photogenprac" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Photogenprac" ;
+        skosmos:language "lt", "nl", "et", "bg", "sv", "es", "da", "de", "pl", "sl", "fr", "en", "ca", "it" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Photogenprac> .
 
 
 
