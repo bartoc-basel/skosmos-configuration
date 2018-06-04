@@ -9104,6 +9104,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/OutlineCM> .
 
+:ocm a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Outline of Cultural Materials (OCM)"@en ;
+        skosmos:shortName "OCM" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://www.yale.edu/hraf/OCM/2004/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yale.edu/hraf/OCM/2004/> .
+
 
 
 
