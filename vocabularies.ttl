@@ -8912,7 +8912,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/MonttypeF> .
 
 
-
+:motivtypeb a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Motivtype (A.2.5.B)"@no ;
+        skosmos:shortName "MotivtypeB" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/MotivtypeB" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/MotivtypeB> .
 
 
 
