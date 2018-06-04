@@ -9417,7 +9417,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/TekmedAttB> .
 
 
-
+:tekmedattf a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Teknikk/medium: Attributt (A.2.14.F)"@no ;
+        skosmos:shortName "TekmedAttF" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/TekmedAttF" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TekmedAttF> .
 
 
 
