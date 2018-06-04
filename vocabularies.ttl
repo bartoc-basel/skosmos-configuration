@@ -9213,7 +9213,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/Reltype> .
 
-
+:routetypes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Route types"@en, "Rutetyper"@no, "Färdvägstyper"@sv ;
+        skosmos:shortName "RouteTypes" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://kulturnav.org/RouteTypes" ;
+        skosmos:language "sv" ;
+        skosmos:defaultLanguage "sv" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/RouteTypes> .
 
 
 
