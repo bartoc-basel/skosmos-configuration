@@ -9515,6 +9515,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/TitnavnStat> .
 
 
+:typeawik a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Type avvik"@no ;
+        skosmos:shortName "Typeawik" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/Typeawik" ;
+        skosmos:language "sv", "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Typeawik> .
 
 
 
