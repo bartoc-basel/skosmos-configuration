@@ -9404,6 +9404,46 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/TekmedOpp> .
 
 
+:tekmedattb a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Teknikk/medium: Attributt (A.2.14.B)"@no ;
+        skosmos:shortName "TekmedAttB" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://kulturnav.org/TekmedAttB" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/TekmedAttB> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
