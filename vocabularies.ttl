@@ -8718,7 +8718,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://kulturnav.org/ISO639-2> .
 
-
+:kategori a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Kategori (Iflg. Åndsverkloven) (A.2.20.F)"@no ;
+        skosmos:shortName "Kategori" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://kulturnav.org/Kategori" ;
+        skosmos:language "no" ;
+        skosmos:defaultLanguage "no" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://kulturnav.org/Kategori> .
 
 
 
