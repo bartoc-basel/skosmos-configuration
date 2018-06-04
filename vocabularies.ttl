@@ -9115,7 +9115,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.yale.edu/hraf/OCM/2004/> .
 
-
+:vis a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Vocabulaire Internationale de la Sigillographie"@fr, "Siegelvokabular"@de ;
+        skosmos:shortName "VIS" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://gams.uni-graz.at/skos/scheme/o:vis/" ;
+        skosmos:language "de", "fr" ;
+        skosmos:defaultLanguage "fr" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://gams.uni-graz.at/skos/scheme/o:vis/> .
 
 
 
