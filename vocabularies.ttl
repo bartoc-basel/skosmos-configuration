@@ -9586,9 +9586,52 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/WatercrTypes> .
 
 
+:klasstrachsler a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Klassifikation von Funktionsgruppen nach Walter Trachsler"@de ;
+        skosmos:shortName "KlassTrachsler" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://gams.uni-graz.at/skos/scheme/o:trachsler/" ;
+        skosmos:language "de" ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://gams.uni-graz.at/skos/scheme/o:trachsler/> .
 
 
+:thesfmat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Thesaurus für Materialien"@de, "Thesaurus for materials"@en ;
+        skosmos:shortName "ThesfMat" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://gams.uni-graz.at/skos/scheme/o:mth/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://gams.uni-graz.at/skos/scheme/o:mth/> .
 
+
+:periodstil a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Thesaurus für Perioden und Stile"@de, "Thesaurus for time periods and styles"@en ;
+        skosmos:shortName "PeriodStil" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://gams.uni-graz.at/skos/scheme/o:pth/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://gams.uni-graz.at/skos/scheme/o:pth/> .
+
+:objklass a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Thesaurus für Objektklassifikation"@de, "Thesaurus for object classification"@en ;
+        skosmos:shortName "ObjKlass" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://gams.uni-graz.at/skos/scheme/o:oth/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://gams.uni-graz.at/skos/scheme/o:oth/> .
 
 
 
