@@ -8224,7 +8224,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         dc:title "Textile technical terminology"@en ;
         skosmos:shortName "TexTech" ;
         dc:subject :cat_7 ;
-        void:uriSpace "http://kulturnav.org/textech" ;
+        void:uriSpace "http://kulturnav.org/5a145f3c-6559-44f1-8f83-119734b3e23d" ;
         skosmos:language "en", "da", "fr", "is", "fi", "sv", "de", "no" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
