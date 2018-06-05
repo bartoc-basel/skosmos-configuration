@@ -9072,7 +9072,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :objecttype a skosmos:Vocabulary, void:Dataset ;
         dc:title "Objekttype (A.1.2)"@no ;
         skosmos:shortName "Objecttype" ;
-        dc:subject :cat_general ;
+        dc:subject :cat_7 ;
         void:uriSpace "http://kulturnav.org/Objecttype" ;
         skosmos:language "no" ;
         skosmos:defaultLanguage "no" ;
