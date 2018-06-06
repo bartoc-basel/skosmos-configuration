@@ -9682,6 +9682,23 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/materias/> .
 
 
+: a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Diccionario de Denominaciones de Bienes Culturales"@es ;
+        skosmos:shortName "DiccDBCult" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://tesauros.mecd.es/tesauros/bienesculturales/" ;
+        skosmos:language "es" ;
+        skosmos:defaultLanguage "es" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/bienesculturales/> .
+
+
+
+
+
+
+
 
 
 
