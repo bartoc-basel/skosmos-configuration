@@ -9646,6 +9646,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://linkeddata.ge.imati.cnr.it/resource/EARTh/> .
 
 
+:courtsth a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Gerichtsthesaurus"@de ;
+        skosmos:shortName "CourtsTh" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://vocabulary.wolterskluwer.de/court/" ;
+        skosmos:language "de" ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocabulary.wolterskluwer.de/court/> .
 
 
 
