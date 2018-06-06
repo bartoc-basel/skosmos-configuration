@@ -9634,7 +9634,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://gams.uni-graz.at/skos/scheme/o:oth/> .
 
 
-
+:earth a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Environmental Applications Reference Thesaurus (EARTh)"@en ;
+        skosmos:shortName "EARTh" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://linkeddata.ge.imati.cnr.it/resource/EARTh/" ;
+        skosmos:language "en", "it" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://linkeddata.ge.imati.cnr.it/resource/EARTh/> .
 
 
 
