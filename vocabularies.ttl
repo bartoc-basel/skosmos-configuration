@@ -9658,7 +9658,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://vocabulary.wolterskluwer.de/court/> .
 
 
-diccgeo: a skosmos:Vocabulary, void:Dataset ;
+:diccgeo a skosmos:Vocabulary, void:Dataset ;
         dc:title "Diccionario Geográfico"@es ;
         skosmos:shortName "DiccGeo" ;
         dc:subject :cat_9 ;
@@ -9670,7 +9670,7 @@ diccgeo: a skosmos:Vocabulary, void:Dataset ;
         skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/geografico/> .
 
 
-diccmat: a skosmos:Vocabulary, void:Dataset ;
+:diccmat a skosmos:Vocabulary, void:Dataset ;
         dc:title "Diccionario de Materias"@es ;
         skosmos:shortName "DiccMat" ;
         dc:subject :cat_7 ;
@@ -9682,7 +9682,7 @@ diccmat: a skosmos:Vocabulary, void:Dataset ;
         skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/materias/> .
 
 
-diccdbcult: a skosmos:Vocabulary, void:Dataset ;
+:diccdbcult a skosmos:Vocabulary, void:Dataset ;
         dc:title "Diccionario de Denominaciones de Bienes Culturales"@es ;
         skosmos:shortName "DiccDBCult" ;
         dc:subject :cat_7 ;
@@ -9694,7 +9694,7 @@ diccdbcult: a skosmos:Vocabulary, void:Dataset ;
         skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/bienesculturales/> .
 
 
-dicccer: a skosmos:Vocabulary, void:Dataset ;
+:dicccer a skosmos:Vocabulary, void:Dataset ;
         dc:title "Diccionario de Cerámica"@es ;
         skosmos:shortName "DiccCer" ;
         dc:subject :cat_7 ;
@@ -9706,7 +9706,7 @@ dicccer: a skosmos:Vocabulary, void:Dataset ;
         skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/ceramica/> .
 
 
-diccnum: a skosmos:Vocabulary, void:Dataset ;
+:diccnum a skosmos:Vocabulary, void:Dataset ;
         dc:title "Diccionario de Numismática"@es ;
         skosmos:shortName "DiccNum" ;
         dc:subject :cat_7 ;
@@ -9717,7 +9717,7 @@ diccnum: a skosmos:Vocabulary, void:Dataset ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/numismatica/> .
 
-diccmob: a skosmos:Vocabulary, void:Dataset ;
+:diccmob a skosmos:Vocabulary, void:Dataset ;
         dc:title "Diccionario de Mobiliario"@es ;
         skosmos:shortName "DiccMob" ;
         dc:subject :cat_7 ;
@@ -9729,7 +9729,7 @@ diccmob: a skosmos:Vocabulary, void:Dataset ;
         skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/mobiliario/> .
 
 
-dicctec: a skosmos:Vocabulary, void:Dataset ;
+:dicctec a skosmos:Vocabulary, void:Dataset ;
         dc:title "Diccionario de Técnicas"@es ;
         skosmos:shortName "DiccTec" ;
         dc:subject :cat_7 ;
