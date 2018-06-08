@@ -9740,7 +9740,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://tesauros.mecd.es/tesauros/tecnicas/> .
 
-
+:motif a skosmos:Vocabulary, void:Dataset ;
+        dc:title "MoTIF Pilot Thesaurus of Irish Folklore"@en ;
+        skosmos:shortName "MoTIF" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://apps.dri.ie/motif/vocab/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://apps.dri.ie/motif/vocab/> .
 
 
 
