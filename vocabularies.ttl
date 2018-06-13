@@ -5472,12 +5472,12 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	dc:title "NASA Thesaurus"@en ;
 	skosmos:shortName "NASAT" ;
 	dc:subject :cat_5 ;
-	void:uriSpace "http://bartoc.org//NASA_Thesaurus" ;
+	void:uriSpace "https://bartoc.poolparty.biz/NASA" ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://bartoc.org//NASA_Thesaurus> .
+	skosmos:sparqlGraph <https://bartoc.poolparty.biz/NASA> .
 
 :ican-cegt a skosmos:Vocabulary, void:Dataset ;
 	dc:title "International Coastal Atlas Network Coastal Erosion Global Thesaurus"@en ;
