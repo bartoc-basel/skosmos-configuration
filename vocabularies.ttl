@@ -9762,7 +9762,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://eige.europa.eu/taxonomy/term/> .
 
-
+:unbis a skosmos:Vocabulary, void:Dataset ;
+        dc:title "UNBIS Thesaurus"@en ;
+        skosmos:shortName "UNBIS" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "https://metadata.un.org/thesaurus" ;
+        skosmos:language "en", "ar", "zh", "es", "ru", "fr" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://metadata.un.org/thesaurus> .
 
 
 
