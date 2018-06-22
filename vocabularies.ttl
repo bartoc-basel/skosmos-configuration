@@ -9784,7 +9784,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ivoa.net/rdf/Vocabularies/IVOAT> .
 
-
+:nalt a skosmos:Vocabulary, void:Dataset ;
+        dc:title "United States Department of Agriculture Thesaurus"@en ;
+        skosmos:shortName "NALT" ;
+        dc:subject :cat_6 ;
+        void:uriSpace "http://lod.nal.usda.gov/nalt/" ;
+        skosmos:language "en", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://bartoc.org/sites/default/files/skos_files/NALT> .
 
 
 
