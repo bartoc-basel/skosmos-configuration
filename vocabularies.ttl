@@ -10016,6 +10016,62 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.yso.fi/onto/hpmulti/> .
 
+:mesa a skosmos:Vocabulary, void:Dataset ;
+        dc:title "The Finnish Maritime Thesaurus - MESA"@en ;
+        skosmos:shortName "MESA" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.yso.fi/onto/mesa/" ;
+        skosmos:language "en", "fi", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/mesa/> .
+
+
+:unspsc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "The United Nations Standard Products and Services Code"@en ;
+        skosmos:shortName "UNSPSC" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.yso.fi/onto/unspsc/" ;
+        skosmos:language "en", "fi" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/unspsc/> .
+
+
+ :tollo a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Toimialaluokitus 2008 -ontologia"@fi ;
+        skosmos:shortName "Tollo" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.yso.fi/onto/tollo/" ;
+        skosmos:language "fi" ;
+        skosmos:defaultLanguage "fi" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/tollo/> .
+
+:yrittka a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Yrittäjän käsitteistö"@fi ;
+        skosmos:shortName "Yrittka" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.yso.fi/onto/yrityssuomi/" ;
+        skosmos:language "fi" ;
+        skosmos:defaultLanguage "fi" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/yrityssuomi/> .
+
+:tspmed a skosmos:Vocabulary, void:Dataset ;
+        dc:title "TerveSuomi-portaalin mediatyyppiluokitus"@en ;
+        skosmos:shortName "TSPMed" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://www.yso.fi/onto/medium/" ;
+        skosmos:language "en", "sv", "fi" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/medium/> .
 
 
 
