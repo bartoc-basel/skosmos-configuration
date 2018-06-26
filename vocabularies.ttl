@@ -9820,6 +9820,118 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://cv.iptc.org/newscodes/genre/> .
 
 
+:iptcmt a skosmos:Vocabulary, void:Dataset ;
+        dc:title "IPTC Media Topic"@en ;
+        skosmos:shortName "IPTCMT" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://cv.iptc.org/newscodes/mediatopic/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://cv.iptc.org/newscodes/mediatopic/> .
+
+
+:iptcscene a skosmos:Vocabulary, void:Dataset ;
+        dc:title "IPTC Scene"@en ;
+        skosmos:shortName "IPTCScene" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://cv.iptc.org/newscodes/scene/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://cv.iptc.org/newscodes/scene/> .
+
+:iptcsc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "IPTC Subject Code"@en ;
+        skosmos:shortName "IPTCSC" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://cv.iptc.org/newscodes/subjectcode/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://cv.iptc.org/newscodes/subjectcode/> .
+
+:iptcsq a skosmos:Vocabulary, void:Dataset ;
+        dc:title "IPTC Subject Qualifier"@en ;
+        skosmos:shortName "IPTCSQ" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://cv.iptc.org/newscodes/subjectqualifier/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://cv.iptc.org/newscodes/subjectqualifier/> .
+
+:iptcwr a skosmos:Vocabulary, void:Dataset ;
+        dc:title "IPTC World Region"@en ;
+        skosmos:shortName "IPTCWR" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://cv.iptc.org/newscodes/worldregion/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://cv.iptc.org/newscodes/worldregion/> .
+
+:koko a skosmos:Vocabulary, void:Dataset ;
+        dc:title "KOKO Ontology"@en ;
+        skosmos:shortName "Koko" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://www.yso.fi/onto/koko/" ;
+        skosmos:language "en", "sv", "fi" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/koko/> .
+
+:kunnat11 a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Kunnat 2011"@fi ;
+        skosmos:shortName "Kunnat11" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://www.yso.fi/onto/kunnat/" ;
+        skosmos:language "fi", "sv" ;
+        skosmos:defaultLanguage "fi" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/kunnat/> .
+
+
+:magvoc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Magazine vocabulary"@en ;
+        skosmos:shortName "MagVoc" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://www.yso.fi/onto/magazine/" ;
+        skosmos:language "fi" ;
+        skosmos:defaultLanguage "fi" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/magazine/> .
+
+
+:multipro a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Multi-dimensional proverb ontology"@en ;
+        skosmos:shortName "Multipro" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ontology.org.il" ;
+        skosmos:language "he", "en" ;
+        skosmos:defaultLanguage "he" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ontology.org.il> .
+
+
+
+
+
+
+
+
+
+
+
 
 
 
