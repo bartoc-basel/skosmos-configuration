@@ -9796,7 +9796,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <https://bartoc.org/sites/default/files/skos_files/NALT> .
 
 
-
+:askmo a skosmos:Vocabulary, void:Dataset ;
+        dc:title "AskMO - Ontology of Philippine Traditional Medicine"@en ;
+        skosmos:shortName "AskMO" ;
+        dc:subject :cat_6 ;
+        void:uriSpace "http://www.semanticweb.org/aabgo/ontologies/2014/6/AskMO" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.semanticweb.org/aabgo/ontologies/2014/6/AskMO> .
 
 
 
