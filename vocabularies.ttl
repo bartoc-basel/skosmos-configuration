@@ -9922,6 +9922,100 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ontology.org.il> .
 
+:koko a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Korkeakoulujen tutkimustiedonkeruussa käytettävä tieteenalaluokitus"@fi ;
+        skosmos:shortName "Koko" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.yso.fi/onto/koko/" ;
+        skosmos:language "fi" ;
+        skosmos:defaultLanguage "fi" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/koko/> .
+
+
+:avio a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Ontology of the Birds of the World - AVIO"@en ;
+        skosmos:shortName "AVIO" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://www.yso.fi/onto/avio/" ;
+        skosmos:language "en", "la", "fi", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/avio/> .
+
+
+:mamo a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Ontology of the Mammals of the World - MAMO"@en ;
+        skosmos:shortName "MAMO" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://www.yso.fi/onto/mamo/" ;
+        skosmos:language "en", "fi", "la" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/mamo/> .
+
+
+:opsyson a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Operating system ontology"@en ;
+        skosmos:shortName "OpSysOn" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://www.semanticweb.org/sony/ontologies/2014/1/untitled-ontology-5" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.semanticweb.org/sony/ontologies/2014/1/untitled-ontology-5> .
+
+
+:quran a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Quran"@en ;
+        skosmos:shortName "Quran" ;
+        dc:subject :cat_2 ;
+        void:uriSpace "http://www.semanticweb.org/ontologies/2011/1/ArabicTime.owl" ;
+        skosmos:language "ar" ;
+        skosmos:defaultLanguage "ar" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.semanticweb.org/ontologies/2011/1/ArabicTime.owl> .
+
+
+ :tspain a skosmos:Vocabulary, void:Dataset ;
+        dc:title "TerveSuomi-portaalin aineistotyyppiluokitus"@en ;
+        skosmos:shortName "TSPAin" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://www.yso.fi/onto/tervesuomi-genre/" ;
+        skosmos:language "en", "fi", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/tervesuomi-genre/> .
+
+
+  :tsposio a skosmos:Vocabulary, void:Dataset ;
+        dc:title "TerveSuomi-portaalin osioluokitus"@en ;
+        skosmos:shortName "TSPOsio" ;
+        dc:subject :cat_6 ;
+        void:uriSpace "http://www.yso.fi/onto/tervesuomi-section/" ;
+        skosmos:language "en", "fi", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/tervesuomi-section/> .
+
+:hpmulti a skosmos:Vocabulary, void:Dataset ;
+        dc:title "The European Multilingual Thesaurus on Health Promotion"@en ;
+        skosmos:shortName "HPMulti" ;
+        dc:subject :cat_6 ;
+        void:uriSpace "http://www.yso.fi/onto/hpmulti/" ;
+        skosmos:language "en", "it", "es", "de", "nl", "da", "no", "pt", "fi", "sv", "fr" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.yso.fi/onto/hpmulti/> .
+
 
 
 
