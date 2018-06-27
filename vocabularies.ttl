@@ -9808,9 +9808,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://www.semanticweb.org/aabgo/ontologies/2014/6/AskMO> .
 
 
-:iptcgen a skosmos:Vocabulary, void:Dataset ;
-        dc:title "IPTC Genre"@en ;
-        skosmos:shortName "IPTCGen" ;
+:genre a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Genre"@en ;
+        skosmos:shortName "genre" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://cv.iptc.org/newscodes/genre/" ;
         skosmos:language "en" ;
@@ -9820,9 +9820,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://cv.iptc.org/newscodes/genre/> .
 
 
-:iptcmt a skosmos:Vocabulary, void:Dataset ;
-        dc:title "IPTC Media Topic"@en ;
-        skosmos:shortName "IPTCMT" ;
+:medtop a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Media Topic"@en ;
+        skosmos:shortName "medtop" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://cv.iptc.org/newscodes/mediatopic/" ;
         skosmos:language "en" ;
@@ -9832,9 +9832,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://cv.iptc.org/newscodes/mediatopic/> .
 
 
-:iptcscene a skosmos:Vocabulary, void:Dataset ;
-        dc:title "IPTC Scene"@en ;
-        skosmos:shortName "IPTCScene" ;
+:scn a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Scene"@en ;
+        skosmos:shortName "scn" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://cv.iptc.org/newscodes/scene/" ;
         skosmos:language "en" ;
@@ -9843,9 +9843,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://cv.iptc.org/newscodes/scene/> .
 
-:iptcsc a skosmos:Vocabulary, void:Dataset ;
-        dc:title "IPTC Subject Code"@en ;
-        skosmos:shortName "IPTCSC" ;
+:subj a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Subject Code"@en ;
+        skosmos:shortName "subj" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://cv.iptc.org/newscodes/subjectcode/" ;
         skosmos:language "en" ;
@@ -9854,9 +9854,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://cv.iptc.org/newscodes/subjectcode/> .
 
-:iptcsq a skosmos:Vocabulary, void:Dataset ;
-        dc:title "IPTC Subject Qualifier"@en ;
-        skosmos:shortName "IPTCSQ" ;
+:squ a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Subject Qualifier"@en ;
+        skosmos:shortName "squ" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://cv.iptc.org/newscodes/subjectqualifier/" ;
         skosmos:language "en" ;
@@ -9865,9 +9865,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://cv.iptc.org/newscodes/subjectqualifier/> .
 
-:iptcwr a skosmos:Vocabulary, void:Dataset ;
-        dc:title "IPTC World Region"@en ;
-        skosmos:shortName "IPTCWR" ;
+:wldreg a skosmos:Vocabulary, void:Dataset ;
+        dc:title "World Region"@en ;
+        skosmos:shortName "wldreg" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://cv.iptc.org/newscodes/worldregion/" ;
         skosmos:language "en" ;
