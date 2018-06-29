@@ -9900,7 +9900,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 
 
 :spweatherprediction a skosmos:Vocabulary, void:Dataset ;
-	dc:title Weather Terms"@en ;
+	dc:title "Weather Terms"@en ;
 	skosmos:shortName "spweatherprediction" ;
 	dc:subject :cat_7 ;
 	void:uriSpace "http://cv.iptc.org/newscodes/spweatherprediction/" ;
