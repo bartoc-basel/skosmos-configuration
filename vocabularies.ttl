@@ -8342,7 +8342,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Analysemet> .
 
 :aquaculture a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Aquaculture"@en, " ;
+        dc:title "Aquaculture"@en " ;
         skosmos:shortName "Aquaculture" ;
         dc:subject :cat_6 ;
         void:uriSpace "http://kulturnav.org/Aquaculture" ;
