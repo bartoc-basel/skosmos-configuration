@@ -8342,7 +8342,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://kulturnav.org/Analysemet> .
 
 :aquaculture a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Aquaculture"@en, "" ;
+        dc:title "Aquaculture"@en, " ;
         skosmos:shortName "Aquaculture" ;
         dc:subject :cat_6 ;
         void:uriSpace "http://kulturnav.org/Aquaculture" ;
@@ -9898,6 +9898,2261 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.yso.fi/onto/kunnat/> .
 
+
+:spweatherprediction a skosmos:Vocabulary, void:Dataset ;
+	dc:title Weather Terms"@en ;
+	skosmos:shortName "spweatherprediction" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spweatherprediction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spweatherprediction/> .
+
+:nrol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Name Role"@en ;
+	skosmos:shortName "nrol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/namerole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/namerole/> .
+
+:aspfacetvalue a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Value of a Sport Facet"@en ;
+	skosmos:shortName "aspfacetvalue" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/asportfacetvalue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/asportfacetvalue/> .
+
+:colsp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Colorspace"@en ;
+	skosmos:shortName "colsp" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/colorspace/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/colorspace/> .
+
+:ctrol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Contributor Role"@en ;
+	skosmos:shortName "ctrol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/contributorrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/contributorrole/> .
+
+:cpprole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Content Production Party Role"@en ;
+	skosmos:shortName "cpprole" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/contentprodpartyrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/contentprodpartyrole/> .
+
+:eprol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Participant Role"@en ;
+	skosmos:shortName "eprol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/eventparticipantrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/eventparticipantrole/> .
+
+:gen a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Generic Concepts"@en ;
+	skosmos:shortName "gen" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/generic/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/generic/> .
+
+:hashscope a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hash Scope"@en ;
+	skosmos:shortName "hashscope" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/hashscope/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/hashscope/> .
+
+:hopaction a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hop Action"@en ;
+	skosmos:shortName "hopaction" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/hopaction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/hopaction/> .
+
+:hatarget a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hop Action Target"@en ;
+	skosmos:shortName "hatarget" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/hopactiontarget/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/hopactiontarget/> .
+
+:isrol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Information Source Role"@en ;
+	skosmos:shortName "isrol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/infosourcerole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/infosourcerole/> .
+
+:spgolshot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Golf Shot Types"@en ;
+	skosmos:shortName "spgolshot" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spgolshot/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spgolshot/> .
+
+:spgolstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Golf Statistics"@en ;
+	skosmos:shortName "spgolstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spgolstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spgolstat/> .
+
+:spichaction a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Actions"@en ;
+	skosmos:shortName "spichaction" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichaction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichaction/> .
+
+:spichpenalty a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Penalty"@en ;
+	skosmos:shortName "spichpenalty" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichpenalty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichpenalty/> .
+
+:spichpenaltylevel a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Penalty Levels"@en ;
+	skosmos:shortName "spichpenaltylevel" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichpenaltylevel/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichpenaltylevel/> .
+
+:spichposition a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Player Positions"@en ;
+	skosmos:shortName "spichposition" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichposition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichposition/> .
+
+:spichrole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Player Roles"@en ;
+	skosmos:shortName "spichrole" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichrole/> .
+
+:spichscoreattempt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Score Types"@en ;
+	skosmos:shortName "spichscoreattempt" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichscoreattempt/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichscoreattempt/> .
+
+:spichscoreattemptresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Score Attempt Types"@en ;
+	skosmos:shortName "spichscoreattemptresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichscoreattemptresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichscoreattemptresult/> .
+
+:spichstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Statistics"@en ;
+	skosmos:shortName "spichstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichstat/> .
+
+:spichstrength a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Squad Strength"@en ;
+	skosmos:shortName "spichstrength" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichstrength/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichstrength/> .
+
+:spichzone a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ice Hockey Rink Zones"@en ;
+	skosmos:shortName "spichzone" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spichzone/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spichzone/> .
+
+:spmcraction a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Motor Racing Actions"@en ;
+	skosmos:shortName "spmcraction" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spmcraction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spmcraction/> .
+
+:spcurposition a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Curling Player Positions"@en ;
+	skosmos:shortName "spcurposition" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spcurposition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spcurposition/> .
+
+:spcurresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Curling Shot Results"@en ;
+	skosmos:shortName "spcurresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spcurresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spcurresult/> .
+
+:spcurshot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Curling Shot Types"@en ;
+	skosmos:shortName "spcurshot" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spcurshot/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spcurshot/> .
+
+:spgollanding a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Golf Shot Landings"@en ;
+	skosmos:shortName "spgollanding" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spgollanding/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spgollanding/> .
+
+:spmcrflag a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Motor Racing Flag Types"@en ;
+	skosmos:shortName "spmcrflag" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spmcrflag/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spmcrflag/> .
+
+:spmcrstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Motor Racing Statistics"@en ;
+	skosmos:shortName "spmcrstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spmcrstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spmcrstat/> .
+
+:sprgxpenalty a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Penalties"@en ;
+	skosmos:shortName "sprgxpenalty" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxpenalty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxpenalty/> .
+
+:sprgxpenaltylevel a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Penalty Levels"@en ;
+	skosmos:shortName "sprgxpenaltylevel" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxpenaltylevel/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxpenaltylevel/> .
+
+:sprgxpenaltyresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Penalty Results"@en ;
+	skosmos:shortName "sprgxpenaltyresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxpenaltyresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxpenaltyresult/> .
+
+:sprgxposition a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Player Positions"@en ;
+	skosmos:shortName "sprgxposition" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxposition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxposition/> .
+
+:sprgxrole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Player Roles"@en ;
+	skosmos:shortName "sprgxrole" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxrole/> .
+
+:sprgxscoreattempt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Score Types"@en ;
+	skosmos:shortName "sprgxscoreattempt" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxscoreattempt/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxscoreattempt/> .
+
+:sprgxscoreattemptresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Score Attempt Types"@en ;
+	skosmos:shortName "sprgxscoreattemptresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxscoreattemptresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxscoreattemptresult/> .
+
+:sprgxstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Statistics"@en ;
+	skosmos:shortName "sprgxstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxstat/> .
+
+:sprgxsubstitution a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rugby Substitution Types"@en ;
+	skosmos:shortName "sprgxsubstitution" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprgxsubstitution/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprgxsubstitution/> .
+
+:spsocaction a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Actions"@en ;
+	skosmos:shortName "spsocaction" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocaction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocaction/> .
+
+:spsocpenalty a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Penalties"@en ;
+	skosmos:shortName "spsocpenalty" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocpenalty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocpenalty/> .
+
+:spsocpenaltylevel a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Penalty Levels"@en ;
+	skosmos:shortName "spsocpenaltylevel" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocpenaltylevel/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocpenaltylevel/> .
+
+:spsocpenaltyresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Penalty Results"@en ;
+	skosmos:shortName "spsocpenaltyresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocpenaltyresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocpenaltyresult/> .
+
+:spsocposition a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Player Positions"@en ;
+	skosmos:shortName "spsocposition" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocposition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocposition/> .
+
+:spsocresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Action Results"@en ;
+	skosmos:shortName "spsocresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocresult/> .
+
+:spsocrole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Player Roles"@en ;
+	skosmos:shortName "spsocrole" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocrole/> .
+
+:sptournamentphase a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Tournament Phase"@en ;
+	skosmos:shortName "sptournamentphase" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sptournamentphase/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sptournamentphase/> .
+
+:spamfaction a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Actions"@en ;
+	skosmos:shortName "spamfaction" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfaction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfaction/> .
+
+:spamfcaller a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football time-out Caller"@en ;
+	skosmos:shortName "spamfcaller" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfcaller/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfcaller/> .
+
+:spamfdriveresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Drive Results"@en ;
+	skosmos:shortName "spamfdriveresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfdriveresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfdriveresult/> .
+
+:spamfkick a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Kick Types"@en ;
+	skosmos:shortName "spamfkick" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfkick/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfkick/> .
+
+:spamfpenalty a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Penalty Types"@en ;
+	skosmos:shortName "spamfpenalty" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfpenalty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfpenalty/> .
+
+:spamfpenaltylevel a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Penalty Levels"@en ;
+	skosmos:shortName "spamfpenaltylevel" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfpenaltylevel/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfpenaltylevel/> .
+
+:spamfposition a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Positions"@en ;
+	skosmos:shortName "spamfposition" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfposition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfposition/> .
+
+:spamfresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Action Results"@en ;
+	skosmos:shortName "spamfresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfresult/> .
+
+:spamfrole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Player Roles"@en ;
+	skosmos:shortName "spamfrole" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfrole/> .
+
+:spamfscore a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Score Types"@en ;
+	skosmos:shortName "spamfscore" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfscore/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfscore/> .
+
+:spamfstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Statistics"@en ;
+	skosmos:shortName "spamfstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamfstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamfstat/> .
+
+:spamftimeout a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Timeout Type"@en ;
+	skosmos:shortName "spamftimeout" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamftimeout/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamftimeout/> .
+
+:spamftouchdown a skosmos:Vocabulary, void:Dataset ;
+	dc:title "American Football Touchdown Type"@en ;
+	skosmos:shortName "spamftouchdown" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spamftouchdown/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spamftouchdown/> .
+
+:spbblaction a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Actions"@en ;
+	skosmos:shortName "spbblaction" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblaction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblaction/> .
+
+:spbblballlocation a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Pitch Location"@en ;
+	skosmos:shortName "spbblballlocation" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblballlocation/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblballlocation/> .
+
+:spbblballlocationhorizontal a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Pitch Horizontal Location"@en ;
+	skosmos:shortName "spbblballlocationhorizontal" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblballlocationhorizontal/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblballlocationhorizontal/> .
+
+:spbblballlocationvertical a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Pitch Vertical Location"@en ;
+	skosmos:shortName "spbblballlocationvertical" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblballlocationvertical/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblballlocationvertical/> .
+
+:spbblhit a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Hit Types"@en ;
+	skosmos:shortName "spbblhit" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblhit/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblhit/> .
+
+:spbblout a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Out Types"@en ;
+	skosmos:shortName "spbblout" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblout/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblout/> .
+
+:spbblpitch a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Pitch Types"@en ;
+	skosmos:shortName "spbblpitch" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblpitch/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblpitch/> .
+
+:spbblposition a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Player Positions"@en ;
+	skosmos:shortName "spbblposition" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblposition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblposition/> .
+
+:spbblrole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Player Roles"@en ;
+	skosmos:shortName "spbblrole" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblrole/> .
+
+:spbblstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Statistics"@en ;
+	skosmos:shortName "spbblstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbblstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbblstat/> .
+
+:spbbltrajectory a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseball Hit Trajectory"@en ;
+	skosmos:shortName "spbbltrajectory" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbbltrajectory/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbbltrajectory/> .
+
+:spbkbaction a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Basketball Actions"@en ;
+	skosmos:shortName "spbkbaction" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbkbaction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbkbaction/> .
+
+:spbkbpenaltylevel a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Basketball Penalty Types"@en ;
+	skosmos:shortName "spbkbpenaltylevel" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbkbpenaltylevel/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbkbpenaltylevel/> .
+
+:spbkbposition a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Basketball Player Positions"@en ;
+	skosmos:shortName "spbkbposition" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbkbposition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbkbposition/> .
+
+:spbkbrole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Basketball Player Roles"@en ;
+	skosmos:shortName "spbkbrole" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbkbrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbkbrole/> .
+
+:spbkbscoreattempt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Basketball Score Attempt Types"@en ;
+	skosmos:shortName "spbkbscoreattempt" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbkbscoreattempt/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbkbscoreattempt/> .
+
+:spbkbscoreattemptresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Basketball Score Attempt Results"@en ;
+	skosmos:shortName "spbkbscoreattemptresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbkbscoreattemptresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbkbscoreattemptresult/> .
+
+:spbkbstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Basketball Statistics"@en ;
+	skosmos:shortName "spbkbstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spbkbstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spbkbstat/> .
+
+:prodgenre a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Product Genre"@en ;
+	skosmos:shortName "prodgenre" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/productgenre/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/productgenre/> .
+
+:sig a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Signal"@en ;
+	skosmos:shortName "sig" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/signal/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/signal/> .
+
+:sov a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Video Scaling"@en ;
+	skosmos:shortName "sov" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/videoscaling/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/videoscaling/> .
+
+:spactionclass a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Action Classifications"@en ;
+	skosmos:shortName "spactionclass" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spactionclass/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spactionclass/> .
+
+:spaward a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Award Types"@en ;
+	skosmos:shortName "spaward" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spaward/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spaward/> .
+
+:spcompetitionscope a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Scope of Competition"@en ;
+	skosmos:shortName "spcompetitionscope" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spcompetitionscope/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spcompetitionscope/> .
+
+:spct a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sports Concept"@en ;
+	skosmos:shortName "spct" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spct/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spct/> .
+
+:spdistanceunits a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Distance Units"@en ;
+	skosmos:shortName "spdistanceunits" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spdistanceunits/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spdistanceunits/> .
+
+:spdurationscope a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Duration Scope"@en ;
+	skosmos:shortName "spdurationscope" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spdurationscope/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spdurationscope/> .
+
+:speventoutcome a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Outcome"@en ;
+	skosmos:shortName "speventoutcome" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/speventoutcome/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/speventoutcome/> .
+
+:speventoutcometype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Outcome Type"@en ;
+	skosmos:shortName "speventoutcometype" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/speventoutcometype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/speventoutcometype/> .
+
+:speventstatus a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Status"@en ;
+	skosmos:shortName "speventstatus" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/speventstatus/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/speventstatus/> .
+
+:speventstatusreason a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Status Reason"@en ;
+	skosmos:shortName "speventstatusreason" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/speventstatusreason/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/speventstatusreason/> .
+
+:speventstyle a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Style"@en ;
+	skosmos:shortName "speventstyle" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/speventstyle/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/speventstyle/> .
+
+:spfixt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fixture Keys"@en ;
+	skosmos:shortName "spfixt" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spfixt/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spfixt/> .
+
+:sphealth a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Player Health"@en ;
+	skosmos:shortName "sphealth" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sphealth/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sphealth/> .
+
+:spparticipantcount a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Participant Grouping"@en ;
+	skosmos:shortName "spparticipantcount" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spparticipantcount/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spparticipantcount/> .
+
+:sppenaltyside a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Penalty Side"@en ;
+	skosmos:shortName "sppenaltyside" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sppenaltyside/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sppenaltyside/> .
+
+:spphase a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Career Phase"@en ;
+	skosmos:shortName "spphase" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spphase/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spphase/> .
+
+:spphasestatus a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Athlete Status"@en ;
+	skosmos:shortName "spphasestatus" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spphasestatus/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spphasestatus/> .
+
+:spplayerstatus a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Player Status"@en ;
+	skosmos:shortName "spplayerstatus" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spplayerstatus/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spplayerstatus/> .
+
+:spprofessionalstatus a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Professional Status"@en ;
+	skosmos:shortName "spprofessionalstatus" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spstatus/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spstatus/> .
+
+:sprecipienttype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Recipient Type"@en ;
+	skosmos:shortName "sprecipienttype" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprecipienttype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprecipienttype/> .
+
+:spsocscoreattempt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Score Types"@en ;
+	skosmos:shortName "spsocscoreattempt" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocscoreattempt/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocscoreattempt/> .
+
+:spsocscoreattemptmethod a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Scoring Methods"@en ;
+	skosmos:shortName "spsocscoreattemptmethod" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocscoreattemptmethod/> .
+
+:spsocscoreattemptresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Score Attempt Types"@en ;
+	skosmos:shortName "spsocscoreattemptresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocscoreattemptresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocscoreattemptresult/> .
+
+:spsocstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soccer Statistics"@en ;
+	skosmos:shortName "spsocstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsocstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsocstat/> .
+
+:sptenaction a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Tennis Actions"@en ;
+	skosmos:shortName "sptenaction" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sptenaction/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sptenaction/> .
+
+:sptengameresult a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Tennis Scoring"@en ;
+	skosmos:shortName "sptengameresult" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sptengameresult/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sptengameresult/> .
+
+:sptenshot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Tennis Shot Types"@en ;
+	skosmos:shortName "sptenshot" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sptenshot/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sptenshot/> .
+
+:sptenstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Tennis Statistics"@en ;
+	skosmos:shortName "sptenstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sptenstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sptenstat/> .
+
+:sptenwin a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Tennis Win Types"@en ;
+	skosmos:shortName "sptenwin" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sptenwin/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sptenwin/> .
+
+:spvolstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Volleyball Statistics"@en ;
+	skosmos:shortName "spvolstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spvolstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spvolstat/> .
+
+:sprecordmakingscope a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Record Scope"@en ;
+	skosmos:shortName "sprecordmakingscope" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sprecordmakingscope/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sprecordmakingscope/> .
+
+:spresulteffect a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Result Effect"@en ;
+	skosmos:shortName "spresulteffect" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spresulteffect/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spresulteffect/> .
+
+:spscoreunits a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Score Units"@en ;
+	skosmos:shortName "spscoreunits" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spscoreunits/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spscoreunits/> .
+
+:spseasontype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Season Type"@en ;
+	skosmos:shortName "spseasontype" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spseasontype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spseasontype/> .
+
+:spsitestyle a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Site Style"@en ;
+	skosmos:shortName "spsitestyle" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsitestyle/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsitestyle/> .
+
+:spsitesurface a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Site Surface"@en ;
+	skosmos:shortName "spsitesurface" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spsitesurface/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spsitesurface/> .
+
+:spspecialgroup a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Special Group"@en ;
+	skosmos:shortName "spspecialgroup" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spspecialgroup/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spspecialgroup/> .
+
+:spspecialneeds a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Special Needs"@en ;
+	skosmos:shortName "spspecialneeds" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spspecialneeds/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spspecialneeds/> .
+
+:spstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Core Statistics"@en ;
+	skosmos:shortName "spstat" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spstat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spstat/> .
+
+:spstatscoverage a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Statistics Coverage"@en ;
+	skosmos:shortName "spstatscoverage" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spstatscoverage/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spstatscoverage/> .
+
+:spstatuschange a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Status Change"@en ;
+	skosmos:shortName "spstatuschange" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spstatuschange/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spstatuschange/> .
+
+:spstreaktype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Streak Type"@en ;
+	skosmos:shortName "spstreaktype" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spstreaktype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spstreaktype/> .
+
+:spteamcoverage a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Team Coverage"@en ;
+	skosmos:shortName "spteamcoverage" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/spteamcoverage/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/spteamcoverage/> .
+
+:sptemporalunit a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Temporal Unit"@en ;
+	skosmos:shortName "sptemporalunit" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sptemporalunit/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sptemporalunit/> .
+
+:sptournamentform a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Tournament Format Type"@en ;
+	skosmos:shortName "sptournamentform" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/sptournamentform/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/sptournamentform/> .
+
+:oito a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Of Interest To"@en ;
+	skosmos:shortName "oito" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/ofinterestto/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/ofinterestto/> .
+
+:pgrmod a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Packagegroup Mode"@en ;
+	skosmos:shortName "pgrmod" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/pkggroupmode/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/pkggroupmode/> .
+
+:plinat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Nature of a Planning Item"@en ;
+	skosmos:shortName "plinat" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/plinature/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/plinature/> .
+
+:prio a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Priority"@en ;
+	skosmos:shortName "prio" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/priority/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/priority/> .
+
+:prop a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Property Type"@en ;
+	skosmos:shortName "prop" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/property/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/property/> .
+
+:prov a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Provider (deprecated)"@en ;
+	skosmos:shortName "prov" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/provider/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/provider/> .
+
+:stat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Publishing Status (G2)"@en ;
+	skosmos:shortName "stat" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/pubstatusg2/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/pubstatusg2/> .
+
+:rtype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rater Type NewsCodes"@en ;
+	skosmos:shortName "rtype" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/ratertype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/ratertype/> .
+
+:rcalctype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rating Calculation Type NewsCodes"@en ;
+	skosmos:shortName "rcalctype" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/rcalctype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/rcalctype/> .
+
+:rel a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Relevance"@en ;
+	skosmos:shortName "rel" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/relevance/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/relevance/> .
+
+:rnd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Content Rendition"@en ;
+	skosmos:shortName "rnd" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/rendition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/rendition/> .
+
+:riaspect a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rights Info Aspect"@en ;
+	skosmos:shortName "riaspect" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/riaspect/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/riaspect/> .
+
+:rightsprop a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rights Property"@en ;
+	skosmos:shortName "rightsprop" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/rightsproperty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/rightsproperty/> .
+
+:riscope a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rights Info Scope"@en ;
+	skosmos:shortName "riscope" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/riscope/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/riscope/> .
+
+:role1 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Role in Package"@en ;
+	skosmos:shortName "role1" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/role1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/role1/> .
+
+:rscaleunit a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Rating Scale Unit NewsCodes"@en ;
+	skosmos:shortName "rscaleunit" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/rscaleunit/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/rscaleunit/> .
+
+:sev a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Severity"@en ;
+	skosmos:shortName "sev" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/severity/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/severity/> .
+
+:pst1 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Status (NewsML 1)"@en ;
+	skosmos:shortName "pst1" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/status1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/status1/> .
+
+:timeunit a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Time Unit"@en ;
+	skosmos:shortName "timeunit" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/timeunit/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/timeunit/> .
+
+:tpctyp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Topic Type"@en ;
+	skosmos:shortName "tpctyp" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/topictype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/topictype/> .
+
+:urgy a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Urgency"@en ;
+	skosmos:shortName "urgy" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/urgency/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/urgency/> .
+
+:useracttype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "User Action Type NewsCodes"@en ;
+	skosmos:shortName "useracttype" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/useractiontype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/useractiontype/> .
+
+:valfmt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Value Format"@en ;
+	skosmos:shortName "valfmt" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/valueformat/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/valueformat/> .
+
+:vcdc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Videocodec"@en ;
+	skosmos:shortName "vcdc" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/videocodec/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/videocodec/> .
+
+:videodef a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Video Definition"@en ;
+	skosmos:shortName "videodef" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/videodefinition/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/videodefinition/> .
+
+:ivqu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Video Qualifier"@en ;
+	skosmos:shortName "ivqu" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/videoqualifier/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/videoqualifier/> .
+
+:why a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Why Present"@en ;
+	skosmos:shortName "why" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/whypresent/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/whypresent/> .
+
+:not a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Notation"@en ;
+	skosmos:shortName "not" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/notation/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/notation/> .
+
+:loctyp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Location Type"@en ;
+	skosmos:shortName "loctyp" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/location/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/location/> .
+
+:mtyp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Media Type (G2)"@en ;
+	skosmos:shortName "mtyp" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/mediatype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/mediatype/> .
+
+:medtype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Media Type (NewsML 1)"@en ;
+	skosmos:shortName "medtype" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/mediatype1/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/mediatype1/> .
+
+:nprt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Name Part"@en ;
+	skosmos:shortName "nprt" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/namepart/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/namepart/> .
+
+:ncostat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "News Coverage Status"@en ;
+	skosmos:shortName "ncostat" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/newscoveragestatus/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/newscoveragestatus/> .
+
+:nityp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "News Item Type"@en ;
+	skosmos:shortName "nityp" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/newsitemtype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/newsitemtype/> .
+
+:nmsig a skosmos:Vocabulary, void:Dataset ;
+	dc:title "News Message Signal"@en ;
+	skosmos:shortName "nmsig" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/newsmsgsignal/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/newsmsgsignal/> .
+
+:nprod a skosmos:Vocabulary, void:Dataset ;
+	dc:title "News Product"@en ;
+	skosmos:shortName "nprod" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/newsproduct/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/newsproduct/> .
+
+:nprov a skosmos:Vocabulary, void:Dataset ;
+	dc:title "News Provider"@en ;
+	skosmos:shortName "nprov" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/newsprovider/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/newsprovider/> .
+
+:ninat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Nature of a News Item"@en ;
+	skosmos:shortName "ninat" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/ninature/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/ninature/> .
+
+:altidrole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Alternative Identifer Role"@en ;
+	skosmos:shortName "altidrole" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/altidrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/altidrole/> .
+
+:aoprop a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Artwork or Object Property"@en ;
+	skosmos:shortName "aoprop" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/aoproperty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/aoproperty/> .
+
+:app a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Application of Metadata Values"@en ;
+	skosmos:shortName "app" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/application/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/application/> .
+
+:aspfacet a skosmos:Vocabulary, void:Dataset ;
+	dc:title "A Sport Facet"@en ;
+	skosmos:shortName "aspfacet" ;
+	dc:subject :cat_7 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/asportfacet/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/asportfacet/> .
+
+:acdc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Audiocodec"@en ;
+	skosmos:shortName "acdc" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/audiocodec/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/audiocodec/> .
+
+:catinat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Nature of a Catalog Item"@en ;
+	skosmos:shortName "catinat" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/catinature/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/catinature/> .
+
+:chprop a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Characteristics Property"@en ;
+	skosmos:shortName "chprop" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/characteristicsproperty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/characteristicsproperty/> .
+
+:cinat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Nature of a G2 Concept Item"@en ;
+	skosmos:shortName "cinat" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/cinature/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/cinature/> .
+
+:colin a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Colour Indicator"@en ;
+	skosmos:shortName "colin" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/colourindicator/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/colourindicator/> .
+
+:ctech a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Communication Technology"@en ;
+	skosmos:shortName "ctech" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/commtech/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/commtech/> .
+
+:cptdefrole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Concept Definition Role"@en ;
+	skosmos:shortName "cptdefrole" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/conceptdefinitionrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/conceptdefinitionrole/> .
+
+:cptnoterole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Concept Note Role"@en ;
+	skosmos:shortName "cptnoterole" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/conceptnoterole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/conceptnoterole/> .
+
+:crel a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Concept Relation"@en ;
+	skosmos:shortName "crel" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/conceptrelation/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/conceptrelation/> .
+
+:conf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Confidence"@en ;
+	skosmos:shortName "conf" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/confidence/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/confidence/> .
+
+:ciprol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Role of a Part of the Contact Info"@en ;
+	skosmos:shortName "ciprol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/contactinfopartrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/contactinfopartrole/> .
+
+:cwarn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Content Warning"@en ;
+	skosmos:shortName "cwarn" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/contentwarning/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/contentwarning/> .
+
+:cpnat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Nature of a Concept"@en ;
+	skosmos:shortName "cpnat" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/cpnature/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/cpnature/> .
+
+:drol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Description Role"@en ;
+	skosmos:shortName "drol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/descriptionrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/descriptionrole/> .
+
+:digsrctype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Digital Source Type"@en ;
+	skosmos:shortName "digsrctype" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/digitalsourcetype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/digitalsourcetype/> .
+
+:dimensionunit a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Dimension Unit"@en ;
+	skosmos:shortName "dimensionunit" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/dimensionunit/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/dimensionunit/> .
+
+:ednoterole a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Editorial Note Role"@en ;
+	skosmos:shortName "ednoterole" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/ednoterole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/ednoterole/> .
+
+:erol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Editorial Role"@en ;
+	skosmos:shortName "erol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/edrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/edrole/> .
+
+:encd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Encoding"@en ;
+	skosmos:shortName "encd" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/encoding/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/encoding/> .
+
+:entityprop a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Entity Property"@en ;
+	skosmos:shortName "entityprop" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/entityproperty/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/entityproperty/> .
+
+:ecirol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Contact Info Role"@en ;
+	skosmos:shortName "ecirol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/eventcontactinforole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/eventcontactinforole/> .
+
+:edconf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Date Confirmation"@en ;
+	skosmos:shortName "edconf" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/eventdateconfirm/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/eventdateconfirm/> .
+
+:eocstat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Occurence Status"@en ;
+	skosmos:shortName "eocstat" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/eventoccurstatus/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/eventoccurstatus/> .
+
+:eorol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Organiser Role"@en ;
+	skosmos:shortName "eorol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/eventorganiserrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/eventorganiserrole/> .
+
+:eregrol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Registration Role"@en ;
+	skosmos:shortName "eregrol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/eventregrole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/eventregrole/> .
+
+:frmt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Format"@en ;
+	skosmos:shortName "frmt" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/format/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/format/> .
+
+:hashtype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hash Type"@en ;
+	skosmos:shortName "hashtype" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/hashtype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/hashtype/> .
+
+:howextr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "How Extracted"@en ;
+	skosmos:shortName "howextr" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/howextracted/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/howextracted/> .
+
+:howpr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "How Present"@en ;
+	skosmos:shortName "howpr" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/howpresent/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/howpresent/> .
+
+:ikos a skosmos:Vocabulary, void:Dataset ;
+	dc:title "IPTC Knowledge Organisation System"@en ;
+	skosmos:shortName "ikos" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/ikos/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/ikos/> .
+
+:impt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Importance"@en ;
+	skosmos:shortName "impt" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/importance/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/importance/> .
+
+:irel a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Item-Relation"@en ;
+	skosmos:shortName "irel" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/itemrelation/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/itemrelation/> .
+
+:irep a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Item Representation"@en ;
+	skosmos:shortName "irep" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/itemrepresentation/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/itemrepresentation/> .
+
+:lbtyp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Label Type"@en ;
+	skosmos:shortName "lbtyp" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/labeltype/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/labeltype/> .
+
+:lrol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Language Role"@en ;
+	skosmos:shortName "lrol" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/languagerole/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/languagerole/> .
+
+:loutorient a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Layout orientation"@en ;
+	skosmos:shortName "loutorient" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://cv.iptc.org/newscodes/layoutorientation/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://cv.iptc.org/newscodes/layoutorientation/> .
 
 :magvoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Magazine vocabulary"@en ;
