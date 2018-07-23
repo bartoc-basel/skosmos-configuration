@@ -12328,7 +12328,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.yso.fi/onto/medium/> .
 
-
+:dhthes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Digital Humanities Thesaurus"@en ;
+        skosmos:shortName "DHThes" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://vocabularyserver.com/dhthesaurus/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://vocabularyserver.com/dhthesaurus/> .
 
 
 
