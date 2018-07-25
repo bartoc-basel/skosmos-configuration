@@ -366,6 +366,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.collectionscanada.gc.ca/obj/900/f11/040004/> .
+
+:NAL a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Country Name Authority List"@en ;
+        skosmos:shortName "NAL" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/country/" ;
+        skosmos:language "en", "de", "be", "bs", "bg", "ca", "cs", "da", "el", "et", "eu", "fo", "fi", "fr", "ga", "gl", "hr", "hu", "is", "it", "lv", "lt", "mk", "mt", "nl", "no", "pl", "pt", "rm", "ro", "ru", "sk", "sl", "es", "sq", "sr", "sv", "tr", "uk" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/country/> .
 		
 :DTICThesaurus a skosmos:Vocabulary, void:Dataset ;
         dc:title "Defense Technical Information Center Thesaurus"@en ;
