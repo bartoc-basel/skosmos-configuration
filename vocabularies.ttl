@@ -9878,17 +9878,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://cv.iptc.org/newscodes/worldregion/> .
 
-:koko a skosmos:Vocabulary, void:Dataset ;
-        dc:title "KOKO Ontology"@en ;
-        skosmos:shortName "Koko" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://www.yso.fi/onto/koko/" ;
-        skosmos:language "fi" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/koko/> .
-
 :kunnat11 a skosmos:Vocabulary, void:Dataset ;
         dc:title "Kunnat 2011"@fi ;
         skosmos:shortName "Kunnat11" ;
