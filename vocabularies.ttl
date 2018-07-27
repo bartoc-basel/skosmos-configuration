@@ -12470,16 +12470,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.yso.fi/onto/tollo/> .
 
-:yrittka a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Yrittäjän käsitteistö"@fi ;
-        skosmos:shortName "Yrittka" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/yrityssuomi/" ;
-        skosmos:language "fi" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yrityssuomi/> .
 
 :tspmed a skosmos:Vocabulary, void:Dataset ;
         dc:title "TerveSuomi-portaalin mediatyyppiluokitus"@en ;
