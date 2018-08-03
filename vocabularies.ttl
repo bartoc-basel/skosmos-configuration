@@ -12494,7 +12494,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabularyserver.com/dhthesaurus/> .
 
-
+:rijksthes a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Rijksmuseum Thesaurus"@en ;
+        skosmos:shortName "RijksThes" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://hdl.handle.net/10934/" ;
+        skosmos:language "en", "nl" ;
+        skosmos:defaultLanguage "nl" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://hdl.handle.net/10934/> .
 
 
 
