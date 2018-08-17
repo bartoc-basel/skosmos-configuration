@@ -9814,7 +9814,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "medtop" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://cv.iptc.org/newscodes/mediatopic/" ;
-        skosmos:language "en" ;
+        skosmos:language "en", "ar", "fr", "es", "de" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
