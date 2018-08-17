@@ -12528,7 +12528,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://d-nb.info/gnd/> .
 
 
-
+:iswc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "ISWC 2011 Taxonomy"@en ;
+        skosmos:shortName "ISWC" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://pingar.com/waikato/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://pingar.com/waikato/> .
 
 
 
