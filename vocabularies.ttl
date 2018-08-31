@@ -12524,6 +12524,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "de" ;
         skosmos:defaultLanguage "de" ;
         skosmos:showTopConcepts true ;
+        skosmos:loadExternalResources ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://d-nb.info/gnd/> .
 
