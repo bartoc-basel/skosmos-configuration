@@ -12551,7 +12551,17 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/browser/> .
 
-
+:crawler a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Crawler Name Authority List"@en ;
+        skosmos:shortName "CRAWLER" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/crawler/" ;
+        skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv", "" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/crawler/> .
 
 
 
