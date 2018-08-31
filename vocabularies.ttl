@@ -12539,8 +12539,27 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://pingar.com/waikato/> .
 
+:adtunal a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Administrative Territoral Units Name Authority File"@en ;
+	skosmos:shortName "ADTUNAL" ;
+	dc:subject :cat_3 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/atu/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "et", "fi", "fr", "ga", "hr", "hu", "it", "lv", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "es", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/atu/> .
 
-
+:adtutnal a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Administrative Territoral Units Types Name Authority File"@en ;
+        skosmos:shortName "ADTUTNAL" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/atu-type/" ;
+        skosmos:language "en", "bg", "cs", "da", "de", "el", "et", "fi", "fr", "ga", "hr", "hu", "it", "lv", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "es", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/atu-type/> .
 
 
 
