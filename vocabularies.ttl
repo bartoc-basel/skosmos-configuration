@@ -12556,7 +12556,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "CRAWLER" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/crawler/" ;
-        skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv", "" ;
+        skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         skosmos:fullAlphabeticalIndex true ;
