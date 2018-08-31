@@ -7487,7 +7487,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/continent/> .
 
 :cbcnal a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Corporate Body Classification"@en ;
+        dc:title "Corporate Body Classification Name Authority List"@en ;
         skosmos:shortName "CBCNAL" ;
         dc:subject :cat_3 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/corporate-body-classification/" ;
