@@ -12564,7 +12564,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/crawler/> .
 
-
+: a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Grammatical Gender Name Authority List"@en ;
+        skosmos:shortName "" ;
+        dc:subject :cat_4 ;
+        void:uriSpace "http://publications.europa.eu/resource/authority/grammatical-gender/" ;
+        skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/grammatical-gender/> .
 
 
 
