@@ -12576,6 +12576,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/grammatical-gender/> .
 
+:twse a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Thesaurus für wirtschaftliche und soziale Entwicklung"@de ;
+        skosmos:shortName "TWSE" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.twse.info/vocab/" ;
+        skosmos:language "en", "de", "fr", "es" ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.twse.info/vocab/> .
 
 
 
