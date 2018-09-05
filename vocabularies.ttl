@@ -7968,7 +7968,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :pfnal a skosmos:Vocabulary, void:Dataset ;
         dc:title "Product Form Name Authority List"@en ;
         skosmos:shortName "PFNAL" ;
-        dc:subject :cat_3 ;
+        dc:subject :cat_0 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/product-form/" ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
