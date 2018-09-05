@@ -7906,7 +7906,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 :otnal a skosmos:Vocabulary, void:Dataset ;
         dc:title "Organization Type Name Authority List"@en ;
         skosmos:shortName "OTNAL" ;
-        dc:subject :cat_3 ;
+        dc:subject :cat_6 ;
         void:uriSpace "http://publications.europa.eu/resource/authority/organization-type/" ;
         skosmos:language "en", "de", "sv", "fi", "sl", "da", "fr", "lv", "bg", "cs", "el", "et", "ga", "hr", "hu", "it", "lt", "mt", "nl", "pl", "pt", "ro", "sk", "es" ;
         skosmos:defaultLanguage "en" ;
