@@ -12606,6 +12606,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "et" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://rightsstatements.org/vocab/NoC-NC/1.0/> .
 
