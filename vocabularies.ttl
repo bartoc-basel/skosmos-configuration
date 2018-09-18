@@ -12610,6 +12610,2503 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://rightsstatements.org/vocab/NoC-NC/1.0/> .
 
+:insspt a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Soil Plot Type"@en ;
+        skosmos:shortName "INSSPT" ;
+        dc:subject :cat_general ;
+        void:uriSpace "http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SoilPlotTypeValue/> .
+
+:inssppn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soil Profile Parameter Name"@en ;
+	skosmos:shortName "INSSPPN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SoilProfileParameterNameValue/> .
+
+:inssspn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soil Site Parameter Name"@en ;
+	skosmos:shortName "INSSSPN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SoilSiteParameterNameValue/> .
+
+:inssolp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Solar Potential"@en ;
+	skosmos:shortName "INSSOLP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SolarPotentialValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SolarPotentialValue/> .
+
+:insspecv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Special Value"@en ;
+	skosmos:shortName "INSSPECV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SpecialValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SpecialValue/> .
+
+
+:insspeedls a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Speed Limit Source"@en ;
+	skosmos:shortName "INSSPEEDLS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SpeedLimitSourceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SpeedLimitSourceValue/> .
+
+:insspotet a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Spot Elevation Type"@en ;
+	skosmos:shortName "INSSPOTET" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SpotElevationTypeValue/> .
+
+:insstatr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Station Rank"@en ;
+	skosmos:shortName "INSSTATR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/StationRankValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/StationRankValue/> .
+
+:insstatt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Station Type"@en ;
+	skosmos:shortName "INSSTATT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/StationTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/StationTypeValue/> .
+
+:insstatam a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Statistical Aggregation Method"@en ;
+	skosmos:shortName "INSSTATAM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/StatisticalAggregationMethodValue/> .
+
+:insstatmm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Statistics Measurement Method"@en ;
+	skosmos:shortName "INSSTATMM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/StatisticsMeasurementMethodValue/> .
+
+:insstatus a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Status"@en ;
+	skosmos:shortName "INSSTATUS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/StatusValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/StatusValue/> .
+
+:insstatusct a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Status Code Type"@en ;
+	skosmos:shortName "INSSTATUSCT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/StatusCodeTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/StatusCodeTypeValue/> .
+
+:insstatussd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Status of Statistical Data"@en ;
+	skosmos:shortName "INSSTATUSSD" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/StatisticalDataStatusValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/StatisticalDataStatusValue/> .
+
+:inssuppr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Supplementary Regulation"@en ;
+	skosmos:shortName "INSSUPPR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue/> .
+
+:inssurc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Surface Composition"@en ;
+	skosmos:shortName "INSSURC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SurfaceCompositionValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SurfaceCompositionValue/> .
+
+:inssurt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Survey Type"@en ;
+	skosmos:shortName "INSSURT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SurveyTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SurveyTypeValue/> .
+
+:insswath a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Swath Type"@en ;
+	skosmos:shortName "INSSWATH" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SwathTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SwathTypeValue/> .
+
+:instidp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Tidal Potential"@en ;
+	skosmos:shortName "INSTIDP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/TidalPotentialValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/TidalPotentialValue/> .
+
+:insttv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Traffic Type Value"@en ;
+	skosmos:shortName "INSTTV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/TrafficTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/TrafficTypeValue/> .
+
+:instabv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Type of Agri-Building Value"@en ;
+	skosmos:shortName "INSTABV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/TypeOfAgriBuildingValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/TypeOfAgriBuildingValue/> .
+
+:insmbpd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "UNESCO Man And Biosphere Programme Designation"@en ;
+	skosmos:shortName "INSMBPD" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/UNESCOManAndBiosphereProgrammeDesignationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/UNESCOManAndBiosphereProgrammeDesignationValue/> .
+
+:inswhd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "UNESCO World Heritage Designation"@en ;
+	skosmos:shortName "INSWHD" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/UNESCOWorldHeritageDesignationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/UNESCOWorldHeritageDesignationValue/> .
+
+:insudt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Utility Delivery Type"@en ;
+	skosmos:shortName "INSUDT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/> .
+
+:insunt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Utility Network Type"@en ;
+	skosmos:shortName "INSUNT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/> .
+
+:insvaria a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Variable"@en ;
+	skosmos:shortName "INSVARIA" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/VariableValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/VariableValue/> .
+
+:insvet a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Vehicle Type"@en ;
+	skosmos:shortName "INSVET" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/VehicleTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/VehicleTypeValue/> .
+
+:insver a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Vertical Reference"@en ;
+	skosmos:shortName "INSVER" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/VerticalReferenceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/VerticalReferenceValue/> .
+
+:insvoid a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Void Reason Value"@en ;
+	skosmos:shortName "INSVOID" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/VoidReasonValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/VoidReasonValue/> .
+
+:inswart a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Warning Type"@en ;
+	skosmos:shortName "INSWART" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WarningTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WarningTypeValue/> .
+
+:inswat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Water Appurtenance Type"@en ;
+	skosmos:shortName "INSWAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/> .
+
+:inswlev a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Water Level"@en ;
+	skosmos:shortName "INSWLEV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WaterLevelValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WaterLevelValue/> .
+
+:inswper a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Water Persistence"@en ;
+	skosmos:shortName "INSWPER" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WaterPersistenceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WaterPersistenceValue/> .
+
+:inswsal a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Water Salinity"@en ;
+	skosmos:shortName "INSWSAL" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WaterSalinityValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WaterSalinityValue/> .
+
+:inswsv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Water Source Value"@en ;
+	skosmos:shortName "INSWSV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WaterSourceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WaterSourceValue/> .
+
+:inswatt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Water Type"@en ;
+	skosmos:shortName "INSWATT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WaterTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WaterTypeValue/> .
+
+:inswec a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Weather Condition"@en ;
+	skosmos:shortName "INSWEC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WeatherConditionValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WeatherConditionValue/> .
+
+:inswip a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Wind Potential"@en ;
+	skosmos:shortName "INSWIP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/WindPotentialValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/WindPotentialValue/> .
+
+:inszt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Zone Type"@en ;
+	skosmos:shortName "INSZT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ZoneTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ZoneTypeValue/> .
+
+:insztc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Zone Type Code"@en ;
+	skosmos:shortName "INSZTC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ZoneTypeCode/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ZoneTypeCode/> .
+
+:insplat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Platform Type"@en ;
+	skosmos:shortName "INSPLAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/PlatformTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/PlatformTypeValue/> .
+
+:insplot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Plot Activity Value"@en ;
+	skosmos:shortName "INSPLOT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/PlotActivityValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/PlotActivityValue/> .
+
+:inspoir a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Point Role"@en ;
+	skosmos:shortName "INSPOIR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/PointRoleValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/PointRoleValue/> .
+
+:inspoll a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Pollution Abatement Technique"@en ;
+	skosmos:shortName "INSPOLL" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/PollutionAbatementTechniqueValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/PollutionAbatementTechniqueValue/> .
+
+:inspsg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Process Step General"@en ;
+	skosmos:shortName "INSPSG" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ProcessStepGeneralValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ProcessStepGeneralValue/> .
+
+:insprot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Process Type"@en ;
+	skosmos:shortName "INSPROT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ProcessTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ProcessTypeValue/> .
+
+:inspat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Processing Activity Type"@en ;
+	skosmos:shortName "INSPAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ProcessingActivityTypeValue/> .
+
+:inspepn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Profile Element Parameter Name"@en ;
+	skosmos:shortName "INSPEPN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ProfileElementParameterNameValue/> .
+
+:insproft a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Profile Type"@en ;
+	skosmos:shortName "INSPROFT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ProfileTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ProfileTypeValue/> .
+
+:insqual a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Qualifier"@en ;
+	skosmos:shortName "INSQUAL" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/QualifierValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/QualifierValue/> .
+
+:insqln a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Qualifier Local Name"@en ;
+	skosmos:shortName "INSQLN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/QualifierLocalNameValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/QualifierLocalNameValue/> .
+
+:insrt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Railway Type"@en ;
+	skosmos:shortName "INSRT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RailwayTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RailwayTypeValue/> .
+
+:insru a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Railway Use"@en ;
+	skosmos:shortName "INSRU" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RailwayUseValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RailwayUseValue/> .
+
+:insramsar a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ramsar Designation"@en ;
+	skosmos:shortName "INSRAMSAR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RamsarDesignationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RamsarDesignationValue/> .
+
+:insrhts a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Reference Habitat Type Scheme"@en ;
+	skosmos:shortName "INSRHTS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue/> .
+
+:insrss a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Reference Species Scheme"@en ;
+	skosmos:shortName "INSRSS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ReferenceSpeciesSchemeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ReferenceSpeciesSchemeValue/> .
+
+:insregiocl a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Region Classification Level"@en ;
+	skosmos:shortName "INSREGIOCL" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RegionClassificationLevelValue/> .
+
+:insregiocs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Region Classification Scheme"@en ;
+	skosmos:shortName "INSREGIOCS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RegionClassificationSchemeValue/> .
+
+:insrnv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Registration Nature Value"@en ;
+	skosmos:shortName "INSRNV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RegistrationNatureValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RegistrationNatureValue/> .
+
+:insrn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Regulation Nature"@en ;
+	skosmos:shortName "INSRN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RegulationNatureValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RegulationNatureValue/> .
+
+:insrv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Release Value"@en ;
+	skosmos:shortName "INSRV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ReleaseValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ReleaseValue/> .
+
+:insrw a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Renewable and Waste"@en ;
+	skosmos:shortName "INSRW" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RenewableAndWasteValue/> .
+
+:insrc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Reserve Category"@en ;
+	skosmos:shortName "INSRC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ReserveCategoryValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ReserveCategoryValue/> .
+
+:insrs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Residency Status"@en ;
+	skosmos:shortName "INSRS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ResidencyStatusValue/> .
+
+:insrecat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Resource Category"@en ;
+	skosmos:shortName "INSRECAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ResourceCategoryValue/> .
+
+:insrety a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Restriction Type"@en ;
+	skosmos:shortName "INSRETY" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/> .
+
+:insras a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Result Acquisition Source"@en ;
+	skosmos:shortName "INSRAS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ResultAcquisitionSourceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ResultAcquisitionSourceValue/> .
+
+:insrena a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Result Nature"@en ;
+	skosmos:shortName "INSRENA" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ResultNatureValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ResultNatureValue/> .
+
+:insrasv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Risk Assessment Stage Value"@en ;
+	skosmos:shortName "INSRASV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RiskAssessmentStageValue/> .
+
+:insrrv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Risk Receptor Value"@en ;
+	skosmos:shortName "INSRRV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RiskReceptorValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RiskReceptorValue/> .
+
+:insrtv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Risk Type Value"@en ;
+	skosmos:shortName "INSRTV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RiskTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RiskTypeValue/> .
+
+:insroadp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Road Part"@en ;
+	skosmos:shortName "INSROADP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RoadPartValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RoadPartValue/> .
+
+:insrst a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Road Service Type"@en ;
+	skosmos:shortName "INSRST" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RoadServiceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RoadServiceTypeValue/> .
+
+:insrsc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Road Surface Category"@en ;
+	skosmos:shortName "INSRSC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RoadSurfaceCategoryValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RoadSurfaceCategoryValue/> .
+
+:insrrp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Role of a Related Party"@en ;
+	skosmos:shortName "INSRRP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/> .
+
+:insrunt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Runway Type"@en ;
+	skosmos:shortName "INSRUNT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/RunwayTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/RunwayTypeValue/> .
+
+:inssatc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sea Area Type Classification"@en ;
+	skosmos:shortName "INSSATC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SeaAreaTypeClassificationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SeaAreaTypeClassificationValue/> .
+
+:inssbc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sea Bed Cover"@en ;
+	skosmos:shortName "INSSBC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SeaBedCoverValue/> .
+
+:insssc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sea Surface Classification"@en ;
+	skosmos:shortName "INSSSC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SeaSurfaceClassificationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SeaSurfaceClassificationValue/> .
+
+:inssfac a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Service Facility"@en ;
+	skosmos:shortName "INSSFAC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ServiceFacilityValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ServiceFacilityValue/> .
+
+:insstype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Service Type"@en ;
+	skosmos:shortName "INSSTYPE" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ServiceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ServiceTypeValue/> .
+
+:inssat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sewer Appurtenance Type"@en ;
+	skosmos:shortName "INSSAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/> .
+
+:insswt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Sewer Water Type"@en ;
+	skosmos:shortName "INSSWT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/> .
+
+:insshs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Shore Stability"@en ;
+	skosmos:shortName "INSSHS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ShoreStabilityValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ShoreStabilityValue/> .
+
+:inssht a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Shore Type"@en ;
+	skosmos:shortName "INSSHT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ShoreTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ShoreTypeValue/> .
+
+:insstc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Shore Type Classification"@en ;
+	skosmos:shortName "INSSTC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ShoreTypeClassificationValue/> .
+
+:insscsztc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Soil Contamination Specialised Zone Type Code"@en ;
+	skosmos:shortName "INSSCSZTC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/SoilContaminationSpecialisedZoneTypeCode/> .
+
+:inshype a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hydrological Persistence"@en ;
+	skosmos:shortName "INSHYPE" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HydrologicalPersistenceValue/> .
+
+:insi a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Importance"@en ;
+	skosmos:shortName "INSI" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ImportanceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ImportanceValue/> .
+
+:insipv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Installation Part Value"@en ;
+	skosmos:shortName "INSIPV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/InstallationPartValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/InstallationPartValue/> .
+
+:insim a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Interpolation Method"@en ;
+	skosmos:shortName "INSIM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/InterpolationMethodValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/InterpolationMethodValue/> .
+
+:insin a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Inundation"@en ;
+	skosmos:shortName "INSIN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/InundationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/InundationValue/> .
+
+:insintv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Investigation Trigger Value"@en ;
+	skosmos:shortName "INSINTV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/InvestigationTriggerValue/> .
+
+:insimv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Irrigation Methode Value"@en ;
+	skosmos:shortName "INSIMV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/IrrigationMethodeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/IrrigationMethodeValue/> .
+
+:insiucn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "IUCN Designation"@en ;
+	skosmos:shortName "INSIUCN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/IUCNDesignationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/IUCNDesignationValue/> .
+
+:inslgps a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Layer Genesis Process State"@en ;
+	skosmos:shortName "INSLGPS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LayerGenesisProcessStateValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LayerGenesisProcessStateValue/> .
+
+:inslt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Layer Type"@en ;
+	skosmos:shortName "INSLT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LayerTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LayerTypeValue/> .
+
+:insll a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Legislation Level"@en ;
+	skosmos:shortName "INSLL" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LegislationLevelValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LegislationLevelValue/> .
+
+:inslsp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Level Of Spatial Plan"@en ;
+	skosmos:shortName "INSLSP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LevelOfSpatialPlanValue/> .
+
+:insld a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Link Direction"@en ;
+	skosmos:shortName "INSLD" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LinkDirectionValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LinkDirectionValue/> .
+
+:inslit a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Lithology"@en ;
+	skosmos:shortName "INSLIT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LithologyValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LithologyValue/> .
+
+:insldt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Locator Designator Type"@en ;
+	skosmos:shortName "INSLDT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LocatorDesignatorTypeValue/> .
+
+:inslol a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Locator Level"@en ;
+	skosmos:shortName "INSLOL" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LocatorLevelValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LocatorLevelValue/> .
+
+:inslont a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Locator Name Type"@en ;
+	skosmos:shortName "INSLONT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/LocatorNameTypeValue/> .
+
+:insmf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mapping Frame"@en ;
+	skosmos:shortName "INSMF" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MappingFrameValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MappingFrameValue/> .
+
+:insmzt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Maritime Zone Type"@en ;
+	skosmos:shortName "INSMZT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MaritimeZoneTypeValue/> .
+
+:insmtsv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Measure Taken Status Value"@en ;
+	skosmos:shortName "INSMTSV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MeasureTakenStatusValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MeasureTakenStatusValue/> .
+
+:insmtstv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Measure Taken Stage Value"@en ;
+	skosmos:shortName "INSMTStV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MeasureTakenStageValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MeasureTakenStageValue/> .
+
+:insmtv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Measure Taken Value"@en ;
+	skosmos:shortName "INSMTV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MeasureTakenValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MeasureTakenValue/> .
+
+:insmr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Measurement Regime"@en ;
+	skosmos:shortName "INSMR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/> .
+
+:insmedia a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Media"@en ;
+	skosmos:shortName "INSMEDIA" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MediaValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MediaValue/> .
+
+:insms a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mine Status"@en ;
+	skosmos:shortName "INSMS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MineStatusValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MineStatusValue/> .
+
+:insmdg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mineral Deposit Group"@en ;
+	skosmos:shortName "INSMDG" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MineralDepositGroupValue/> .
+
+:insmdt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mineral Deposit Type"@en ;
+	skosmos:shortName "INSMDT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MineralDepositTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MineralDepositTypeValue/> .
+
+:insmot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mineral Occurrence Type"@en ;
+	skosmos:shortName "INSMOT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MineralOccurrenceTypeValue/> .
+
+:insmat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Mining Activity Type"@en ;
+	skosmos:shortName "INSMAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MiningActivityTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MiningActivityTypeValue/> .
+
+:insnast a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Name Status"@en ;
+	skosmos:shortName "INSNAST" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NameStatusValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NameStatusValue/> .
+
+:insnpt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Named Place Type"@en ;
+	skosmos:shortName "INSNPT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/> .
+
+:insnmrd a skosmos:Vocabulary, void:Dataset ;
+	dc:title "National Monuments Record Designation"@en ;
+	skosmos:shortName "INSNMRD" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/> .
+
+:insnat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Nativeness"@en ;
+	skosmos:shortName "INSNAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NativenessValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NativenessValue/> .
+
+:insnat2000 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Natura 2000 And Emerald Bio-geographical Region Classification"@en ;
+	skosmos:shortName "INSNAT2000" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://dd.eionet.europa.eu/vocabulary/biodiversity/biogeographic-regions2011/> .
+
+:insnat2000d a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Natura2000 Designation"@en ;
+	skosmos:shortName "INSNAT2000D" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/Natura2000DesignationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/Natura2000DesignationValue/> .
+
+:insngft a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Natural Geomorphologic Feature Type"@en ;
+	skosmos:shortName "INSNGFT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NaturalGeomorphologicFeatureTypeValue/> .
+
+:insnhc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Natural Hazard Category"@en ;
+	skosmos:shortName "INSNHC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NaturalHazardCategoryValue/> .
+
+:insnot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Natural Object Type"@en ;
+	skosmos:shortName "INSNOT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NaturalObjectTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NaturalObjectTypeValue/> .
+
+:insnt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Navaid Type"@en ;
+	skosmos:shortName "INSNT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NavaidTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NavaidTypeValue/> .
+
+:insnn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Network Name"@en ;
+	skosmos:shortName "INSNN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/NetworkNameValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/NetworkNameValue/> .
+
+:insoc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Occurrence Category"@en ;
+	skosmos:shortName "INSOC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/OccurrenceCategoryValue/> .
+
+:insogcat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Oil, Gas and Chemicals Appurtenance Type"@en ;
+	skosmos:shortName "INSOGCAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/> .
+
+:insogcpt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Oil, Gas and Chemicals Product Type"@en ;
+	skosmos:shortName "INSOGCPT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/> .
+
+:insocav a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Other Contaminating Activity Value"@en ;
+	skosmos:shortName "INSOCAV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/OtherContaminatingActivityValue/> .
+
+:inspt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Part Type"@en ;
+	skosmos:shortName "INSPT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/PartTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/PartTypeValue/> .
+
+:insdess a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Designation Scheme"@en ;
+	skosmos:shortName "INSDESS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/DesignationSchemeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/DesignationSchemeValue/> .
+
+:insdim a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Disease Measure Type"@en ;
+	skosmos:shortName "INSDIM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/DiseaseMeasureTypeValue/> .
+
+:inseat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Electricity Appurtenance Type"@en ;
+	skosmos:shortName "INSEAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/> .
+
+:inselr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Elevation Reference"@en ;
+	skosmos:shortName "INSELR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ElevationReferenceValue/> .
+
+:insenp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Enduse Potential"@en ;
+	skosmos:shortName "INSENP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EndusePotentialValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EndusePotentialValue/> .
+
+:insencv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Energy Classification Value"@en ;
+	skosmos:shortName "INSENCV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EnergyClassificationValue/> .
+
+:insenhdt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Environment Health Determinant Type"@en ;
+	skosmos:shortName "INSENHDT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EnvHealthDeterminantTypeValue/> .
+
+:insenv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Environment Value"@en ;
+	skosmos:shortName "INSENV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EnvironmentValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EnvironmentValue/> .
+
+:insend a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Environmental Domain"@en ;
+	skosmos:shortName "INSEND" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EnvironmentalDomain/> .
+
+:insenfc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Environmental Facility Classification"@en ;
+	skosmos:shortName "INSENFC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EnvironmentalManagementFacilityTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EnvironmentalManagementFacilityTypeValue/> .
+
+:insenhmt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Environmental Health Media Type"@en ;
+	skosmos:shortName "INSENHMT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/MediaTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/MediaTypeValue/> .
+
+:inseven a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Environment"@en ;
+	skosmos:shortName "INSEVEN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EventEnvironmentValue/> .
+
+:insevpr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Event Process"@en ;
+	skosmos:shortName "INSEVPR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EventProcessValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EventProcessValue/> .
+
+:insevty a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Evolution Type"@en ;
+	skosmos:shortName "INSEVTY" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/EvolutionTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EvolutionTypeValue/> .
+
+:insexat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Exploration Activity Type"@en ;
+	skosmos:shortName "INSEXAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/> .
+
+:insexre a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Exploration Result"@en ;
+	skosmos:shortName "INSEXRE" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ExplorationResultValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ExplorationResultValue/> .
+
+:insexec a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Exposed Element Category"@en ;
+	skosmos:shortName "INSEXEC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ExposedElementCategoryValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ExposedElementCategoryValue/> .
+
+:insft a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fault Type"@en ;
+	skosmos:shortName "INSFT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FaultTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FaultTypeValue/> .
+
+:insfu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Ferry Use"@en ;
+	skosmos:shortName "INSFU" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FerryUseValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FerryUseValue/> .
+
+:insfetv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fire or Explosion Type Value"@en ;
+	skosmos:shortName "INSFETV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FireOrExplosionTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FireOrExplosionTypeValue/> .
+
+:insfav a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Flow Appearance Value"@en ;
+	skosmos:shortName "INSFAV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FlowAppearanceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FlowAppearanceValue/> .
+
+:insfpt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fold Profile Type"@en ;
+	skosmos:shortName "INSFPT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/> .
+
+:insforn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Form Of Railway Node"@en ;
+	skosmos:shortName "INSFORN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/> .
+
+:insforon a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Form Of Road Node"@en ;
+	skosmos:shortName "INSFORON" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FormOfRoadNodeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FormOfRoadNodeValue/> .
+
+:insfown a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Form Of Waterway Node"@en ;
+	skosmos:shortName "INSFOWN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/> .
+
+:insfow a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Form Of Way"@en ;
+	skosmos:shortName "INSFOW" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FormOfWayValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FormOfWayValue/> .
+
+:insfofu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fossil Fuel"@en ;
+	skosmos:shortName "INSFOFU" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FossilFuelValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FossilFuelValue/> .
+
+:insfofuc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Fossil Fuel Class"@en ;
+	skosmos:shortName "INSFOFUC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/FossilFuelClassValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FossilFuelClassValue/> .
+
+:insgen a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Gender"@en ;
+	skosmos:shortName "INSGEN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GenderValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GenderValue/> .
+
+:insgcu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "General Counting Unit"@en ;
+	skosmos:shortName "INSGCU" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/> .
+
+:insght a skosmos:Vocabulary, void:Dataset ;
+	dc:title "General Health Type"@en ;
+	skosmos:shortName "INSGHT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/> .
+
+:insge a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geochronologic Era"@en ;
+	skosmos:shortName "INSGE" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeochronologicEraValue/> .
+
+:insgut a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geologic Unit Type"@en ;
+	skosmos:shortName "INSGUT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/> .
+
+:insgm a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geometry Method"@en ;
+	skosmos:shortName "INSGM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeometryMethodValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeometryMethodValue/> .
+
+:insgs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geometry Specification"@en ;
+	skosmos:shortName "INSGS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/> .
+
+:insgt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geometry Type"@en ;
+	skosmos:shortName "INSGT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeometryTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeometryTypeValue/> .
+
+:insga a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geomorphologic Activity"@en ;
+	skosmos:shortName "INSGA" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/> .
+
+:insgp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Geothermal Potential"@en ;
+	skosmos:shortName "INSGP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/> .
+
+:insgg a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Grammatical Gender"@en ;
+	skosmos:shortName "INSGG" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GrammaticalGenderValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GrammaticalGenderValue/> .
+
+:insgn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Grammatical Number"@en ;
+	skosmos:shortName "INSGN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/GrammaticalNumberValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GrammaticalNumberValue/> .
+
+:inshmret a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hazardous Material Related Event Type"@en ;
+	skosmos:shortName "INSHMRET" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HazardousMaterialTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HazardousMaterialTypeValue/> .
+
+:inshst a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Health Services Type"@en ;
+	skosmos:shortName "INSHST" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/> .
+
+:inshsv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Health Status Value"@en ;
+	skosmos:shortName "INSHSV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HealthStatusValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HealthStatusValue/> .
+
+:inshs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Height Status"@en ;
+	skosmos:shortName "INSHS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HeightStatusValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HeightStatusValue/> .
+
+:hilucs a skosmos:Vocabulary, void:Dataset ;
+	dc:title "HILUCS"@en ;
+	skosmos:shortName "HILUCS" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HILUCSValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HILUCSValue/> .
+
+:inshgr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Horizontal Geometry Reference"@en ;
+	skosmos:shortName "INSHGR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/> .
+
+:inshnc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hydro Node Category"@en ;
+	skosmos:shortName "INSHNC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/> .
+
+:inshyp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hydro Potential"@en ;
+	skosmos:shortName "INSHYP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HydroPotentialValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HydroPotentialValue/> .
+
+:inshyrt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Hydrogeochemical Rock Type"@en ;
+	skosmos:shortName "INSHYRT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/HydroGeochemicalRockTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HydroGeochemicalRockTypeValue/> .
+
+:rsorg a skosmos:Vocabulary, void:Dataset ;
+        dc:title "RightsStatements.org Standardized International Rights Statements"@en ;
+        skosmos:shortName "RSorg" ;
+        dc:subject :cat_general ;
+        void:uriSpace "http://rightsstatements.org/vocab/NoC-NC/1.0/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://rightsstatements.org/vocab/NoC-NC/1.0/> .
+
+:insar a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Access Restriction"@en ;
+	skosmos:shortName "INSAR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/> .
+
+:insawt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Active Well Type"@en ;
+	skosmos:shortName "INSAWT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/> .
+
+:insahl a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Administrative Hierarchy Level"@en ;
+	skosmos:shortName "INSAHL" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/> .
+
+:insaec a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Aerodrome Category"@en ;
+	skosmos:shortName "INSAEC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AerodromeCategoryValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AerodromeCategoryValue/> .
+
+:insaet a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Aerodrome Type"@en ;
+	skosmos:shortName "INSAET" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AerodromeTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AerodromeTypeValue/> .
+
+:insab5 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Age By 5 Years"@en ;
+	skosmos:shortName "INSAB5" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AgeBy5YearsValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AgeBy5YearsValue/> .
+
+:insaby a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Age By Year"@en ;
+	skosmos:shortName "INSABY" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AgeByYearValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AgeByYearValue/> .
+
+:insagv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Age Group Value"@en ;
+	skosmos:shortName "INSAGV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AgeGroupValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AgeGroupValue/> .
+
+:insarlc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Air Route Link Class"@en ;
+	skosmos:shortName "INSARLC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AirRouteLinkClassValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AirRouteLinkClassValue/> .
+
+:insart a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Air Route Type"@en ;
+	skosmos:shortName "INSART" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AirRouteTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AirRouteTypeValue/> .
+
+:insaur a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Air Use Restriction"@en ;
+	skosmos:shortName "INSAUR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AirUseRestrictionValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AirUseRestrictionValue/> .
+
+:insaat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Airspace Area Type"@en ;
+	skosmos:shortName "INSAAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/> .
+
+:insaav a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Aquaculture Activity Value"@en ;
+	skosmos:shortName "INSAAV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AquacultureActivityValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AquacultureActivityValue/> .
+
+:insaqiv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Aquaculture Installation Value"@en ;
+	skosmos:shortName "INSAQIV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AquacultureInstallationValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AquacultureInstallationValue/> .
+
+:insaqmt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Aquifer Media Type"@en ;
+	skosmos:shortName "INSAQMT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/> .
+
+:insaqt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Aquifer Type"@en ;
+	skosmos:shortName "INSAQT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AquiferTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AquiferTypeValue/> .
+
+:insaec a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Area Condition"@en ;
+	skosmos:shortName "INSAEC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/AreaConditionValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AreaConditionValue/> .
+
+:insa17cu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Article 17 Counting Unit"@en ;
+	skosmos:shortName "INSA17CU" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://dd.eionet.europa.eu/vocabulary/art17_2012/population_number/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://dd.eionet.europa.eu/vocabulary/art17_2012/population_number/> .
+
+:insbst a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Baseline Segment Type"@en ;
+	skosmos:shortName "INSBST" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/BaselineSegmentTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/BaselineSegmentTypeValue/> .
+
+:insbp a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Borehole Purpose"@en ;
+	skosmos:shortName "INSBP" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/BoreholePurposeValue/> .
+
+:insbt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Breakline Type"@en ;
+	skosmos:shortName "INSBT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/BreakLineTypeValue/> .
+
+:insbn a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Building Nature"@en ;
+	skosmos:shortName "INSBN" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/BuildingNatureValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/BuildingNatureValue/> .
+
+:insbuv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Building Use Value"@en ;
+	skosmos:shortName "INSBUV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/BuildingUseValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/BuildingUseValue/> .
+
+:insct a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Cableway Type"@en ;
+	skosmos:shortName "INSCT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CablewayTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CablewayTypeValue/> .
+
+:insczl a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Cadastral Zoning Level"@en ;
+	skosmos:shortName "INSCZL" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CadastralZoningLevelValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CadastralZoningLevelValue/> .
+
+:inscat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Campaign Type"@en ;
+	skosmos:shortName "INSCAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CampaignTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CampaignTypeValue/> .
+
+:inscqf a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Classification and Quantification Framework"@en ;
+	skosmos:shortName "INSCQF" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ClassificationAndQuantificationFrameworkValue/> .
+
+:inscmu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Classification Method Used"@en ;
+	skosmos:shortName "INSCMU" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ClassificationMethodUsedValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ClassificationMethodUsedValue/> .
+
+:insclt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Classification Type"@en ;
+	skosmos:shortName "INSCLT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ClassificationTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ClassificationTypeValue/> .
+
+:inscot a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Collection Type"@en ;
+	skosmos:shortName "INSCOT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CollectionTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CollectionTypeValue/> .
+
+:inscoc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Commodity Code"@en ;
+	skosmos:shortName "INSCOC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CommodityCodeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CommodityCodeValue/> .
+
+:inscopr a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Composition Part Role"@en ;
+	skosmos:shortName "INSCOPR" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CompositionPartRoleValue/> .
+
+:inscooc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Condition Of Construction"@en ;
+	skosmos:shortName "INSCOOC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ConditionOfConstructionValue/> .
+
+:inscof a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Condition of Facility"@en ;
+	skosmos:shortName "INSCOF" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/> .
+
+:inscog a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Condition Of Groundwater"@en ;
+	skosmos:shortName "INSCOG" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ConditionOfGroundwaterValue/> .
+
+:inscoty a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Connection Type"@en ;
+	skosmos:shortName "INSCOTY" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/> .
+
+:inscotyv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Consequence Type Value"@en ;
+	skosmos:shortName "INSCOTYV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ConsequenceTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ConsequenceTypeValue/> .
+
+:inscapv a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Contaminating Activity Presence Value"@en ;
+	skosmos:shortName "INSCAPV" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ContaminatingActivityPresenceValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ContaminatingActivityPresenceValue/> .
+
+:insctc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Control Type Code"@en ;
+	skosmos:shortName "INSCTC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ControlTypeCode/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ControlTypeCode/> .
+
+:inscat a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Controlled Activity Type"@en ;
+	skosmos:shortName "INSCAT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/ControlledActivityType/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ControlledActivityType/> .
+
+:inscom a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Counting Method"@en ;
+	skosmos:shortName "INSCOM" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CountingMethodValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CountingMethodValue/> .
+
+:inscrt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Crossing Type"@en ;
+	skosmos:shortName "INSCRT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CrossingTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CrossingTypeValue/> .
+
+:inscuu a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Current Use"@en ;
+	skosmos:shortName "INSCUU" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CurrentUseValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CurrentUseValue/> .
+
+:inscmt a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Curve Model Type"@en ;
+	skosmos:shortName "INSCMT" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/CurveModelTypeValue/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CurveModelTypeValue/> .
+
+:insdtc a skosmos:Vocabulary, void:Dataset ;
+	dc:title "Day Type Code"@en ;
+	skosmos:shortName "INSDTC" ;
+	dc:subject :cat_general ;
+	void:uriSpace "http://inspire.ec.europa.eu/codelist/DayTypeCode/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/DayTypeCode/> .
 
 
 
