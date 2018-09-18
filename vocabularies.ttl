@@ -14602,17 +14602,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HydroGeochemicalRockTypeValue/> .
 
-:rsorg a skosmos:Vocabulary, void:Dataset ;
-        dc:title "RightsStatements.org Standardized International Rights Statements"@en ;
-        skosmos:shortName "RSorg" ;
-        dc:subject :cat_ ;
-        void:uriSpace "http://rightsstatements.org/vocab/NoC-NC/1.0/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://rightsstatements.org/vocab/NoC-NC/1.0/> .
-
 :insar a skosmos:Vocabulary, void:Dataset ;
 	dc:title "Access Restriction"@en ;
 	skosmos:shortName "INSAR" ;
