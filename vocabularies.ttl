@@ -4645,18 +4645,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I11/current/restriction/> .
 
-:inspire-mrdt a skosmos:Vocabulary, void:Dataset ;
-	dc:title "INSPIRE Management and Reporting Day Type"@en ;
-	skosmos:shortName "INSPIRE-MRDT" ;
-	dc:subject :cat_5 ;
-	void:uriSpace "http://vocab.nerc.ac.uk/collection/I12/current/weekdays/" ;
-	skosmos:language "en" ;
-	skosmos:defaultLanguage "en" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I12/current/weekdays/> .
-
 :inspire-mreda a skosmos:Vocabulary, void:Dataset ;
 	dc:title "INSPIRE Management and Reporting Environmental Domain Area"@en ;
 	skosmos:shortName "INSPIRE-MREDA" ;
