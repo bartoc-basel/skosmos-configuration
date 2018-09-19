@@ -14351,6 +14351,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/EvolutionTypeValue/> .
 
@@ -14362,6 +14363,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ExplorationActivityTypeValue/> .
 
@@ -14373,6 +14375,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ExplorationResultValue/> .
 
@@ -14384,6 +14387,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ExposedElementCategoryValue/> .
 
@@ -14395,6 +14399,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FaultTypeValue/> .
 
@@ -14406,6 +14411,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FerryUseValue/> .
 
@@ -14417,6 +14423,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FireOrExplosionTypeValue/> .
 
@@ -14428,6 +14435,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FlowAppearanceValue/> .
 
@@ -14439,6 +14447,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FoldProfileTypeValue/> .
 
@@ -14450,6 +14459,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FormOfRailwayNodeValue/> .
 
@@ -14461,6 +14471,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FormOfRoadNodeValue/> .
 
@@ -14472,6 +14483,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/> .
 
@@ -14483,6 +14495,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FormOfWayValue/> .
 
@@ -14494,6 +14507,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FossilFuelValue/> .
 
@@ -14505,6 +14519,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/FossilFuelClassValue/> .
 
@@ -14516,6 +14531,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GenderValue/> .
 
@@ -14527,6 +14543,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeneralCountingUnitValue/> .
 
@@ -14538,6 +14555,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeneralHealthTypeValue/> .
 
@@ -14560,6 +14578,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeologicUnitTypeValue/> .
 
@@ -14571,6 +14590,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeometryMethodValue/> .
 
@@ -14582,6 +14602,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeometrySpecificationValue/> .
 
@@ -14593,6 +14614,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeometryTypeValue/> .
 
@@ -14604,6 +14626,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeomorphologicActivityValue/> .
 
@@ -14615,6 +14638,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GeothermalPotentialValue/> .
 
@@ -14626,6 +14650,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GrammaticalGenderValue/> .
 
@@ -14637,6 +14662,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/GrammaticalNumberValue/> .
 
@@ -14648,6 +14674,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HazardousMaterialTypeValue/> .
 
@@ -14659,6 +14686,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HealthServicesTypeValue/> .
 
@@ -14670,6 +14698,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HealthStatusValue/> .
 
@@ -14681,6 +14710,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HeightStatusValue/> .
 
@@ -14692,6 +14722,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HILUCSValue/> .
 
@@ -14703,6 +14734,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue/> .
 
@@ -14714,6 +14746,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HydroNodeCategoryValue/> .
 
@@ -14725,6 +14758,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HydroPotentialValue/> .
 
@@ -14736,6 +14770,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/HydroGeochemicalRockTypeValue/> .
 
@@ -14747,6 +14782,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/> .
 
@@ -14758,6 +14794,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/ActiveWellTypeValue/> .
 
@@ -14769,6 +14806,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AdministrativeHierarchyLevel/> .
 
@@ -14780,6 +14818,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AerodromeCategoryValue/> .
 
@@ -14791,6 +14830,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AerodromeTypeValue/> .
 
@@ -14802,6 +14842,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AgeBy5YearsValue/> .
 
@@ -14824,6 +14865,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AgeGroupValue/> .
 
@@ -14835,6 +14877,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AirRouteLinkClassValue/> .
 
@@ -14846,6 +14889,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AirRouteTypeValue/> .
 
@@ -14857,6 +14901,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AirUseRestrictionValue/> .
 
@@ -14868,6 +14913,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AirspaceAreaTypeValue/> .
 
@@ -14879,6 +14925,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AquacultureActivityValue/> .
 
@@ -14890,6 +14937,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AquacultureInstallationValue/> .
 
@@ -14901,6 +14949,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AquiferMediaTypeValue/> .
 
@@ -14912,17 +14961,19 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AquiferTypeValue/> .
 
-:insaec a skosmos:Vocabulary, void:Dataset ;
+:insaeco a skosmos:Vocabulary, void:Dataset ;
 	dc:title "Area Condition"@en ;
-	skosmos:shortName "INSAEC" ;
+	skosmos:shortName "INSAECO" ;
 	dc:subject :cat_3 ;
 	void:uriSpace "http://inspire.ec.europa.eu/codelist/AreaConditionValue/" ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AreaConditionValue/> .
 
