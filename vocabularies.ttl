@@ -4645,18 +4645,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I11/current/restriction/> .
 
-:inspire-mreda a skosmos:Vocabulary, void:Dataset ;
-	dc:title "INSPIRE Management and Reporting Environmental Domain Area"@en ;
-	skosmos:shortName "INSPIRE-MREDA" ;
-	dc:subject :cat_5 ;
-	void:uriSpace "http://vocab.nerc.ac.uk/collection/I13/current/soil/" ;
-	skosmos:language "en" ;
-	skosmos:defaultLanguage "en" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/I13/current/soil/> .
-
 :inspire-mrzt a skosmos:Vocabulary, void:Dataset ;
 	dc:title "INSPIRE Management and Reporting Zone Type"@en ;
 	skosmos:shortName "INSPIRE-MRZT" ;
