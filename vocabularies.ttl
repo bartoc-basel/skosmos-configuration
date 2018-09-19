@@ -15276,7 +15276,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AnthropogenicGeomorphologicFeatureTypeValue/> .
 
-
+:vrtt a skosmos:Vocabulary, void:Dataset ;
+        dc:title "VRT Thesaurus"@en ;
+        skosmos:shortName "VRTT" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://example.com/concept/" ;
+        skosmos:language "en", "nl-be" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://example.com/concept/> .
 
 
 
