@@ -15248,6 +15248,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CountingMethodValue/> .
 
@@ -15259,6 +15260,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CrossingTypeValue/> .
 
@@ -15270,6 +15272,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CurrentUseValue/> .
 
@@ -15281,6 +15284,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/CurveModelTypeValue/> .
 
@@ -15292,6 +15296,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "en" ;
 	skosmos:defaultLanguage "en" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/DayTypeCode/> .
 
