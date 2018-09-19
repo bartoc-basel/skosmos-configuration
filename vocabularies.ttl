@@ -15264,7 +15264,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/DayTypeCode/> .
 
-
+:insagft a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Anthropogenic Geomorphologic Feature Type"@en ;
+        skosmos:shortName "INSAGFT" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://inspire.ec.europa.eu/codelist/AnthropogenicGeomorphologicFeatureTypeValue/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://inspire.ec.europa.eu/codelist/AnthropogenicGeomorphologicFeatureTypeValue/> .
 
 
 
