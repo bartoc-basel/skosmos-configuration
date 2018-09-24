@@ -15298,6 +15298,731 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/website-identifier/> .
 
+:fd_table013 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table013"@en ;
+	skosmos:shortName "FD_Table013" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_013/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_013/> .
+
+:fd_table578 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table578"@en ;
+	skosmos:shortName "FD_Table578" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_578/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_578/> .
+
+:fd_table040 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table040"@en ;
+	skosmos:shortName "FD_Table040" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_040/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_040/> .
+
+:fd_table340 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table340"@en ;
+	skosmos:shortName "FD_Table340" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_340/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_340/> .
+
+:fd_table600 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table600"@en ;
+	skosmos:shortName "FD_Table600" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_600/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_600/> .
+
+:fd_table050 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table050"@en ;
+	skosmos:shortName "FD_Table050" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_050/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_050/> .
+
+:fd_table345 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table345"@en ;
+	skosmos:shortName "FD_Table345" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_345/" ;
+	skosmos:language "en" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_345/> .
+
+:fd_table601 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table601"@en ;
+	skosmos:shortName "FD_Table601" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_601/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_601/> .
+
+:fd_table060 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table060"@en ;
+	skosmos:shortName "FD_Table060" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_060/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_060/> .
+
+:fd_table350 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table350"@en ;
+	skosmos:shortName "FD_Table350" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_350/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_350/> .
+
+:fd_table602 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table602"@en ;
+	skosmos:shortName "FD_Table602" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_602/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_602/> .
+
+:fd_table070 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table070"@en ;
+	skosmos:shortName "FD_Table070" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_070/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_070/> .
+
+:fd_table361 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table361"@en ;
+	skosmos:shortName "FD_Table361" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_361/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_361/> .
+
+:fd_table603 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table603"@en ;
+	skosmos:shortName "FD_Table603" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_603/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_603/> .
+
+:fd_table080 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table080"@en ;
+	skosmos:shortName "FD_Table080" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_080/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_080/> .
+
+:fd_table365 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table365"@en ;
+	skosmos:shortName "FD_Table365" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_365/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_365/> .
+
+:fd_table604 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table604"@en ;
+	skosmos:shortName "FD_Table604" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_604/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_604/> .
+
+:fd_table091 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table091"@en ;
+	skosmos:shortName "FD_Table091" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_091/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_091/> .
+
+:fd_table370 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table370"@en ;
+	skosmos:shortName "FD_Table370" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_370/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_370/> .
+
+:fd_table605 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table605"@en ;
+	skosmos:shortName "FD_Table605" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_605/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_605/> .
+
+:fd_table100 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table100"@en ;
+	skosmos:shortName "FD_Table100" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_100/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_100/> .
+
+:fd_table375 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table375"@en ;
+	skosmos:shortName "FD_Table375" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_375/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_375/> .
+
+:fd_table606 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table606"@en ;
+	skosmos:shortName "FD_Table606" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_606/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_606/> .
+
+:fd_table110 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table110"@en ;
+	skosmos:shortName "FD_Table110" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_110/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_110/> .
+
+:fd_table380 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table380"@en ;
+	skosmos:shortName "FD_Table380" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_380/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_380/> .
+
+:fd_table607 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table607"@en ;
+	skosmos:shortName "FD_Table607" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_607/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_607/> .
+
+:fd_table130 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table130"@en ;
+	skosmos:shortName "FD_Table130" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_130/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_130/> .
+
+:fd_table395 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table395"@en ;
+	skosmos:shortName "FD_Table395" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_395/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_395/> .
+
+:fd_table608 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table608"@en ;
+	skosmos:shortName "FD_Table608" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_608/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_608/> .
+
+:fd_table140 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table140"@en ;
+	skosmos:shortName "FD_Table140" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_140/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_140/> .
+
+:fd_table396 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table396"@en ;
+	skosmos:shortName "FD_Table396" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_396/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_396/> .
+
+:fd_table609 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table609"@en ;
+	skosmos:shortName "FD_Table609" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_609/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_609/> .
+
+:fd_table160 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table160"@en ;
+	skosmos:shortName "FD_Table160" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_160/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_160/> .
+
+:fd_table400 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table400"@en ;
+	skosmos:shortName "FD_Table400" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_400/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_400/> .
+
+:fd_table610 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table610"@en ;
+	skosmos:shortName "FD_Table610" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_610/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_610/> .
+
+:fd_table271 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table271"@en ;
+	skosmos:shortName "FD_Table271" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_271/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_271/> .
+
+:fd_table401 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table401"@en ;
+	skosmos:shortName "FD_Table401" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_401/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_401/> .
+
+:fd_table611 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table611"@en ;
+	skosmos:shortName "FD_Table611" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_611/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_611/> .
+
+:fd_table274 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table274"@en ;
+	skosmos:shortName "FD_Table274" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_274/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_274/> .
+
+:fd_table499 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table499"@en ;
+	skosmos:shortName "FD_Table499" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_499/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_499/> .
+
+:fd_table612 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table612"@en ;
+	skosmos:shortName "FD_Table612" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_612/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_612/> .
+
+:fd_table285 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table285"@en ;
+	skosmos:shortName "FD_Table285" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_285/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_285/> .
+
+:fd_table500 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table500"@en ;
+	skosmos:shortName "FD_Table500" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_500/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_500/> .
+
+:fd_table613 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table613"@en ;
+	skosmos:shortName "FD_Table613" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_613/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_613/> .
+
+:fd_table290 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table290"@en ;
+	skosmos:shortName "FD_Table290" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_290/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_290/> .
+
+:fd_table501 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table501"@en ;
+	skosmos:shortName "FD_Table501" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_501/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_501/> .
+
+:fd_table700 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table700"@en ;
+	skosmos:shortName "FD_Table700" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_700/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_700/> .
+
+:fd_table300 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table300"@en ;
+	skosmos:shortName "FD_Table300" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_300/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_300/> .
+
+:fd_table535 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table535"@en ;
+	skosmos:shortName "FD_Table535" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_535/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_535/> .
+
+:fd_table305 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table305"@en ;
+	skosmos:shortName "FD_Table305" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_305/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_305/> .
+
+:fd_table555 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table555"@en ;
+	skosmos:shortName "FD_Table555" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_555/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_555/> .
+
+:fd_table010 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table010"@en ;
+	skosmos:shortName "FD_Table010" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_010/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_010/> .
+
+:fd_table301 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table301"@en ;
+	skosmos:shortName "FD_Table301" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_301/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_301/> .
+
+:fd_table537 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table537"@en ;
+	skosmos:shortName "FD_Table537" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_537/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_537/> .
+
+:fd_table013 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table013"@en ;
+	skosmos:shortName "FD_Table013" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_013/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_013/> .
+
+:fd_table305 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table305"@en ;
+	skosmos:shortName "FD_Table305" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_305/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_305/> .
+
+:fd_table555 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table555"@en ;
+	skosmos:shortName "FD_Table555" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_555/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_555/> .
+
+:fd_table014 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table014"@en ;
+	skosmos:shortName "FD_Table014" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_014/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_014/> .
+
+:fd_table325 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table325"@en ;
+	skosmos:shortName "FD_Table325" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_325/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_325/> .
+
+:fd_table557 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table557"@en ;
+	skosmos:shortName "FD_Table557" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_557/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_557/> .
+
+:fd_table020 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table020"@en ;
+	skosmos:shortName "FD_Table020" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_020/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_020/> .
+
+:fd_table330 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table330"@en ;
+	skosmos:shortName "FD_Table330" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_330/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_330/> .
+
+:fd_table577 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table577"@en ;
+	skosmos:shortName "FD_Table577" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_577/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_577/> .
+
+:fd_table030 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table030"@en ;
+	skosmos:shortName "FD_Table030" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_030/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_030/> .
+
+:fd_table335 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table335"@en ;
+	skosmos:shortName "FD_Table335" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_335/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_335/> .
+
+:fd_table335 a skosmos:Vocabulary, void:Dataset ;
+	dc:title "ATTO FD_Table335"@en ;
+	skosmos:shortName "FD_Table335" ;
+	dc:subject :cat_0 ;
+	void:uriSpace "http://publications.europa.eu/resource/authority/fd_335/" ;
+	skosmos:language "en", "bg", "cs", "da", "de", "el", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv" ;
+	skosmos:defaultLanguage "en" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/fd_335/> .
 
 
 
