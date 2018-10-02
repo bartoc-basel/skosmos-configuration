@@ -16045,6 +16045,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/002> .
 
@@ -16056,6 +16057,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/003> .
 
@@ -16067,6 +16069,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://purl.org/dc/dcmitype/> .
 
@@ -16089,6 +16092,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/007> .
 
@@ -16100,6 +16104,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/008> .
 
@@ -16111,6 +16116,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/009> .
 
@@ -16122,6 +16128,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/010> .
 
@@ -16133,6 +16140,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/011> .
 
@@ -16144,6 +16152,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/012> .
 
@@ -16155,6 +16164,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/013> .
 
@@ -16221,6 +16231,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/015x> .
 
@@ -16243,6 +16254,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/017> .
 
@@ -16254,6 +16266,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/018> .
 
@@ -16287,6 +16300,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/021> .
 
@@ -16309,6 +16323,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/023> .
 
@@ -16320,6 +16335,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/024> .
 
@@ -16331,6 +16347,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/025> .
 
@@ -16342,6 +16359,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/026> .
 
@@ -16353,6 +16371,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/027> .
 
@@ -16364,6 +16383,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/028> .
 
@@ -16386,6 +16406,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/031> .
 
@@ -16397,6 +16418,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/035> .
 
@@ -16408,6 +16430,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/036> .
 
@@ -16419,6 +16442,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/037> .
 
@@ -16441,6 +16465,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/041> .
 
@@ -16463,6 +16488,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/043> .
 
@@ -16474,6 +16500,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/044> .
 
@@ -16485,6 +16512,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/045> .
 
@@ -16496,6 +16524,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/046> .
 
