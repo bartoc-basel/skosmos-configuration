@@ -16528,6 +16528,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.education.fr/voc/scolomfr/046> .
 
+:olacvggft a skosmos:Vocabulary, void:Dataset ;
+        dc:title "OLAC Video Game Genre Form Terms"@en ;
+        skosmos:shortName "OLACVGGFT" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://metadataregistry.org/uri/olac/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://metadataregistry.org/uri/olac/> .
 
 
 
