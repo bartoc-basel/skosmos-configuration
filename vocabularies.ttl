@@ -16539,6 +16539,203 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://metadataregistry.org/uri/olac/> .
 
+:legiaj a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Acteurs juridiques""@en ;
+	skosmos:shortName ""LegiAJ"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/legal-institution/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-institution/> .
+
+:legifpipl a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Fonction des personnes impliquées dans le processus législatif""@en ;
+	skosmos:shortName ""LegiFPIPL"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/function/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/function/> .
+
+:legifu a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Formats utilisateurs""@en ;
+	skosmos:shortName ""LegiFU"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/user-format/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/user-format/> .
+
+:legigp a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Genre des personnes""@en ;
+	skosmos:shortName ""LegiGP"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/gender/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/gender/> .
+
+:legihaj a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Historique des acteurs juridiques""@en ;
+	skosmos:shortName ""LegiHAJ"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/legal-institution-historique/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-institution-historique/> .
+
+:legilcipl a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Liste des comités impliquées dans le processus législatif""@en ;
+	skosmos:shortName ""LegiLCIPL"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/committee/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/committee/> .
+
+:legill a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Liste des licences""@en ;
+	skosmos:shortName ""LegiLL"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/license/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/license/> .
+
+:legilpipl a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Liste des personnes impliquées dans le processus législatif""@en ;
+	skosmos:shortName ""LegiLPIPL"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/person/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/person/> .
+
+:legisoc a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Statut des opinions du conseil d'état sur le projet""@en ;
+	skosmos:shortName ""LegiSOC"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/draft-status-conseil-etat/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/draft-status-conseil-etat/> .
+
+:legisma a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Statuts de mise en application""@en ;
+	skosmos:shortName ""LegiSMA"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/statut-application/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-application/> .
+
+:legist a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Statuts de transposition""@en ;
+	skosmos:shortName ""LegiST"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/statut-transposition/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-transposition/> .
+
+:legisv a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Statuts des versions""@en ;
+	skosmos:shortName ""LegiSV"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/statut-version/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-version/> .
+
+:legisujl a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Sujets (lieux)""@en ;
+	skosmos:shortName ""LegiSujL"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/legal-subject/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-subject/> .
+
+:legisujo a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Sujets (organisations)""@en ;
+	skosmos:shortName ""LegiSujO"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/legal-subject/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-subject/> .
+
+:legisujt a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Sujets (thématiques)""@en ;
+	skosmos:shortName ""LegiSujT"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/legal-subject/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-subject/> .
+
+:legitradt a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Type de rôle des agents pour les données de traçabilité (prov)""@en ;
+	skosmos:shortName ""LegiTRADT"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/prov-role-type/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/prov-role-type/> .
+
+:legitd a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Types de documents""@en ;
+	skosmos:shortName ""LegiTD"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/draft-document-type/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/draft-document-type/> .
+
+:legitp a skosmos:Vocabulary, void:Dataset ;
+	dc:title ""Types de procédures""@en ;
+	skosmos:shortName ""LegiTP"" ;
+	dc:subject :cat_3 ;
+	void:uriSpace ""http://data.legilux.public.lu/resource/authority/type-procedure/"" ;
+	skosmos:language ""en"" ;
+	skosmos:defaultLanguage ""en"" ;
+	skosmos:showTopConcepts true ;
+	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/type-procedure/> .
 
 
 
