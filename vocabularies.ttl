@@ -16558,6 +16558,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/function/> .
 
@@ -16569,6 +16570,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/user-format/> .
 
@@ -16580,6 +16582,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/gender/> .
 
@@ -16602,6 +16605,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/committee/> .
 
@@ -16613,6 +16617,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/license/> .
 
@@ -16635,6 +16640,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/draft-status-conseil-etat/> .
 
@@ -16646,6 +16652,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-application/> .
 
@@ -16657,6 +16664,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-transposition/> .
 
@@ -16668,6 +16676,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-version/> .
 
@@ -16712,6 +16721,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/prov-role-type/> .
 
@@ -16723,6 +16733,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/draft-document-type/> .
 
@@ -16734,6 +16745,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:language "fr" ;
 	skosmos:defaultLanguage "fr" ;
 	skosmos:showTopConcepts true ;
+	skosmos:fullAlphabeticalIndex true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/type-procedure/> .
 
