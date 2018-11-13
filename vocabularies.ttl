@@ -16749,7 +16749,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/type-procedure/> .
 
-
+:ebu a skosmos:Vocabulary, void:Dataset ;
+        dc:title "EBU SKOS Classification Scheme for Role Codes"@en ;
+        skosmos:shortName "EBU" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://www.ebu.ch/metadata/ontologies/skos/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ebu.ch/metadata/ontologies/skos/> .
 
 
 
