@@ -16820,7 +16820,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "travel!digital" ;
         dc:subject :cat_9 ;
         void:uriSpace "https://vocabs.acdh.oeaw.ac.at/traveldigital/" ;
-        skosmos:language "en", "de", "ar", "fr", "es", "bo", "dz", "hi", "hu", "it", "jv", "la", "ms", "my", "nl", "pi", "pt", "ro", "sa", "si", "ta", "tr" ;
+        skosmos:language "en", "de", "ar", "fr", "es", "bo", "dz", "hi", "hu", "it", "jv", "la", "ms", "nl", "pi", "pt", "ro", "sa", "si", "ta", "tr" ;
         skosmos:defaultLanguage "de" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
