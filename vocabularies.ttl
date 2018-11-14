@@ -16815,7 +16815,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://id.ndl.go.jp/auth/ndlsh/5> .
 
-:travel!digital a skosmos:Vocabulary, void:Dataset ;
+:traveldigital a skosmos:Vocabulary, void:Dataset ;
         dc:title "travel!digital Thesaurus"@en ;
         skosmos:shortName "travel!digital" ;
         dc:subject :cat_9 ;
