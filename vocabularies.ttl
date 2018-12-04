@@ -16831,7 +16831,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "THUB" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://crai.ub.edu/thub/concept/" ;
-        skosmos:language "ca" ;
+        skosmos:language "ca", "fr", "en", "es" ;
         skosmos:defaultLanguage "ca" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
