@@ -16826,7 +16826,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/traveldigital/> .
 
-
+:thub a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Thesaurus de la Universitat de Barcelona (THUB)"@ca ;
+        skosmos:shortName "THUB" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://crai.ub.edu/thub/concept/" ;
+        skosmos:language "ca" ;
+        skosmos:defaultLanguage "ca" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://crai.ub.edu/thub/concept/> .
 
 
 
