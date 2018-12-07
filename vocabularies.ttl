@@ -16765,8 +16765,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:shortName "NDLSH1" ;
 	dc:subject :cat_0 ;
 	void:uriSpace "http://id.ndl.go.jp/auth/ndlsh/" ;
-	skosmos:language "ja-Kana", "ja-Latn" ;
-	skosmos:defaultLanguage "ja-Kana" ;
+	skosmos:language "ja" ;
+	skosmos:defaultLanguage "ja" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://id.ndl.go.jp/auth/ndlsh/1> .
