@@ -16776,8 +16776,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:shortName "NDLSH2" ;
 	dc:subject :cat_0 ;
 	void:uriSpace "http://id.ndl.go.jp/auth/ndlsh/" ;
-	skosmos:language "ja-Kana", "ja-Latn" ;
-	skosmos:defaultLanguage "ja-Kana" ;
+	skosmos:language "ja" ;
+	skosmos:defaultLanguage "ja" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://id.ndl.go.jp/auth/ndlsh/2> .
@@ -16787,8 +16787,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:shortName "NDLSH3" ;
 	dc:subject :cat_0 ;
 	void:uriSpace "http://id.ndl.go.jp/auth/ndlsh/" ;
-	skosmos:language "ja-Kana", "ja-Latn" ;
-	skosmos:defaultLanguage "ja-Kana" ;
+	skosmos:language "ja" ;
+	skosmos:defaultLanguage "ja" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://id.ndl.go.jp/auth/ndlsh/3> .
@@ -16798,8 +16798,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:shortName "NDLSH4" ;
 	dc:subject :cat_0 ;
 	void:uriSpace "http://id.ndl.go.jp/auth/ndlsh/" ;
-	skosmos:language "ja-Kana", "ja-Latn" ;
-	skosmos:defaultLanguage "ja-Kana" ;
+	skosmos:language "ja" ;
+	skosmos:defaultLanguage "ja" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://id.ndl.go.jp/auth/ndlsh/4> .
@@ -16809,8 +16809,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:shortName "NDLSH5" ;
 	dc:subject :cat_0 ;
 	void:uriSpace "http://id.ndl.go.jp/auth/ndlsh/" ;
-	skosmos:language "ja-Kana", "ja-Latn" ;
-	skosmos:defaultLanguage "ja-Kana" ;
+	skosmos:language "ja" ;
+	skosmos:defaultLanguage "ja" ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://id.ndl.go.jp/auth/ndlsh/5> .
