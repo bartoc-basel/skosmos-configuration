@@ -16837,7 +16837,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://crai.ub.edu/thub/concept/> .
 
-
+:tvg a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Thematic Vocabulary of Geography"@en ;
+        skosmos:shortName "TVG" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "http://data.loterre.fr/vocabs/BGI/GT/" ;
+        skosmos:language "en", "fr", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://data.loterre.fr/vocabs/BGI/GT/> .
 
 
 
