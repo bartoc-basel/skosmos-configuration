@@ -16870,17 +16870,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/linked-data/sdmx/2009/code> .
 
-:sdmx-co a skosmos:Vocabulary, void:Dataset ;
-        dc:title "sdmx-concept"@en ;
-        skosmos:shortName "SDMX-Co" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://purl.org/linked-data/sdmx/2009/concept" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/linked-data/sdmx/2009/concept> .
-
 
 :sdmx-s a skosmos:Vocabulary, void:Dataset ;
         dc:title "sdmx-subject"@en ;
