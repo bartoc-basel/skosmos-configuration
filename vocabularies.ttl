@@ -16848,7 +16848,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://data.loterre.fr/vocabs/BGI/GT/> .
 
-
+:icc a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Information Coding Classification (2010)"@en ;
+        skosmos:shortName "ICC" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://bartoc.org/classificationscheme/icc2010/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://bartoc.org/classificationscheme/icc2010/> .
 
 
 
