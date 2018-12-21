@@ -6818,9 +6818,9 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocabulary.odm2.org/medium/> .
 
-:icc a skosmos:Vocabulary, void:Dataset ;
+:ichroch a skosmos:Vocabulary, void:Dataset ;
 	dc:title "International Chronostratigraphic Chart"@en ;
-	skosmos:shortName "ICC" ;
+	skosmos:shortName "IChroCh" ;
 	dc:subject :cat_5 ;
 	void:uriSpace "http://resource.geosciml.org/classifier/ics/ischart/" ;
 	skosmos:language "en" ;
