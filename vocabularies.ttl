@@ -16893,7 +16893,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://urn.fi/HKLJ> .
 
-
+:ykl a skosmos:Vocabulary, void:Dataset ;
+        dc:title "YKL - Yleisten kirjastojen luokitusjärjestelmä"@fi ;
+        skosmos:shortName "YKL" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://urn.fi/YKL" ;
+        skosmos:language "fi", "sv", "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://urn.fi/YKL> .
 
 
 
