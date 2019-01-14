@@ -16882,7 +16882,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/linked-data/sdmx/2009/subject> .
 
-
+:hklj a skosmos:Vocabulary, void:Dataset ;
+        dc:title "HKLJ - Helsingin kaupunginkirjaston luokitusjärjestelmä"@fi ;
+        skosmos:shortName "HKLJ" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://urn.fi/HKLJ" ;
+        skosmos:language "fi", "sv", "en" ;
+        skosmos:defaultLanguage "fi" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://urn.fi/HKLJ> .
 
 
 
