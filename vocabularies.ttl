@@ -16904,7 +16904,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://urn.fi/YKL> .
 
-
+:kaubel a skosmos:Vocabulary, void:Dataset ;
+        dc:title "KAUNOKKI/BELLA - fiktiivisen aineiston sanasto"@en ;
+        skosmos:shortName "KauBel" ;
+        dc:subject :cat_8 ;
+        void:uriSpace "http://urn.fi/KauBel" ;
+        skosmos:language "fi", "sv" ;
+        skosmos:defaultLanguage "fi" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://urn.fi/KauBel> .
 
 
 
