@@ -16938,6 +16938,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://urn.fi/ucum> .
 
+:tt a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Tietotermit"@en ;
+        skosmos:shortName "TT" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://urn.fi/tt" ;
+        skosmos:language "en", "fi", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://urn.fi/tt> .
 
 
 
