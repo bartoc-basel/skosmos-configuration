@@ -16927,6 +16927,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://cadmiumkitty.github.io/moneyaggvoc/> .
 
+:ucum a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Unified Code for Units of Measure (UCUM)"@en ;
+        skosmos:shortName "UCUM" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://urn.fi/ucum" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://urn.fi/ucum> .
 
 
 
