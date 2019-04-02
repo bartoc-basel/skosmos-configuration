@@ -16983,7 +16983,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://ns.boknett.no/thesaurus/nn> .
 
-
+:ppv a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Partage Plus Vocabulary"@en ;
+        skosmos:shortName "PPV" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://partage.vocnet.org/" ;
+        skosmos:language "en", "ca", "cs", "de", "es", "fi", "fr", "hr", "hu", "it", "nl", "no", "pl", "pt", "sl", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://partage.vocnet.org/> .
 
 
 
