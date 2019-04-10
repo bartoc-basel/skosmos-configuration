@@ -16995,6 +16995,27 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://partage.vocnet.org/> .
 
+:scidlterre a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Sciences de la Terre"@en ;
+        skosmos:shortName "ScidlTerre" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+        skosmos:language "en", "fr", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/ScidlTerre> .
+
+:optique a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Optique"@en ;
+        skosmos:shortName "Optique" ;
+        dc:subject :cat_5 ;
+        void:uriSpace "http://data.loterre.fr/ark:/67375/" ;
+        skosmos:language "en", "de", "fr", "es" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Optique> .
 
 
 
