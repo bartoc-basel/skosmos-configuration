@@ -17022,7 +17022,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "ZENONTh" ;
         dc:subject :cat_7 ;
         void:uriSpace "http://zenon.dainst.org/" ;
-        skosmos:language "en", "pl", "de", "fr" ;
+        skosmos:language "en", "pl", "de", "fr", "es" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
