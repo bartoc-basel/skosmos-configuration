@@ -17017,7 +17017,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://data.loterre.fr/ark:/67375/Optique> .
 
-
+:zenonth a skosmos:Vocabulary, void:Dataset ;
+        dc:title "ZENON Thesaurus"@en ;
+        skosmos:shortName "ZENONTh" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "http://zenon.dainst.org/" ;
+        skosmos:language "en", "pl", "de", "fr" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://zenon.dainst.org/> .
 
 
 
