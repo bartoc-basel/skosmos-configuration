@@ -17047,6 +17047,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "da", "de", "fi", "no", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/AnalysisUnit> .
 
@@ -17058,6 +17059,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/DataSourceType> .
 
@@ -17069,6 +17071,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "de", "fi", "no", "sl", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/GeneralDataFormat> .
 
@@ -17091,6 +17094,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/SamplingProcedure> .
 
@@ -17113,6 +17117,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "da", "de", "fi", "no", "sv" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/TimeMethod> .
 
@@ -17135,6 +17140,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/TypeOfInstrument> .
 
