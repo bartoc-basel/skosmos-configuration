@@ -17039,21 +17039,104 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://bartoc.org/philpapers/> .
 
+:analysisunit a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Analysis Unit"@en ;
+        skosmos:shortName "AnalysisUnit" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ddialliance.org/Specification/DDI-CV/AnalysisUnit" ;
+        skosmos:language "en", "da", "de", "fi", "no", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/AnalysisUnit> .
 
+:datasourcetype a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Data Source Type"@en ;
+        skosmos:shortName "DataSourceType" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ddialliance.org/Specification/DDI-CV/DataSourceType" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/DataSourceType> .
 
+:generaldataformat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "General Data Format"@en ;
+        skosmos:shortName "GeneralDataFormat" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ddialliance.org/Specification/DDI-CV/GeneralDataFormat" ;
+        skosmos:language "en", "de", "fi", "no", "sl", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/GeneralDataFormat> .
 
+:modeofcollection a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Mode of Collection"@en ;
+        skosmos:shortName "ModeOfCollection" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ddialliance.org/Specification/DDI-CV/ModeOfCollection" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/ModeOfCollection> .
 
+:samplingprocedure a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Sampling Procedure"@en ;
+        skosmos:shortName "SamplingProcedure" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ddialliance.org/Specification/DDI-CV/SamplingProcedure" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/SamplingProcedure> .
 
+:summarystatistictype a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Summary Statistic Type"@en ;
+        skosmos:shortName "SummaryStatisticType" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ddialliance.org/Specification/DDI-CV/SummaryStatisticType" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/SummaryStatisticType> .
 
+:timemethod a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Time Method"@en ;
+        skosmos:shortName "TimeMethod" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ddialliance.org/Specification/DDI-CV/TimeMethod" ;
+        skosmos:language "en", "da", "de", "fi", "no", "sv" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/TimeMethod> .
 
+:topicclassification a skosmos:Vocabulary, void:Dataset ;
+        dc:title "CESSDA Topic Classification"@en ;
+        skosmos:shortName "TopicClassification" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "https://vocabularies.cessda.eu/TopicClassification" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://vocabularies.cessda.eu/TopicClassification> .
 
-
-
-
-
-
-
-
+:typeofinstrument a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Type of Instrument"@en ;
+        skosmos:shortName "TypeOfInstrument" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "http://www.ddialliance.org/Specification/DDI-CV/TypeOfInstrument" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/TypeOfInstrument> .
 
 
 
