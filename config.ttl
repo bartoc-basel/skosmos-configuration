@@ -17202,8 +17202,8 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:shortName "Noiav" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://www.ntnu.no/ub/data/nvd/2003/" ;
-        skosmos:language "nb", "en" ;
-        skosmos:defaultLanguage "nb" ;
+        skosmos:language "no", "en" ;
+        skosmos:defaultLanguage "no" ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ntnu.no/ub/data/nvd/2003/> .
