@@ -17197,7 +17197,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ddialliance.org/Specification/DDI-CV/TypeOfInstrument> .
 
-
+:noiav a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Norsk inndeling av vitenskapsdisipliner"@nb ;
+        skosmos:shortName "Noiav" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://www.ntnu.no/ub/data/nvd/2003/" ;
+        skosmos:language "nb", "en" ;
+        skosmos:defaultLanguage "nb" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://www.ntnu.no/ub/data/nvd/2003/> .
 
 
 
