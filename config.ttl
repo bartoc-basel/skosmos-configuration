@@ -17216,6 +17216,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "ga" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://www.itma.ie/litmus/insts-core> .
 
@@ -17238,6 +17239,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:language "en", "ga" ;
         skosmos:defaultLanguage "en" ;
         skosmos:showTopConcepts true ;
+        skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://itma.ie/litmus/tune-types> .
 
