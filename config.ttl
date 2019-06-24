@@ -17208,7 +17208,38 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ntnu.no/ub/data/nvd/2003/> .
 
+:itmicore a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Irish Traditional Music Instrument Thesaurus, Core Version"@en ;
+        skosmos:shortName "ITMICore" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "https://www.itma.ie/litmus/insts-core" ;
+        skosmos:language "en", "ga" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://www.itma.ie/litmus/insts-core> .
 
+:itmiext a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Irish Traditional Music Instrument Thesaurus, Extended Version"@en ;
+        skosmos:shortName "ITMIExt" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "https://www.itma.ie/litmus/insts-ext" ;
+        skosmos:language "en", "ga" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://www.itma.ie/litmus/insts-ext> .
+
+:itmtt a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Irish Traditional Music Tune Types Thesaurus"@en ;
+        skosmos:shortName "ITMTT" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "https://itma.ie/litmus/tune-types" ;
+        skosmos:language "en", "ga" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://itma.ie/litmus/tune-types> .
 
 
 
