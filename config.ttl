@@ -11856,18 +11856,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.ontology.org.il> .
 
-:koko a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Korkeakoulujen tutkimustiedonkeruussa käytettävä tieteenalaluokitus"@fi ;
-        skosmos:shortName "Koko" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/koko/" ;
-        skosmos:language "fi" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/koko/> .
-
-
 :avio a skosmos:Vocabulary, void:Dataset ;
         dc:title "Ontology of the Birds of the World - AVIO"@en ;
         skosmos:shortName "AVIO" ;
