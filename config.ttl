@@ -222,17 +222,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 				skosmos:showTopConcepts true ;
 				void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 				skosmos:sparqlGraph <http://vocab.aodn.org.au/def/geographicextents/entity/> .
-
-:UDC a skosmos:Vocabulary, void:Dataset ;
-			dc:title "Universal Decimal Classification"@en ;
-			skosmos:shortName "UDC" ;
-			dc:subject :cat_0 ;
-			void:uriSpace "http://udcdata.info/" ;
-			skosmos:language "af", "en", "be", "bg", "bn", "ca", "cs", "da", "de", "el", "eo", "es", "et", "eu", "fi", "fr", "gl", "hi", "hr", "hu", "hy", "it", "ja", "ka", "kn", "lt", "lv", "ml", "nl", "pa", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "ta", "tr", "uk", "zh" ;
-			skosmos:defaultLanguage "en" ;
-			skosmos:showTopConcepts true ;
-			void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-			skosmos:sparqlGraph <http://udcdata.info/> .
 		
 :ScOT a skosmos:Vocabulary, void:Dataset ;
         dc:title "Schools Online Thesaurus"@en ;
@@ -355,19 +344,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://homosaurus.org/terms/> .
-
-		
-:PUHO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "PUHO - Puolustushallinnon ontologia"@en ;
-        skosmos:shortName "PUHO" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/puho" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/puho> .
 		
 :BaslerBibliographie a skosmos:Vocabulary, void:Dataset ;
         dc:title "Systematik Basler Bibliographie"@en ;
@@ -2149,17 +2125,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://data.culture.fr/thesaurus/resource/ark/vocdomact> .
-		
-:AGROVOC a skosmos:Vocabulary, void:Dataset ;
-        dc:title "AGROVOC Multilingual agricultural thesaurus"@en ;
-		skosmos:shortName "AGROVOC" ;
-		dc:subject :cat_6 ;
-		void:uriSpace "http://aims.fao.org/aos/agrovoc/" ;
-		skosmos:language "pt", "en", "ar", "cs", "de", "es", "fa", "fr", "hi", "hu", "it", "ja", "ka", "km", "ko", "lo", "ms", "my", "pl", "ro", "ru", "sk", "sv", "te", "th", "tr", "uk", "vi", "zh" ;
-		skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://aims.fao.org/aos/agrovoc/> .
 		
 :UKAT a skosmos:Vocabulary, void:Dataset ;
         dc:title "UK Archival Thesaurus"@en ;
@@ -7706,19 +7671,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://publications.europa.eu/resource/authority/writing-system/> .
 
 
-
-:gndsc a skosmos:Vocabulary, void:Dataset ;
-        dc:title "GND Subject Categories"@en, "GND Sachgruppen"@de ;
-        skosmos:shortName "GNDSC" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://d-nb.info/standards/vocab/gnd/gnd-sc" ;
-        skosmos:language "de" ;
-        skosmos:defaultLanguage "de" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://d-nb.info/standards/vocab/gnd/gnd-sc> .
-
-
 :admscv a skosmos:Vocabulary, void:Dataset ;
         dc:title "ADMS Controlled Vocabularies"@en ;
         skosmos:shortName "ADMSCV" ;
@@ -12080,18 +12032,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://helvetoraurus.sozialarchiv.ch/> .
-
-:gndsach a skosmos:Vocabulary, void:Dataset ;
-        dc:title "GND Sachbegriffe"@de ;
-        skosmos:shortName "GNDSach" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://d-nb.info/gnd/" ;
-        skosmos:language "de" ;
-        skosmos:defaultLanguage "de" ;
-        skosmos:showTopConcepts true ;
-        skosmos:loadExternalResources true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://d-nb.info/gnd/> .
 
 
 :iswc a skosmos:Vocabulary, void:Dataset ;
