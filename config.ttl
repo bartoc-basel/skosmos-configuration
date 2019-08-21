@@ -126,17 +126,7 @@ mdrtype:THESAURUS a skos:Concept ;
 mdrtype:ONTOLOGY a skos:Concept ;
     skos:prefLabel "Онтология"@bg, "Ontologie"@cs, "Ontologi"@da, "Ontologie"@de, "Οντολογία"@el, "Ontology"@en, "Ontoloogia"@et, "Ontologia"@fi, "Ontologie"@fr, "Ontologija"@hr, "Ontológia"@hu, "Ontologia"@it, "Ontoloģija"@lv, "Ontologija"@lt, "Ontoloġija"@mt, "Ontologie"@nl, "Ontologi"@no, "Struktura pojęciowa"@pl, "Ontologia"@pt, "Ontologie"@ro, "Ontológia"@sk, "Ontologija"@sl, "Ontología"@es, "Ontologi"@sv .
 
-:bbth a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Backbone Thesaurus"@en ;
-        skosmos:shortName "BbTh" ;
-        dc:subject :cat_1 ;
-        void:uriSpace "https://vocabs.dariah.eu/bbt/Concept/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        skosmos:fullAlphabeticalIndex true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/download/backbone_thesaurus> .
+
 
 :sosemwebth a skosmos:Vocabulary, void:Dataset ;
         dc:title "Social Semantic Web Thesaurus"@en ;
@@ -211,19 +201,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	owl:sameAs "https://bartoc.org/en/node/15" ;
 	skosmos:sparqlGraph <http://eurovoc.europa.eu/> .
 
-
-:AFO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "AFO - Natural resource and environment ontology"@en ;
-        skosmos:shortName "AFO" ;
-        dc:subject :cat_6 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/afo" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/afo> .
-
 :DiscoveryParameter a skosmos:Vocabulary, void:Dataset ;
 				dc:title "AODN Discovery Parameter Vocabulary"@en ;
 				skosmos:shortName "DiscoveryParameter" ;
@@ -245,17 +222,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 				skosmos:showTopConcepts true ;
 				void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 				skosmos:sparqlGraph <http://vocab.aodn.org.au/def/geographicextents/entity/> .
-				
-:UBODDC a skosmos:Vocabulary, void:Dataset ;
-        dc:title "The UBO relative index to DDC"@en ;
-        skosmos:shortName "UBODDC" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://data.ub.uio.no/usvd/" ;
-        skosmos:language "nb" ;
-        skosmos:defaultLanguage "nb" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.ub.uio.no/usvd/> .
 
 :UDC a skosmos:Vocabulary, void:Dataset ;
 			dc:title "Universal Decimal Classification"@en ;
@@ -267,19 +233,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 			skosmos:showTopConcepts true ;
 			void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 			skosmos:sparqlGraph <http://udcdata.info/> .
-
-		
-:UNESCO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "UNESCO Thesaurus"@en ;
-        skosmos:shortName "UNESCO" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://vocabularies.unesco.org/thesaurus/" ;
-        skosmos:language "en", "fr", "ru", "es" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://vocabularies.unesco.org/thesaurus/> .
 		
 :ScOT a skosmos:Vocabulary, void:Dataset ;
         dc:title "Schools Online Thesaurus"@en ;
@@ -336,78 +289,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/10/concepts/> .
-
-		
-:LIITO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "LIITO - Liiketoimintaontologia"@en ;
-        skosmos:shortName "LIITO" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/liito" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/liito> .
-		
-:KULO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "KULO - Kulttuurien tutkimuksen ontologia"@en ;
-        skosmos:shortName "KULO" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/kulo" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/kulo> .
-		
-:KITO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "KITO - Kirjallisuudentutkimuksen ontologia"@en ;
-        skosmos:shortName "KITO" ;
-        dc:subject :cat_8 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/kito" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/kito> .
-		
-:KTO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "KTO - Kielitieteen ontologia"@en ;
-        skosmos:shortName "KTO" ;
-        dc:subject :cat_4 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/kto" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/kto> .
-		
-:KEKO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "KEKO - Kestävän kehityksen kasvatuksen ontologia"@en ;
-        skosmos:shortName "KEKO" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/keko" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/keko> .
-		
-:Kassu a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Kassu - Finnish Names of Plants"@fi ;
-        skosmos:shortName "Kassu" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://www.yso.fi/onto/kassu/" ;
-        skosmos:language "fi" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/kassu/> .
 		
 :CSH a skosmos:Vocabulary, void:Dataset ;
         dc:title "Canadian Subject Headings"@en ;
@@ -464,18 +345,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/heritagedata/schemes/eh_tmt2/concepts/> .
 		
-:GACS a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Global Agricultural Concept Scheme"@en ;
-        skosmos:shortName "GACS" ;
-        dc:subject :cat_6 ;
-        void:uriSpace "http://id.agrisemantics.org/gacs/" ;
-        skosmos:language "en", "cs", "da", "de", "es", "fi", "fr", "hu", "it", "ms", "nl", "no", "pl", "pt", "sk", "sv", "tr", "ar", "fa", "hi", "zh", "ja", "ko", "th", "lo"  ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://id.agrisemantics.org/gacs/> .
-		
 :Homosaurus a skosmos:Vocabulary, void:Dataset ;
         dc:title "Homosaurus"@en ;
         skosmos:shortName "Homosaurus" ;
@@ -486,28 +355,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://homosaurus.org/terms/> .
-		
-:Humord a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Humord"@en ;
-        skosmos:shortName "Humord" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://data.ub.uio.no/humord/" ;
-        skosmos:language "nb" ;
-        skosmos:defaultLanguage "nb" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.ub.uio.no/humord/> .
-		
-:MeSH a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Medical Subject Headings"@en ;
-        skosmos:shortName "MeSH" ;
-        dc:subject :cat_6 ;
-        void:uriSpace "http://www.yso.fi/onto/mesh/" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/mesh/> .
+
 		
 :PUHO a skosmos:Vocabulary, void:Dataset ;
         dc:title "PUHO - Puolustushallinnon ontologia"@en ;
@@ -521,17 +369,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.yso.fi/onto/yso/puho> .
 		
-:Realfagstermer a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Realfagstermer"@en ;
-        skosmos:shortName "Realfagstermer" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://data.ub.uio.no/realfagstermer/" ;
-        skosmos:language "en", "la", "nb", "nn" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.ub.uio.no/realfagstermer/> .
-		
 :BaslerBibliographie a skosmos:Vocabulary, void:Dataset ;
         dc:title "Systematik Basler Bibliographie"@en ;
         skosmos:shortName "BaslerBib" ;
@@ -542,18 +379,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://bartoc.poolparty.biz/SystematikBaslerBibliographie/> .
-		
-:YSA a skosmos:Vocabulary, void:Dataset ;
-        dc:title "YSA - Yleinen suomalainen asiasanasto"@fi ;
-        skosmos:shortName "YSA" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://www.yso.fi/onto/ysa/" ;
-        skosmos:language "fi" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/ysa/> .
 		
 :UAT a skosmos:Vocabulary, void:Dataset ;
         dc:title "Unified Astronomy Thesaurus"@en ;
@@ -678,17 +503,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabulary.semantic-web.at/itil/> .
-
-:defc a skosmos:Vocabulary, void:Dataset ;
-        dc:title "DEFC Thesaurus"@en ;
-        skosmos:shortName "DEFC" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/defcthesaurus/grave/" ;
-        skosmos:language "en", "de", "la" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/grave/> .
 
 :iaml-mop a skosmos:Vocabulary, void:Dataset ;
         dc:title "IAML Medium of Performance Vocabulary"@en ;
@@ -1355,28 +1169,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://w3id.org/lob/concept/> .
-		
-:Lapponica a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Lapponica"@en, "Lapponica"@fi, "Lapponica"@se, "Lapponica"@sv  ;
-        skosmos:shortName "Lapponica" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://urn.fi/URN:NBN:fi:au:lapponica:" ;
-        skosmos:language "fi", "se" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://urn.fi/URN:NBN:fi:au:lapponica:> .
-		
-:MUSA a skosmos:Vocabulary, void:Dataset ;
-        dc:title "MUSA/CILLA - Finnish Music thesaurus"@en, "CILLA/MUSA - Specialtesaurus för musik"@sv, "MUSA/CILLA - Musiikin asiasanasto"@fi   ;
-        skosmos:shortName "MUSA" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "http://www.yso.fi/onto/musa/" ;
-        skosmos:language "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/musa/> .
+
 		
 :NAICS a skosmos:Vocabulary, void:Dataset ;
         dc:title "North American Industry Classification System"@en ;
@@ -1388,17 +1181,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://bartoc.poolparty.biz/NAICS/> .
-		
-:HRT a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Menneskerettighetstermer"@nb, "Human Rights Terms"@en ;
-        skosmos:shortName "HRT" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://data.ub.uio.no/mrtermer/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.ub.uio.no/mrtermer/> .
+
 		
 :Metadata a skosmos:Vocabulary, void:Dataset ;
         dc:title "Metatietosanasto"@fi, "Metadataordlista"@sv, "Metadata thesaurus"@en ;
@@ -1468,17 +1251,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabulary.semantic-web.at/USAID-thesaurus/> .
-		
-:Lskjema a skosmos:Vocabulary, void:Dataset ;
-        dc:title "L-skjema"@nb ;
-        skosmos:shortName "L-skjema" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://data.ub.uio.no/lskjema/" ;
-        skosmos:language "nb" ;
-        skosmos:defaultLanguage "nb" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://data.ub.uio.no/lskjema/> .
 
 :PNAL a skosmos:Vocabulary, void:Dataset ;
         dc:title "Place Name Authority List"@en ;
@@ -1535,18 +1307,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabulary.worldbank.org/thesaurus/> .
 		
-:PTO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "PTO - Finnish Geospatial Domain Ontology"@en, "PTO - Paikkatieto-ontologia"@fi, "PTO - Ontologi för geografisk information"@sv ;
-        skosmos:shortName "PTO" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/pto" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/pto> .
-		
 :LEM a skosmos:Vocabulary, void:Dataset ;
         dc:title "Lista de Encabezamientos de materia para las Bibliotecas Públicas"@en  ;
         skosmos:shortName "LEM" ;
@@ -1557,125 +1317,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://id.sgcb.mcu.es/Autoridades/LEM201008346/> .
-		
-:VALO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "VALO - The Finnish Ontology of Photography"@en, "VALO - Valokuvausalan ontologia"@fi, "VALO - Fotografiska ontologin"@sv ;
-        skosmos:shortName "VALO" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "http://www.yso.fi/onto/valo/" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/valo/> .
-	
-		
-:MUSO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "MUSO - Musiikin ontologia"@fi, "MUSO - Ontologi för musik"@sv ;
-        skosmos:shortName "MUSO" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/muso" ;
-        skosmos:language "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass isothes:ThesaurusArray ; 
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/muso> .
-		
-:MERO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "MERO - Merenkulkualan ontologia"@fi ;
-        skosmos:shortName "MERO" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/mero" ;
-        skosmos:language "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/mero> .
-		
-:JUPO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "JUPO - Finnish Ontology for Public Administration Services"@en, "JUPO - Julkisen hallinnon palveluontologia"@fi, "JUPO - Ontologi för den offentliga sektorns tjänster"@sv ;
-        skosmos:shortName "JUPO" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/jupo" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/jupo> .
-		
-:TERO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "TERO - Terveyden ja hyvinvoinnin ontologia"@fi, "TERO - Finnish Ontology of Health and Welfare"@en, "TERO - Ontologi för hälsa och välfärd"@sv ;
-        skosmos:shortName "TERO" ;
-        dc:subject :cat_6 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/tero" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/tero> .
-		
-:TSR a skosmos:Vocabulary, void:Dataset ;
-        dc:title "TSR ontology"@en, "TSR-ontologia"@fi, "TSR-ontologi"@sv ;
-        skosmos:shortName "TSR" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/tsr/" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/tsr/> .
-		
-:YSO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "YSO - General Finnish ontology"@en, "YSO - Yleinen suomalainen ontologia"@fi, "ALLFO - Allmän finländsk ontologi"@sv ;
-        skosmos:shortName "YSO" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/> .
-		
-:KAUNO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "KAUNO - ontology for fiction"@en, "KAUNO - fiktiivisen aineiston ontologia"@fi, "KAUNO - ontologi för fiktivt material"@sv ;
-        skosmos:shortName "KAUNO" ;
-        dc:subject :cat_8 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/kauno" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/kauno> .
-		
-:MAOTAO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "MAO/TAO - Ontology for Museum Domain and Applied Arts"@en, "MAO/TAO - Museoalan ja taideteollisuusalan ontologia"@fi, "MAO/TAO - Ontologi för museibranschen och Konstindustriella ontologin"@sv ;
-        skosmos:shortName "MAO/TAO" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://www.yso.fi/onto/yso/maotao" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/yso/maotao> .
-		
-:JUHO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "JUHO - Julkishallinnon ontologia"@fi, "JUHO - Finnish Ontology for Public Administration"@en, "JUHO - Ontologi för offentlig förvaltning"@sv ;
-        skosmos:shortName "JUHO" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/juho" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/juho> .
 
 :Decoration a skosmos:Vocabulary, void:Dataset ;
         dc:title "EAGLE Vocabulary - Decoration"@en ;
@@ -2097,17 +1738,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:groupClass skos:Collection ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/mining-processing-activity/> .
-		
-:KTKT a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Korkeakoulujen tutkimustiedonkeruussa käytettävä tieteenalaluokitus"@fi ;
-        skosmos:shortName "Korkea" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://www.yso.fi/onto/okm-tieteenala/" ;
-        skosmos:language "en", "sv", "fi" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.yso.fi/onto/okm-tieteenala/> .
+
 		
 :VocsforVoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Vocabularies for Vocabulary Schema"@en ;
@@ -2279,18 +1910,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://nomisma.org/id/> .
-		
-:iconclass a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Iconclass"@en ;
-        skosmos:shortName "Iconclass" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "http://iconclass.org/" ;
-        skosmos:language "en", "fr", "de", "it", "fi" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        owl:sameAs "https://bartoc.org/en/node/459" ;
-        skosmos:sparqlGraph <http://iconclass.org/> .
 
 :NPGSO a skosmos:Vocabulary, void:Dataset ;
         dc:title "NPG Subjects Ontology"@en ;
@@ -2643,17 +2262,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://lemav.sgcb.mcu.es/Autoridades/LEMAV2015087836/> .
 
-:tekord a skosmos:Vocabulary, void:Dataset ;
-        dc:title "TEKORD"@nb ;
-        skosmos:shortName "TEKORD" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://ntnu.no/ub/data/tekord" ;
-        skosmos:language "nb" ;
-        skosmos:defaultLanguage "nb" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://ntnu.no/ub/data/tekord> .
-
 :gtaa a skosmos:Vocabulary, void:Dataset ;
         dc:title "Gemeenschappelijke Thesaurus Audiovisuele Archieven"@nl ;
         skosmos:shortName "GTAA" ;
@@ -2721,30 +2329,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/B03/current/LRM/> .
 
-:archelcs a skosmos:Vocabulary, void:Dataset ;
-        dc:title "ARCHE life cycle status"@en ;
-        skosmos:shortName "ARCHELCS" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema" ;
-        skosmos:language "en", "de" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        skosmos:fullAlphabeticalIndex true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/Schema> .
-
-:archear a skosmos:Vocabulary, void:Dataset ;
-        dc:title "ARCHE access restrictions"@en ;
-        skosmos:shortName "ARCHEAR" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema" ;
-        skosmos:language "en", "de" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        skosmos:fullAlphabeticalIndex true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/Schema> .
-
 :dccdfv a skosmos:Vocabulary, void:Dataset ;
         dc:title "Dublin Core Collection Description Frequency Vocabulary"@en ;
         skosmos:shortName "DCCDFV" ;
@@ -2756,18 +2340,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/cld/freq/> .
-
-:archertc a skosmos:Vocabulary, void:Dataset ;
-        dc:title "ARCHE Resource Type Category"@en ;
-        skosmos:shortName "ARCHERTC" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/archecategory/" ;
-        skosmos:language "en", "de" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        skosmos:fullAlphabeticalIndex true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/archecategory/> .
 
 :cvadms a skosmos:Vocabulary, void:Dataset ;
         dc:title "Controlled Vocabularies for the Asset Description Metadata Schema"@en ;
@@ -2858,17 +2430,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://iflastandards.info/ns/muldicat> .
-
-:dha a skosmos:Vocabulary, void:Dataset ;
-        dc:title "DHA Taxonomy"@en ;
-        skosmos:shortName "DHA" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/dhataxonomy/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/dhataxonomy/> .
 
 :cvadms a skosmos:Vocabulary, void:Dataset ;
         dc:title "Controlled Vocabularies for the Asset Description Metadata Schema"@en ;
@@ -16650,169 +16211,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-institution-historique/> .
 
-:legilcipl a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Liste des comités impliquées dans le processus législatif"@fr ;
-	skosmos:shortName "LegiLCIPL" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/committee/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/committee/> .
-
-:legill a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Liste des licences"@fr ;
-	skosmos:shortName "LegiLL" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/license/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/license/> .
-
-:legilpipl a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Liste des personnes impliquées dans le processus législatif"@fr ;
-	skosmos:shortName "LegiLPIPL" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/person/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/person/> .
-
-:legisoc a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Statut des opinions du conseil d'état sur le projet"@fr ;
-	skosmos:shortName "LegiSOC" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/draft-status-conseil-etat/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/draft-status-conseil-etat/> .
-
-:legisma a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Statuts de mise en application"@fr ;
-	skosmos:shortName "LegiSMA" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/statut-application/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-application/> .
-
-:legist a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Statuts de transposition"@fr ;
-	skosmos:shortName "LegiST" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/statut-transposition/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-transposition/> .
-
-:legisv a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Statuts des versions"@fr ;
-	skosmos:shortName "LegiSV" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/statut-version/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/statut-version/> .
-
-:legisujl a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Sujets (lieux)"@fr ;
-	skosmos:shortName "LegiSujL" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/legal-subject/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-subject/> .
-
-:legisujo a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Sujets (organisations)"@fr ;
-	skosmos:shortName "LegiSujO" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/legal-subject/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-subject/> .
-
-:legisujt a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Sujets (thématiques)"@fr ;
-	skosmos:shortName "LegiSujT" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/legal-subject/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-subject/> .
-
-:legitradt a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Type de rôle des agents pour les données de traçabilité (prov)"@fr ;
-	skosmos:shortName "LegiTRADT" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/prov-role-type/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/prov-role-type/> .
-
-:legitd a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Types de documents"@fr ;
-	skosmos:shortName "LegiTD" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/draft-document-type/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/draft-document-type/> .
-
-:legitp a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Types de procédures"@fr ;
-	skosmos:shortName "LegiTP" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/type-procedure/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/type-procedure/> .
-
-:ebu a skosmos:Vocabulary, void:Dataset ;
-        dc:title "EBU SKOS Classification Scheme for Role Codes"@en ;
-        skosmos:shortName "EBU" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "http://www.ebu.ch/metadata/ontologies/skos/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.ebu.ch/metadata/ontologies/skos/> .
-
 :ndlsh1 a skosmos:Vocabulary, void:Dataset ;
 	dc:title "National Diet Library Subject Headings (NDLSH) 1"@en ;
 	skosmos:shortName "NDLSH1" ;
@@ -16867,17 +16265,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	skosmos:showTopConcepts true ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://id.ndl.go.jp/auth/ndlsh/5> .
-
-:traveldigital a skosmos:Vocabulary, void:Dataset ;
-        dc:title "travel!digital Thesaurus"@en ;
-        skosmos:shortName "travel!digital" ;
-        dc:subject :cat_9 ;
-        void:uriSpace "https://vocabs.acdh.oeaw.ac.at/traveldigital/" ;
-        skosmos:language "en", "de", "ar", "fr", "es", "bo", "dz", "hi", "hu", "it", "jv", "la", "ms", "nl", "pi", "pt", "ro", "sa", "si", "ta", "tr" ;
-        skosmos:defaultLanguage "de" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://vocabs.acdh.oeaw.ac.at/traveldigital/> .
 
 :thub a skosmos:Vocabulary, void:Dataset ;
         dc:title "Thesaurus de la Universitat de Barcelona (THUB)"@ca ;
@@ -16935,39 +16322,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/linked-data/sdmx/2009/subject> .
 
-:hklj a skosmos:Vocabulary, void:Dataset ;
-        dc:title "HKLJ - Helsingin kaupunginkirjaston luokitusjärjestelmä"@fi ;
-        skosmos:shortName "HKLJ" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://urn.fi/HKLJ" ;
-        skosmos:language "fi", "sv", "en" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://urn.fi/HKLJ> .
-
-:ykl a skosmos:Vocabulary, void:Dataset ;
-        dc:title "YKL - Yleisten kirjastojen luokitusjärjestelmä"@fi ;
-        skosmos:shortName "YKL" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://urn.fi/YKL" ;
-        skosmos:language "fi", "sv", "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://urn.fi/YKL> .
-
-:kaubel a skosmos:Vocabulary, void:Dataset ;
-        dc:title "KAUNOKKI/BELLA - fiktiivisen aineiston sanasto"@en ;
-        skosmos:shortName "KauBel" ;
-        dc:subject :cat_8 ;
-        void:uriSpace "http://urn.fi/KauBel" ;
-        skosmos:language "fi", "sv" ;
-        skosmos:defaultLanguage "fi" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://urn.fi/KauBel> .
-
 :moneyaggvoc a skosmos:Vocabulary, void:Dataset ;
         dc:title "Money Aggregate Vocabulary"@en ;
         skosmos:shortName "MoneyAggVoc" ;
@@ -16980,28 +16334,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://cadmiumkitty.github.io/moneyaggvoc/> .
 
-:ucum a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Unified Code for Units of Measure (UCUM)"@en ;
-        skosmos:shortName "UCUM" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://urn.fi/ucum" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://urn.fi/ucum> .
-
-:tt a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Tietotermit"@en ;
-        skosmos:shortName "TT" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://urn.fi/tt" ;
-        skosmos:language "en", "fi", "sv" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://urn.fi/tt> .
-
 :kostypes a skosmos:Vocabulary, void:Dataset ;
         dc:title "KOS Type Vocabulary"@en ;
         skosmos:shortName "KOSTypes" ;
@@ -17013,28 +16345,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://w3id.org/nkos/nkostype> .
-
-:bokbnb a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Bokbasen Thesaurus nb"@nb ;
-        skosmos:shortName "Bokbnb" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://ns.boknett.no/thesaurus/" ;
-        skosmos:language "nb" ;
-        skosmos:defaultLanguage "nb" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://ns.boknett.no/thesaurus/> .
-
-:bokbnn a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Bokbasen Thesaurus nn"@nn ;
-        skosmos:shortName "Bokbnn" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "http://ns.boknett.no/thesaurus/nn" ;
-        skosmos:language "nn" ;
-        skosmos:defaultLanguage "nn" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://ns.boknett.no/thesaurus/nn> .
 
 :ppv a skosmos:Vocabulary, void:Dataset ;
         dc:title "Partage Plus Vocabulary"@en ;
