@@ -4282,17 +4282,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
 	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C34/current/MRAT0001/> .
 
-:eunis-habitats a skosmos:Vocabulary, void:Dataset ;
-	dc:title "European Nature Information System Level 3 Habitats"@en ;
-	skosmos:shortName "EUNIS-Habitats" ;
-	dc:subject :cat_5 ;
-	void:uriSpace "http://vocab.nerc.ac.uk/collection/C35/current/A2_4/" ;
-	skosmos:language "en" ;
-	skosmos:defaultLanguage "en" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://vocab.nerc.ac.uk/collection/C35/current/A2_4/> .
-
 :mald a skosmos:Vocabulary, void:Dataset ;
 	dc:title "Monitoring Activity Legislative Drivers"@en ;
 	skosmos:shortName "MALD" ;
@@ -9138,18 +9127,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://gams.uni-graz.at/skos/scheme/o:oth/> .
-
-
-:earth a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Environmental Applications Reference Thesaurus (EARTh)"@en ;
-        skosmos:shortName "EARTh" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://linkeddata.ge.imati.cnr.it/resource/EARTh/" ;
-        skosmos:language "en", "it" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://linkeddata.ge.imati.cnr.it/resource/EARTh/> .
 
 
 :courtsth a skosmos:Vocabulary, void:Dataset ;
