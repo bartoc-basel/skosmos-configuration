@@ -445,17 +445,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://ns.nature.com/article-types/> .
-		
-:BASPOSys a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Sportmediathek Magglingen Systematik"@de, "Médiathèque du sport Plan de classement"@fr ;
-        skosmos:shortName "BASPOSys" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "https://bartoc.poolparty.biz/SystematikSportmediathekMagglingen/" ;
-        skosmos:language "de", "fr" ;
-        skosmos:defaultLanguage "de" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.poolparty.biz/SystematikSportmediathekMagglingen/> .
 
 		
 :VCGE a skosmos:Vocabulary, void:Dataset ;
@@ -490,17 +479,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://data.doremus.org/vocabulary/iaml/mop/> .
-
-:CCS a skosmos:Vocabulary, void:Dataset ;
-        dc:title "ACM Computing Classification System (CCS)"@en ;
-        skosmos:shortName "CCS" ;
-        dc:subject :cat_0 ;
-        void:uriSpace "https://bartoc.poolparty.biz/CCS/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.poolparty.biz/CCS/> .
 
 :anaeethes a skosmos:Vocabulary, void:Dataset ;
         dc:title "AnaEE Thesaurus"@en ;
@@ -1147,18 +1125,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <http://w3id.org/lob/concept/> .
 
 		
-:NAICS a skosmos:Vocabulary, void:Dataset ;
-        dc:title "North American Industry Classification System"@en ;
-        skosmos:shortName "NAICS" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "https://bartoc.poolparty.biz/NAICS/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.poolparty.biz/NAICS/> .
-
-		
 :Metadata a skosmos:Vocabulary, void:Dataset ;
         dc:title "Metatietosanasto"@fi, "Metadataordlista"@sv, "Metadata thesaurus"@en ;
         skosmos:shortName "Metadata" ;
@@ -1794,17 +1760,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.gsi.dit.upm.es/ontologies/wnaffect/ns> .
 		
-:ThesBAB a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Thesaurus of Basler Afrika Bibliographien"@en, "Thesaurus der Basler Afrika Bibliographien" ;
-        skosmos:shortName "ThesBAB" ;
-        dc:subject :cat_9 ;
-        void:uriSpace "https://bartoc.org/BAB" ;
-        skosmos:language "en", "de" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.org/BAB> .
-		
 :StratiRank a skosmos:Vocabulary, void:Dataset ;
         dc:title "Stratigraphic Rank"@en ;
         skosmos:shortName "StratiRank" ;
@@ -1864,17 +1819,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
 		skosmos:fullAlphabeticalIndex true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://ns.nature.com/review-states/> .
-		
-:BASPOSchl a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Sportmediathek Magglingen Schlagwortindex"@de, "Médiathèque du sport Index des mots-matière"@fr ;
-        skosmos:shortName "BASPOSchl" ;
-        dc:subject :cat_7 ;
-        void:uriSpace "https://bartoc.poolparty.biz/SchlagwortindexSportmediathekMagglingen/" ;
-        skosmos:language "de", "fr" ;
-        skosmos:defaultLanguage "de" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <https://bartoc.poolparty.biz/SchlagwortindexSportmediathekMagglingen/> .
 		
 :nomisma a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nomisma"@en ;
