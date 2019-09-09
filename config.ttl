@@ -491,6 +491,61 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://opendata.inra.fr/anaeeThes/> .
 
+:basposchl a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Sportmediathek Magglingen Schlagwortindex"@de ;
+        skosmos:shortName "BASPOSchl" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "https://bartoc.skosmos.unibas.ch/BASPOSchl/" ;
+        skosmos:language "de", "fr"  ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://bartoc.skosmos.unibas.ch/BASPOSchl/> .
+
+:naics a skosmos:Vocabulary, void:Dataset ;
+        dc:title "North American Industry Classification System"@en ;
+        skosmos:shortName "NAICS" ;
+        dc:subject :cat_3 ;
+        void:uriSpace "https://bartoc.skosmos.unibas.ch/NAICS/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://bartoc.skosmos.unibas.ch/NAICS/> .
+
+:thesbab a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Thesaurus of Basler Afrika Bibliographien"@en , "Thesaurus der Basler Afrika Bibliographien"@de ;
+        skosmos:shortName "ThesBAB" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "https://bartoc.skosmos.unibas.ch/ThesBAB/" ;
+        skosmos:language "en", "de" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://bartoc.skosmos.unibas.ch/ThesBAB/> .
+
+:basposys a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Sportmediathek Magglingen Systematik"@de ;
+        skosmos:shortName "BASPOSys" ;
+        dc:subject :cat_7 ;
+        void:uriSpace "https://bartoc.skosmos.unibas.ch/BASPOSys/" ;
+        skosmos:language "de", "fr" ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://bartoc.skosmos.unibas.ch/BASPOSys/> .
+
+:ccs a skosmos:Vocabulary, void:Dataset ;
+        dc:title "ACM Computing Classification System (CCS)"@en ;
+        skosmos:shortName "CCS" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "https://bartoc.skosmos.unibas.ch/CCS/" ;
+        skosmos:language "en" ;
+        skosmos:defaultLanguage "en" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://bartoc.skosmos.unibas.ch/CCS/> .
+
 :plos a skosmos:Vocabulary, void:Dataset ;
         dc:title "PLOS Thesaurus"@en ;
         skosmos:shortName "PLOS" ;
