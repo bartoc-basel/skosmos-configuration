@@ -14354,64 +14354,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://metadataregistry.org/uri/olac/> .
 
-:legiaj a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Acteurs juridiques"@fr ;
-	skosmos:shortName "LegiAJ" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/legal-institution/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-institution/> .
-
-:legifpipl a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Fonction des personnes impliquées dans le processus législatif"@fr ;
-	skosmos:shortName "LegiFPIPL" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/function/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/function/> .
-
-:legifu a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Formats utilisateurs"@fr ;
-	skosmos:shortName "LegiFU" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/user-format/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/user-format/> .
-
-:legigp a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Genre des personnes"@fr ;
-	skosmos:shortName "LegiGP" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/gender/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	skosmos:fullAlphabeticalIndex true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/gender/> .
-
-:legihaj a skosmos:Vocabulary, void:Dataset ;
-	dc:title "Historique des acteurs juridiques"@fr ;
-	skosmos:shortName "LegiHAJ" ;
-	dc:subject :cat_3 ;
-	void:uriSpace "http://data.legilux.public.lu/resource/authority/legal-institution-historique/" ;
-	skosmos:language "fr" ;
-	skosmos:defaultLanguage "fr" ;
-	skosmos:showTopConcepts true ;
-	void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-	skosmos:sparqlGraph <http://data.legilux.public.lu/resource/authority/legal-institution-historique/> .
-
 :ndlsh1 a skosmos:Vocabulary, void:Dataset ;
 	dc:title "National Diet Library Subject Headings (NDLSH) 1"@en ;
 	skosmos:shortName "NDLSH1" ;
