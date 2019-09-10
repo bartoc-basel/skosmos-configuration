@@ -580,17 +580,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/access/> .
 		
-:ANZSRC-for a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Australian and New Zealand Standard Research Classification: Fields of Research"@en ;
-        skosmos:shortName "ANZSRC-for" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://purl.org/au-research/vocabulary/anzsrc-for/2008/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/au-research/vocabulary/anzsrc-for/2008/> .
-		
 :crossCurriculum a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian Cross-curriculum Priority"@en ;
         skosmos:shortName "crossCurriculum" ;
@@ -649,17 +638,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:showTopConcepts true ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <https://data.naa.gov.au/def/agift/> .
-		
-:ANZSRC-SEO a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Australian and New Zealand Standard Research Classification: Socio-Economic Objective"@en ;
-        skosmos:shortName "ANZSRC-SEO" ;
-        dc:subject :cat_3 ;
-        void:uriSpace "http://purl.org/au-research/vocabulary/anzsrc-seo/2008/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://purl.org/au-research/vocabulary/anzsrc-seo/2008/> .
 		
 :TeacherStandards a skosmos:Vocabulary, void:Dataset ;
         dc:title "Australian Professional Standards for Teachers"@en ;
