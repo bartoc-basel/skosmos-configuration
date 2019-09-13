@@ -50,7 +50,7 @@
     # customize the css by adding your own stylesheet
     skosmos:customCss "resource/css/stylesheet.css" ;
     # default email address where to send the feedback
-    skosmos:feedbackAddress ;
+    skosmos:feedbackAddress false ;
     # email address to set as the sender for feedback messages
     # skosmos:feedbackSender "?" ;
     # email address to set as the envelope sender for feedback messages
