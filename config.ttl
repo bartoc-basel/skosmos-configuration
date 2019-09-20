@@ -1766,18 +1766,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.w3.org/ns/odrl/2/> .
 
-:GEMET a skosmos:Vocabulary, void:Dataset ;
-        dc:title "GEMET - General Multilingual Environmental Thesaurus"@en ;
-        skosmos:shortName "GEMET" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://www.eionet.europa.eu/gemet/concept/" ;
-        skosmos:language "en", "ar", "hy", "az", "eu", "bg", "ca", "zh", "hr", "cs", "da", "nl", "et", "fi", "fr", "ka", "de", "el", "hu", "is", "ga", "it", "lv", "lt", "mt", "no", "pl", "pt", "ro", "ru", "sk", "sl", "es", "sv", "tr", "uk" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://www.eionet.europa.eu/gemet/concept/> .
-
 :lemag a skosmos:Vocabulary, void:Dataset ;
         dc:title "Lista de Encabezamientos de Materia en Galego"@es ;
         skosmos:shortName "LEMAG" ;
