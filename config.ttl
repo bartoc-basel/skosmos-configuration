@@ -1346,19 +1346,6 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://vocabulary.curriculum.edu.au/technicalRequirement/> .
 		
-:ParticleAspect a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Particle Aspect Ratio"@en ;
-        skosmos:shortName "ParticleAspect" ;
-        dc:subject :cat_5 ;
-        void:uriSpace "http://resource.geosciml.org/classifier/cgi/particleaspectratio/" ;
-        skosmos:language "en" ;
-        skosmos:defaultLanguage "en" ;
-        skosmos:showTopConcepts true ;
-		skosmos:fullAlphabeticalIndex true ;
-	skosmos:groupClass skos:Collection ;
-        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
-        skosmos:sparqlGraph <http://resource.geosciml.org/classifier/cgi/particleaspectratio/> .
-		
 :NomenclatureGeoBret a skosmos:Vocabulary, void:Dataset ;
         dc:title "Nomenclature thématique GéoBretagne"@fr ;
         skosmos:shortName "NomenclatureGeoBret" ;
