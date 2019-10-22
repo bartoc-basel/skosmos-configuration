@@ -14528,7 +14528,7 @@ mdrtype:ONTOLOGY a skos:Concept ;
         skosmos:sparqlGraph <https://itma.ie/litmus/tune-types> .
 
 :ilc2 a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Integrative Levels Classification (version 2)"@en ;
+        dc:title "Integrative Levels Classification (edition 2)"@en ;
         skosmos:shortName "ILC2" ;
         dc:subject :cat_0 ;
         void:uriSpace "http://www.iskoi.org/ilc/2/class/" ;
