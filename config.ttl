@@ -14538,7 +14538,16 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://www.iskoi.org/ilc/2/class/> .
 
-
+:nwbib a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Sachsystematik Nordrhein-Westfälische Bibliographie"@en ;
+        skosmos:shortName "NWBib" ;
+        dc:subject :cat_0 ;
+        void:uriSpace "http://purl.org/lobid/nwbib" ;
+        skosmos:language "de" ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <http://purl.org/lobid/nwbib> .
 
 
 
