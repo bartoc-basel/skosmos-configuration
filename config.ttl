@@ -14549,6 +14549,18 @@ mdrtype:ONTOLOGY a skos:Concept ;
         void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
         skosmos:sparqlGraph <http://purl.org/lobid/nwbib> .
 
+:nwbibspat a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Raumsystematik Nordrhein-Westfälische Bibliographie"@en ;
+        skosmos:shortName "NWBibSpat" ;
+        dc:subject :cat_9 ;
+        void:uriSpace "https://nwbib.de/spatial" ;
+        skosmos:language "de" ;
+        skosmos:defaultLanguage "de" ;
+        skosmos:showTopConcepts true ;
+        void:sparqlEndpoint <http://localhost:6081/skosmos/sparql> ;
+        skosmos:sparqlGraph <https://nwbib.de/spatial> .
+
+
 
 
 
